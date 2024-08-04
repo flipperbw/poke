@@ -1,0 +1,1738 @@
+{
+  "water":{
+    "Cnt":62.0,
+    "List":[
+      "quaxly (31)",
+      "quaxwell (31)",
+      "buizel (31)",
+      "floatzel (31)",
+      "psyduck (31)",
+      "golduck (31)",
+      "chewtle (31)",
+      "magikarp (31)",
+      "arrokuda (31)",
+      "barraskewda (31)",
+      "basculin (31)",
+      "vaporeon (31)",
+      "wiglett (31)",
+      "wugtrio (31)",
+      "finizen (31)",
+      "palafin (31)",
+      "shellos (31)",
+      "shellder (31)",
+      "luvdisc (31)",
+      "finneon (31)",
+      "lumineon (31)",
+      "alomomola (31)",
+      "clauncher (31)",
+      "clawitzer (31)",
+      "dondozo (31)",
+      "corphish (32)",
+      "poliwag (32)",
+      "poliwhirl (32)",
+      "politoed (32)",
+      "magikarp (32)",
+      "arrokuda (32)",
+      "barraskewda (32)",
+      "feebas (32)",
+      "milotic (32)",
+      "chewtle (32)",
+      "basculin (32)",
+      "horsea (33)",
+      "seadra (33)",
+      "luvdisc (33)",
+      "finneon (33)",
+      "lumineon (33)",
+      "alomomola (33)",
+      "seel (33)",
+      "squirtle (33)",
+      "wartortle (33)",
+      "blastoise (33)",
+      "totodile (33)",
+      "croconaw (33)",
+      "feraligatr (33)",
+      "mudkip (33)",
+      "piplup (33)",
+      "prinplup (33)",
+      "oshawott (33)",
+      "dewott (33)",
+      "samurott (33)",
+      "froakie (33)",
+      "frogadier (33)",
+      "popplio (33)",
+      "brionne (33)",
+      "sobble (33)",
+      "drizzile (33)",
+      "inteleon (33)"
+    ]
+  },
+  "normal":{
+    "Cnt":54.0,
+    "List":[
+      "lechonk (31)",
+      "oinkologne (31)",
+      "yungoos (31)",
+      "gumshoos (31)",
+      "skwovet (31)",
+      "greedent (31)",
+      "happiny (31)",
+      "chansey (31)",
+      "blissey (31)",
+      "tandemaus (31)",
+      "maushold (31)",
+      "slakoth (31)",
+      "vigoroth (31)",
+      "slaking (31)",
+      "meowth (31)",
+      "persian (31)",
+      "eevee (31)",
+      "dunsparce (31)",
+      "dudunsparce (31)",
+      "stantler (31)",
+      "ditto (31)",
+      "teddiursa (31)",
+      "ursaring (31)",
+      "zangoose (31)",
+      "tauros (31)",
+      "komala (31)",
+      "sentret (32)",
+      "furret (32)",
+      "aipom (32)",
+      "ambipom (32)",
+      "stantler (32)",
+      "skwovet (32)",
+      "greedent (32)",
+      "tandemaus (32)",
+      "maushold (32)",
+      "munchlax (32)",
+      "snorlax (32)",
+      "dunsparce (32)",
+      "dudunsparce (32)",
+      "happiny (33)",
+      "chansey (33)",
+      "blissey (33)",
+      "tauros (33)",
+      "smeargle (33)",
+      "slakoth (33)",
+      "vigoroth (33)",
+      "slaking (33)",
+      "zangoose (33)",
+      "minccino (33)",
+      "cinccino (33)",
+      "porygon (33)",
+      "porygon2 (33)",
+      "porygon-z (33)",
+      "terapagos (33)"
+    ]
+  },
+  "grass":{
+    "Cnt":40.0,
+    "List":[
+      "sprigatito (31)",
+      "floragato (31)",
+      "sunkern (31)",
+      "sunflora (31)",
+      "bounsweet (31)",
+      "steenee (31)",
+      "tsareena (31)",
+      "petilil (31)",
+      "lilligant (31)",
+      "shroomish (31)",
+      "leafeon (31)",
+      "skiddo (31)",
+      "gogoat (31)",
+      "fomantis (31)",
+      "lurantis (31)",
+      "capsakid (31)",
+      "cacnea (31)",
+      "fomantis (32)",
+      "lurantis (32)",
+      "seedot (32)",
+      "petilil (32)",
+      "lilligant (32)",
+      "ogerpon (32)",
+      "bellossom (33)",
+      "chikorita (33)",
+      "bayleef (33)",
+      "meganium (33)",
+      "treecko (33)",
+      "grovyle (33)",
+      "sceptile (33)",
+      "turtwig (33)",
+      "grotle (33)",
+      "snivy (33)",
+      "servine (33)",
+      "serperior (33)",
+      "chespin (33)",
+      "quilladin (33)",
+      "grookey (33)",
+      "thwackey (33)",
+      "rillaboom (33)"
+    ]
+  },
+  "electric":{
+    "Cnt":40.0,
+    "List":[
+      "pawmi (31)",
+      "pichu (31)",
+      "pikachu (31)",
+      "raichu (31)",
+      "shinx (31)",
+      "luxio (31)",
+      "luxray (31)",
+      "mareep (31)",
+      "flaaffy (31)",
+      "ampharos (31)",
+      "tadbulb (31)",
+      "bellibolt (31)",
+      "jolteon (31)",
+      "pachirisu (31)",
+      "voltorb (31)",
+      "electrode (31)",
+      "pincurchin (31)",
+      "tynamo (31)",
+      "eelektrik (31)",
+      "eelektross (31)",
+      "pichu (32)",
+      "pikachu (32)",
+      "raichu (32)",
+      "pachirisu (32)",
+      "shinx (32)",
+      "luxio (32)",
+      "luxray (32)",
+      "tynamo (32)",
+      "eelektrik (32)",
+      "eelektross (32)",
+      "elekid (33)",
+      "electabuzz (33)",
+      "electivire (33)",
+      "blitzle (33)",
+      "zebstrika (33)",
+      "plusle (33)",
+      "minun (33)",
+      "tynamo (33)",
+      "eelektrik (33)",
+      "eelektross (33)"
+    ]
+  },
+  "fire":{
+    "Cnt":33.0,
+    "List":[
+      "fuecoco (31)",
+      "crocalor (31)",
+      "torkoal (31)",
+      "charcadet (31)",
+      "flareon (31)",
+      "growlithe (31)",
+      "arcanine (31)",
+      "vulpix (32)",
+      "ninetales (32)",
+      "growlithe (32)",
+      "arcanine (32)",
+      "slugma (32)",
+      "magby (33)",
+      "magmar (33)",
+      "magmortar (33)",
+      "torkoal (33)",
+      "vulpix (33)",
+      "ninetales (33)",
+      "charmander (33)",
+      "charmeleon (33)",
+      "cyndaquil (33)",
+      "quilava (33)",
+      "typhlosion (33)",
+      "torchic (33)",
+      "chimchar (33)",
+      "tepig (33)",
+      "fennekin (33)",
+      "braixen (33)",
+      "litten (33)",
+      "torracat (33)",
+      "scorbunny (33)",
+      "raboot (33)",
+      "cinderace (33)"
+    ]
+  },
+  "psychic":{
+    "Cnt":26.0,
+    "List":[
+      "drowzee (31)",
+      "hypno (31)",
+      "spoink (31)",
+      "grumpig (31)",
+      "espeon (31)",
+      "gothita (31)",
+      "gothorita (31)",
+      "gothitelle (31)",
+      "flittle (31)",
+      "espathra (31)",
+      "hatenna (31)",
+      "hattrem (31)",
+      "hatenna (32)",
+      "hattrem (32)",
+      "spoink (32)",
+      "grumpig (32)",
+      "chingling (32)",
+      "chimecho (32)",
+      "gothita (33)",
+      "gothorita (33)",
+      "gothitelle (33)",
+      "espurr (33)",
+      "meowstic (33)",
+      "solosis (33)",
+      "duosion (33)",
+      "reuniclus (33)"
+    ]
+  },
+  "flying_normal":{
+    "Cnt":22.0,
+    "List":[
+      "fletchling (31)",
+      "starly (31)",
+      "staravia (31)",
+      "staraptor (31)",
+      "squawkabilly (31)",
+      "swablu (31)",
+      "rufflet (31)",
+      "braviary (31)",
+      "starly (32)",
+      "staravia (32)",
+      "staraptor (32)",
+      "hoothoot (32)",
+      "noctowl (32)",
+      "doduo (33)",
+      "dodrio (33)",
+      "rufflet (33)",
+      "braviary (33)",
+      "pikipek (33)",
+      "trumbeak (33)",
+      "toucannon (33)",
+      "fletchling (33)",
+      "swablu (33)"
+    ]
+  },
+  "fighting":{
+    "Cnt":21.0,
+    "List":[
+      "makuhita (31)",
+      "hariyama (31)",
+      "crabrawler (31)",
+      "mankey (31)",
+      "primeape (31)",
+      "riolu (31)",
+      "falinks (31)",
+      "passimian (31)",
+      "riolu (32)",
+      "timburr (32)",
+      "gurdurr (32)",
+      "conkeldurr (32)",
+      "mankey (32)",
+      "primeape (32)",
+      "mienfoo (32)",
+      "mienshao (32)",
+      "crabrawler (33)",
+      "tyrogue (33)",
+      "hitmonlee (33)",
+      "hitmonchan (33)",
+      "hitmontop (33)"
+    ]
+  },
+  "ground":{
+    "Cnt":20.0,
+    "List":[
+      "phanpy (31)",
+      "donphan (31)",
+      "diglett (31)",
+      "dugtrio (31)",
+      "hippopotas (31)",
+      "hippowdon (31)",
+      "silicobra (31)",
+      "sandaconda (31)",
+      "mudbray (31)",
+      "mudsdale (31)",
+      "sandshrew (32)",
+      "sandslash (32)",
+      "mudbray (32)",
+      "mudsdale (32)",
+      "trapinch (33)",
+      "diglett (33)",
+      "dugtrio (33)",
+      "drilbur (33)",
+      "sandshrew (33)",
+      "sandslash (33)"
+    ]
+  },
+  "rock":{
+    "Cnt":17.0,
+    "List":[
+      "bonsly (31)",
+      "sudowoodo (31)",
+      "rockruff (31)",
+      "lycanroc (31)",
+      "rolycoly (31)",
+      "nacli (31)",
+      "naclstack (31)",
+      "garganacl (31)",
+      "klawf (31)",
+      "stonjourner (31)",
+      "rockruff (32)",
+      "lycanroc (32)",
+      "bonsly (32)",
+      "sudowoodo (32)",
+      "nosepass (32)",
+      "cranidos (33)",
+      "rampardos (33)"
+    ]
+  },
+  "dragon":{
+    "Cnt":17.0,
+    "List":[
+      "axew (31)",
+      "fraxure (31)",
+      "haxorus (31)",
+      "goomy (31)",
+      "sliggoo (31)",
+      "goodra (31)",
+      "bagon (31)",
+      "shelgon (31)",
+      "dratini (31)",
+      "dragonair (31)",
+      "jangmo-o (32)",
+      "goomy (32)",
+      "sliggoo (32)",
+      "goodra (32)",
+      "axew (33)",
+      "fraxure (33)",
+      "haxorus (33)"
+    ]
+  },
+  "ice":{
+    "Cnt":15.0,
+    "List":[
+      "glaceon (31)",
+      "eiscue (31)",
+      "cubchoo (31)",
+      "beartic (31)",
+      "snorunt (31)",
+      "glalie (31)",
+      "cryogonal (31)",
+      "cetoddle (31)",
+      "cetitan (31)",
+      "bergmite (31)",
+      "avalugg (31)",
+      "snorunt (32)",
+      "glalie (32)",
+      "cubchoo (33)",
+      "beartic (33)"
+    ]
+  },
+  "bug":{
+    "Cnt":15.0,
+    "List":[
+      "tarountula (31)",
+      "spidops (31)",
+      "nymble (31)",
+      "kricketot (31)",
+      "kricketune (31)",
+      "scatterbug (31)",
+      "spewpa (31)",
+      "rellor (31)",
+      "pineco (31)",
+      "volbeat (32)",
+      "illumise (32)",
+      "kricketot (32)",
+      "kricketune (32)",
+      "grubbin (32)",
+      "rellor (33)"
+    ]
+  },
+  "ghost":{
+    "Cnt":14.0,
+    "List":[
+      "misdreavus (31)",
+      "mismagius (31)",
+      "sinistea (31)",
+      "polteageist (31)",
+      "shuppet (31)",
+      "banette (31)",
+      "greavard (31)",
+      "houndstone (31)",
+      "gimmighoul (31)",
+      "duskull (32)",
+      "dusclops (32)",
+      "dusknoir (32)",
+      "sinistea (33)",
+      "polteageist (33)"
+    ]
+  },
+  "fairy":{
+    "Cnt":14.0,
+    "List":[
+      "fidough (31)",
+      "dachsbun (31)",
+      "flabebe (31)",
+      "floette (31)",
+      "florges (31)",
+      "sylveon (31)",
+      "cleffa (32)",
+      "clefairy (32)",
+      "clefable (32)",
+      "milcery (33)",
+      "alcremie (33)",
+      "comfey (33)",
+      "snubbull (33)",
+      "granbull (33)"
+    ]
+  },
+  "poison":{
+    "Cnt":12.0,
+    "List":[
+      "gulpin (31)",
+      "swalot (31)",
+      "grimer (31)",
+      "muk (31)",
+      "seviper (31)",
+      "ekans (32)",
+      "arbok (32)",
+      "koffing (32)",
+      "weezing (32)",
+      "grimer (33)",
+      "muk (33)",
+      "seviper (33)"
+    ]
+  },
+  "grass_poison":{
+    "Cnt":11.0,
+    "List":[
+      "foongus (31)",
+      "amoonguss (31)",
+      "bellsprout (32)",
+      "weepinbell (32)",
+      "victreebel (32)",
+      "oddish (33)",
+      "gloom (33)",
+      "vileplume (33)",
+      "bulbasaur (33)",
+      "ivysaur (33)",
+      "venusaur (33)"
+    ]
+  },
+  "ground_rock":{
+    "Cnt":11.0,
+    "List":[
+      "larvitar (31)",
+      "pupitar (31)",
+      "geodude (32)",
+      "graveler (32)",
+      "golem (32)",
+      "rhyhorn (33)",
+      "rhydon (33)",
+      "rhyperior (33)",
+      "geodude (33)",
+      "graveler (33)",
+      "golem (33)"
+    ]
+  },
+  "ground_water":{
+    "Cnt":10.0,
+    "List":[
+      "wooper (31)",
+      "barboach (31)",
+      "whiscash (31)",
+      "gastrodon (31)",
+      "wooper (32)",
+      "quagsire (32)",
+      "barboach (32)",
+      "whiscash (32)",
+      "marshtomp (33)",
+      "swampert (33)"
+    ]
+  },
+  "bug_flying":{
+    "Cnt":9.0,
+    "List":[
+      "vivillon (31)",
+      "combee (31)",
+      "vespiquen (31)",
+      "masquerain (31)",
+      "scyther (31)",
+      "yanma (32)",
+      "yanmega (32)",
+      "masquerain (32)",
+      "scyther (33)"
+    ]
+  },
+  "fairy_psychic":{
+    "Cnt":9.0,
+    "List":[
+      "ralts (31)",
+      "kirlia (31)",
+      "gardevoir (31)",
+      "hatterene (31)",
+      "scream-tail (31)",
+      "ralts (32)",
+      "kirlia (32)",
+      "gardevoir (32)",
+      "hatterene (32)"
+    ]
+  },
+  "psychic_water":{
+    "Cnt":9.0,
+    "List":[
+      "slowpoke (31)",
+      "slowbro (31)",
+      "slowking (31)",
+      "bruxish (31)",
+      "veluza (31)",
+      "bruxish (33)",
+      "slowpoke (33)",
+      "slowbro (33)",
+      "slowking (33)"
+    ]
+  },
+  "dark_flying":{
+    "Cnt":9.0,
+    "List":[
+      "murkrow (31)",
+      "honchkrow (31)",
+      "bombirdier (31)",
+      "iron-jugulis (31)",
+      "vullaby (32)",
+      "mandibuzz (32)",
+      "bombirdier (32)",
+      "vullaby (33)",
+      "mandibuzz (33)"
+    ]
+  },
+  "dragon_ground":{
+    "Cnt":8.0,
+    "List":[
+      "gible (31)",
+      "gabite (31)",
+      "garchomp (31)",
+      "gible (32)",
+      "gabite (32)",
+      "garchomp (32)",
+      "vibrava (33)",
+      "flygon (33)"
+    ]
+  },
+  "dragon_flying":{
+    "Cnt":8.0,
+    "List":[
+      "altaria (31)",
+      "salamence (31)",
+      "noibat (31)",
+      "noivern (31)",
+      "dragonite (31)",
+      "noibat (32)",
+      "noivern (32)",
+      "altaria (33)"
+    ]
+  },
+  "dragon_grass":{
+    "Cnt":8.0,
+    "List":[
+      "applin (31)",
+      "flapple (31)",
+      "appletun (31)",
+      "applin (32)",
+      "flapple (32)",
+      "appletun (32)",
+      "dipplin (32)",
+      "hydrapple (33)"
+    ]
+  },
+  "psychic_steel":{
+    "Cnt":8.0,
+    "List":[
+      "bronzor (31)",
+      "bronzong (31)",
+      "bronzor (32)",
+      "bronzong (32)",
+      "beldum (33)",
+      "metang (33)",
+      "metagross (33)",
+      "iron-crown (33)"
+    ]
+  },
+  "fire_flying":{
+    "Cnt":8.0,
+    "List":[
+      "fletchinder (31)",
+      "talonflame (31)",
+      "oricorio (31)",
+      "oricorio (32)",
+      "oricorio (33)",
+      "fletchinder (33)",
+      "talonflame (33)",
+      "charizard (33)"
+    ]
+  },
+  "ghost_grass":{
+    "Cnt":7.0,
+    "List":[
+      "bramblin (31)",
+      "brambleghast (31)",
+      "phantump (32)",
+      "trevenant (32)",
+      "poltchageist (32)",
+      "sinistcha (32)",
+      "decidueye (33)"
+    ]
+  },
+  "grass_normal":{
+    "Cnt":7.0,
+    "List":[
+      "smoliv (31)",
+      "dolliv (31)",
+      "arboliva (31)",
+      "deerling (31)",
+      "sawsbuck (31)",
+      "deerling (33)",
+      "sawsbuck (33)"
+    ]
+  },
+  "flying_water":{
+    "Cnt":7.0,
+    "List":[
+      "wingull (31)",
+      "pelipper (31)",
+      "gyarados (31)",
+      "gyarados (32)",
+      "ducklett (32)",
+      "swanna (32)",
+      "cramorant (32)"
+    ]
+  },
+  "dark_ground":{
+    "Cnt":7.0,
+    "List":[
+      "sandile (31)",
+      "krokorok (31)",
+      "krookodile (31)",
+      "ting-lu (31)",
+      "sandile (33)",
+      "krokorok (33)",
+      "krookodile (33)"
+    ]
+  },
+  "dark":{
+    "Cnt":7.0,
+    "List":[
+      "umbreon (31)",
+      "maschiff (31)",
+      "mabosstiff (31)",
+      "zorua (31)",
+      "zoroark (31)",
+      "poochyena (32)",
+      "mightyena (32)"
+    ]
+  },
+  "poison_water":{
+    "Cnt":7.0,
+    "List":[
+      "qwilfish (31)",
+      "skrelp (31)",
+      "mareanie (31)",
+      "toxapex (31)",
+      "tentacool (33)",
+      "tentacruel (33)",
+      "qwilfish (33)"
+    ]
+  },
+  "ghost_poison":{
+    "Cnt":7.0,
+    "List":[
+      "gastly (31)",
+      "haunter (31)",
+      "gengar (31)",
+      "gastly (32)",
+      "haunter (32)",
+      "gengar (32)",
+      "pecharunt (33)"
+    ]
+  },
+  "normal_psychic":{
+    "Cnt":7.0,
+    "List":[
+      "girafarig (31)",
+      "farigiraf (31)",
+      "indeedee (31)",
+      "oranguru (31)",
+      "indeedee (32)",
+      "girafarig (33)",
+      "farigiraf (33)"
+    ]
+  },
+  "bug_poison":{
+    "Cnt":6.0,
+    "List":[
+      "venonat (31)",
+      "venomoth (31)",
+      "spinarak (32)",
+      "ariados (32)",
+      "venonat (33)",
+      "venomoth (33)"
+    ]
+  },
+  "electric_steel":{
+    "Cnt":6.0,
+    "List":[
+      "magnemite (31)",
+      "magneton (31)",
+      "magnezone (31)",
+      "magnemite (33)",
+      "magneton (33)",
+      "magnezone (33)"
+    ]
+  },
+  "flying_grass":{
+    "Cnt":6.0,
+    "List":[
+      "hoppip (31)",
+      "skiploom (31)",
+      "jumpluff (31)",
+      "tropius (31)",
+      "rowlet (33)",
+      "dartrix (33)"
+    ]
+  },
+  "fighting_fire":{
+    "Cnt":6.0,
+    "List":[
+      "combusken (33)",
+      "blaziken (33)",
+      "monferno (33)",
+      "infernape (33)",
+      "pignite (33)",
+      "emboar (33)"
+    ]
+  },
+  "dark_grass":{
+    "Cnt":6.0,
+    "List":[
+      "meowscarada (31)",
+      "cacturne (31)",
+      "brute-bonnet (31)",
+      "wo-chien (31)",
+      "nuzleaf (32)",
+      "shiftry (32)"
+    ]
+  },
+  "dark_fire":{
+    "Cnt":6.0,
+    "List":[
+      "houndour (31)",
+      "houndoom (31)",
+      "chi-yu (31)",
+      "houndour (32)",
+      "houndoom (32)",
+      "incineroar (33)"
+    ]
+  },
+  "dark_steel":{
+    "Cnt":6.0,
+    "List":[
+      "pawniard (31)",
+      "bisharp (31)",
+      "kingambit (31)",
+      "pawniard (32)",
+      "bisharp (32)",
+      "kingambit (32)"
+    ]
+  },
+  "dark_fairy":{
+    "Cnt":6.0,
+    "List":[
+      "impidimp (31)",
+      "morgrem (31)",
+      "grimmsnarl (31)",
+      "impidimp (32)",
+      "morgrem (32)",
+      "grimmsnarl (32)"
+    ]
+  },
+  "fire_ghost":{
+    "Cnt":5.0,
+    "List":[
+      "skeledirge (31)",
+      "ceruledge (31)",
+      "litwick (32)",
+      "lampent (32)",
+      "chandelure (32)"
+    ]
+  },
+  "grass_ground":{
+    "Cnt":5.0,
+    "List":[
+      "toedscool (31)",
+      "toedscruel (31)",
+      "toedscool (32)",
+      "toedscruel (32)",
+      "torterra (33)"
+    ]
+  },
+  "fire_poison":{
+    "Cnt":5.0,
+    "List":[
+      "salandit (31)",
+      "salazzle (31)",
+      "iron-moth (31)",
+      "salandit (32)",
+      "salazzle (32)"
+    ]
+  },
+  "dark_ice":{
+    "Cnt":5.0,
+    "List":[
+      "sneasel (31)",
+      "weavile (31)",
+      "chien-pao (31)",
+      "sneasel (32)",
+      "weavile (32)"
+    ]
+  },
+  "fire_normal":{
+    "Cnt":4.0,
+    "List":[
+      "litleo (31)",
+      "pyroar (31)",
+      "litleo (33)",
+      "pyroar (33)"
+    ]
+  },
+  "fairy_normal":{
+    "Cnt":4.0,
+    "List":[
+      "azurill (31)",
+      "igglybuff (31)",
+      "jigglypuff (31)",
+      "wigglytuff (31)"
+    ]
+  },
+  "fighting_psychic":{
+    "Cnt":4.0,
+    "List":[
+      "gallade (31)",
+      "meditite (31)",
+      "medicham (31)",
+      "gallade (32)"
+    ]
+  },
+  "grass_ice":{
+    "Cnt":4.0,
+    "List":[
+      "snover (31)",
+      "abomasnow (31)",
+      "snover (33)",
+      "abomasnow (33)"
+    ]
+  },
+  "ice_water":{
+    "Cnt":4.0,
+    "List":[
+      "cloyster (31)",
+      "iron-bundle (31)",
+      "dewgong (33)",
+      "lapras (33)"
+    ]
+  },
+  "dark_dragon":{
+    "Cnt":4.0,
+    "List":[
+      "deino (31)",
+      "zweilous (31)",
+      "hydreigon (31)",
+      "roaring-moon (31)"
+    ]
+  },
+  "bug_electric":{
+    "Cnt":4.0,
+    "List":[
+      "charjabug (32)",
+      "vikavolt (32)",
+      "joltik (33)",
+      "galvantula (33)"
+    ]
+  },
+  "fire_ground":{
+    "Cnt":4.0,
+    "List":[
+      "numel (31)",
+      "camerupt (31)",
+      "numel (33)",
+      "camerupt (33)"
+    ]
+  },
+  "bug_water":{
+    "Cnt":4.0,
+    "List":[
+      "surskit (31)",
+      "surskit (32)",
+      "dewpider (33)",
+      "araquanid (33)"
+    ]
+  },
+  "steel":{
+    "Cnt":4.0,
+    "List":[
+      "cufant (31)",
+      "copperajah (31)",
+      "orthworm (31)",
+      "orthworm (32)"
+    ]
+  },
+  "fairy_steel":{
+    "Cnt":4.0,
+    "List":[
+      "klefki (31)",
+      "tinkatink (31)",
+      "tinkatuff (31)",
+      "tinkaton (31)"
+    ]
+  },
+  "ghost_ground":{
+    "Cnt":4.0,
+    "List":[
+      "sandygast (31)",
+      "palossand (31)",
+      "golett (33)",
+      "golurk (33)"
+    ]
+  },
+  "poison_rock":{
+    "Cnt":4.0,
+    "List":[
+      "glimmet (31)",
+      "glimmora (31)",
+      "glimmet (32)",
+      "glimmora (32)"
+    ]
+  },
+  "dragon_water":{
+    "Cnt":3.0,
+    "List":[
+      "tatsugiri (31)",
+      "kingdra (33)",
+      "walking-wake (33)"
+    ]
+  },
+  "dragon_ice":{
+    "Cnt":3.0,
+    "List":[
+      "frigibax (31)",
+      "arctibax (31)",
+      "baxcalibur (31)"
+    ]
+  },
+  "grass_water":{
+    "Cnt":3.0,
+    "List":[
+      "lotad (32)",
+      "lombre (32)",
+      "ludicolo (32)"
+    ]
+  },
+  "grass_psychic":{
+    "Cnt":3.0,
+    "List":[
+      "exeggcute (33)",
+      "exeggutor (33)",
+      "iron-leaves (33)"
+    ]
+  },
+  "fairy_ghost":{
+    "Cnt":3.0,
+    "List":[
+      "mimikyu (31)",
+      "flutter-mane (31)",
+      "mimikyu (32)"
+    ]
+  },
+  "dragon_ghost":{
+    "Cnt":3.0,
+    "List":[
+      "dreepy (31)",
+      "drakloak (31)",
+      "dragapult (31)"
+    ]
+  },
+  "ground_ice":{
+    "Cnt":3.0,
+    "List":[
+      "swinub (32)",
+      "piloswine (32)",
+      "mamoswine (32)"
+    ]
+  },
+  "dark_poison":{
+    "Cnt":3.0,
+    "List":[
+      "stunky (31)",
+      "skuntank (31)",
+      "overqwil (33)"
+    ]
+  },
+  "rock_steel":{
+    "Cnt":3.0,
+    "List":[
+      "probopass (32)",
+      "shieldon (33)",
+      "bastiodon (33)"
+    ]
+  },
+  "fire_rock":{
+    "Cnt":3.0,
+    "List":[
+      "carkol (31)",
+      "coalossal (31)",
+      "magcargo (32)"
+    ]
+  },
+  "dragon_fighting":{
+    "Cnt":3.0,
+    "List":[
+      "koraidon (31)",
+      "hakamo-o (32)",
+      "kommo-o (32)"
+    ]
+  },
+  "bug_fighting":{
+    "Cnt":3.0,
+    "List":[
+      "heracross (31)",
+      "slither-wing (31)",
+      "heracross (32)"
+    ]
+  },
+  "fighting_poison":{
+    "Cnt":3.0,
+    "List":[
+      "croagunk (31)",
+      "toxicroak (31)",
+      "okidogi (32)"
+    ]
+  },
+  "electric_fighting":{
+    "Cnt":3.0,
+    "List":[
+      "pawmo (31)",
+      "pawmot (31)",
+      "iron-hands (31)"
+    ]
+  },
+  "bug_steel":{
+    "Cnt":3.0,
+    "List":[
+      "forretress (31)",
+      "scizor (31)",
+      "scizor (33)"
+    ]
+  },
+  "bug_grass":{
+    "Cnt":3.0,
+    "List":[
+      "sewaddle (32)",
+      "swadloon (32)",
+      "leavanny (32)"
+    ]
+  },
+  "fairy_water":{
+    "Cnt":3.0,
+    "List":[
+      "marill (31)",
+      "azumarill (31)",
+      "primarina (33)"
+    ]
+  },
+  "dark_psychic":{
+    "Cnt":2.0,
+    "List":[
+      "inkay (33)",
+      "malamar (33)"
+    ]
+  },
+  "ground_steel":{
+    "Cnt":2.0,
+    "List":[
+      "iron-treads (31)",
+      "excadrill (33)"
+    ]
+  },
+  "ghost_ice":{
+    "Cnt":2.0,
+    "List":[
+      "froslass (31)",
+      "froslass (32)"
+    ]
+  },
+  "electric_ghost":{
+    "Cnt":2.0,
+    "List":[
+      "rotom (31)",
+      "rotom (33)"
+    ]
+  },
+  "electric_water":{
+    "Cnt":2.0,
+    "List":[
+      "chinchou (33)",
+      "lanturn (33)"
+    ]
+  },
+  "dragon_steel":{
+    "Cnt":2.0,
+    "List":[
+      "duraludon (33)",
+      "archaludon (33)"
+    ]
+  },
+  "dark_ghost":{
+    "Cnt":2.0,
+    "List":[
+      "sableye (31)",
+      "spiritomb (31)"
+    ]
+  },
+  "fire_psychic":{
+    "Cnt":2.0,
+    "List":[
+      "armarouge (31)",
+      "delphox (33)"
+    ]
+  },
+  "bug_ice":{
+    "Cnt":2.0,
+    "List":[
+      "snom (31)",
+      "frosmoth (31)"
+    ]
+  },
+  "fairy_grass":{
+    "Cnt":2.0,
+    "List":[
+      "cottonee (33)",
+      "whimsicott (33)"
+    ]
+  },
+  "dragon_electric":{
+    "Cnt":2.0,
+    "List":[
+      "miraidon (31)",
+      "raging-bolt (33)"
+    ]
+  },
+  "dark_water":{
+    "Cnt":2.0,
+    "List":[
+      "crawdaunt (32)",
+      "greninja (33)"
+    ]
+  },
+  "bug_psychic":{
+    "Cnt":2.0,
+    "List":[
+      "rabsca (31)",
+      "rabsca (33)"
+    ]
+  },
+  "fighting_flying":{
+    "Cnt":2.0,
+    "List":[
+      "hawlucha (31)",
+      "flamigo (31)"
+    ]
+  },
+  "fighting_ice":{
+    "Cnt":2.0,
+    "List":[
+      "crabominable (31)",
+      "crabominable (33)"
+    ]
+  },
+  "fighting_steel":{
+    "Cnt":2.0,
+    "List":[
+      "lucario (31)",
+      "lucario (32)"
+    ]
+  },
+  "fighting_ghost":{
+    "Cnt":2.0,
+    "List":[
+      "annihilape (31)",
+      "annihilape (32)"
+    ]
+  },
+  "flying_ground":{
+    "Cnt":2.0,
+    "List":[
+      "gligar (32)",
+      "gliscor (32)"
+    ]
+  },
+  "flying":{
+    "Cnt":2.0,
+    "List":[
+      "rookidee (31)",
+      "corvisquire (31)"
+    ]
+  },
+  "dark_fighting":{
+    "Cnt":2.0,
+    "List":[
+      "scraggy (33)",
+      "scrafty (33)"
+    ]
+  },
+  "flying_ghost":{
+    "Cnt":2.0,
+    "List":[
+      "drifloon (31)",
+      "drifblim (31)"
+    ]
+  },
+  "normal_poison":{
+    "Cnt":2.0,
+    "List":[
+      "shroodle (31)",
+      "grafaiai (31)"
+    ]
+  },
+  "fighting_water":{
+    "Cnt":2.0,
+    "List":[
+      "quaquaval (31)",
+      "poliwrath (32)"
+    ]
+  },
+  "fighting_grass":{
+    "Cnt":2.0,
+    "List":[
+      "breloom (31)",
+      "chesnaught (33)"
+    ]
+  },
+  "flying_steel":{
+    "Cnt":2.0,
+    "List":[
+      "corviknight (31)",
+      "skarmory (33)"
+    ]
+  },
+  "electric_flying":{
+    "Cnt":2.0,
+    "List":[
+      "wattrel (31)",
+      "kilowattrel (31)"
+    ]
+  },
+  "poison_steel":{
+    "Cnt":2.0,
+    "List":[
+      "varoom (31)",
+      "revavroom (31)"
+    ]
+  },
+  "bug_fire":{
+    "Cnt":2.0,
+    "List":[
+      "larvesta (31)",
+      "volcarona (31)"
+    ]
+  },
+  "electric_poison":{
+    "Cnt":2.0,
+    "List":[
+      "toxel (31)",
+      "toxtricity (31)"
+    ]
+  },
+  "bug_fairy":{
+    "Cnt":2.0,
+    "List":[
+      "cutiefly (32)",
+      "ribombee (32)"
+    ]
+  },
+  "rock_water":{
+    "Cnt":2.0,
+    "List":[
+      "drednaw (31)",
+      "drednaw (32)"
+    ]
+  },
+  "steel_water":{
+    "Cnt":1.0,
+    "List":[
+      "empoleon (33)"
+    ]
+  },
+  "dark_electric":{
+    "Cnt":1.0,
+    "List":[
+      "morpeko (32)"
+    ]
+  },
+  "dragon_fire":{
+    "Cnt":1.0,
+    "List":[
+      "gouging-fire (33)"
+    ]
+  },
+  "dark_rock":{
+    "Cnt":1.0,
+    "List":[
+      "tyranitar (31)"
+    ]
+  },
+  "ground_poison":{
+    "Cnt":1.0,
+    "List":[
+      "clodsire (31)"
+    ]
+  },
+  "flying_ice":{
+    "Cnt":1.0,
+    "List":[
+      "delibird (31)"
+    ]
+  },
+  "bug_rock":{
+    "Cnt":1.0,
+    "List":[
+      "kleavor (33)"
+    ]
+  },
+  "fairy_poison":{
+    "Cnt":1.0,
+    "List":[
+      "fezandipiti (32)"
+    ]
+  },
+  "poison_psychic":{
+    "Cnt":1.0,
+    "List":[
+      "munkidori (32)"
+    ]
+  },
+  "ground_normal":{
+    "Cnt":1.0,
+    "List":[
+      "ursaluna (32)"
+    ]
+  },
+  "fighting_ground":{
+    "Cnt":1.0,
+    "List":[
+      "great-tusk (31)"
+    ]
+  },
+  "flying_rock":{
+    "Cnt":1.0,
+    "List":[
+      "minior (33)"
+    ]
+  },
+  "fairy_fighting":{
+    "Cnt":1.0,
+    "List":[
+      "iron-valiant (31)"
+    ]
+  },
+  "dragon_normal":{
+    "Cnt":1.0,
+    "List":[
+      "cyclizar (31)"
+    ]
+  },
+  "electric_fairy":{
+    "Cnt":1.0,
+    "List":[
+      "dedenne (31)"
+    ]
+  },
+  "fire_grass":{
+    "Cnt":1.0,
+    "List":[
+      "scovillain (31)"
+    ]
+  },
+  "electric_ground":{
+    "Cnt":1.0,
+    "List":[
+      "sandy-shocks (31)"
+    ]
+  },
+  "dragon_poison":{
+    "Cnt":1.0,
+    "List":[
+      "dragalge (31)"
+    ]
+  },
+  "fairy_rock":{
+    "Cnt":1.0,
+    "List":[
+      "carbink (32)"
+    ]
+  },
+  "electric_rock":{
+    "Cnt":1.0,
+    "List":[
+      "iron-thorns (31)"
+    ]
+  },
+  "bug_dark":{
+    "Cnt":1.0,
+    "List":[
+      "lokix (31)"
+    ]
+  },
+  "ghost_steel":{
+    "Cnt":1.0,
+    "List":[
+      "gholdengo (31)"
+    ]
+  },
+  "psychic_rock":{
+    "Cnt":1.0,
+    "List":[
+      "iron-boulder (33)"
+    ]
+  },
+  "ghost_water":{
+    "Cnt":1.0,
+    "List":[
+      "basculegion (32)"
+    ]
+  },
+  "fighting_normal":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "normal_rock":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "bug_normal":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "ghost_normal":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "normal_steel":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "normal_water":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "flying_poison":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "ice_normal":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "electric_normal":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "fighting_rock":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "dark_normal":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "bug_ghost":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "ground_psychic":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "fairy_ground":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "flying_psychic":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "fairy_flying":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "ice_poison":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "bug_ground":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "ghost_rock":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "grass_rock":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "ice_rock":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "dragon_rock":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "bug_dragon":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "fairy_fire":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "fire_water":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "electric_fire":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "ghost_psychic":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "fire_steel":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "grass_steel":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "ice_steel":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "fire_ice":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "electric_psychic":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "electric_grass":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "electric_ice":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "ice_psychic":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "dragon_psychic":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "fairy_ice":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  },
+  "dragon_fairy":{
+    "Cnt":0.0,
+    "List":[
+
+    ]
+  }
+}

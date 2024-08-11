@@ -1,13 +1,12 @@
 import pandas as pd
 
-from typs import combo_typenames, get_combo_name
+from src.typs import combo_typenames, get_combo_name
 
 
-# pd.set_option('display.width', 250)
+# pd.set_option('display.width', 200)
 # pd.set_option('display.min_rows', 20)
-
 # pd.set_option('display.max_colwidth', 50)
-# pd.set_option('display.max_columns', 6)
+# pd.set_option('display.max_columns', 18)
 
 
 def print_full(x):
@@ -16,7 +15,7 @@ def print_full(x):
     pd.reset_option('display.max_rows')
 
 
-df = pd.read_json('src/pokes.json')
+df = pd.read_json('src/data/pokes.json')
 df = df.transpose()
 
 df_by_tot = df.sort_values('stats', key=lambda k: k.str['tot'], ascending=False)
@@ -36,4 +35,4 @@ for row in merged_types.loc[merged_types.List.isna(), 'List'].index:
 
 merged_types = merged_types.sort_values('Cnt', ascending=False)
 
-merged_types.to_json('src/typ_cnts.json', indent=2, orient='index')
+merged_types.to_json('src/data/typ_cnts.json', indent=2, orient='index')

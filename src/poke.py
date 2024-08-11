@@ -1,7 +1,7 @@
 import json
 
 import pokebase as pb
-from typs import get_combo_name
+from src.typs import get_combo_name
 
 
 # logging.basicConfig()
@@ -77,7 +77,7 @@ def main() -> None:
 
             # print(name, data[name])
 
-    with open('pokes.json', 'w') as f:
+    with open('src/data/pokes.json', 'w') as f:
         json.dump(data, f, indent=2)
     # print(json.dumps(data, indent=2))
 

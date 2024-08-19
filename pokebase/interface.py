@@ -59,7 +59,6 @@ def _convert_id_to_name(endpoint, id_):
 
     for resource in resource_data:
         if resource["url"].split("/")[-2] == str(id_):
-
             # Return the matching name, or id_ if it doesn't exsist.
             return resource.get("name", str(id_))
 

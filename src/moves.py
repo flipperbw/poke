@@ -72,8 +72,10 @@ def main():
     # hurts/kills self
 
     atks = atks.sort_values('tot', ascending=False)
-    good = atks[['effect_short', 'learned_by', 'category', 'pp', 'stat_changes', 'target', 'type', 'avg_hits', 'tot']]
+    good = atks[['effect_short', 'learned_by', 'has_tm', 'category', 'pp', 'target', 'type', 'avg_hits', 'tot']]
+
+    return good
 
 
 if __name__ == '__main__':
-    main()
+    x = main()

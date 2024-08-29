@@ -106,5 +106,19 @@ def main() -> None:
     # tink, chesnaught
 
 
+def best_per_type():
+    pokes = pd.read_json('src/data/pokes.json').transpose()
+    d = pokes.copy()
+    d['xtype'] = d['type'].apply(lambda x: str(x).split('_'))
+    dx = d.explode('xtype')
+    comb = pd.concat([dx.drop(['stats'], axis=1), dx['stats'].apply(pd.Series)], axis=1)
+
+    cols = ['xtype', 'name', 'dex', 'is_legendary', 'tot']
+    grouped = comb.groupby('xtype', as_index=False)
+    tot = grouped.apply(lambda x: x.nlargest(3, 'tot')).reset_index(drop=True)[cols]
+    atk = grouped.apply(lambda x: x.nlargest(3, 'attack')).reset_index(drop=True)[cols + ['attack']]
+    spe = grouped.apply(lambda x: x.nlargest(3, 'special-attack')).reset_index(drop=True)[cols + ['special-attack']]
+
+
 if __name__ == '__main__':
     main()

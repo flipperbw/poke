@@ -113,11 +113,21 @@ def best_per_type():
     dx = d.explode('xtype')
     comb = pd.concat([dx.drop(['stats'], axis=1), dx['stats'].apply(pd.Series)], axis=1)
 
-    cols = ['xtype', 'name', 'dex', 'is_legendary', 'tot']
+    comb['tot_b'] = comb['tot'] - comb['speed']
+    comb['atk_type'] = np.where(comb['attack'] < comb['special-attack'], 'SpA', 'Atk')
+    comb['def_type'] = np.where(comb['defense'] < comb['special-defense'], 'SpD', 'Def')
+    comb['is_legendary'] = comb['is_legendary'].astype(int)
+
+    cols = ['xtype', 'name', 'dex', 'is_legendary', 'tot_b', 'max_atk', 'atk_type', 'def_type']
     grouped = comb.groupby('xtype', as_index=False)
-    tot = grouped.apply(lambda x: x.nlargest(3, 'tot')).reset_index(drop=True)[cols]
-    atk = grouped.apply(lambda x: x.nlargest(3, 'attack')).reset_index(drop=True)[cols + ['attack']]
-    spe = grouped.apply(lambda x: x.nlargest(3, 'special-attack')).reset_index(drop=True)[cols + ['special-attack']]
+
+    lim = 5
+    tot = grouped.apply(lambda x: x.nlargest(lim, 'tot_b')).reset_index(drop=True)[cols]
+
+    # atk = grouped.apply(lambda x: x.nlargest(3, 'attack')).reset_index(drop=True)[cols]
+    # spe = grouped.apply(lambda x: x.nlargest(3, 'special-attack')).reset_index(drop=True)[cols]
+
+    print(tot.to_csv(index=False))
 
 
 if __name__ == '__main__':

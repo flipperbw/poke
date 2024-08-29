@@ -7,6 +7,7 @@ from src.typs import combo_typenames, get_combo_name
 # pd.set_option('display.min_rows', 20)
 # pd.set_option('display.max_colwidth', 50)
 # pd.set_option('display.max_columns', 18)
+# pd.set_option('display.max_columns', None)
 
 
 def print_full(x):

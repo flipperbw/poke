@@ -40,11 +40,13 @@ def flatten(l: tp.List['Chain']) -> tp.List['Chain']:
     return result
 
 
-def find_is_final(d: Chain, i: int):
+def find_is_final(d: Chain, s: Species):
+    if s.name in ('stantler', 'ursaring', 'qwilfish'): return True
+
     if not len(d.evolves_to): return True
 
     evos = flatten(d.evolves_to)
-    found = first_true(evos + [d], pred=lambda x: x.species.id == i)
+    found = first_true(evos + [d], pred=lambda x: x.species.id == s.id)
     if not found:
         return None
     else:
@@ -67,7 +69,7 @@ def boxes() -> None:
             chain = species.evolution_chain.chain
             pid = species.id
 
-            fe = find_is_final(chain, pid)
+            fe = find_is_final(chain, species)
             if fe is None:
                 print('could not find', dex_id, pid)
             else:

@@ -476,6 +476,11 @@
       "name": "grafaiai"
     },
     {
+      "dex_id": 204,
+      "id": 234,
+      "name": "stantler"
+    },
+    {
       "dex_id": 206,
       "id": 591,
       "name": "amoonguss"
@@ -499,6 +504,11 @@
       "dex_id": 214,
       "id": 59,
       "name": "arcanine"
+    },
+    {
+      "dex_id": 216,
+      "id": 217,
+      "name": "ursaring"
     },
     {
       "dex_id": 217,
@@ -824,6 +834,11 @@
       "dex_id": 330,
       "id": 91,
       "name": "cloyster"
+    },
+    {
+      "dex_id": 331,
+      "id": 211,
+      "name": "qwilfish"
     },
     {
       "dex_id": 332,
@@ -1186,6 +1201,11 @@
       "dex_id": 52,
       "id": 473,
       "name": "mamoswine"
+    },
+    {
+      "dex_id": 53,
+      "id": 234,
+      "name": "stantler"
     },
     {
       "dex_id": 56,
@@ -1918,6 +1938,11 @@
       "dex_id": 145,
       "id": 131,
       "name": "lapras"
+    },
+    {
+      "dex_id": 146,
+      "id": 211,
+      "name": "qwilfish"
     },
     {
       "dex_id": 147,

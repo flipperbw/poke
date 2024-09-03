@@ -438,6 +438,8 @@ def main() -> None:
 
     data = {}
 
+    diff_limit = 0.15
+
     for dex in dexes:
         dex_data = pb.pokedex(dex)
 
@@ -482,6 +484,24 @@ def main() -> None:
                     types[1].type.name if len(types) > 1 else None,
                 )
                 stats = {s.stat.name: s.base_stat for s in pstats}
+
+                atk_diff = (stats['attack'] - stats['special-attack']) / stats['attack']
+                def_diff = (stats['defense'] - stats['special-defense']) / stats['defense']
+
+                if atk_diff < -diff_limit:
+                    atk_type = 'SpA'
+                elif atk_diff > diff_limit:
+                    atk_type = 'Atk'
+                else:
+                    atk_type = 'Any'
+
+                if def_diff < -diff_limit:
+                    def_type = 'SpD'
+                elif def_diff > diff_limit:
+                    def_type = 'Def'
+                else:
+                    def_type = 'Any'
+
                 more_stats = {
                     **stats,
                     'max_atk': max(stats['attack'], stats['special-attack']),
@@ -489,8 +509,8 @@ def main() -> None:
                     'sum_def': stats['defense'] + stats['special-defense'],
                     'tot': sum(stats.values()),
                     'tot_b': sum(stats.values()) - stats['speed'],
-                    'atk_type': 'SpA' if stats['special-attack'] > stats['attack'] else 'Atk',
-                    'def_type': 'SpD' if stats['special-defense'] > stats['defense'] else 'Def',
+                    'atk_type': atk_type,
+                    'def_type': def_type,
                 }
 
                 base_v['is_default'] = variety.is_default

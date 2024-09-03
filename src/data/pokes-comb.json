@@ -26,8 +26,8 @@
     "sum_def": 105,
     "tot": 320,
     "tot_b": 278,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "dartrix": {
     "dex_id": 219,
@@ -56,8 +56,8 @@
     "sum_def": 145,
     "tot": 420,
     "tot_b": 368,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "decidueye": {
     "dex_id": 220,
@@ -86,7 +86,7 @@
     "sum_def": 175,
     "tot": 530,
     "tot_b": 460,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "decidueye-hisui": {
@@ -177,7 +177,7 @@
     "tot": 405,
     "tot_b": 325,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "typhlosion": {
     "dex_id": 178,
@@ -207,7 +207,7 @@
     "tot": 534,
     "tot_b": 434,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "typhlosion-hisui": {
     "dex_id": 178,
@@ -237,7 +237,7 @@
     "tot": 534,
     "tot_b": 439,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "oshawott": {
     "dex_id": 206,
@@ -266,8 +266,8 @@
     "sum_def": 90,
     "tot": 308,
     "tot_b": 263,
-    "atk_type": "SpA",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "dewott": {
     "dex_id": 207,
@@ -296,8 +296,8 @@
     "sum_def": 120,
     "tot": 413,
     "tot_b": 353,
-    "atk_type": "SpA",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "samurott": {
     "dex_id": 208,
@@ -326,7 +326,7 @@
     "sum_def": 155,
     "tot": 528,
     "tot_b": 458,
-    "atk_type": "SpA",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "samurott-hisui": {
@@ -356,7 +356,7 @@
     "sum_def": 145,
     "tot": 528,
     "tot_b": 443,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "starly": {
@@ -387,7 +387,7 @@
     "tot": 245,
     "tot_b": 185,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "staravia": {
     "dex_id": 98,
@@ -447,7 +447,7 @@
     "tot": 485,
     "tot_b": 385,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "shinx": {
     "dex_id": 94,
@@ -477,7 +477,7 @@
     "tot": 263,
     "tot_b": 218,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "luxio": {
     "dex_id": 95,
@@ -507,7 +507,7 @@
     "tot": 363,
     "tot_b": 303,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "luxray": {
     "dex_id": 96,
@@ -537,7 +537,7 @@
     "tot": 523,
     "tot_b": 453,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "eevee": {
     "dex_id": 179,
@@ -596,7 +596,7 @@
     "sum_def": 155,
     "tot": 435,
     "tot_b": 360,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "vaporeon": {
@@ -746,7 +746,7 @@
     "sum_def": 240,
     "tot": 525,
     "tot_b": 460,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "leafeon": {
@@ -807,7 +807,7 @@
     "tot": 525,
     "tot_b": 460,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "sylveon": {
     "dex_id": 187,
@@ -896,7 +896,7 @@
     "sum_def": 98,
     "tot": 498,
     "tot_b": 418,
-    "atk_type": "SpA",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "kricketot": {
@@ -926,8 +926,8 @@
     "sum_def": 82,
     "tot": 194,
     "tot_b": 169,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "kricketune": {
     "dex_id": 34,
@@ -957,7 +957,7 @@
     "tot": 384,
     "tot_b": 319,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "buizel": {
     "dex_id": 51,
@@ -987,8 +987,8 @@
     "sum_def": 65,
     "tot": 330,
     "tot_b": 245,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "floatzel": {
     "dex_id": 52,
@@ -1019,7 +1019,7 @@
     "tot": 495,
     "tot_b": 380,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "geodude": {
     "dex_id": 80,
@@ -1228,8 +1228,8 @@
     "sum_def": 127,
     "tot": 465,
     "tot_b": 380,
-    "atk_type": "Atk",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "wyrdeer": {
     "dex_id": 50,
@@ -1258,8 +1258,8 @@
     "sum_def": 147,
     "tot": 525,
     "tot_b": 460,
-    "atk_type": "Atk",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "munchlax": {
     "dex_id": 102,
@@ -1348,7 +1348,7 @@
     "sum_def": 50,
     "tot": 205,
     "tot_b": 145,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "pikachu": {
@@ -1379,7 +1379,7 @@
     "sum_def": 90,
     "tot": 320,
     "tot_b": 230,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "pikachu-rock-star": {
@@ -1410,7 +1410,7 @@
     "sum_def": 90,
     "tot": 320,
     "tot_b": 230,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "pikachu-belle": {
@@ -1441,7 +1441,7 @@
     "sum_def": 90,
     "tot": 320,
     "tot_b": 230,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "pikachu-pop-star": {
@@ -1472,7 +1472,7 @@
     "sum_def": 90,
     "tot": 320,
     "tot_b": 230,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "pikachu-phd": {
@@ -1503,7 +1503,7 @@
     "sum_def": 90,
     "tot": 320,
     "tot_b": 230,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "pikachu-libre": {
@@ -1534,7 +1534,7 @@
     "sum_def": 90,
     "tot": 320,
     "tot_b": 230,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "pikachu-cosplay": {
@@ -1565,7 +1565,7 @@
     "sum_def": 90,
     "tot": 320,
     "tot_b": 230,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "pikachu-original-cap": {
@@ -1596,7 +1596,7 @@
     "sum_def": 90,
     "tot": 320,
     "tot_b": 230,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "pikachu-hoenn-cap": {
@@ -1627,7 +1627,7 @@
     "sum_def": 90,
     "tot": 320,
     "tot_b": 230,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "pikachu-sinnoh-cap": {
@@ -1658,7 +1658,7 @@
     "sum_def": 90,
     "tot": 320,
     "tot_b": 230,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "pikachu-unova-cap": {
@@ -1689,7 +1689,7 @@
     "sum_def": 90,
     "tot": 320,
     "tot_b": 230,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "pikachu-kalos-cap": {
@@ -1720,7 +1720,7 @@
     "sum_def": 90,
     "tot": 320,
     "tot_b": 230,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "pikachu-alola-cap": {
@@ -1751,7 +1751,7 @@
     "sum_def": 90,
     "tot": 320,
     "tot_b": 230,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "pikachu-partner-cap": {
@@ -1782,7 +1782,7 @@
     "sum_def": 90,
     "tot": 320,
     "tot_b": 230,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "pikachu-starter": {
@@ -1813,7 +1813,7 @@
     "sum_def": 110,
     "tot": 430,
     "tot_b": 310,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "pikachu-world-cap": {
@@ -1844,7 +1844,7 @@
     "sum_def": 90,
     "tot": 320,
     "tot_b": 230,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "raichu": {
@@ -1875,7 +1875,7 @@
     "sum_def": 135,
     "tot": 485,
     "tot_b": 375,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "raichu-alola": {
@@ -1906,7 +1906,7 @@
     "sum_def": 135,
     "tot": 485,
     "tot_b": 375,
-    "atk_type": "SpA",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "chimchar": {
@@ -1937,8 +1937,8 @@
     "sum_def": 88,
     "tot": 309,
     "tot_b": 248,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "monferno": {
     "dex_id": 195,
@@ -1968,8 +1968,8 @@
     "sum_def": 104,
     "tot": 405,
     "tot_b": 324,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "infernape": {
     "dex_id": 196,
@@ -1999,8 +1999,8 @@
     "sum_def": 142,
     "tot": 534,
     "tot_b": 426,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "psyduck": {
     "dex_id": 55,
@@ -2031,7 +2031,7 @@
     "tot": 320,
     "tot_b": 265,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "golduck": {
     "dex_id": 56,
@@ -2062,7 +2062,7 @@
     "tot": 500,
     "tot_b": 415,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "combee": {
     "dex_id": 38,
@@ -2091,8 +2091,8 @@
     "sum_def": 84,
     "tot": 244,
     "tot_b": 174,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "vespiquen": {
     "dex_id": 39,
@@ -2121,8 +2121,8 @@
     "sum_def": 204,
     "tot": 474,
     "tot_b": 434,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "scyther": {
     "dex_id": 260,
@@ -2152,7 +2152,7 @@
     "tot": 500,
     "tot_b": 395,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "kleavor": {
     "dex_id": 21,
@@ -2272,7 +2272,7 @@
     "tot": 360,
     "tot_b": 275,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "ambipom": {
     "dex_id": 48,
@@ -2302,7 +2302,7 @@
     "tot": 482,
     "tot_b": 367,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "magikarp": {
     "dex_id": 134,
@@ -2425,7 +2425,7 @@
     "sum_def": 150,
     "tot": 475,
     "tot_b": 436,
-    "atk_type": "SpA",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "qwilfish": {
@@ -2636,7 +2636,7 @@
     "tot": 280,
     "tot_b": 250,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "lilligant": {
     "dex_id": 105,
@@ -2666,7 +2666,7 @@
     "tot": 480,
     "tot_b": 390,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "lilligant-hisui": {
     "dex_id": 105,
@@ -2696,7 +2696,7 @@
     "tot": 480,
     "tot_b": 375,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "barboach": {
     "dex_id": 168,
@@ -2725,8 +2725,8 @@
     "sum_def": 84,
     "tot": 288,
     "tot_b": 228,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "whiscash": {
     "dex_id": 169,
@@ -2755,8 +2755,8 @@
     "sum_def": 144,
     "tot": 468,
     "tot_b": 408,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "croagunk": {
     "dex_id": 175,
@@ -2785,8 +2785,8 @@
     "sum_def": 80,
     "tot": 300,
     "tot_b": 250,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "toxicroak": {
     "dex_id": 176,
@@ -2816,7 +2816,7 @@
     "tot": 490,
     "tot_b": 405,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "ralts": {
     "dex_id": 62,
@@ -2970,7 +2970,7 @@
     "tot": 390,
     "tot_b": 295,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "yanmega": {
     "dex_id": 4,
@@ -3090,7 +3090,7 @@
     "sum_def": 160,
     "tot": 405,
     "tot_b": 310,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "stunky": {
@@ -3121,7 +3121,7 @@
     "tot": 329,
     "tot_b": 255,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "skuntank": {
     "dex_id": 227,
@@ -3151,7 +3151,7 @@
     "tot": 479,
     "tot_b": 395,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "teddiursa": {
     "dex_id": 215,
@@ -3181,7 +3181,7 @@
     "tot": 330,
     "tot_b": 290,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "ursaring": {
     "dex_id": 216,
@@ -3211,7 +3211,7 @@
     "tot": 500,
     "tot_b": 445,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "ursaluna": {
     "dex_id": 196,
@@ -3300,7 +3300,7 @@
     "sum_def": 110,
     "tot": 300,
     "tot_b": 260,
-    "atk_type": "SpA",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "sliggoo": {
@@ -3330,7 +3330,7 @@
     "sum_def": 166,
     "tot": 452,
     "tot_b": 392,
-    "atk_type": "SpA",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "sliggoo-hisui": {
@@ -3360,7 +3360,7 @@
     "sum_def": 196,
     "tot": 452,
     "tot_b": 412,
-    "atk_type": "SpA",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "goodra": {
@@ -3390,7 +3390,7 @@
     "sum_def": 220,
     "tot": 600,
     "tot_b": 520,
-    "atk_type": "SpA",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "goodra-hisui": {
@@ -3420,7 +3420,7 @@
     "sum_def": 250,
     "tot": 600,
     "tot_b": 540,
-    "atk_type": "SpA",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "rhyhorn": {
@@ -3605,7 +3605,7 @@
     "tot": 318,
     "tot_b": 287,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "grotle": {
     "dex_id": 192,
@@ -3697,7 +3697,7 @@
     "tot": 395,
     "tot_b": 355,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "porygon2": {
     "dex_id": 130,
@@ -3727,7 +3727,7 @@
     "tot": 515,
     "tot_b": 455,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "porygon-z": {
     "dex_id": 131,
@@ -3757,7 +3757,7 @@
     "tot": 535,
     "tot_b": 445,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "gastly": {
     "dex_id": 68,
@@ -3876,8 +3876,8 @@
     "sum_def": 216,
     "tot": 485,
     "tot_b": 450,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "murkrow": {
     "dex_id": 232,
@@ -3906,8 +3906,8 @@
     "sum_def": 84,
     "tot": 405,
     "tot_b": 314,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "honchkrow": {
     "dex_id": 233,
@@ -3937,7 +3937,7 @@
     "tot": 505,
     "tot_b": 434,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "growlithe": {
     "dex_id": 213,
@@ -3966,8 +3966,8 @@
     "sum_def": 95,
     "tot": 350,
     "tot_b": 290,
-    "atk_type": "Atk",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "growlithe-hisui": {
     "dex_id": 213,
@@ -3996,8 +3996,8 @@
     "sum_def": 95,
     "tot": 350,
     "tot_b": 295,
-    "atk_type": "Atk",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "arcanine": {
     "dex_id": 214,
@@ -4026,8 +4026,8 @@
     "sum_def": 160,
     "tot": 555,
     "tot_b": 460,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "arcanine-hisui": {
     "dex_id": 214,
@@ -4057,7 +4057,7 @@
     "tot": 555,
     "tot_b": 465,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "duskull": {
     "dex_id": 139,
@@ -4087,7 +4087,7 @@
     "tot": 295,
     "tot_b": 270,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "dusclops": {
     "dex_id": 140,
@@ -4116,8 +4116,8 @@
     "sum_def": 260,
     "tot": 455,
     "tot_b": 430,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "dusknoir": {
     "dex_id": 141,
@@ -4147,7 +4147,7 @@
     "tot": 525,
     "tot_b": 480,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "piplup": {
     "dex_id": 197,
@@ -4178,7 +4178,7 @@
     "tot": 314,
     "tot_b": 274,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "prinplup": {
     "dex_id": 198,
@@ -4209,7 +4209,7 @@
     "tot": 405,
     "tot_b": 355,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "empoleon": {
     "dex_id": 199,
@@ -4240,7 +4240,7 @@
     "tot": 530,
     "tot_b": 470,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "basculin-red-striped": {
     "dex_id": 138,
@@ -4269,7 +4269,7 @@
     "sum_def": 120,
     "tot": 460,
     "tot_b": 362,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "basculin-blue-striped": {
@@ -4299,7 +4299,7 @@
     "sum_def": 120,
     "tot": 460,
     "tot_b": 362,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "basculin-white-striped": {
@@ -4329,7 +4329,7 @@
     "sum_def": 120,
     "tot": 460,
     "tot_b": 362,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "basculegion-male": {
@@ -4389,7 +4389,7 @@
     "sum_def": 140,
     "tot": 530,
     "tot_b": 452,
-    "atk_type": "SpA",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "vulpix": {
@@ -4479,7 +4479,7 @@
     "sum_def": 175,
     "tot": 505,
     "tot_b": 405,
-    "atk_type": "SpA",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "ninetales-alola": {
@@ -4569,7 +4569,7 @@
     "sum_def": 185,
     "tot": 515,
     "tot_b": 415,
-    "atk_type": "SpA",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "finneon": {
@@ -4599,8 +4599,8 @@
     "sum_def": 117,
     "tot": 330,
     "tot_b": 264,
-    "atk_type": "Atk",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "lumineon": {
     "dex_id": 334,
@@ -4629,8 +4629,8 @@
     "sum_def": 162,
     "tot": 460,
     "tot_b": 369,
-    "atk_type": "Atk",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "magby": {
     "dex_id": 13,
@@ -4659,7 +4659,7 @@
     "sum_def": 92,
     "tot": 365,
     "tot_b": 282,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "magmar": {
@@ -4689,7 +4689,7 @@
     "sum_def": 142,
     "tot": 495,
     "tot_b": 402,
-    "atk_type": "SpA",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "magmortar": {
@@ -4839,8 +4839,8 @@
     "sum_def": 172,
     "tot": 300,
     "tot_b": 277,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "bronzong": {
     "dex_id": 154,
@@ -4869,8 +4869,8 @@
     "sum_def": 232,
     "tot": 500,
     "tot_b": 467,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "elekid": {
     "dex_id": 10,
@@ -4899,7 +4899,7 @@
     "sum_def": 92,
     "tot": 360,
     "tot_b": 265,
-    "atk_type": "SpA",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "electabuzz": {
@@ -4929,7 +4929,7 @@
     "sum_def": 142,
     "tot": 490,
     "tot_b": 385,
-    "atk_type": "SpA",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "electivire": {
@@ -5051,7 +5051,7 @@
     "tot": 300,
     "tot_b": 258,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "gabite": {
     "dex_id": 127,
@@ -5113,7 +5113,7 @@
     "tot": 600,
     "tot_b": 498,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "nosepass": {
     "dex_id": 107,
@@ -5142,7 +5142,7 @@
     "sum_def": 225,
     "tot": 375,
     "tot_b": 345,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "probopass": {
@@ -5173,7 +5173,7 @@
     "tot": 525,
     "tot_b": 485,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "voltorb": {
     "dex_id": 207,
@@ -5203,7 +5203,7 @@
     "tot": 330,
     "tot_b": 230,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "voltorb-hisui": {
     "dex_id": 207,
@@ -5233,7 +5233,7 @@
     "tot": 330,
     "tot_b": 230,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "electrode": {
     "dex_id": 208,
@@ -5263,7 +5263,7 @@
     "tot": 490,
     "tot_b": 340,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "electrode-hisui": {
     "dex_id": 208,
@@ -5293,7 +5293,7 @@
     "tot": 490,
     "tot_b": 340,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "rotom": {
     "dex_id": 310,
@@ -5323,7 +5323,7 @@
     "tot": 440,
     "tot_b": 349,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "rotom-heat": {
     "dex_id": 310,
@@ -5353,7 +5353,7 @@
     "tot": 520,
     "tot_b": 434,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "rotom-wash": {
     "dex_id": 310,
@@ -5383,7 +5383,7 @@
     "tot": 520,
     "tot_b": 434,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "rotom-frost": {
     "dex_id": 310,
@@ -5413,7 +5413,7 @@
     "tot": 520,
     "tot_b": 434,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "rotom-fan": {
     "dex_id": 310,
@@ -5443,7 +5443,7 @@
     "tot": 520,
     "tot_b": 434,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "rotom-mow": {
     "dex_id": 310,
@@ -5473,7 +5473,7 @@
     "tot": 520,
     "tot_b": 434,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "chingling": {
     "dex_id": 142,
@@ -5503,7 +5503,7 @@
     "tot": 285,
     "tot_b": 240,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "chimecho": {
     "dex_id": 143,
@@ -5533,7 +5533,7 @@
     "tot": 455,
     "tot_b": 390,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "misdreavus": {
     "dex_id": 114,
@@ -5833,8 +5833,8 @@
     "sum_def": 100,
     "tot": 300,
     "tot_b": 250,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "glalie": {
     "dex_id": 358,
@@ -5864,8 +5864,8 @@
     "sum_def": 160,
     "tot": 480,
     "tot_b": 400,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "froslass": {
     "dex_id": 359,
@@ -5895,8 +5895,8 @@
     "sum_def": 140,
     "tot": 480,
     "tot_b": 370,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "cranidos": {
     "dex_id": 107,
@@ -5985,7 +5985,7 @@
     "sum_def": 206,
     "tot": 350,
     "tot_b": 320,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "bastiodon": {
@@ -6015,7 +6015,7 @@
     "sum_def": 306,
     "tot": 495,
     "tot_b": 465,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "swinub": {
@@ -6229,7 +6229,7 @@
     "sum_def": 110,
     "tot": 334,
     "tot_b": 294,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "abomasnow": {
@@ -6260,8 +6260,8 @@
     "sum_def": 160,
     "tot": 494,
     "tot_b": 434,
-    "atk_type": "Atk",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "zorua": {
     "dex_id": 228,
@@ -6291,7 +6291,7 @@
     "tot": 330,
     "tot_b": 265,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "zorua-hisui": {
     "dex_id": 228,
@@ -6321,7 +6321,7 @@
     "tot": 330,
     "tot_b": 260,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "zoroark": {
     "dex_id": 229,
@@ -6350,8 +6350,8 @@
     "sum_def": 120,
     "tot": 510,
     "tot_b": 405,
-    "atk_type": "SpA",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "zoroark-hisui": {
     "dex_id": 229,
@@ -6381,7 +6381,7 @@
     "tot": 510,
     "tot_b": 400,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "rufflet": {
     "dex_id": 365,
@@ -6411,7 +6411,7 @@
     "tot": 350,
     "tot_b": 290,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "braviary": {
     "dex_id": 366,
@@ -6441,7 +6441,7 @@
     "tot": 510,
     "tot_b": 430,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "braviary-hisui": {
     "dex_id": 366,
@@ -6471,7 +6471,7 @@
     "tot": 510,
     "tot_b": 445,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "riolu": {
     "dex_id": 163,
@@ -6501,7 +6501,7 @@
     "tot": 285,
     "tot_b": 225,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "lucario": {
     "dex_id": 164,
@@ -6531,8 +6531,8 @@
     "sum_def": 140,
     "tot": 525,
     "tot_b": 435,
-    "atk_type": "SpA",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "uxie": {
     "dex_id": 225,
@@ -6561,8 +6561,8 @@
     "sum_def": 260,
     "tot": 580,
     "tot_b": 485,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "mesprit": {
     "dex_id": 226,
@@ -6591,8 +6591,8 @@
     "sum_def": 210,
     "tot": 580,
     "tot_b": 500,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "azelf": {
     "dex_id": 227,
@@ -6621,8 +6621,8 @@
     "sum_def": 140,
     "tot": 580,
     "tot_b": 465,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "heatran": {
     "dex_id": 228,
@@ -6652,7 +6652,7 @@
     "tot": 600,
     "tot_b": 523,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "regigigas": {
     "dex_id": 229,
@@ -6682,7 +6682,7 @@
     "tot": 670,
     "tot_b": 570,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "cresselia": {
     "dex_id": 230,
@@ -6711,8 +6711,8 @@
     "sum_def": 230,
     "tot": 580,
     "tot_b": 495,
-    "atk_type": "SpA",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "tornadus-incarnate": {
     "dex_id": 231,
@@ -6741,8 +6741,8 @@
     "sum_def": 150,
     "tot": 580,
     "tot_b": 469,
-    "atk_type": "SpA",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "tornadus-therian": {
     "dex_id": 231,
@@ -6771,8 +6771,8 @@
     "sum_def": 170,
     "tot": 580,
     "tot_b": 459,
-    "atk_type": "SpA",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "thundurus-incarnate": {
     "dex_id": 232,
@@ -6801,8 +6801,8 @@
     "sum_def": 150,
     "tot": 580,
     "tot_b": 469,
-    "atk_type": "SpA",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "thundurus-therian": {
     "dex_id": 232,
@@ -6832,7 +6832,7 @@
     "tot": 580,
     "tot_b": 479,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "landorus-incarnate": {
     "dex_id": 233,
@@ -6861,8 +6861,8 @@
     "sum_def": 170,
     "tot": 600,
     "tot_b": 499,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "landorus-therian": {
     "dex_id": 233,
@@ -6892,7 +6892,7 @@
     "tot": 600,
     "tot_b": 509,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "enamorus-incarnate": {
     "dex_id": 234,
@@ -6922,7 +6922,7 @@
     "tot": 580,
     "tot_b": 474,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "enamorus-therian": {
     "dex_id": 234,
@@ -6952,7 +6952,7 @@
     "tot": 580,
     "tot_b": 534,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "dialga": {
     "dex_id": 235,
@@ -7012,7 +7012,7 @@
     "tot": 680,
     "tot_b": 590,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "palkia": {
     "dex_id": 236,
@@ -7101,8 +7101,8 @@
     "sum_def": 240,
     "tot": 680,
     "tot_b": 590,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "giratina-origin": {
     "dex_id": 237,
@@ -7131,8 +7131,8 @@
     "sum_def": 200,
     "tot": 680,
     "tot_b": 590,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "arceus": {
     "dex_id": 238,
@@ -7161,8 +7161,8 @@
     "sum_def": 240,
     "tot": 720,
     "tot_b": 600,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "phione": {
     "dex_id": 239,
@@ -7192,8 +7192,8 @@
     "sum_def": 160,
     "tot": 480,
     "tot_b": 400,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "manaphy": {
     "dex_id": 240,
@@ -7223,8 +7223,8 @@
     "sum_def": 200,
     "tot": 600,
     "tot_b": 500,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "shaymin-land": {
     "dex_id": 241,
@@ -7253,8 +7253,8 @@
     "sum_def": 200,
     "tot": 600,
     "tot_b": 500,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "shaymin-sky": {
     "dex_id": 241,
@@ -7284,7 +7284,7 @@
     "tot": 600,
     "tot_b": 473,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "darkrai": {
     "dex_id": 242,
@@ -7314,7 +7314,7 @@
     "tot": 600,
     "tot_b": 475,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "doduo": {
     "dex_id": 1,
@@ -7374,7 +7374,7 @@
     "tot": 470,
     "tot_b": 360,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "exeggcute": {
     "dex_id": 3,
@@ -7434,7 +7434,7 @@
     "tot": 530,
     "tot_b": 475,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "exeggutor-alola": {
     "dex_id": 4,
@@ -7464,7 +7464,7 @@
     "tot": 530,
     "tot_b": 485,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "venonat": {
     "dex_id": 256,
@@ -7494,7 +7494,7 @@
     "tot": 305,
     "tot_b": 260,
     "atk_type": "Atk",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "venomoth": {
     "dex_id": 257,
@@ -7674,7 +7674,7 @@
     "tot": 295,
     "tot_b": 219,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "zebstrika": {
     "dex_id": 24,
@@ -7704,7 +7704,7 @@
     "tot": 497,
     "tot_b": 381,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "girafarig": {
     "dex_id": 192,
@@ -7733,8 +7733,8 @@
     "sum_def": 130,
     "tot": 455,
     "tot_b": 370,
-    "atk_type": "SpA",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "farigiraf": {
     "dex_id": 193,
@@ -7764,7 +7764,7 @@
     "tot": 520,
     "tot_b": 460,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "sandile": {
     "dex_id": 267,
@@ -7794,7 +7794,7 @@
     "tot": 292,
     "tot_b": 227,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "krokorok": {
     "dex_id": 268,
@@ -7824,7 +7824,7 @@
     "tot": 351,
     "tot_b": 277,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "krookodile": {
     "dex_id": 269,
@@ -7854,7 +7854,7 @@
     "tot": 519,
     "tot_b": 427,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "rellor": {
     "dex_id": 254,
@@ -7884,7 +7884,7 @@
     "tot": 270,
     "tot_b": 240,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "rabsca": {
     "dex_id": 255,
@@ -7944,7 +7944,7 @@
     "tot": 370,
     "tot_b": 310,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "mandibuzz": {
     "dex_id": 128,
@@ -7974,7 +7974,7 @@
     "tot": 510,
     "tot_b": 430,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "litleo": {
     "dex_id": 224,
@@ -8004,7 +8004,7 @@
     "tot": 369,
     "tot_b": 297,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "pyroar": {
     "dex_id": 225,
@@ -8034,7 +8034,7 @@
     "tot": 507,
     "tot_b": 401,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "deerling": {
     "dex_id": 190,
@@ -8064,7 +8064,7 @@
     "tot": 335,
     "tot_b": 260,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "sawsbuck": {
     "dex_id": 191,
@@ -8094,7 +8094,7 @@
     "tot": 475,
     "tot_b": 380,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "smeargle": {
     "dex_id": 40,
@@ -8123,7 +8123,7 @@
     "sum_def": 80,
     "tot": 250,
     "tot_b": 175,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "milcery": {
@@ -8217,7 +8217,7 @@
     "tot": 290,
     "tot_b": 280,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "vibrava": {
     "dex_id": 45,
@@ -8248,7 +8248,7 @@
     "tot": 340,
     "tot_b": 270,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "flygon": {
     "dex_id": 46,
@@ -8279,7 +8279,7 @@
     "tot": 520,
     "tot_b": 420,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "pikipek": {
     "dex_id": 47,
@@ -8309,7 +8309,7 @@
     "tot": 265,
     "tot_b": 200,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "trumbeak": {
     "dex_id": 48,
@@ -8339,7 +8339,7 @@
     "tot": 355,
     "tot_b": 280,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "toucannon": {
     "dex_id": 49,
@@ -8369,7 +8369,7 @@
     "tot": 485,
     "tot_b": 425,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "horsea": {
     "dex_id": 52,
@@ -8461,8 +8461,8 @@
     "sum_def": 190,
     "tot": 540,
     "tot_b": 455,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "bruxish": {
     "dex_id": 335,
@@ -8492,7 +8492,7 @@
     "tot": 475,
     "tot_b": 383,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "cottonee": {
     "dex_id": 56,
@@ -8553,8 +8553,8 @@
     "sum_def": 160,
     "tot": 480,
     "tot_b": 364,
-    "atk_type": "SpA",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "comfey": {
     "dex_id": 58,
@@ -8734,7 +8734,7 @@
     "tot": 395,
     "tot_b": 355,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "vileplume": {
     "dex_id": 64,
@@ -8764,7 +8764,7 @@
     "tot": 490,
     "tot_b": 440,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "bellossom": {
     "dex_id": 65,
@@ -8793,8 +8793,8 @@
     "sum_def": 195,
     "tot": 490,
     "tot_b": 440,
-    "atk_type": "SpA",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "diglett": {
     "dex_id": 148,
@@ -8944,7 +8944,7 @@
     "tot": 325,
     "tot_b": 300,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "grimer-alola": {
     "dex_id": 194,
@@ -8974,7 +8974,7 @@
     "tot": 325,
     "tot_b": 300,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "muk": {
     "dex_id": 195,
@@ -9064,7 +9064,7 @@
     "tot": 458,
     "tot_b": 368,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "seviper": {
     "dex_id": 218,
@@ -9094,8 +9094,8 @@
     "sum_def": 120,
     "tot": 458,
     "tot_b": 393,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "crabrawler": {
     "dex_id": 118,
@@ -9155,7 +9155,7 @@
     "tot": 478,
     "tot_b": 435,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "oricorio-baile": {
     "dex_id": 100,
@@ -9185,7 +9185,7 @@
     "tot": 476,
     "tot_b": 383,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "oricorio-pom-pom": {
     "dex_id": 100,
@@ -9215,7 +9215,7 @@
     "tot": 476,
     "tot_b": 383,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "oricorio-pau": {
     "dex_id": 100,
@@ -9245,7 +9245,7 @@
     "tot": 476,
     "tot_b": 383,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "oricorio-sensu": {
     "dex_id": 100,
@@ -9275,7 +9275,7 @@
     "tot": 476,
     "tot_b": 383,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "slowpoke": {
     "dex_id": 324,
@@ -9398,7 +9398,7 @@
     "sum_def": 165,
     "tot": 490,
     "tot_b": 460,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "slowking": {
@@ -9552,7 +9552,7 @@
     "tot": 288,
     "tot_b": 243,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "malamar": {
     "dex_id": 81,
@@ -9583,7 +9583,7 @@
     "tot": 482,
     "tot_b": 409,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "luvdisc": {
     "dex_id": 332,
@@ -9673,7 +9673,7 @@
     "sum_def": 210,
     "tot": 470,
     "tot_b": 450,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "fletchling": {
@@ -9704,7 +9704,7 @@
     "tot": 278,
     "tot_b": 216,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "fletchinder": {
     "dex_id": 20,
@@ -9734,7 +9734,7 @@
     "tot": 382,
     "tot_b": 298,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "talonflame": {
     "dex_id": 21,
@@ -9763,8 +9763,8 @@
     "sum_def": 140,
     "tot": 499,
     "tot_b": 373,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "dewpider": {
     "dex_id": 90,
@@ -9794,7 +9794,7 @@
     "sum_def": 124,
     "tot": 269,
     "tot_b": 242,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "araquanid": {
@@ -9855,8 +9855,8 @@
     "sum_def": 70,
     "tot": 210,
     "tot_b": 175,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "hitmonlee": {
     "dex_id": 93,
@@ -9976,7 +9976,7 @@
     "tot": 328,
     "tot_b": 260,
     "atk_type": "Atk",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "excadrill": {
     "dex_id": 100,
@@ -10006,7 +10006,7 @@
     "tot": 508,
     "tot_b": 420,
     "atk_type": "Atk",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "gothita": {
     "dex_id": 234,
@@ -10126,7 +10126,7 @@
     "tot": 355,
     "tot_b": 287,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "meowstic-male": {
     "dex_id": 105,
@@ -10156,7 +10156,7 @@
     "tot": 466,
     "tot_b": 362,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "meowstic-female": {
     "dex_id": 105,
@@ -10186,7 +10186,7 @@
     "tot": 466,
     "tot_b": 362,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "minior-red-meteor": {
     "dex_id": 106,
@@ -10215,8 +10215,8 @@
     "sum_def": 200,
     "tot": 440,
     "tot_b": 380,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "minior-orange-meteor": {
     "dex_id": 106,
@@ -10245,8 +10245,8 @@
     "sum_def": 200,
     "tot": 440,
     "tot_b": 380,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "minior-yellow-meteor": {
     "dex_id": 106,
@@ -10275,8 +10275,8 @@
     "sum_def": 200,
     "tot": 440,
     "tot_b": 380,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "minior-green-meteor": {
     "dex_id": 106,
@@ -10305,8 +10305,8 @@
     "sum_def": 200,
     "tot": 440,
     "tot_b": 380,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "minior-blue-meteor": {
     "dex_id": 106,
@@ -10335,8 +10335,8 @@
     "sum_def": 200,
     "tot": 440,
     "tot_b": 380,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "minior-indigo-meteor": {
     "dex_id": 106,
@@ -10365,8 +10365,8 @@
     "sum_def": 200,
     "tot": 440,
     "tot_b": 380,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "minior-violet-meteor": {
     "dex_id": 106,
@@ -10395,8 +10395,8 @@
     "sum_def": 200,
     "tot": 440,
     "tot_b": 380,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "minior-red": {
     "dex_id": 106,
@@ -10425,8 +10425,8 @@
     "sum_def": 120,
     "tot": 500,
     "tot_b": 380,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "minior-orange": {
     "dex_id": 106,
@@ -10455,8 +10455,8 @@
     "sum_def": 120,
     "tot": 500,
     "tot_b": 380,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "minior-yellow": {
     "dex_id": 106,
@@ -10485,8 +10485,8 @@
     "sum_def": 120,
     "tot": 500,
     "tot_b": 380,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "minior-green": {
     "dex_id": 106,
@@ -10515,8 +10515,8 @@
     "sum_def": 120,
     "tot": 500,
     "tot_b": 380,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "minior-blue": {
     "dex_id": 106,
@@ -10545,8 +10545,8 @@
     "sum_def": 120,
     "tot": 500,
     "tot_b": 380,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "minior-indigo": {
     "dex_id": 106,
@@ -10575,8 +10575,8 @@
     "sum_def": 120,
     "tot": 500,
     "tot_b": 380,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "minior-violet": {
     "dex_id": 106,
@@ -10605,8 +10605,8 @@
     "sum_def": 120,
     "tot": 500,
     "tot_b": 380,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "minccino": {
     "dex_id": 111,
@@ -10636,7 +10636,7 @@
     "tot": 300,
     "tot_b": 225,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "cinccino": {
     "dex_id": 112,
@@ -10666,7 +10666,7 @@
     "tot": 470,
     "tot_b": 355,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "skarmory": {
     "dex_id": 113,
@@ -10726,7 +10726,7 @@
     "sum_def": 135,
     "tot": 310,
     "tot_b": 260,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "altaria": {
@@ -10757,7 +10757,7 @@
     "sum_def": 195,
     "tot": 490,
     "tot_b": 410,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "plusle": {
@@ -10849,7 +10849,7 @@
     "tot": 348,
     "tot_b": 300,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "scrafty": {
     "dex_id": 122,
@@ -10880,7 +10880,7 @@
     "tot": 488,
     "tot_b": 430,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "golett": {
     "dex_id": 123,
@@ -10910,7 +10910,7 @@
     "tot": 303,
     "tot_b": 268,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "golurk": {
     "dex_id": 124,
@@ -10940,7 +10940,7 @@
     "tot": 483,
     "tot_b": 428,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "numel": {
     "dex_id": 151,
@@ -10969,8 +10969,8 @@
     "sum_def": 85,
     "tot": 305,
     "tot_b": 270,
-    "atk_type": "SpA",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "camerupt": {
     "dex_id": 152,
@@ -10999,8 +10999,8 @@
     "sum_def": 145,
     "tot": 460,
     "tot_b": 420,
-    "atk_type": "SpA",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "sinistea": {
     "dex_id": 237,
@@ -11092,7 +11092,7 @@
     "tot": 319,
     "tot_b": 254,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "galvantula": {
     "dex_id": 133,
@@ -11122,7 +11122,7 @@
     "tot": 472,
     "tot_b": 364,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "tynamo": {
     "dex_id": 341,
@@ -11152,7 +11152,7 @@
     "tot": 275,
     "tot_b": 215,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "eelektrik": {
     "dex_id": 342,
@@ -11181,8 +11181,8 @@
     "sum_def": 140,
     "tot": 405,
     "tot_b": 365,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "eelektross": {
     "dex_id": 343,
@@ -11211,8 +11211,8 @@
     "sum_def": 160,
     "tot": 515,
     "tot_b": 465,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "beldum": {
     "dex_id": 137,
@@ -11425,7 +11425,7 @@
     "sum_def": 125,
     "tot": 325,
     "tot_b": 280,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "dewgong": {
@@ -11456,7 +11456,7 @@
     "sum_def": 175,
     "tot": 475,
     "tot_b": 405,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "lapras": {
@@ -11487,7 +11487,7 @@
     "sum_def": 175,
     "tot": 535,
     "tot_b": 475,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "solosis": {
@@ -11578,7 +11578,7 @@
     "tot": 490,
     "tot_b": 460,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "snubbull": {
     "dex_id": 151,
@@ -11669,8 +11669,8 @@
     "sum_def": 80,
     "tot": 305,
     "tot_b": 265,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "beartic": {
     "dex_id": 356,
@@ -11700,7 +11700,7 @@
     "tot": 505,
     "tot_b": 455,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "sandshrew": {
     "dex_id": 116,
@@ -12062,7 +12062,7 @@
     "tot": 405,
     "tot_b": 325,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "charizard": {
     "dex_id": 169,
@@ -12093,7 +12093,7 @@
     "tot": 534,
     "tot_b": 434,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "squirtle": {
     "dex_id": 170,
@@ -12123,8 +12123,8 @@
     "sum_def": 129,
     "tot": 314,
     "tot_b": 271,
-    "atk_type": "SpA",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "wartortle": {
     "dex_id": 171,
@@ -12154,8 +12154,8 @@
     "sum_def": 160,
     "tot": 405,
     "tot_b": 347,
-    "atk_type": "SpA",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "blastoise": {
     "dex_id": 172,
@@ -12185,8 +12185,8 @@
     "sum_def": 205,
     "tot": 530,
     "tot_b": 452,
-    "atk_type": "SpA",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "chikorita": {
     "dex_id": 173,
@@ -12216,8 +12216,8 @@
     "sum_def": 130,
     "tot": 318,
     "tot_b": 273,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "bayleef": {
     "dex_id": 174,
@@ -12247,8 +12247,8 @@
     "sum_def": 160,
     "tot": 405,
     "tot_b": 345,
-    "atk_type": "SpA",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "meganium": {
     "dex_id": 175,
@@ -12278,8 +12278,8 @@
     "sum_def": 200,
     "tot": 525,
     "tot_b": 445,
-    "atk_type": "SpA",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "totodile": {
     "dex_id": 179,
@@ -12524,8 +12524,8 @@
     "sum_def": 120,
     "tot": 405,
     "tot_b": 350,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "blaziken": {
     "dex_id": 187,
@@ -12554,8 +12554,8 @@
     "sum_def": 140,
     "tot": 530,
     "tot_b": 450,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "mudkip": {
     "dex_id": 188,
@@ -12586,7 +12586,7 @@
     "tot": 310,
     "tot_b": 270,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "marshtomp": {
     "dex_id": 189,
@@ -12617,7 +12617,7 @@
     "tot": 405,
     "tot_b": 355,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "swampert": {
     "dex_id": 190,
@@ -12648,7 +12648,7 @@
     "tot": 535,
     "tot_b": 475,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "snivy": {
     "dex_id": 200,
@@ -12678,8 +12678,8 @@
     "sum_def": 110,
     "tot": 308,
     "tot_b": 245,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "servine": {
     "dex_id": 201,
@@ -12709,8 +12709,8 @@
     "sum_def": 150,
     "tot": 413,
     "tot_b": 330,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "serperior": {
     "dex_id": 202,
@@ -12740,8 +12740,8 @@
     "sum_def": 190,
     "tot": 528,
     "tot_b": 415,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "tepig": {
     "dex_id": 203,
@@ -12771,7 +12771,7 @@
     "tot": 308,
     "tot_b": 263,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "pignite": {
     "dex_id": 204,
@@ -12801,7 +12801,7 @@
     "tot": 418,
     "tot_b": 363,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "emboar": {
     "dex_id": 205,
@@ -12831,7 +12831,7 @@
     "tot": 528,
     "tot_b": 463,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "chespin": {
     "dex_id": 209,
@@ -13040,8 +13040,8 @@
     "sum_def": 84,
     "tot": 314,
     "tot_b": 243,
-    "atk_type": "SpA",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "frogadier": {
     "dex_id": 216,
@@ -13071,7 +13071,7 @@
     "tot": 405,
     "tot_b": 308,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "greninja": {
     "dex_id": 217,
@@ -13100,8 +13100,8 @@
     "sum_def": 138,
     "tot": 530,
     "tot_b": 408,
-    "atk_type": "SpA",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "greninja-battle-bond": {
     "dex_id": 217,
@@ -13130,8 +13130,8 @@
     "sum_def": 138,
     "tot": 530,
     "tot_b": 408,
-    "atk_type": "SpA",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "greninja-ash": {
     "dex_id": 217,
@@ -13160,8 +13160,8 @@
     "sum_def": 138,
     "tot": 640,
     "tot_b": 508,
-    "atk_type": "SpA",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "litten": {
     "dex_id": 221,
@@ -13190,8 +13190,8 @@
     "sum_def": 80,
     "tot": 320,
     "tot_b": 250,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "torracat": {
     "dex_id": 222,
@@ -13220,8 +13220,8 @@
     "sum_def": 100,
     "tot": 420,
     "tot_b": 330,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "incineroar": {
     "dex_id": 223,
@@ -13251,7 +13251,7 @@
     "tot": 530,
     "tot_b": 470,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "popplio": {
     "dex_id": 224,
@@ -13282,7 +13282,7 @@
     "tot": 320,
     "tot_b": 280,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "brionne": {
     "dex_id": 225,
@@ -13406,7 +13406,7 @@
     "tot": 420,
     "tot_b": 340,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "rillaboom": {
     "dex_id": 229,
@@ -13468,7 +13468,7 @@
     "tot": 310,
     "tot_b": 241,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "raboot": {
     "dex_id": 231,
@@ -13499,7 +13499,7 @@
     "tot": 420,
     "tot_b": 326,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "cinderace": {
     "dex_id": 232,
@@ -13530,7 +13530,7 @@
     "tot": 530,
     "tot_b": 411,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "sobble": {
     "dex_id": 233,
@@ -13561,7 +13561,7 @@
     "tot": 310,
     "tot_b": 240,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "drizzile": {
     "dex_id": 234,
@@ -13592,7 +13592,7 @@
     "tot": 420,
     "tot_b": 330,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "inteleon": {
     "dex_id": 235,
@@ -13623,7 +13623,7 @@
     "tot": 530,
     "tot_b": 410,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "gouging-fire": {
     "dex_id": 236,
@@ -13679,7 +13679,7 @@
     "tot": 590,
     "tot_b": 515,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "iron-crown": {
     "dex_id": 238,
@@ -13707,7 +13707,7 @@
     "tot": 590,
     "tot_b": 492,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "iron-boulder": {
     "dex_id": 239,
@@ -13762,8 +13762,8 @@
     "sum_def": 170,
     "tot": 450,
     "tot_b": 390,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "terapagos-terastal": {
     "dex_id": 240,
@@ -13790,8 +13790,8 @@
     "sum_def": 220,
     "tot": 600,
     "tot_b": 515,
-    "atk_type": "SpA",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "terapagos-stellar": {
     "dex_id": 240,
@@ -13818,8 +13818,8 @@
     "sum_def": 220,
     "tot": 600,
     "tot_b": 515,
-    "atk_type": "SpA",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "walking-wake": {
     "dex_id": 241,
@@ -13849,7 +13849,7 @@
     "tot": 590,
     "tot_b": 481,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "iron-leaves": {
     "dex_id": 242,
@@ -13906,7 +13906,7 @@
     "sum_def": 248,
     "tot": 600,
     "tot_b": 512,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "spinarak": {
@@ -13937,7 +13937,7 @@
     "tot": 250,
     "tot_b": 220,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "ariados": {
     "dex_id": 2,
@@ -13967,7 +13967,7 @@
     "tot": 400,
     "tot_b": 360,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "wooper": {
     "dex_id": 53,
@@ -14090,7 +14090,7 @@
     "tot": 220,
     "tot_b": 185,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "mightyena": {
     "dex_id": 8,
@@ -14120,7 +14120,7 @@
     "tot": 420,
     "tot_b": 350,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "volbeat": {
     "dex_id": 9,
@@ -14151,7 +14151,7 @@
     "tot": 430,
     "tot_b": 345,
     "atk_type": "Atk",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "illumise": {
     "dex_id": 10,
@@ -14182,7 +14182,7 @@
     "tot": 430,
     "tot_b": 345,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "corphish": {
     "dex_id": 11,
@@ -14274,7 +14274,7 @@
     "tot": 310,
     "tot_b": 268,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "swadloon": {
     "dex_id": 14,
@@ -14304,7 +14304,7 @@
     "tot": 380,
     "tot_b": 338,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "leavanny": {
     "dex_id": 15,
@@ -14334,7 +14334,7 @@
     "tot": 500,
     "tot_b": 408,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "cutiefly": {
     "dex_id": 16,
@@ -14365,7 +14365,7 @@
     "tot": 304,
     "tot_b": 220,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "ribombee": {
     "dex_id": 17,
@@ -14458,7 +14458,7 @@
     "tot": 448,
     "tot_b": 368,
     "atk_type": "Atk",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "bellsprout": {
     "dex_id": 23,
@@ -14487,8 +14487,8 @@
     "sum_def": 65,
     "tot": 300,
     "tot_b": 260,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "weepinbell": {
     "dex_id": 24,
@@ -14517,8 +14517,8 @@
     "sum_def": 95,
     "tot": 390,
     "tot_b": 335,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "victreebel": {
     "dex_id": 25,
@@ -14547,8 +14547,8 @@
     "sum_def": 135,
     "tot": 490,
     "tot_b": 420,
-    "atk_type": "Atk",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "sentret": {
     "dex_id": 26,
@@ -14608,7 +14608,7 @@
     "tot": 415,
     "tot_b": 325,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "fomantis": {
     "dex_id": 247,
@@ -14637,8 +14637,8 @@
     "sum_def": 70,
     "tot": 250,
     "tot_b": 215,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "lurantis": {
     "dex_id": 248,
@@ -14668,7 +14668,7 @@
     "tot": 480,
     "tot_b": 435,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "applin": {
     "dex_id": 108,
@@ -14698,7 +14698,7 @@
     "sum_def": 120,
     "tot": 260,
     "tot_b": 240,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "flapple": {
@@ -14729,7 +14729,7 @@
     "sum_def": 140,
     "tot": 485,
     "tot_b": 415,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "appletun": {
@@ -14761,7 +14761,7 @@
     "tot": 485,
     "tot_b": 455,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "dipplin": {
     "dex_id": 36,
@@ -14819,7 +14819,7 @@
     "tot": 300,
     "tot_b": 210,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "poliwhirl": {
     "dex_id": 40,
@@ -14879,7 +14879,7 @@
     "tot": 510,
     "tot_b": 440,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "politoed": {
     "dex_id": 42,
@@ -15030,8 +15030,8 @@
     "sum_def": 80,
     "tot": 340,
     "tot_b": 280,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "shiftry": {
     "dex_id": 56,
@@ -15061,8 +15061,8 @@
     "sum_def": 120,
     "tot": 480,
     "tot_b": 400,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "phantump": {
     "dex_id": 68,
@@ -15124,7 +15124,7 @@
     "tot": 474,
     "tot_b": 418,
     "atk_type": "Atk",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "rockruff": {
     "dex_id": 89,
@@ -15154,7 +15154,7 @@
     "tot": 280,
     "tot_b": 220,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "rockruff-own-tempo": {
     "dex_id": 89,
@@ -15184,7 +15184,7 @@
     "tot": 280,
     "tot_b": 220,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "lycanroc-midday": {
     "dex_id": 90,
@@ -15214,7 +15214,7 @@
     "tot": 487,
     "tot_b": 375,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "lycanroc-midnight": {
     "dex_id": 90,
@@ -15244,7 +15244,7 @@
     "tot": 487,
     "tot_b": 405,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "lycanroc-dusk": {
     "dex_id": 90,
@@ -15274,7 +15274,7 @@
     "tot": 487,
     "tot_b": 377,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "skwovet": {
     "dex_id": 29,
@@ -15393,7 +15393,7 @@
     "sum_def": 185,
     "tot": 515,
     "tot_b": 415,
-    "atk_type": "SpA",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "poltchageist": {
@@ -15571,7 +15571,7 @@
     "tot": 245,
     "tot_b": 190,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "noivern": {
     "dex_id": 304,
@@ -15602,7 +15602,7 @@
     "tot": 535,
     "tot_b": 412,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "arrokuda": {
     "dex_id": 136,
@@ -15722,7 +15722,7 @@
     "tot": 370,
     "tot_b": 321,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "hatterene": {
     "dex_id": 284,
@@ -15752,7 +15752,7 @@
     "tot": 510,
     "tot_b": 481,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "morpeko-full-belly": {
     "dex_id": 95,
@@ -15783,7 +15783,7 @@
     "tot": 436,
     "tot_b": 339,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "morpeko-hangry": {
     "dex_id": 95,
@@ -15814,7 +15814,7 @@
     "tot": 436,
     "tot_b": 339,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "orthworm": {
     "dex_id": 296,
@@ -15875,7 +15875,7 @@
     "tot": 305,
     "tot_b": 230,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "maushold": {
     "dex_id": 72,
@@ -15905,8 +15905,8 @@
     "sum_def": 145,
     "tot": 470,
     "tot_b": 359,
-    "atk_type": "Atk",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "maushold-family-of-three": {
     "dex_id": 72,
@@ -15936,8 +15936,8 @@
     "sum_def": 145,
     "tot": 470,
     "tot_b": 359,
-    "atk_type": "Atk",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "mankey": {
     "dex_id": 158,
@@ -16027,7 +16027,7 @@
     "tot": 535,
     "tot_b": 445,
     "atk_type": "Atk",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "lotad": {
     "dex_id": 104,
@@ -16149,8 +16149,8 @@
     "sum_def": 90,
     "tot": 300,
     "tot_b": 254,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "charjabug": {
     "dex_id": 113,
@@ -16390,7 +16390,7 @@
     "tot": 500,
     "tot_b": 465,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "jangmo-o": {
     "dex_id": 131,
@@ -16449,7 +16449,7 @@
     "sum_def": 160,
     "tot": 420,
     "tot_b": 355,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "kommo-o": {
@@ -16479,7 +16479,7 @@
     "sum_def": 230,
     "tot": 600,
     "tot_b": 515,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "bombirdier": {
@@ -16510,7 +16510,7 @@
     "tot": 485,
     "tot_b": 403,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "koffing": {
     "dex_id": 135,
@@ -16539,7 +16539,7 @@
     "sum_def": 140,
     "tot": 340,
     "tot_b": 305,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "weezing": {
@@ -16569,7 +16569,7 @@
     "sum_def": 190,
     "tot": 490,
     "tot_b": 430,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "weezing-galar": {
@@ -16599,7 +16599,7 @@
     "sum_def": 190,
     "tot": 490,
     "tot_b": 430,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "mienfoo": {
@@ -16631,7 +16631,7 @@
     "tot": 350,
     "tot_b": 285,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "mienshao": {
     "dex_id": 138,
@@ -16662,7 +16662,7 @@
     "tot": 510,
     "tot_b": 405,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "slugma": {
     "dex_id": 144,
@@ -16692,7 +16692,7 @@
     "tot": 250,
     "tot_b": 230,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "magcargo": {
     "dex_id": 145,
@@ -16752,7 +16752,7 @@
     "tot": 275,
     "tot_b": 255,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "lampent": {
     "dex_id": 147,
@@ -16782,7 +16782,7 @@
     "tot": 370,
     "tot_b": 315,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "chandelure": {
     "dex_id": 148,
@@ -16812,7 +16812,7 @@
     "tot": 520,
     "tot_b": 440,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "surskit": {
     "dex_id": 49,
@@ -16934,7 +16934,7 @@
     "tot": 525,
     "tot_b": 439,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "feebas": {
     "dex_id": 158,
@@ -17025,8 +17025,8 @@
     "sum_def": 135,
     "tot": 415,
     "tot_b": 370,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "dudunsparce": {
     "dex_id": 189,
@@ -17055,8 +17055,8 @@
     "sum_def": 155,
     "tot": 520,
     "tot_b": 465,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "dudunsparce-three-segment": {
     "dex_id": 189,
@@ -17085,8 +17085,8 @@
     "sum_def": 155,
     "tot": 520,
     "tot_b": 465,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "carbink": {
     "dex_id": 167,
@@ -17116,8 +17116,8 @@
     "sum_def": 300,
     "tot": 500,
     "tot_b": 450,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "salandit": {
     "dex_id": 120,
@@ -17148,7 +17148,7 @@
     "tot": 320,
     "tot_b": 243,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "salazzle": {
     "dex_id": 121,
@@ -17179,7 +17179,7 @@
     "tot": 480,
     "tot_b": 363,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "ducklett": {
     "dex_id": 181,
@@ -17209,8 +17209,8 @@
     "sum_def": 100,
     "tot": 305,
     "tot_b": 250,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "swanna": {
     "dex_id": 182,
@@ -17240,8 +17240,8 @@
     "sum_def": 126,
     "tot": 473,
     "tot_b": 375,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "chewtle": {
     "dex_id": 57,
@@ -17333,7 +17333,7 @@
     "sum_def": 150,
     "tot": 475,
     "tot_b": 390,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "cramorant-gulping": {
@@ -17364,7 +17364,7 @@
     "sum_def": 150,
     "tot": 475,
     "tot_b": 390,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "cramorant-gorging": {
@@ -17395,7 +17395,7 @@
     "sum_def": 150,
     "tot": 475,
     "tot_b": 390,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "pawniard": {
@@ -17871,7 +17871,7 @@
     "tot": 550,
     "tot_b": 440,
     "atk_type": "Atk",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "ogerpon-wellspring-mask": {
     "dex_id": 200,
@@ -17899,7 +17899,7 @@
     "tot": 550,
     "tot_b": 440,
     "atk_type": "Atk",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "ogerpon-hearthflame-mask": {
     "dex_id": 200,
@@ -17927,7 +17927,7 @@
     "tot": 550,
     "tot_b": 440,
     "atk_type": "Atk",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "ogerpon-cornerstone-mask": {
     "dex_id": 200,
@@ -17955,7 +17955,7 @@
     "tot": 550,
     "tot_b": 440,
     "atk_type": "Atk",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "sprigatito": {
     "dex_id": 1,
@@ -18017,7 +18017,7 @@
     "tot": 410,
     "tot_b": 327,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "meowscarada": {
     "dex_id": 3,
@@ -18048,7 +18048,7 @@
     "tot": 530,
     "tot_b": 407,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "fuecoco": {
     "dex_id": 4,
@@ -18169,7 +18169,7 @@
     "tot": 310,
     "tot_b": 260,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "quaxwell": {
     "dex_id": 8,
@@ -18200,7 +18200,7 @@
     "tot": 410,
     "tot_b": 345,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "quaquaval": {
     "dex_id": 9,
@@ -18231,7 +18231,7 @@
     "tot": 530,
     "tot_b": 445,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "lechonk": {
     "dex_id": 10,
@@ -18261,7 +18261,7 @@
     "tot": 254,
     "tot_b": 219,
     "atk_type": "Atk",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "oinkologne": {
     "dex_id": 11,
@@ -18291,7 +18291,7 @@
     "tot": 489,
     "tot_b": 424,
     "atk_type": "Atk",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "oinkologne-female": {
     "dex_id": 11,
@@ -18351,7 +18351,7 @@
     "tot": 210,
     "tot_b": 190,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "spidops": {
     "dex_id": 13,
@@ -18381,7 +18381,7 @@
     "tot": 404,
     "tot_b": 369,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "nymble": {
     "dex_id": 14,
@@ -18471,7 +18471,7 @@
     "sum_def": 95,
     "tot": 250,
     "tot_b": 200,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "skiploom": {
@@ -18502,7 +18502,7 @@
     "sum_def": 115,
     "tot": 340,
     "tot_b": 260,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "jumpluff": {
@@ -18533,7 +18533,7 @@
     "sum_def": 165,
     "tot": 460,
     "tot_b": 350,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "pawmi": {
@@ -18594,7 +18594,7 @@
     "tot": 350,
     "tot_b": 265,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "pawmot": {
     "dex_id": 24,
@@ -18624,7 +18624,7 @@
     "tot": 490,
     "tot_b": 385,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "yungoos": {
     "dex_id": 27,
@@ -18654,7 +18654,7 @@
     "tot": 253,
     "tot_b": 208,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "gumshoos": {
     "dex_id": 28,
@@ -18684,7 +18684,7 @@
     "tot": 418,
     "tot_b": 373,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "sunkern": {
     "dex_id": 31,
@@ -18713,8 +18713,8 @@
     "sum_def": 60,
     "tot": 180,
     "tot_b": 150,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "sunflora": {
     "dex_id": 32,
@@ -18834,7 +18834,7 @@
     "tot": 411,
     "tot_b": 322,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "rookidee": {
     "dex_id": 40,
@@ -18864,7 +18864,7 @@
     "tot": 245,
     "tot_b": 188,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "corvisquire": {
     "dex_id": 41,
@@ -18894,7 +18894,7 @@
     "tot": 365,
     "tot_b": 288,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "corviknight": {
     "dex_id": 42,
@@ -18953,8 +18953,8 @@
     "sum_def": 80,
     "tot": 190,
     "tot_b": 170,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "marill": {
     "dex_id": 47,
@@ -18984,8 +18984,8 @@
     "sum_def": 100,
     "tot": 250,
     "tot_b": 210,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "azumarill": {
     "dex_id": 48,
@@ -19016,7 +19016,7 @@
     "tot": 420,
     "tot_b": 370,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "clodsire": {
     "dex_id": 54,
@@ -19106,7 +19106,7 @@
     "sum_def": 45,
     "tot": 270,
     "tot_b": 250,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "wigglytuff": {
@@ -19137,7 +19137,7 @@
     "tot": 435,
     "tot_b": 390,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "drowzee": {
     "dex_id": 66,
@@ -19166,7 +19166,7 @@
     "sum_def": 135,
     "tot": 328,
     "tot_b": 286,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "hypno": {
@@ -19196,7 +19196,7 @@
     "sum_def": 185,
     "tot": 483,
     "tot_b": 416,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "fidough": {
@@ -19288,8 +19288,8 @@
     "sum_def": 76,
     "tot": 210,
     "tot_b": 178,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "steenee": {
     "dex_id": 82,
@@ -19318,8 +19318,8 @@
     "sum_def": 96,
     "tot": 290,
     "tot_b": 228,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "tsareena": {
     "dex_id": 83,
@@ -19349,7 +19349,7 @@
     "tot": 510,
     "tot_b": 438,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "smoliv": {
     "dex_id": 84,
@@ -19379,7 +19379,7 @@
     "tot": 260,
     "tot_b": 230,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "dolliv": {
     "dex_id": 85,
@@ -19468,8 +19468,8 @@
     "sum_def": 100,
     "tot": 240,
     "tot_b": 210,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "carkol": {
     "dex_id": 92,
@@ -19498,7 +19498,7 @@
     "sum_def": 160,
     "tot": 410,
     "tot_b": 360,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "coalossal": {
@@ -19528,7 +19528,7 @@
     "sum_def": 210,
     "tot": 510,
     "tot_b": 480,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "mareep": {
@@ -19560,7 +19560,7 @@
     "tot": 280,
     "tot_b": 245,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "flaaffy": {
     "dex_id": 102,
@@ -19591,7 +19591,7 @@
     "tot": 365,
     "tot_b": 320,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "ampharos": {
     "dex_id": 103,
@@ -19622,7 +19622,7 @@
     "tot": 510,
     "tot_b": 455,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "shroomish": {
     "dex_id": 106,
@@ -19652,8 +19652,8 @@
     "sum_def": 120,
     "tot": 295,
     "tot_b": 260,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "breloom": {
     "dex_id": 107,
@@ -19714,7 +19714,7 @@
     "tot": 417,
     "tot_b": 325,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "squawkabilly-blue-plumage": {
     "dex_id": 113,
@@ -19744,7 +19744,7 @@
     "tot": 417,
     "tot_b": 325,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "squawkabilly-yellow-plumage": {
     "dex_id": 113,
@@ -19774,7 +19774,7 @@
     "tot": 417,
     "tot_b": 325,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "squawkabilly-white-plumage": {
     "dex_id": 113,
@@ -19804,7 +19804,7 @@
     "tot": 417,
     "tot_b": 325,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "makuhita": {
     "dex_id": 116,
@@ -19834,7 +19834,7 @@
     "tot": 237,
     "tot_b": 212,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "hariyama": {
     "dex_id": 117,
@@ -19864,7 +19864,7 @@
     "tot": 474,
     "tot_b": 424,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "phanpy": {
     "dex_id": 122,
@@ -19955,7 +19955,7 @@
     "tot": 330,
     "tot_b": 290,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "copperajah": {
     "dex_id": 125,
@@ -19986,7 +19986,7 @@
     "tot": 500,
     "tot_b": 470,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "nacli": {
     "dex_id": 129,
@@ -20107,7 +20107,7 @@
     "tot": 270,
     "tot_b": 185,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "pelipper": {
     "dex_id": 133,
@@ -20167,8 +20167,8 @@
     "sum_def": 106,
     "tot": 302,
     "tot_b": 262,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "swalot": {
     "dex_id": 140,
@@ -20197,8 +20197,8 @@
     "sum_def": 166,
     "tot": 467,
     "tot_b": 412,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "meowth": {
     "dex_id": 141,
@@ -20227,8 +20227,8 @@
     "sum_def": 75,
     "tot": 290,
     "tot_b": 200,
-    "atk_type": "Atk",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "meowth-alola": {
     "dex_id": 141,
@@ -20258,7 +20258,7 @@
     "tot": 290,
     "tot_b": 200,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "meowth-galar": {
     "dex_id": 141,
@@ -20317,8 +20317,8 @@
     "sum_def": 125,
     "tot": 440,
     "tot_b": 325,
-    "atk_type": "Atk",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "persian-alola": {
     "dex_id": 142,
@@ -20348,7 +20348,7 @@
     "tot": 440,
     "tot_b": 325,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "flabebe": {
     "dex_id": 145,
@@ -20497,8 +20497,8 @@
     "sum_def": 110,
     "tot": 280,
     "tot_b": 220,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "medicham": {
     "dex_id": 162,
@@ -20527,8 +20527,8 @@
     "sum_def": 150,
     "tot": 410,
     "tot_b": 330,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "charcadet": {
     "dex_id": 165,
@@ -20557,8 +20557,8 @@
     "sum_def": 80,
     "tot": 255,
     "tot_b": 220,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "armarouge": {
     "dex_id": 166,
@@ -20648,7 +20648,7 @@
     "tot": 272,
     "tot_b": 227,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "bellibolt": {
     "dex_id": 171,
@@ -20678,7 +20678,7 @@
     "tot": 495,
     "tot_b": 450,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "wattrel": {
     "dex_id": 177,
@@ -20709,7 +20709,7 @@
     "tot": 280,
     "tot_b": 210,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "kilowattrel": {
     "dex_id": 178,
@@ -20740,7 +20740,7 @@
     "tot": 490,
     "tot_b": 365,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "maschiff": {
     "dex_id": 196,
@@ -20770,7 +20770,7 @@
     "tot": 340,
     "tot_b": 289,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "mabosstiff": {
     "dex_id": 197,
@@ -20830,7 +20830,7 @@
     "tot": 242,
     "tot_b": 202,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "toxtricity-amped": {
     "dex_id": 199,
@@ -20860,7 +20860,7 @@
     "tot": 502,
     "tot_b": 427,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "toxtricity-low-key": {
     "dex_id": 199,
@@ -20890,7 +20890,7 @@
     "tot": 502,
     "tot_b": 427,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "dedenne": {
     "dex_id": 200,
@@ -20951,7 +20951,7 @@
     "tot": 290,
     "tot_b": 215,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "grafaiai": {
     "dex_id": 203,
@@ -20981,7 +20981,7 @@
     "tot": 485,
     "tot_b": 375,
     "atk_type": "Atk",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "foongus": {
     "dex_id": 205,
@@ -21010,7 +21010,7 @@
     "sum_def": 100,
     "tot": 294,
     "tot_b": 279,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "amoonguss": {
@@ -21040,8 +21040,8 @@
     "sum_def": 150,
     "tot": 464,
     "tot_b": 434,
-    "atk_type": "Atk",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "ditto": {
     "dex_id": 212,
@@ -21070,8 +21070,8 @@
     "sum_def": 96,
     "tot": 288,
     "tot_b": 240,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "skiddo": {
     "dex_id": 221,
@@ -21100,7 +21100,7 @@
     "sum_def": 105,
     "tot": 350,
     "tot_b": 298,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "gogoat": {
@@ -21130,7 +21130,7 @@
     "sum_def": 143,
     "tot": 531,
     "tot_b": 463,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "klefki": {
@@ -21160,8 +21160,8 @@
     "sum_def": 178,
     "tot": 470,
     "tot_b": 395,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "bramblin": {
     "dex_id": 242,
@@ -21221,7 +21221,7 @@
     "tot": 480,
     "tot_b": 390,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "tropius": {
     "dex_id": 246,
@@ -21251,8 +21251,8 @@
     "sum_def": 170,
     "tot": 460,
     "tot_b": 409,
-    "atk_type": "SpA",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "klawf": {
     "dex_id": 249,
@@ -21311,8 +21311,8 @@
     "sum_def": 80,
     "tot": 304,
     "tot_b": 254,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "scovillain": {
     "dex_id": 251,
@@ -21341,8 +21341,8 @@
     "sum_def": 130,
     "tot": 486,
     "tot_b": 411,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "cacnea": {
     "dex_id": 252,
@@ -21372,8 +21372,8 @@
     "sum_def": 80,
     "tot": 335,
     "tot_b": 300,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "cacturne": {
     "dex_id": 253,
@@ -21403,8 +21403,8 @@
     "sum_def": 120,
     "tot": 475,
     "tot_b": 420,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "pineco": {
     "dex_id": 258,
@@ -21494,7 +21494,7 @@
     "tot": 255,
     "tot_b": 180,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "espathra": {
     "dex_id": 264,
@@ -21524,7 +21524,7 @@
     "tot": 481,
     "tot_b": 376,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "silicobra": {
     "dex_id": 270,
@@ -21616,7 +21616,7 @@
     "tot": 360,
     "tot_b": 300,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "volcarona": {
     "dex_id": 275,
@@ -21736,7 +21736,7 @@
     "tot": 600,
     "tot_b": 500,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "tinkatink": {
     "dex_id": 279,
@@ -21825,7 +21825,7 @@
     "sum_def": 182,
     "tot": 506,
     "tot_b": 412,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "wiglett": {
@@ -21856,7 +21856,7 @@
     "tot": 245,
     "tot_b": 150,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "wugtrio": {
     "dex_id": 289,
@@ -21916,8 +21916,8 @@
     "sum_def": 80,
     "tot": 315,
     "tot_b": 240,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "palafin": {
     "dex_id": 292,
@@ -21948,7 +21948,7 @@
     "tot": 457,
     "tot_b": 357,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "palafin-hero": {
     "dex_id": 292,
@@ -21979,7 +21979,7 @@
     "tot": 650,
     "tot_b": 550,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "varoom": {
     "dex_id": 293,
@@ -22068,8 +22068,8 @@
     "sum_def": 130,
     "tot": 501,
     "tot_b": 380,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "sableye": {
     "dex_id": 297,
@@ -22098,8 +22098,8 @@
     "sum_def": 140,
     "tot": 380,
     "tot_b": 330,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "shuppet": {
     "dex_id": 298,
@@ -22129,7 +22129,7 @@
     "tot": 295,
     "tot_b": 250,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "banette": {
     "dex_id": 299,
@@ -22159,7 +22159,7 @@
     "tot": 455,
     "tot_b": 390,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "falinks": {
     "dex_id": 300,
@@ -22252,7 +22252,7 @@
     "tot": 270,
     "tot_b": 188,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "drakloak": {
     "dex_id": 306,
@@ -22283,7 +22283,7 @@
     "tot": 410,
     "tot_b": 308,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "dragapult": {
     "dex_id": 307,
@@ -22314,7 +22314,7 @@
     "tot": 600,
     "tot_b": 458,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "greavard": {
     "dex_id": 311,
@@ -22344,7 +22344,7 @@
     "tot": 290,
     "tot_b": 256,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "houndstone": {
     "dex_id": 312,
@@ -22374,7 +22374,7 @@
     "tot": 488,
     "tot_b": 420,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "oranguru": {
     "dex_id": 313,
@@ -22494,7 +22494,7 @@
     "tot": 300,
     "tot_b": 259,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "pupitar": {
     "dex_id": 317,
@@ -22524,7 +22524,7 @@
     "tot": 410,
     "tot_b": 359,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "tyranitar": {
     "dex_id": 318,
@@ -22554,7 +22554,7 @@
     "tot": 600,
     "tot_b": 539,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "stonjourner": {
     "dex_id": 319,
@@ -22676,8 +22676,8 @@
     "sum_def": 180,
     "tot": 435,
     "tot_b": 420,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "sandygast": {
     "dex_id": 322,
@@ -22796,7 +22796,7 @@
     "sum_def": 225,
     "tot": 525,
     "tot_b": 455,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "skrelp": {
@@ -22827,8 +22827,8 @@
     "sum_def": 120,
     "tot": 320,
     "tot_b": 290,
-    "atk_type": "Atk",
-    "def_type": "Def"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "dragalge": {
     "dex_id": 338,
@@ -22889,8 +22889,8 @@
     "sum_def": 125,
     "tot": 330,
     "tot_b": 286,
-    "atk_type": "SpA",
-    "def_type": "SpD"
+    "atk_type": "Any",
+    "def_type": "Any"
   },
   "clawitzer": {
     "dex_id": 340,
@@ -22921,7 +22921,7 @@
     "tot": 500,
     "tot_b": 441,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "mareanie": {
     "dex_id": 344,
@@ -22981,7 +22981,7 @@
     "tot": 495,
     "tot_b": 460,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "flamigo": {
     "dex_id": 346,
@@ -23011,7 +23011,7 @@
     "tot": 500,
     "tot_b": 410,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "dratini": {
     "dex_id": 347,
@@ -23042,7 +23042,7 @@
     "tot": 300,
     "tot_b": 250,
     "atk_type": "Atk",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "dragonair": {
     "dex_id": 348,
@@ -23073,7 +23073,7 @@
     "tot": 420,
     "tot_b": 350,
     "atk_type": "Atk",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "dragonite": {
     "dex_id": 349,
@@ -23104,7 +23104,7 @@
     "tot": 600,
     "tot_b": 520,
     "atk_type": "Atk",
-    "def_type": "SpD"
+    "def_type": "Any"
   },
   "snom": {
     "dex_id": 350,
@@ -23134,7 +23134,7 @@
     "tot": 185,
     "tot_b": 165,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "frosmoth": {
     "dex_id": 351,
@@ -23195,7 +23195,7 @@
     "tot": 330,
     "tot_b": 255,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "cryogonal": {
     "dex_id": 360,
@@ -23255,7 +23255,7 @@
     "tot": 334,
     "tot_b": 291,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "cetitan": {
     "dex_id": 362,
@@ -23315,7 +23315,7 @@
     "tot": 300,
     "tot_b": 262,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "zweilous": {
     "dex_id": 371,
@@ -23345,7 +23345,7 @@
     "tot": 420,
     "tot_b": 362,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "hydreigon": {
     "dex_id": 372,
@@ -23375,7 +23375,7 @@
     "tot": 600,
     "tot_b": 502,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "veluza": {
     "dex_id": 373,
@@ -23405,7 +23405,7 @@
     "tot": 478,
     "tot_b": 408,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "dondozo": {
     "dex_id": 374,
@@ -23584,7 +23584,7 @@
     "sum_def": 214,
     "tot": 570,
     "tot_b": 459,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "brute-bonnet": {
@@ -23615,7 +23615,7 @@
     "tot": 570,
     "tot_b": 515,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "flutter-mane": {
     "dex_id": 379,
@@ -23705,7 +23705,7 @@
     "tot": 570,
     "tot_b": 469,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "iron-treads": {
     "dex_id": 382,
@@ -23825,7 +23825,7 @@
     "tot": 570,
     "tot_b": 462,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "iron-moth": {
     "dex_id": 386,
@@ -23916,7 +23916,7 @@
     "tot": 320,
     "tot_b": 265,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "arctibax": {
     "dex_id": 389,
@@ -23947,7 +23947,7 @@
     "tot": 423,
     "tot_b": 361,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "baxcalibur": {
     "dex_id": 390,
@@ -23978,7 +23978,7 @@
     "tot": 600,
     "tot_b": 513,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "gimmighoul": {
     "dex_id": 391,
@@ -24008,7 +24008,7 @@
     "tot": 300,
     "tot_b": 290,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "gimmighoul-roaming": {
     "dex_id": 391,
@@ -24068,7 +24068,7 @@
     "tot": 550,
     "tot_b": 466,
     "atk_type": "SpA",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "wo-chien": {
     "dex_id": 393,
@@ -24097,7 +24097,7 @@
     "sum_def": 235,
     "tot": 570,
     "tot_b": 500,
-    "atk_type": "SpA",
+    "atk_type": "Any",
     "def_type": "SpD"
   },
   "chien-pao": {
@@ -24247,7 +24247,7 @@
     "sum_def": 150,
     "tot": 590,
     "tot_b": 474,
-    "atk_type": "Atk",
+    "atk_type": "Any",
     "def_type": "Def"
   },
   "koraidon": {
@@ -24278,7 +24278,7 @@
     "tot": 670,
     "tot_b": 535,
     "atk_type": "Atk",
-    "def_type": "Def"
+    "def_type": "Any"
   },
   "miraidon": {
     "dex_id": 400,
@@ -24308,6 +24308,6 @@
     "tot": 670,
     "tot_b": 535,
     "atk_type": "SpA",
-    "def_type": "SpD"
+    "def_type": "Any"
   }
 }

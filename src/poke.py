@@ -30,6 +30,301 @@ class Chain:
 
 EvoDict = tp.TypedDict('EvoDict', {'name': str, 'dex_id': int, 'id': int})
 
+unavailable_sv = [
+    "caterpie",
+    "metapod",
+    "butterfree",
+    "weedle",
+    "kakuna",
+    "beedrill",
+    "pidgey",
+    "pidgeotto",
+    "pidgeot",
+    "rattata",
+    "raticate",
+    "spearow",
+    "fearow",
+    "nidoran-f",
+    "nidorina",
+    "nidoqueen",
+    "nidoran-m",
+    "nidorino",
+    "nidoking",
+    "zubat",
+    "golbat",
+    "paras",
+    "parasect",
+    "abra",
+    "kadabra",
+    "alakazam",
+    "machop",
+    "machoke",
+    "machamp",
+    "ponyta",
+    "rapidash",
+    "farfetchd",
+    "onix",
+    "krabby",
+    "kingler",
+    "cubone",
+    "marowak",
+    "lickitung",
+    "tangela",
+    "kangaskhan",
+    "goldeen",
+    "seaking",
+    "staryu",
+    "starmie",
+    "mr-mime",
+    "jynx",
+    "pinsir",
+    "omanyte",
+    "omastar",
+    "kabuto",
+    "kabutops",
+    "aerodactyl",
+    "ledyba",
+    "ledian",
+    "crobat",
+    "togepi",
+    "togetic",
+    "natu",
+    "xatu",
+    "unown",
+    "wobbuffet",
+    "steelix",
+    "shuckle",
+    "corsola",
+    "remoraid",
+    "octillery",
+    "mantine",
+    "smoochum",
+    "miltank",
+    "celebi",
+    "zigzagoon",
+    "linoone",
+    "wurmple",
+    "silcoon",
+    "beautifly",
+    "cascoon",
+    "dustox",
+    "taillow",
+    "swellow",
+    "nincada",
+    "ninjask",
+    "shedinja",
+    "whismur",
+    "loudred",
+    "exploud",
+    "skitty",
+    "delcatty",
+    "mawile",
+    "aron",
+    "lairon",
+    "aggron",
+    "electrike",
+    "manectric",
+    "roselia",
+    "carvanha",
+    "sharpedo",
+    "wailmer",
+    "wailord",
+    "spinda",
+    "lunatone",
+    "solrock",
+    "baltoy",
+    "claydol",
+    "lileep",
+    "cradily",
+    "anorith",
+    "armaldo",
+    "castform",
+    "kecleon",
+    "absol",
+    "wynaut",
+    "spheal",
+    "sealeo",
+    "walrein",
+    "clamperl",
+    "huntail",
+    "gorebyss",
+    "relicanth",
+    "bidoof",
+    "bibarel",
+    "budew",
+    "roserade",
+    "burmy",
+    "wormadam",
+    "mothim",
+    "cherubi",
+    "cherrim",
+    "buneary",
+    "lopunny",
+    "glameow",
+    "purugly",
+    "mime-jr",
+    "chatot",
+    "skorupi",
+    "drapion",
+    "carnivine",
+    "mantyke",
+    "lickilicky",
+    "tangrowth",
+    "togekiss",
+    "victini",
+    "patrat",
+    "watchog",
+    "lillipup",
+    "herdier",
+    "stoutland",
+    "purrloin",
+    "liepard",
+    "pansage",
+    "simisage",
+    "pansear",
+    "simisear",
+    "panpour",
+    "simipour",
+    "munna",
+    "musharna",
+    "pidove",
+    "tranquill",
+    "unfezant",
+    "roggenrola",
+    "boldore",
+    "gigalith",
+    "woobat",
+    "swoobat",
+    "audino",
+    "tympole",
+    "palpitoad",
+    "seismitoad",
+    "throh",
+    "sawk",
+    "venipede",
+    "whirlipede",
+    "scolipede",
+    "darumaka",
+    "darmanitan",
+    "maractus",
+    "dwebble",
+    "crustle",
+    "sigilyph",
+    "yamask",
+    "cofagrigus",
+    "tirtouga",
+    "carracosta",
+    "archen",
+    "archeops",
+    "trubbish",
+    "garbodor",
+    "vanillite",
+    "vanillish",
+    "vanilluxe",
+    "emolga",
+    "karrablast",
+    "escavalier",
+    "frillish",
+    "jellicent",
+    "ferroseed",
+    "ferrothorn",
+    "klink",
+    "klang",
+    "klinklang",
+    "elgyem",
+    "beheeyem",
+    "shelmet",
+    "accelgor",
+    "stunfisk",
+    "druddigon",
+    "bouffalant",
+    "heatmor",
+    "durant",
+    "genesect",
+    "bunnelby",
+    "diggersby",
+    "pancham",
+    "pangoro",
+    "furfrou",
+    "honedge",
+    "doublade",
+    "aegislash",
+    "spritzee",
+    "aromatisse",
+    "swirlix",
+    "slurpuff",
+    "binacle",
+    "barbaracle",
+    "helioptile",
+    "heliolisk",
+    "tyrunt",
+    "tyrantrum",
+    "amaura",
+    "aurorus",
+    "pumpkaboo",
+    "gourgeist",
+    "xerneas",
+    "yveltal",
+    "zygarde",
+    "wishiwashi",
+    "morelull",
+    "shiinotic",
+    "stufful",
+    "bewear",
+    "wimpod",
+    "golisopod",
+    "pyukumuku",
+    "type-null",
+    "silvally",
+    "turtonator",
+    "togedemaru",
+    "drampa",
+    "dhelmise",
+    "tapu-koko",
+    "tapu-lele",
+    "tapu-bulu",
+    "tapu-fini",
+    "nihilego",
+    "buzzwole",
+    "pheromosa",
+    "xurkitree",
+    "celesteela",
+    "kartana",
+    "guzzlord",
+    "marshadow",
+    "poipole",
+    "naganadel",
+    "stakataka",
+    "blacephalon",
+    "zeraora",
+    "meltan",
+    "melmetal",
+    "blipbug",
+    "dottler",
+    "orbeetle",
+    "nickit",
+    "thievul",
+    "gossifleur",
+    "eldegoss",
+    "wooloo",
+    "dubwool",
+    "yamper",
+    "boltund",
+    "sizzlipede",
+    "centiskorch",
+    "clobbopus",
+    "grapploct",
+    "obstagoon",
+    "cursola",
+    "sirfetchd",
+    "mr-rime",
+    "runerigus",
+    "dracozolt",
+    "arctozolt",
+    "dracovish",
+    "arctovish",
+]
+
 
 def flatten(l: tp.List['Chain']) -> tp.List['Chain']:
     result = []
@@ -54,6 +349,7 @@ def find_is_final(d: Chain, s: Species):
 
 
 def boxes() -> None:
+    print('Running boxes')
     dexes = [31, 32, 33]
 
     tot_ids: tp.Dict[str, tp.List[EvoDict]] = {}
@@ -89,6 +385,7 @@ def boxes() -> None:
 
 
 def pretty_boxes() -> None:
+    print('Running pretty boxes')
     skip_dupes = True
 
     brows = 5
@@ -134,7 +431,10 @@ def pretty_boxes() -> None:
 
 
 def main() -> None:
-    dexes = [31, 32, 33]
+    print('Running main')
+    # dexes = [31, 32, 33]
+    dexes = [30, 33, 32, 31]
+    # dexes = [1]
 
     data = {}
 
@@ -143,16 +443,22 @@ def main() -> None:
 
         for entry in dex_data.pokemon_entries:
             species = entry.pokemon_species
-            eggs = species.egg_groups
-            name = f'{species.name} ({dex})'
+
+            # name = f'{species.name} ({dex})'
             pname = species.name
-            print(f'{entry.entry_number} - {name}')
-            data[name] = {
+
+            if pname in unavailable_sv:
+                print(f'{entry.entry_number} - {pname}: SKIPPED')
+                continue
+
+            print(f'{entry.entry_number} - {pname}')
+
+            base_data = {
                 'dex_id': entry.entry_number,
-                'name': pname,
+                'species_name': pname,
                 'dex': dex,
                 'capture_rate': species.capture_rate,
-                'egg_groups': [x.name for x in eggs],
+                'egg_groups': [x.name for x in species.egg_groups],
                 'evolves_from': (
                     species.evolves_from_species.name
                     if species.evolves_from_species
@@ -161,11 +467,13 @@ def main() -> None:
                 'is_baby': species.is_baby,
                 'is_legendary': species.is_legendary,
                 'is_mythical': species.is_mythical,
-                'varieties': [],
+                # 'varieties': [],
             }
 
             varieties = species.varieties
             for variety in varieties:
+                base_v = base_data.copy()
+
                 pok = variety.pokemon
                 types = pok.types
                 pstats = pok.stats
@@ -177,35 +485,40 @@ def main() -> None:
                 more_stats = {
                     **stats,
                     'max_atk': max(stats['attack'], stats['special-attack']),
+                    'max_def': max(stats['defense'], stats['special-defense']),
                     'sum_def': stats['defense'] + stats['special-defense'],
                     'tot': sum(stats.values()),
+                    'tot_b': sum(stats.values()) - stats['speed'],
+                    'atk_type': 'SpA' if stats['special-attack'] > stats['attack'] else 'Atk',
+                    'def_type': 'SpD' if stats['special-defense'] > stats['defense'] else 'Def',
                 }
-                if variety.is_default:
-                    data[name]['id'] = pok.id
-                    data[name]['type'] = typ
-                    data[name]['stats'] = more_stats
-                else:
-                    if not any(
-                        n in pok.name for n in ('-gmax', '-galar', '-mega', '-totem')
-                    ):
-                        data[name]['varieties'].append(
-                            {
-                                'id': pok.id,
-                                'name': pok.name,
-                                'type': typ,
-                                'stats': more_stats,
-                            }
-                        )
 
-            # print(name, data[name])
+                base_v['is_default'] = variety.is_default
+                if not any(
+                    # n in pok.name for n in ('-gmax', '-galar', '-mega', '-totem')
+                    pok.name.endswith(n) for n in ('-gmax', '-mega', '-mega-x', 'mega-y', '-totem', '-build', '-mode', '-eternamax')
+                ):
+                    base_v['id'] = pok.id
+                    base_v['type'] = typ
+                    base_v['name'] = pok.name
+                    base_v.update(more_stats)
 
-    with open('src/data/pokes.json', 'w') as f:
-        json.dump(data, f, indent=2)
+                    data[pok.name] = base_v
+
+                    # if pname in ('bulbasaur', 'zapdos'): print(pok.name, data[pok.name])
+
+    filename = 'pokes-comb'
+    try:
+        with open(f'src/data/{filename}.json', 'w') as f:
+            json.dump(data, f, indent=2)
+    except Exception:
+        with open(f'data/{filename}.json', 'w') as f:
+            json.dump(data, f, indent=2)
     # print(json.dumps(data, indent=2))
 
 
 if __name__ == '__main__':
-    # main()
-    boxes()
+    main()
+    # boxes()
 
     print('done')

@@ -107,21 +107,28 @@ def main() -> None:
 
 
 def best_per_type():
-    pokes = pd.read_json('src/data/pokes.json').transpose()
+    # pokes = pd.read_json('src/data/pokes.json').transpose()
+    # pokes = pd.read_json('src/data/pokes-all.json').transpose()
+    pokes = pd.read_json('src/data/pokes-comb.json').transpose()
+
     d = pokes.copy()
-    d['xtype'] = d['type'].apply(lambda x: str(x).split('_'))
-    dx = d.explode('xtype')
-    comb = pd.concat([dx.drop(['stats'], axis=1), dx['stats'].apply(pd.Series)], axis=1)
+    d.rename(columns={'type': 'otype'}, inplace=True)
+    d['type'] = d['otype'].apply(lambda x: str(x).split('_'))
+    dx = d.explode('type')
 
-    comb['tot_b'] = comb['tot'] - comb['speed']
-    comb['atk_type'] = np.where(comb['attack'] < comb['special-attack'], 'SpA', 'Atk')
-    comb['def_type'] = np.where(comb['defense'] < comb['special-defense'], 'SpD', 'Def')
-    comb['is_legendary'] = comb['is_legendary'].astype(int)
+    comb = dx.copy()
+    # comb = pd.concat([dx.drop(['stats'], axis=1), dx['stats'].apply(pd.Series)], axis=1)
 
-    cols = ['xtype', 'name', 'dex', 'is_legendary', 'tot_b', 'max_atk', 'atk_type', 'def_type']
-    grouped = comb.groupby('xtype', as_index=False)
+    # comb['tot_b'] = comb['tot'] - comb['speed']
+    # comb['atk_type'] = np.where(comb['attack'] < comb['special-attack'], 'SpA', 'Atk')
+    # comb['def_type'] = np.where(comb['defense'] < comb['special-defense'], 'SpD', 'Def')
+    comb['leg'] = comb['is_legendary'].astype(int)
+    comb['tot_b'] = comb['tot_b'].astype(int)
 
-    lim = 5
+    cols = ['type', 'name', 'dex', 'leg', 'tot_b', 'max_atk', 'max_def', 'atk_type', 'def_type']
+    grouped = comb.groupby('type', as_index=False)
+
+    lim = 12
     tot = grouped.apply(lambda x: x.nlargest(lim, 'tot_b')).reset_index(drop=True)[cols]
 
     # atk = grouped.apply(lambda x: x.nlargest(3, 'attack')).reset_index(drop=True)[cols]
@@ -131,4 +138,5 @@ def best_per_type():
 
 
 if __name__ == '__main__':
-    main()
+    # main()
+    best_per_type()

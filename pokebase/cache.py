@@ -14,7 +14,6 @@ SHELVE_CACHE = None
 
 
 def save(data, endpoint, resource_id=None, subresource=None):
-
     if data == dict():  # No point in saving empty data.
         return None
 
@@ -39,7 +38,6 @@ def save(data, endpoint, resource_id=None, subresource=None):
 
 
 def save_sprite(data, sprite_type, sprite_id, **kwargs):
-
     abs_path = data["path"]
 
     # Make intermediate directories; this line removes the file+extension.
@@ -53,7 +51,6 @@ def save_sprite(data, sprite_type, sprite_id, **kwargs):
 
 
 def load(endpoint, resource_id=None, subresource=None):
-
     uri = cache_uri_build(endpoint, resource_id, subresource)
 
     return SHELVE_CACHE[uri]
@@ -146,7 +143,7 @@ def set_cache(new_path=None):
     API_CACHE = os.path.join(CACHE_DIR, "api.cache")
     SPRITE_CACHE = safe_make_dirs(os.path.join(CACHE_DIR, "sprite"))
 
-    SHELVE_CACHE = shelve.open(API_CACHE)
+    SHELVE_CACHE = shelve.open(API_CACHE, writeback=True)
 
     return CACHE_DIR, API_CACHE, SPRITE_CACHE, SHELVE_CACHE
 

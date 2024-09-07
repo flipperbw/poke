@@ -5,7 +5,7 @@ import pandas as pd
 import pokebase as pb
 
 
-def make_data():
+def make_data() -> dict:
     d = {}
     maxi = -1
     q = pb.APIResourceList('move')

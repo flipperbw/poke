@@ -1,0 +1,363 @@
+{
+  "31": [
+    {
+      "dex_id": 11,
+      "id": 10254,
+      "name": "oinkologne-female"
+    },
+    {
+      "dex_id": 72,
+      "id": 10257,
+      "name": "maushold-family-of-three"
+    },
+    {
+      "dex_id": 75,
+      "id": 10100,
+      "name": "raichu-alola"
+    },
+    {
+      "dex_id": 90,
+      "id": 10126,
+      "name": "lycanroc-midnight"
+    },
+    {
+      "dex_id": 90,
+      "id": 10152,
+      "name": "lycanroc-dusk"
+    },
+    {
+      "dex_id": 100,
+      "id": 10123,
+      "name": "oricorio-pom-pom"
+    },
+    {
+      "dex_id": 100,
+      "id": 10124,
+      "name": "oricorio-pau"
+    },
+    {
+      "dex_id": 100,
+      "id": 10125,
+      "name": "oricorio-sensu"
+    },
+    {
+      "dex_id": 105,
+      "id": 10237,
+      "name": "lilligant-hisui"
+    },
+    {
+      "dex_id": 113,
+      "id": 10260,
+      "name": "squawkabilly-blue-plumage"
+    },
+    {
+      "dex_id": 113,
+      "id": 10261,
+      "name": "squawkabilly-yellow-plumage"
+    },
+    {
+      "dex_id": 113,
+      "id": 10262,
+      "name": "squawkabilly-white-plumage"
+    },
+    {
+      "dex_id": 142,
+      "id": 10108,
+      "name": "persian-alola"
+    },
+    {
+      "dex_id": 149,
+      "id": 10106,
+      "name": "dugtrio-alola"
+    },
+    {
+      "dex_id": 174,
+      "id": 10242,
+      "name": "goodra-hisui"
+    },
+    {
+      "dex_id": 189,
+      "id": 10255,
+      "name": "dudunsparce-three-segment"
+    },
+    {
+      "dex_id": 195,
+      "id": 10113,
+      "name": "muk-alola"
+    },
+    {
+      "dex_id": 199,
+      "id": 10184,
+      "name": "toxtricity-low-key"
+    },
+    {
+      "dex_id": 208,
+      "id": 10232,
+      "name": "electrode-hisui"
+    },
+    {
+      "dex_id": 214,
+      "id": 10230,
+      "name": "arcanine-hisui"
+    },
+    {
+      "dex_id": 223,
+      "id": 10250,
+      "name": "tauros-paldea-combat-breed"
+    },
+    {
+      "dex_id": 223,
+      "id": 10251,
+      "name": "tauros-paldea-blaze-breed"
+    },
+    {
+      "dex_id": 223,
+      "id": 10252,
+      "name": "tauros-paldea-aqua-breed"
+    },
+    {
+      "dex_id": 229,
+      "id": 10239,
+      "name": "zoroark-hisui"
+    },
+    {
+      "dex_id": 241,
+      "id": 10186,
+      "name": "indeedee-female"
+    },
+    {
+      "dex_id": 310,
+      "id": 10008,
+      "name": "rotom-heat"
+    },
+    {
+      "dex_id": 310,
+      "id": 10009,
+      "name": "rotom-wash"
+    },
+    {
+      "dex_id": 310,
+      "id": 10010,
+      "name": "rotom-frost"
+    },
+    {
+      "dex_id": 310,
+      "id": 10011,
+      "name": "rotom-fan"
+    },
+    {
+      "dex_id": 310,
+      "id": 10012,
+      "name": "rotom-mow"
+    },
+    {
+      "dex_id": 320,
+      "id": 10185,
+      "name": "eiscue-noice"
+    },
+    {
+      "dex_id": 325,
+      "id": 10165,
+      "name": "slowbro-galar"
+    },
+    {
+      "dex_id": 326,
+      "id": 10172,
+      "name": "slowking-galar"
+    },
+    {
+      "dex_id": 331,
+      "id": 10234,
+      "name": "qwilfish-hisui"
+    },
+    {
+      "dex_id": 364,
+      "id": 10243,
+      "name": "avalugg-hisui"
+    },
+    {
+      "dex_id": 366,
+      "id": 10240,
+      "name": "braviary-hisui"
+    },
+    {
+      "dex_id": 375,
+      "id": 10258,
+      "name": "tatsugiri-droopy"
+    },
+    {
+      "dex_id": 375,
+      "id": 10259,
+      "name": "tatsugiri-stretchy"
+    }
+  ],
+  "32": [
+    {
+      "dex_id": 38,
+      "id": 10104,
+      "name": "ninetales-alola"
+    },
+    {
+      "dex_id": 82,
+      "id": 10111,
+      "name": "golem-alola"
+    },
+    {
+      "dex_id": 95,
+      "id": 10187,
+      "name": "morpeko-hangry"
+    },
+    {
+      "dex_id": 117,
+      "id": 10102,
+      "name": "sandslash-alola"
+    },
+    {
+      "dex_id": 136,
+      "id": 10167,
+      "name": "weezing-galar"
+    },
+    {
+      "dex_id": 185,
+      "id": 10182,
+      "name": "cramorant-gulping"
+    },
+    {
+      "dex_id": 185,
+      "id": 10183,
+      "name": "cramorant-gorging"
+    },
+    {
+      "dex_id": 195,
+      "id": 10248,
+      "name": "basculegion-female"
+    },
+    {
+      "dex_id": 196,
+      "id": 10272,
+      "name": "ursaluna-bloodmoon"
+    },
+    {
+      "dex_id": 200,
+      "id": 10273,
+      "name": "ogerpon-wellspring-mask"
+    },
+    {
+      "dex_id": 200,
+      "id": 10274,
+      "name": "ogerpon-hearthflame-mask"
+    },
+    {
+      "dex_id": 200,
+      "id": 10275,
+      "name": "ogerpon-cornerstone-mask"
+    }
+  ],
+  "33": [
+    {
+      "dex_id": 4,
+      "id": 10114,
+      "name": "exeggutor-alola"
+    },
+    {
+      "dex_id": 105,
+      "id": 10025,
+      "name": "meowstic-female"
+    },
+    {
+      "dex_id": 106,
+      "id": 10130,
+      "name": "minior-orange-meteor"
+    },
+    {
+      "dex_id": 106,
+      "id": 10131,
+      "name": "minior-yellow-meteor"
+    },
+    {
+      "dex_id": 106,
+      "id": 10132,
+      "name": "minior-green-meteor"
+    },
+    {
+      "dex_id": 106,
+      "id": 10133,
+      "name": "minior-blue-meteor"
+    },
+    {
+      "dex_id": 106,
+      "id": 10134,
+      "name": "minior-indigo-meteor"
+    },
+    {
+      "dex_id": 106,
+      "id": 10135,
+      "name": "minior-violet-meteor"
+    },
+    {
+      "dex_id": 106,
+      "id": 10136,
+      "name": "minior-red"
+    },
+    {
+      "dex_id": 106,
+      "id": 10137,
+      "name": "minior-orange"
+    },
+    {
+      "dex_id": 106,
+      "id": 10138,
+      "name": "minior-yellow"
+    },
+    {
+      "dex_id": 106,
+      "id": 10139,
+      "name": "minior-green"
+    },
+    {
+      "dex_id": 106,
+      "id": 10140,
+      "name": "minior-blue"
+    },
+    {
+      "dex_id": 106,
+      "id": 10141,
+      "name": "minior-indigo"
+    },
+    {
+      "dex_id": 106,
+      "id": 10142,
+      "name": "minior-violet"
+    },
+    {
+      "dex_id": 178,
+      "id": 10233,
+      "name": "typhlosion-hisui"
+    },
+    {
+      "dex_id": 208,
+      "id": 10236,
+      "name": "samurott-hisui"
+    },
+    {
+      "dex_id": 217,
+      "id": 10116,
+      "name": "greninja-battle-bond"
+    },
+    {
+      "dex_id": 220,
+      "id": 10244,
+      "name": "decidueye-hisui"
+    },
+    {
+      "dex_id": 240,
+      "id": 10276,
+      "name": "terapagos-terastal"
+    },
+    {
+      "dex_id": 240,
+      "id": 10277,
+      "name": "terapagos-stellar"
+    }
+  ]
+}

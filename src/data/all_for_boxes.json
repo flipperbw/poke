@@ -1,0 +1,7694 @@
+{
+  "31": [
+    {
+      "dex_id": 1,
+      "id": 906,
+      "name": "sprigatito",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 2,
+      "id": 907,
+      "name": "floragato",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 3,
+      "id": 908,
+      "name": "meowscarada",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 4,
+      "id": 909,
+      "name": "fuecoco",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 5,
+      "id": 910,
+      "name": "crocalor",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 6,
+      "id": 911,
+      "name": "skeledirge",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 7,
+      "id": 912,
+      "name": "quaxly",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 8,
+      "id": 913,
+      "name": "quaxwell",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 9,
+      "id": 914,
+      "name": "quaquaval",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 10,
+      "id": 915,
+      "name": "lechonk",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 11,
+      "id": 916,
+      "name": "oinkologne",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 11,
+      "id": 10423,
+      "name": "oinkologne-female",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 12,
+      "id": 917,
+      "name": "tarountula",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 13,
+      "id": 918,
+      "name": "spidops",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 14,
+      "id": 919,
+      "name": "nymble",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 15,
+      "id": 920,
+      "name": "lokix",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 16,
+      "id": 187,
+      "name": "hoppip",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 17,
+      "id": 188,
+      "name": "skiploom",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 18,
+      "id": 189,
+      "name": "jumpluff",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 19,
+      "id": 661,
+      "name": "fletchling",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 20,
+      "id": 662,
+      "name": "fletchinder",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 21,
+      "id": 663,
+      "name": "talonflame",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 22,
+      "id": 921,
+      "name": "pawmi",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 23,
+      "id": 922,
+      "name": "pawmo",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 24,
+      "id": 923,
+      "name": "pawmot",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 25,
+      "id": 228,
+      "name": "houndour",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 26,
+      "id": 229,
+      "name": "houndoom",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 27,
+      "id": 734,
+      "name": "yungoos",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 28,
+      "id": 735,
+      "name": "gumshoos",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 29,
+      "id": 819,
+      "name": "skwovet",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 30,
+      "id": 820,
+      "name": "greedent",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 31,
+      "id": 191,
+      "name": "sunkern",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 32,
+      "id": 192,
+      "name": "sunflora",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 33,
+      "id": 401,
+      "name": "kricketot",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 34,
+      "id": 402,
+      "name": "kricketune",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 35,
+      "id": 664,
+      "name": "scatterbug-icy-snow",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 35,
+      "id": 10271,
+      "name": "scatterbug-polar",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 35,
+      "id": 10272,
+      "name": "scatterbug-tundra",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 35,
+      "id": 10273,
+      "name": "scatterbug-continental",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 35,
+      "id": 10274,
+      "name": "scatterbug-garden",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 35,
+      "id": 10275,
+      "name": "scatterbug-elegant",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 35,
+      "id": 10276,
+      "name": "scatterbug-meadow",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 35,
+      "id": 10277,
+      "name": "scatterbug-modern",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 35,
+      "id": 10278,
+      "name": "scatterbug-marine",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 35,
+      "id": 10279,
+      "name": "scatterbug-archipelago",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 35,
+      "id": 10280,
+      "name": "scatterbug-high-plains",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 35,
+      "id": 10281,
+      "name": "scatterbug-sandstorm",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 35,
+      "id": 10282,
+      "name": "scatterbug-river",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 35,
+      "id": 10283,
+      "name": "scatterbug-monsoon",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 35,
+      "id": 10284,
+      "name": "scatterbug-savanna",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 35,
+      "id": 10285,
+      "name": "scatterbug-sun",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 35,
+      "id": 10286,
+      "name": "scatterbug-ocean",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 35,
+      "id": 10287,
+      "name": "scatterbug-jungle",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 35,
+      "id": 10288,
+      "name": "scatterbug-fancy",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 35,
+      "id": 10289,
+      "name": "scatterbug-poke-ball",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 36,
+      "id": 665,
+      "name": "spewpa-icy-snow",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 36,
+      "id": 10290,
+      "name": "spewpa-polar",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 36,
+      "id": 10291,
+      "name": "spewpa-tundra",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 36,
+      "id": 10292,
+      "name": "spewpa-continental",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 36,
+      "id": 10293,
+      "name": "spewpa-garden",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 36,
+      "id": 10294,
+      "name": "spewpa-elegant",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 36,
+      "id": 10295,
+      "name": "spewpa-meadow",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 36,
+      "id": 10296,
+      "name": "spewpa-modern",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 36,
+      "id": 10297,
+      "name": "spewpa-marine",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 36,
+      "id": 10298,
+      "name": "spewpa-archipelago",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 36,
+      "id": 10299,
+      "name": "spewpa-high-plains",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 36,
+      "id": 10300,
+      "name": "spewpa-sandstorm",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 36,
+      "id": 10301,
+      "name": "spewpa-river",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 36,
+      "id": 10302,
+      "name": "spewpa-monsoon",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 36,
+      "id": 10303,
+      "name": "spewpa-savanna",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 36,
+      "id": 10304,
+      "name": "spewpa-sun",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 36,
+      "id": 10305,
+      "name": "spewpa-ocean",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 36,
+      "id": 10306,
+      "name": "spewpa-jungle",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 36,
+      "id": 10307,
+      "name": "spewpa-fancy",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 36,
+      "id": 10308,
+      "name": "spewpa-poke-ball",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 37,
+      "id": 666,
+      "name": "vivillon-meadow",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 37,
+      "id": 10086,
+      "name": "vivillon-icy-snow",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 37,
+      "id": 10087,
+      "name": "vivillon-polar",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 37,
+      "id": 10088,
+      "name": "vivillon-tundra",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 37,
+      "id": 10089,
+      "name": "vivillon-continental",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 37,
+      "id": 10090,
+      "name": "vivillon-garden",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 37,
+      "id": 10091,
+      "name": "vivillon-elegant",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 37,
+      "id": 10092,
+      "name": "vivillon-modern",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 37,
+      "id": 10093,
+      "name": "vivillon-marine",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 37,
+      "id": 10094,
+      "name": "vivillon-archipelago",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 37,
+      "id": 10095,
+      "name": "vivillon-high-plains",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 37,
+      "id": 10096,
+      "name": "vivillon-sandstorm",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 37,
+      "id": 10097,
+      "name": "vivillon-river",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 37,
+      "id": 10098,
+      "name": "vivillon-monsoon",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 37,
+      "id": 10099,
+      "name": "vivillon-savanna",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 37,
+      "id": 10100,
+      "name": "vivillon-sun",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 37,
+      "id": 10101,
+      "name": "vivillon-ocean",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 37,
+      "id": 10102,
+      "name": "vivillon-jungle",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 37,
+      "id": 10161,
+      "name": "vivillon-fancy",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 37,
+      "id": 10162,
+      "name": "vivillon-poke-ball",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 38,
+      "id": 415,
+      "name": "combee",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 39,
+      "id": 416,
+      "name": "vespiquen",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 40,
+      "id": 821,
+      "name": "rookidee",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 41,
+      "id": 822,
+      "name": "corvisquire",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 42,
+      "id": 823,
+      "name": "corviknight",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 43,
+      "id": 440,
+      "name": "happiny",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 44,
+      "id": 113,
+      "name": "chansey",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 45,
+      "id": 242,
+      "name": "blissey",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 46,
+      "id": 298,
+      "name": "azurill",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 47,
+      "id": 183,
+      "name": "marill",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 48,
+      "id": 184,
+      "name": "azumarill",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 49,
+      "id": 283,
+      "name": "surskit",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 50,
+      "id": 284,
+      "name": "masquerain",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 51,
+      "id": 418,
+      "name": "buizel",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 52,
+      "id": 419,
+      "name": "floatzel",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 53,
+      "id": 194,
+      "name": "wooper",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 53,
+      "id": 10422,
+      "name": "wooper-paldea",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 54,
+      "id": 980,
+      "name": "clodsire",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 55,
+      "id": 54,
+      "name": "psyduck",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 56,
+      "id": 55,
+      "name": "golduck",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 57,
+      "id": 833,
+      "name": "chewtle",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 58,
+      "id": 834,
+      "name": "drednaw",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 59,
+      "id": 174,
+      "name": "igglybuff",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 60,
+      "id": 39,
+      "name": "jigglypuff",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 61,
+      "id": 40,
+      "name": "wigglytuff",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 62,
+      "id": 280,
+      "name": "ralts",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 63,
+      "id": 281,
+      "name": "kirlia",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 64,
+      "id": 282,
+      "name": "gardevoir",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 65,
+      "id": 475,
+      "name": "gallade",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 66,
+      "id": 96,
+      "name": "drowzee",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 67,
+      "id": 97,
+      "name": "hypno",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 68,
+      "id": 92,
+      "name": "gastly",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 69,
+      "id": 93,
+      "name": "haunter",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 70,
+      "id": 94,
+      "name": "gengar",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 71,
+      "id": 924,
+      "name": "tandemaus",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 72,
+      "id": 925,
+      "name": "maushold-family-of-four",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 72,
+      "id": 10426,
+      "name": "maushold-family-of-three",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 73,
+      "id": 172,
+      "name": "pichu",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 73,
+      "id": 10065,
+      "name": "pichu-spiky-eared",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 74,
+      "id": 25,
+      "name": "pikachu",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 74,
+      "id": 10182,
+      "name": "pikachu-rock-star",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 74,
+      "id": 10183,
+      "name": "pikachu-belle",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 74,
+      "id": 10184,
+      "name": "pikachu-pop-star",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 74,
+      "id": 10185,
+      "name": "pikachu-phd",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 74,
+      "id": 10186,
+      "name": "pikachu-libre",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 74,
+      "id": 10187,
+      "name": "pikachu-cosplay",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 74,
+      "id": 10196,
+      "name": "pikachu-original-cap",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 74,
+      "id": 10197,
+      "name": "pikachu-hoenn-cap",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 74,
+      "id": 10198,
+      "name": "pikachu-sinnoh-cap",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 74,
+      "id": 10199,
+      "name": "pikachu-unova-cap",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 74,
+      "id": 10200,
+      "name": "pikachu-kalos-cap",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 74,
+      "id": 10201,
+      "name": "pikachu-alola-cap",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 74,
+      "id": 10267,
+      "name": "pikachu-partner-cap",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 74,
+      "id": 10317,
+      "name": "pikachu-starter",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 74,
+      "id": 10319,
+      "name": "pikachu-world-cap",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 75,
+      "id": 26,
+      "name": "raichu",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 75,
+      "id": 10202,
+      "name": "raichu-alola",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 76,
+      "id": 926,
+      "name": "fidough",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 77,
+      "id": 927,
+      "name": "dachsbun",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 78,
+      "id": 287,
+      "name": "slakoth",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 79,
+      "id": 288,
+      "name": "vigoroth",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 80,
+      "id": 289,
+      "name": "slaking",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 81,
+      "id": 761,
+      "name": "bounsweet",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 82,
+      "id": 762,
+      "name": "steenee",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 83,
+      "id": 763,
+      "name": "tsareena",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 84,
+      "id": 928,
+      "name": "smoliv",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 85,
+      "id": 929,
+      "name": "dolliv",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 86,
+      "id": 930,
+      "name": "arboliva",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 87,
+      "id": 438,
+      "name": "bonsly",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 88,
+      "id": 185,
+      "name": "sudowoodo",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 89,
+      "id": 744,
+      "name": "rockruff",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 89,
+      "id": 10310,
+      "name": "rockruff-own-tempo",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 90,
+      "id": 745,
+      "name": "lycanroc-midday",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 90,
+      "id": 10228,
+      "name": "lycanroc-midnight",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 90,
+      "id": 10311,
+      "name": "lycanroc-dusk",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 91,
+      "id": 837,
+      "name": "rolycoly",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 92,
+      "id": 838,
+      "name": "carkol",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 93,
+      "id": 839,
+      "name": "coalossal",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 94,
+      "id": 403,
+      "name": "shinx",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 95,
+      "id": 404,
+      "name": "luxio",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 96,
+      "id": 405,
+      "name": "luxray",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 97,
+      "id": 396,
+      "name": "starly",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 98,
+      "id": 397,
+      "name": "staravia",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 99,
+      "id": 398,
+      "name": "staraptor",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 100,
+      "id": 741,
+      "name": "oricorio-baile",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 100,
+      "id": 10225,
+      "name": "oricorio-pom-pom",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 100,
+      "id": 10226,
+      "name": "oricorio-pau",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 100,
+      "id": 10227,
+      "name": "oricorio-sensu",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 101,
+      "id": 179,
+      "name": "mareep",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 102,
+      "id": 180,
+      "name": "flaaffy",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 103,
+      "id": 181,
+      "name": "ampharos",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 104,
+      "id": 548,
+      "name": "petilil",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 105,
+      "id": 549,
+      "name": "lilligant",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 105,
+      "id": 10406,
+      "name": "lilligant-hisui",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 106,
+      "id": 285,
+      "name": "shroomish",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 107,
+      "id": 286,
+      "name": "breloom",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 108,
+      "id": 840,
+      "name": "applin",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 109,
+      "id": 841,
+      "name": "flapple",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 110,
+      "id": 842,
+      "name": "appletun",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 111,
+      "id": 325,
+      "name": "spoink",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 112,
+      "id": 326,
+      "name": "grumpig",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 113,
+      "id": 931,
+      "name": "squawkabilly-green-plumage",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 113,
+      "id": 10429,
+      "name": "squawkabilly-blue-plumage",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 113,
+      "id": 10430,
+      "name": "squawkabilly-yellow-plumage",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 113,
+      "id": 10431,
+      "name": "squawkabilly-white-plumage",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 114,
+      "id": 200,
+      "name": "misdreavus",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 115,
+      "id": 429,
+      "name": "mismagius",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 116,
+      "id": 296,
+      "name": "makuhita",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 117,
+      "id": 297,
+      "name": "hariyama",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 118,
+      "id": 739,
+      "name": "crabrawler",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 119,
+      "id": 740,
+      "name": "crabominable",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 120,
+      "id": 757,
+      "name": "salandit",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 121,
+      "id": 758,
+      "name": "salazzle",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 122,
+      "id": 231,
+      "name": "phanpy",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 123,
+      "id": 232,
+      "name": "donphan",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 124,
+      "id": 878,
+      "name": "cufant",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 125,
+      "id": 879,
+      "name": "copperajah",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 126,
+      "id": 443,
+      "name": "gible",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 127,
+      "id": 444,
+      "name": "gabite",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 128,
+      "id": 445,
+      "name": "garchomp",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 129,
+      "id": 932,
+      "name": "nacli",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 130,
+      "id": 933,
+      "name": "naclstack",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 131,
+      "id": 934,
+      "name": "garganacl",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 132,
+      "id": 278,
+      "name": "wingull",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 133,
+      "id": 279,
+      "name": "pelipper",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 134,
+      "id": 129,
+      "name": "magikarp",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 135,
+      "id": 130,
+      "name": "gyarados",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 136,
+      "id": 846,
+      "name": "arrokuda",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 137,
+      "id": 847,
+      "name": "barraskewda",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 138,
+      "id": 550,
+      "name": "basculin-red-striped",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 138,
+      "id": 10066,
+      "name": "basculin-blue-striped",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 138,
+      "id": 10416,
+      "name": "basculin-white-striped",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 139,
+      "id": 316,
+      "name": "gulpin",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 140,
+      "id": 317,
+      "name": "swalot",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 141,
+      "id": 52,
+      "name": "meowth",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 141,
+      "id": 10209,
+      "name": "meowth-alola",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 141,
+      "id": 10320,
+      "name": "meowth-galar",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 142,
+      "id": 53,
+      "name": "persian",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 142,
+      "id": 10210,
+      "name": "persian-alola",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 143,
+      "id": 425,
+      "name": "drifloon",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 144,
+      "id": 426,
+      "name": "drifblim",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 145,
+      "id": 669,
+      "name": "flabebe-red",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 145,
+      "id": 10103,
+      "name": "flabebe-yellow",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 145,
+      "id": 10104,
+      "name": "flabebe-orange",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 145,
+      "id": 10105,
+      "name": "flabebe-blue",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 145,
+      "id": 10106,
+      "name": "flabebe-white",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 146,
+      "id": 670,
+      "name": "floette-red",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 146,
+      "id": 10107,
+      "name": "floette-yellow",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 146,
+      "id": 10108,
+      "name": "floette-orange",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 146,
+      "id": 10109,
+      "name": "floette-blue",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 146,
+      "id": 10110,
+      "name": "floette-white",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 146,
+      "id": 10163,
+      "name": "floette-eternal",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 147,
+      "id": 671,
+      "name": "florges-red",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 147,
+      "id": 10111,
+      "name": "florges-yellow",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 147,
+      "id": 10112,
+      "name": "florges-orange",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 147,
+      "id": 10113,
+      "name": "florges-blue",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 147,
+      "id": 10114,
+      "name": "florges-white",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 148,
+      "id": 50,
+      "name": "diglett",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 148,
+      "id": 10207,
+      "name": "diglett-alola",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 149,
+      "id": 51,
+      "name": "dugtrio",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 149,
+      "id": 10208,
+      "name": "dugtrio-alola",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 150,
+      "id": 324,
+      "name": "torkoal",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 151,
+      "id": 322,
+      "name": "numel",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 152,
+      "id": 323,
+      "name": "camerupt",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 153,
+      "id": 436,
+      "name": "bronzor",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 154,
+      "id": 437,
+      "name": "bronzong",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 155,
+      "id": 610,
+      "name": "axew",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 156,
+      "id": 611,
+      "name": "fraxure",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 157,
+      "id": 612,
+      "name": "haxorus",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 158,
+      "id": 56,
+      "name": "mankey",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 159,
+      "id": 57,
+      "name": "primeape",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 160,
+      "id": 979,
+      "name": "annihilape",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 161,
+      "id": 307,
+      "name": "meditite",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 162,
+      "id": 308,
+      "name": "medicham",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 163,
+      "id": 447,
+      "name": "riolu",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 164,
+      "id": 448,
+      "name": "lucario",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 165,
+      "id": 935,
+      "name": "charcadet",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 166,
+      "id": 936,
+      "name": "armarouge",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 167,
+      "id": 937,
+      "name": "ceruledge",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 168,
+      "id": 339,
+      "name": "barboach",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 169,
+      "id": 340,
+      "name": "whiscash",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 170,
+      "id": 938,
+      "name": "tadbulb",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 171,
+      "id": 939,
+      "name": "bellibolt",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 172,
+      "id": 704,
+      "name": "goomy",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 173,
+      "id": 705,
+      "name": "sliggoo",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 173,
+      "id": 10410,
+      "name": "sliggoo-hisui",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 174,
+      "id": 706,
+      "name": "goodra",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 174,
+      "id": 10411,
+      "name": "goodra-hisui",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 175,
+      "id": 453,
+      "name": "croagunk",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 176,
+      "id": 454,
+      "name": "toxicroak",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 177,
+      "id": 940,
+      "name": "wattrel",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 178,
+      "id": 941,
+      "name": "kilowattrel",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 179,
+      "id": 133,
+      "name": "eevee",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 179,
+      "id": 10318,
+      "name": "eevee-starter",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 180,
+      "id": 134,
+      "name": "vaporeon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 181,
+      "id": 135,
+      "name": "jolteon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 182,
+      "id": 136,
+      "name": "flareon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 183,
+      "id": 196,
+      "name": "espeon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 184,
+      "id": 197,
+      "name": "umbreon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 185,
+      "id": 470,
+      "name": "leafeon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 186,
+      "id": 471,
+      "name": "glaceon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 187,
+      "id": 700,
+      "name": "sylveon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 188,
+      "id": 206,
+      "name": "dunsparce",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 189,
+      "id": 982,
+      "name": "dudunsparce-two-segment",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 189,
+      "id": 10424,
+      "name": "dudunsparce-three-segment",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 190,
+      "id": 585,
+      "name": "deerling-spring",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 190,
+      "id": 10068,
+      "name": "deerling-summer",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 190,
+      "id": 10069,
+      "name": "deerling-autumn",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 190,
+      "id": 10070,
+      "name": "deerling-winter",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 191,
+      "id": 586,
+      "name": "sawsbuck-spring",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 191,
+      "id": 10071,
+      "name": "sawsbuck-summer",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 191,
+      "id": 10072,
+      "name": "sawsbuck-autumn",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 191,
+      "id": 10073,
+      "name": "sawsbuck-winter",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 192,
+      "id": 203,
+      "name": "girafarig",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 193,
+      "id": 981,
+      "name": "farigiraf",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 194,
+      "id": 88,
+      "name": "grimer",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 194,
+      "id": 10214,
+      "name": "grimer-alola",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 195,
+      "id": 89,
+      "name": "muk",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 195,
+      "id": 10215,
+      "name": "muk-alola",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 196,
+      "id": 942,
+      "name": "maschiff",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 197,
+      "id": 943,
+      "name": "mabosstiff",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 198,
+      "id": 848,
+      "name": "toxel",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 199,
+      "id": 849,
+      "name": "toxtricity-amped",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 199,
+      "id": 10343,
+      "name": "toxtricity-low-key",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 200,
+      "id": 702,
+      "name": "dedenne",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 201,
+      "id": 417,
+      "name": "pachirisu",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 202,
+      "id": 944,
+      "name": "shroodle",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 203,
+      "id": 945,
+      "name": "grafaiai",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 204,
+      "id": 234,
+      "name": "stantler",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 205,
+      "id": 590,
+      "name": "foongus",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 206,
+      "id": 591,
+      "name": "amoonguss",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 207,
+      "id": 100,
+      "name": "voltorb",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 207,
+      "id": 10400,
+      "name": "voltorb-hisui",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 208,
+      "id": 101,
+      "name": "electrode",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 208,
+      "id": 10401,
+      "name": "electrode-hisui",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 209,
+      "id": 81,
+      "name": "magnemite",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 210,
+      "id": 82,
+      "name": "magneton",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 211,
+      "id": 462,
+      "name": "magnezone",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 212,
+      "id": 132,
+      "name": "ditto",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 213,
+      "id": 58,
+      "name": "growlithe",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 213,
+      "id": 10398,
+      "name": "growlithe-hisui",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 214,
+      "id": 59,
+      "name": "arcanine",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 214,
+      "id": 10399,
+      "name": "arcanine-hisui",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 215,
+      "id": 216,
+      "name": "teddiursa",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 216,
+      "id": 217,
+      "name": "ursaring",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 217,
+      "id": 335,
+      "name": "zangoose",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 218,
+      "id": 336,
+      "name": "seviper",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 219,
+      "id": 333,
+      "name": "swablu",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 220,
+      "id": 334,
+      "name": "altaria",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 221,
+      "id": 672,
+      "name": "skiddo",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 222,
+      "id": 673,
+      "name": "gogoat",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 223,
+      "id": 128,
+      "name": "tauros",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 223,
+      "id": 10419,
+      "name": "tauros-paldea-combat-breed",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 223,
+      "id": 10420,
+      "name": "tauros-paldea-blaze-breed",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 223,
+      "id": 10421,
+      "name": "tauros-paldea-aqua-breed",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 224,
+      "id": 667,
+      "name": "litleo",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 225,
+      "id": 668,
+      "name": "pyroar",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 226,
+      "id": 434,
+      "name": "stunky",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 227,
+      "id": 435,
+      "name": "skuntank",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 228,
+      "id": 570,
+      "name": "zorua",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 228,
+      "id": 10407,
+      "name": "zorua-hisui",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 229,
+      "id": 571,
+      "name": "zoroark",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 229,
+      "id": 10408,
+      "name": "zoroark-hisui",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 230,
+      "id": 215,
+      "name": "sneasel",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 230,
+      "id": 10404,
+      "name": "sneasel-hisui",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 231,
+      "id": 461,
+      "name": "weavile",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 232,
+      "id": 198,
+      "name": "murkrow",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 233,
+      "id": 430,
+      "name": "honchkrow",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 234,
+      "id": 574,
+      "name": "gothita",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 235,
+      "id": 575,
+      "name": "gothorita",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 236,
+      "id": 576,
+      "name": "gothitelle",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 237,
+      "id": 854,
+      "name": "sinistea-phony",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 237,
+      "id": 10344,
+      "name": "sinistea-antique",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 238,
+      "id": 855,
+      "name": "polteageist-phony",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 238,
+      "id": 10345,
+      "name": "polteageist-antique",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 239,
+      "id": 778,
+      "name": "mimikyu-disguised",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 240,
+      "id": 707,
+      "name": "klefki",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 241,
+      "id": 876,
+      "name": "indeedee-male",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 241,
+      "id": 10355,
+      "name": "indeedee-female",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 242,
+      "id": 946,
+      "name": "bramblin",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 243,
+      "id": 947,
+      "name": "brambleghast",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 244,
+      "id": 948,
+      "name": "toedscool",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 245,
+      "id": 949,
+      "name": "toedscruel",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 246,
+      "id": 357,
+      "name": "tropius",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 247,
+      "id": 753,
+      "name": "fomantis",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 248,
+      "id": 754,
+      "name": "lurantis",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 249,
+      "id": 950,
+      "name": "klawf",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 250,
+      "id": 951,
+      "name": "capsakid",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 251,
+      "id": 952,
+      "name": "scovillain",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 252,
+      "id": 331,
+      "name": "cacnea",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 253,
+      "id": 332,
+      "name": "cacturne",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 254,
+      "id": 953,
+      "name": "rellor",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 255,
+      "id": 954,
+      "name": "rabsca",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 256,
+      "id": 48,
+      "name": "venonat",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 257,
+      "id": 49,
+      "name": "venomoth",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 258,
+      "id": 204,
+      "name": "pineco",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 259,
+      "id": 205,
+      "name": "forretress",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 260,
+      "id": 123,
+      "name": "scyther",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 261,
+      "id": 212,
+      "name": "scizor",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 262,
+      "id": 214,
+      "name": "heracross",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 263,
+      "id": 955,
+      "name": "flittle",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 264,
+      "id": 956,
+      "name": "espathra",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 265,
+      "id": 449,
+      "name": "hippopotas",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 266,
+      "id": 450,
+      "name": "hippowdon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 267,
+      "id": 551,
+      "name": "sandile",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 268,
+      "id": 552,
+      "name": "krokorok",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 269,
+      "id": 553,
+      "name": "krookodile",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 270,
+      "id": 843,
+      "name": "silicobra",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 271,
+      "id": 844,
+      "name": "sandaconda",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 272,
+      "id": 749,
+      "name": "mudbray",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 273,
+      "id": 750,
+      "name": "mudsdale",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 274,
+      "id": 636,
+      "name": "larvesta",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 275,
+      "id": 637,
+      "name": "volcarona",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 276,
+      "id": 371,
+      "name": "bagon",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 277,
+      "id": 372,
+      "name": "shelgon",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 278,
+      "id": 373,
+      "name": "salamence",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 279,
+      "id": 957,
+      "name": "tinkatink",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 280,
+      "id": 958,
+      "name": "tinkatuff",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 281,
+      "id": 959,
+      "name": "tinkaton",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 282,
+      "id": 856,
+      "name": "hatenna",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 283,
+      "id": 857,
+      "name": "hattrem",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 284,
+      "id": 858,
+      "name": "hatterene",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 285,
+      "id": 859,
+      "name": "impidimp",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 286,
+      "id": 860,
+      "name": "morgrem",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 287,
+      "id": 861,
+      "name": "grimmsnarl",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 288,
+      "id": 960,
+      "name": "wiglett",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 289,
+      "id": 961,
+      "name": "wugtrio",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 290,
+      "id": 962,
+      "name": "bombirdier",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 291,
+      "id": 963,
+      "name": "finizen",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 292,
+      "id": 964,
+      "name": "palafin-zero",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 293,
+      "id": 965,
+      "name": "varoom",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 294,
+      "id": 966,
+      "name": "revavroom",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 295,
+      "id": 967,
+      "name": "cyclizar",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 296,
+      "id": 968,
+      "name": "orthworm",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 297,
+      "id": 302,
+      "name": "sableye",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 298,
+      "id": 353,
+      "name": "shuppet",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 299,
+      "id": 354,
+      "name": "banette",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 300,
+      "id": 870,
+      "name": "falinks",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 301,
+      "id": 701,
+      "name": "hawlucha",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 302,
+      "id": 442,
+      "name": "spiritomb",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 303,
+      "id": 714,
+      "name": "noibat",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 304,
+      "id": 715,
+      "name": "noivern",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 305,
+      "id": 885,
+      "name": "dreepy",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 306,
+      "id": 886,
+      "name": "drakloak",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 307,
+      "id": 887,
+      "name": "dragapult",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 308,
+      "id": 969,
+      "name": "glimmet",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 309,
+      "id": 970,
+      "name": "glimmora",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 310,
+      "id": 479,
+      "name": "rotom",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 310,
+      "id": 10058,
+      "name": "rotom-heat",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 310,
+      "id": 10059,
+      "name": "rotom-wash",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 310,
+      "id": 10060,
+      "name": "rotom-frost",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 310,
+      "id": 10061,
+      "name": "rotom-fan",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 310,
+      "id": 10062,
+      "name": "rotom-mow",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 311,
+      "id": 971,
+      "name": "greavard",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 312,
+      "id": 972,
+      "name": "houndstone",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 313,
+      "id": 765,
+      "name": "oranguru",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 314,
+      "id": 766,
+      "name": "passimian",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 315,
+      "id": 775,
+      "name": "komala",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 316,
+      "id": 246,
+      "name": "larvitar",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 317,
+      "id": 247,
+      "name": "pupitar",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 318,
+      "id": 248,
+      "name": "tyranitar",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 319,
+      "id": 874,
+      "name": "stonjourner",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 320,
+      "id": 875,
+      "name": "eiscue-ice",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 321,
+      "id": 871,
+      "name": "pincurchin",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 322,
+      "id": 769,
+      "name": "sandygast",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 323,
+      "id": 770,
+      "name": "palossand",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 324,
+      "id": 79,
+      "name": "slowpoke",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 324,
+      "id": 10323,
+      "name": "slowpoke-galar",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 325,
+      "id": 80,
+      "name": "slowbro",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 325,
+      "id": 10324,
+      "name": "slowbro-galar",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 326,
+      "id": 199,
+      "name": "slowking",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 326,
+      "id": 10331,
+      "name": "slowking-galar",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 327,
+      "id": 422,
+      "name": "shellos-west",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 327,
+      "id": 10039,
+      "name": "shellos-east",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 328,
+      "id": 423,
+      "name": "gastrodon-west",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 328,
+      "id": 10040,
+      "name": "gastrodon-east",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 329,
+      "id": 90,
+      "name": "shellder",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 330,
+      "id": 91,
+      "name": "cloyster",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 331,
+      "id": 211,
+      "name": "qwilfish",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 331,
+      "id": 10403,
+      "name": "qwilfish-hisui",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 332,
+      "id": 370,
+      "name": "luvdisc",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 333,
+      "id": 456,
+      "name": "finneon",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 334,
+      "id": 457,
+      "name": "lumineon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 335,
+      "id": 779,
+      "name": "bruxish",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 336,
+      "id": 594,
+      "name": "alomomola",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 337,
+      "id": 690,
+      "name": "skrelp",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 338,
+      "id": 691,
+      "name": "dragalge",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 339,
+      "id": 692,
+      "name": "clauncher",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 340,
+      "id": 693,
+      "name": "clawitzer",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 341,
+      "id": 602,
+      "name": "tynamo",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 342,
+      "id": 603,
+      "name": "eelektrik",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 343,
+      "id": 604,
+      "name": "eelektross",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 344,
+      "id": 747,
+      "name": "mareanie",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 345,
+      "id": 748,
+      "name": "toxapex",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 346,
+      "id": 973,
+      "name": "flamigo",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 347,
+      "id": 147,
+      "name": "dratini",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 348,
+      "id": 148,
+      "name": "dragonair",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 349,
+      "id": 149,
+      "name": "dragonite",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 350,
+      "id": 872,
+      "name": "snom",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 351,
+      "id": 873,
+      "name": "frosmoth",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 352,
+      "id": 459,
+      "name": "snover",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 353,
+      "id": 460,
+      "name": "abomasnow",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 354,
+      "id": 225,
+      "name": "delibird",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 355,
+      "id": 613,
+      "name": "cubchoo",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 356,
+      "id": 614,
+      "name": "beartic",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 357,
+      "id": 361,
+      "name": "snorunt",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 358,
+      "id": 362,
+      "name": "glalie",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 359,
+      "id": 478,
+      "name": "froslass",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 360,
+      "id": 615,
+      "name": "cryogonal",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 361,
+      "id": 974,
+      "name": "cetoddle",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 362,
+      "id": 975,
+      "name": "cetitan",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 363,
+      "id": 712,
+      "name": "bergmite",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 364,
+      "id": 713,
+      "name": "avalugg",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 364,
+      "id": 10412,
+      "name": "avalugg-hisui",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 365,
+      "id": 627,
+      "name": "rufflet",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 366,
+      "id": 628,
+      "name": "braviary",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 366,
+      "id": 10409,
+      "name": "braviary-hisui",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 367,
+      "id": 624,
+      "name": "pawniard",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 368,
+      "id": 625,
+      "name": "bisharp",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 369,
+      "id": 983,
+      "name": "kingambit",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 370,
+      "id": 633,
+      "name": "deino",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 371,
+      "id": 634,
+      "name": "zweilous",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 372,
+      "id": 635,
+      "name": "hydreigon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 373,
+      "id": 976,
+      "name": "veluza",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 374,
+      "id": 977,
+      "name": "dondozo",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 375,
+      "id": 978,
+      "name": "tatsugiri-curly",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 375,
+      "id": 10427,
+      "name": "tatsugiri-droopy",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 375,
+      "id": 10428,
+      "name": "tatsugiri-stretchy",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 376,
+      "id": 984,
+      "name": "great-tusk",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 377,
+      "id": 985,
+      "name": "scream-tail",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 378,
+      "id": 986,
+      "name": "brute-bonnet",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 379,
+      "id": 987,
+      "name": "flutter-mane",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 380,
+      "id": 988,
+      "name": "slither-wing",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 381,
+      "id": 989,
+      "name": "sandy-shocks",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 382,
+      "id": 990,
+      "name": "iron-treads",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 383,
+      "id": 991,
+      "name": "iron-bundle",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 384,
+      "id": 992,
+      "name": "iron-hands",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 385,
+      "id": 993,
+      "name": "iron-jugulis",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 386,
+      "id": 994,
+      "name": "iron-moth",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 387,
+      "id": 995,
+      "name": "iron-thorns",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 388,
+      "id": 996,
+      "name": "frigibax",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 389,
+      "id": 997,
+      "name": "arctibax",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 390,
+      "id": 998,
+      "name": "baxcalibur",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 391,
+      "id": 999,
+      "name": "gimmighoul-chest",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 391,
+      "id": 10432,
+      "name": "gimmighoul-roaming",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 392,
+      "id": 1000,
+      "name": "gholdengo",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 393,
+      "id": 1001,
+      "name": "wo-chien",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 394,
+      "id": 1002,
+      "name": "chien-pao",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 395,
+      "id": 1003,
+      "name": "ting-lu",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 396,
+      "id": 1004,
+      "name": "chi-yu",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 397,
+      "id": 1005,
+      "name": "roaring-moon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 398,
+      "id": 1006,
+      "name": "iron-valiant",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 399,
+      "id": 1007,
+      "name": "koraidon-apex-build",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 400,
+      "id": 1008,
+      "name": "miraidon-ultimate-mode",
+      "final": true,
+      "alt": false
+    }
+  ],
+  "32": [
+    {
+      "dex_id": 1,
+      "id": 167,
+      "name": "spinarak",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 2,
+      "id": 168,
+      "name": "ariados",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 3,
+      "id": 193,
+      "name": "yanma",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 4,
+      "id": 469,
+      "name": "yanmega",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 5,
+      "id": 194,
+      "name": "wooper",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 5,
+      "id": 10422,
+      "name": "wooper-paldea",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 6,
+      "id": 195,
+      "name": "quagsire",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 7,
+      "id": 261,
+      "name": "poochyena",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 8,
+      "id": 262,
+      "name": "mightyena",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 9,
+      "id": 313,
+      "name": "volbeat",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 10,
+      "id": 314,
+      "name": "illumise",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 11,
+      "id": 341,
+      "name": "corphish",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 12,
+      "id": 342,
+      "name": "crawdaunt",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 13,
+      "id": 540,
+      "name": "sewaddle",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 14,
+      "id": 541,
+      "name": "swadloon",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 15,
+      "id": 542,
+      "name": "leavanny",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 16,
+      "id": 742,
+      "name": "cutiefly",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 17,
+      "id": 743,
+      "name": "ribombee",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 18,
+      "id": 23,
+      "name": "ekans",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 19,
+      "id": 24,
+      "name": "arbok",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 20,
+      "id": 172,
+      "name": "pichu",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 20,
+      "id": 10065,
+      "name": "pichu-spiky-eared",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 21,
+      "id": 25,
+      "name": "pikachu",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 21,
+      "id": 10182,
+      "name": "pikachu-rock-star",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 21,
+      "id": 10183,
+      "name": "pikachu-belle",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 21,
+      "id": 10184,
+      "name": "pikachu-pop-star",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 21,
+      "id": 10185,
+      "name": "pikachu-phd",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 21,
+      "id": 10186,
+      "name": "pikachu-libre",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 21,
+      "id": 10187,
+      "name": "pikachu-cosplay",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 21,
+      "id": 10196,
+      "name": "pikachu-original-cap",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 21,
+      "id": 10197,
+      "name": "pikachu-hoenn-cap",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 21,
+      "id": 10198,
+      "name": "pikachu-sinnoh-cap",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 21,
+      "id": 10199,
+      "name": "pikachu-unova-cap",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 21,
+      "id": 10200,
+      "name": "pikachu-kalos-cap",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 21,
+      "id": 10201,
+      "name": "pikachu-alola-cap",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 21,
+      "id": 10267,
+      "name": "pikachu-partner-cap",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 21,
+      "id": 10317,
+      "name": "pikachu-starter",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 21,
+      "id": 10319,
+      "name": "pikachu-world-cap",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 22,
+      "id": 26,
+      "name": "raichu",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 22,
+      "id": 10202,
+      "name": "raichu-alola",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 23,
+      "id": 69,
+      "name": "bellsprout",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 24,
+      "id": 70,
+      "name": "weepinbell",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 25,
+      "id": 71,
+      "name": "victreebel",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 26,
+      "id": 161,
+      "name": "sentret",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 27,
+      "id": 162,
+      "name": "furret",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 28,
+      "id": 396,
+      "name": "starly",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 29,
+      "id": 397,
+      "name": "staravia",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 30,
+      "id": 398,
+      "name": "staraptor",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 31,
+      "id": 753,
+      "name": "fomantis",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 32,
+      "id": 754,
+      "name": "lurantis",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 33,
+      "id": 840,
+      "name": "applin",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 34,
+      "id": 841,
+      "name": "flapple",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 35,
+      "id": 842,
+      "name": "appletun",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 36,
+      "id": 1011,
+      "name": "dipplin",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 37,
+      "id": 37,
+      "name": "vulpix",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 37,
+      "id": 10205,
+      "name": "vulpix-alola",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 38,
+      "id": 38,
+      "name": "ninetales",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 38,
+      "id": 10206,
+      "name": "ninetales-alola",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 39,
+      "id": 60,
+      "name": "poliwag",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 40,
+      "id": 61,
+      "name": "poliwhirl",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 41,
+      "id": 62,
+      "name": "poliwrath",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 42,
+      "id": 186,
+      "name": "politoed",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 43,
+      "id": 129,
+      "name": "magikarp",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 44,
+      "id": 130,
+      "name": "gyarados",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 45,
+      "id": 163,
+      "name": "hoothoot",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 46,
+      "id": 164,
+      "name": "noctowl",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 47,
+      "id": 190,
+      "name": "aipom",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 48,
+      "id": 424,
+      "name": "ambipom",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 49,
+      "id": 214,
+      "name": "heracross",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 50,
+      "id": 220,
+      "name": "swinub",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 51,
+      "id": 221,
+      "name": "piloswine",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 52,
+      "id": 473,
+      "name": "mamoswine",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 53,
+      "id": 234,
+      "name": "stantler",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 54,
+      "id": 273,
+      "name": "seedot",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 55,
+      "id": 274,
+      "name": "nuzleaf",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 56,
+      "id": 275,
+      "name": "shiftry",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 57,
+      "id": 280,
+      "name": "ralts",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 58,
+      "id": 281,
+      "name": "kirlia",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 59,
+      "id": 282,
+      "name": "gardevoir",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 60,
+      "id": 475,
+      "name": "gallade",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 61,
+      "id": 401,
+      "name": "kricketot",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 62,
+      "id": 402,
+      "name": "kricketune",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 63,
+      "id": 417,
+      "name": "pachirisu",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 64,
+      "id": 447,
+      "name": "riolu",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 65,
+      "id": 448,
+      "name": "lucario",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 66,
+      "id": 548,
+      "name": "petilil",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 67,
+      "id": 549,
+      "name": "lilligant",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 67,
+      "id": 10406,
+      "name": "lilligant-hisui",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 68,
+      "id": 708,
+      "name": "phantump",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 69,
+      "id": 709,
+      "name": "trevenant",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 70,
+      "id": 744,
+      "name": "rockruff",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 70,
+      "id": 10310,
+      "name": "rockruff-own-tempo",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 71,
+      "id": 745,
+      "name": "lycanroc-midday",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 71,
+      "id": 10228,
+      "name": "lycanroc-midnight",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 71,
+      "id": 10311,
+      "name": "lycanroc-dusk",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 72,
+      "id": 819,
+      "name": "skwovet",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 73,
+      "id": 820,
+      "name": "greedent",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 74,
+      "id": 948,
+      "name": "toedscool",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 75,
+      "id": 949,
+      "name": "toedscruel",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 76,
+      "id": 1012,
+      "name": "poltchageist-counterfeit",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 76,
+      "id": 10447,
+      "name": "poltchageist-artisan",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 77,
+      "id": 1013,
+      "name": "sinistcha-unremarkable",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 77,
+      "id": 10448,
+      "name": "sinistcha-masterpiece",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 78,
+      "id": 58,
+      "name": "growlithe",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 78,
+      "id": 10398,
+      "name": "growlithe-hisui",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 79,
+      "id": 59,
+      "name": "arcanine",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 79,
+      "id": 10399,
+      "name": "arcanine-hisui",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 80,
+      "id": 74,
+      "name": "geodude",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 80,
+      "id": 10211,
+      "name": "geodude-alola",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 81,
+      "id": 75,
+      "name": "graveler",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 81,
+      "id": 10212,
+      "name": "graveler-alola",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 82,
+      "id": 76,
+      "name": "golem",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 82,
+      "id": 10213,
+      "name": "golem-alola",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 83,
+      "id": 438,
+      "name": "bonsly",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 84,
+      "id": 185,
+      "name": "sudowoodo",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 85,
+      "id": 532,
+      "name": "timburr",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 86,
+      "id": 533,
+      "name": "gurdurr",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 87,
+      "id": 534,
+      "name": "conkeldurr",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 88,
+      "id": 714,
+      "name": "noibat",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 89,
+      "id": 715,
+      "name": "noivern",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 90,
+      "id": 846,
+      "name": "arrokuda",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 91,
+      "id": 847,
+      "name": "barraskewda",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 92,
+      "id": 856,
+      "name": "hatenna",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 93,
+      "id": 857,
+      "name": "hattrem",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 94,
+      "id": 858,
+      "name": "hatterene",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 95,
+      "id": 877,
+      "name": "morpeko-full-belly",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 96,
+      "id": 968,
+      "name": "orthworm",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 97,
+      "id": 924,
+      "name": "tandemaus",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 98,
+      "id": 925,
+      "name": "maushold-family-of-four",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 98,
+      "id": 10426,
+      "name": "maushold-family-of-three",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 99,
+      "id": 56,
+      "name": "mankey",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 100,
+      "id": 57,
+      "name": "primeape",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 101,
+      "id": 979,
+      "name": "annihilape",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 102,
+      "id": 446,
+      "name": "munchlax",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 103,
+      "id": 143,
+      "name": "snorlax",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 104,
+      "id": 270,
+      "name": "lotad",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 105,
+      "id": 271,
+      "name": "lombre",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 106,
+      "id": 272,
+      "name": "ludicolo",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 107,
+      "id": 299,
+      "name": "nosepass",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 108,
+      "id": 476,
+      "name": "probopass",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 109,
+      "id": 403,
+      "name": "shinx",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 110,
+      "id": 404,
+      "name": "luxio",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 111,
+      "id": 405,
+      "name": "luxray",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 112,
+      "id": 736,
+      "name": "grubbin",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 113,
+      "id": 737,
+      "name": "charjabug",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 114,
+      "id": 738,
+      "name": "vikavolt",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 115,
+      "id": 741,
+      "name": "oricorio-baile",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 115,
+      "id": 10225,
+      "name": "oricorio-pom-pom",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 115,
+      "id": 10226,
+      "name": "oricorio-pau",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 115,
+      "id": 10227,
+      "name": "oricorio-sensu",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 116,
+      "id": 27,
+      "name": "sandshrew",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 116,
+      "id": 10203,
+      "name": "sandshrew-alola",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 117,
+      "id": 28,
+      "name": "sandslash",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 117,
+      "id": 10204,
+      "name": "sandslash-alola",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 118,
+      "id": 92,
+      "name": "gastly",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 119,
+      "id": 93,
+      "name": "haunter",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 120,
+      "id": 94,
+      "name": "gengar",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 121,
+      "id": 207,
+      "name": "gligar",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 122,
+      "id": 472,
+      "name": "gliscor",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 123,
+      "id": 228,
+      "name": "houndour",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 124,
+      "id": 229,
+      "name": "houndoom",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 125,
+      "id": 325,
+      "name": "spoink",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 126,
+      "id": 326,
+      "name": "grumpig",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 127,
+      "id": 629,
+      "name": "vullaby",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 128,
+      "id": 630,
+      "name": "mandibuzz",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 129,
+      "id": 749,
+      "name": "mudbray",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 130,
+      "id": 750,
+      "name": "mudsdale",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 131,
+      "id": 782,
+      "name": "jangmo-o",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 132,
+      "id": 783,
+      "name": "hakamo-o",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 133,
+      "id": 784,
+      "name": "kommo-o",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 134,
+      "id": 962,
+      "name": "bombirdier",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 135,
+      "id": 109,
+      "name": "koffing",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 136,
+      "id": 110,
+      "name": "weezing",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 136,
+      "id": 10326,
+      "name": "weezing-galar",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 137,
+      "id": 619,
+      "name": "mienfoo",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 138,
+      "id": 620,
+      "name": "mienshao",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 139,
+      "id": 355,
+      "name": "duskull",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 140,
+      "id": 356,
+      "name": "dusclops",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 141,
+      "id": 477,
+      "name": "dusknoir",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 142,
+      "id": 433,
+      "name": "chingling",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 143,
+      "id": 358,
+      "name": "chimecho",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 144,
+      "id": 218,
+      "name": "slugma",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 145,
+      "id": 219,
+      "name": "magcargo",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 146,
+      "id": 607,
+      "name": "litwick",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 147,
+      "id": 608,
+      "name": "lampent",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 148,
+      "id": 609,
+      "name": "chandelure",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 149,
+      "id": 283,
+      "name": "surskit",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 150,
+      "id": 284,
+      "name": "masquerain",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 151,
+      "id": 173,
+      "name": "cleffa",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 152,
+      "id": 35,
+      "name": "clefairy",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 153,
+      "id": 36,
+      "name": "clefable",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 154,
+      "id": 436,
+      "name": "bronzor",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 155,
+      "id": 437,
+      "name": "bronzong",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 156,
+      "id": 969,
+      "name": "glimmet",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 157,
+      "id": 970,
+      "name": "glimmora",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 158,
+      "id": 349,
+      "name": "feebas",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 159,
+      "id": 350,
+      "name": "milotic",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 160,
+      "id": 206,
+      "name": "dunsparce",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 161,
+      "id": 982,
+      "name": "dudunsparce-two-segment",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 161,
+      "id": 10424,
+      "name": "dudunsparce-three-segment",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 162,
+      "id": 339,
+      "name": "barboach",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 163,
+      "id": 340,
+      "name": "whiscash",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 164,
+      "id": 443,
+      "name": "gible",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 165,
+      "id": 444,
+      "name": "gabite",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 166,
+      "id": 445,
+      "name": "garchomp",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 167,
+      "id": 703,
+      "name": "carbink",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 168,
+      "id": 757,
+      "name": "salandit",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 169,
+      "id": 758,
+      "name": "salazzle",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 170,
+      "id": 215,
+      "name": "sneasel",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 170,
+      "id": 10404,
+      "name": "sneasel-hisui",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 171,
+      "id": 461,
+      "name": "weavile",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 172,
+      "id": 361,
+      "name": "snorunt",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 173,
+      "id": 362,
+      "name": "glalie",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 174,
+      "id": 478,
+      "name": "froslass",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 175,
+      "id": 602,
+      "name": "tynamo",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 176,
+      "id": 603,
+      "name": "eelektrik",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 177,
+      "id": 604,
+      "name": "eelektross",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 178,
+      "id": 704,
+      "name": "goomy",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 179,
+      "id": 705,
+      "name": "sliggoo",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 179,
+      "id": 10410,
+      "name": "sliggoo-hisui",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 180,
+      "id": 706,
+      "name": "goodra",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 180,
+      "id": 10411,
+      "name": "goodra-hisui",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 181,
+      "id": 580,
+      "name": "ducklett",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 182,
+      "id": 581,
+      "name": "swanna",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 183,
+      "id": 833,
+      "name": "chewtle",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 184,
+      "id": 834,
+      "name": "drednaw",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 185,
+      "id": 845,
+      "name": "cramorant",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 186,
+      "id": 624,
+      "name": "pawniard",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 187,
+      "id": 625,
+      "name": "bisharp",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 188,
+      "id": 983,
+      "name": "kingambit",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 189,
+      "id": 778,
+      "name": "mimikyu-disguised",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 190,
+      "id": 859,
+      "name": "impidimp",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 191,
+      "id": 860,
+      "name": "morgrem",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 192,
+      "id": 861,
+      "name": "grimmsnarl",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 193,
+      "id": 876,
+      "name": "indeedee-male",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 193,
+      "id": 10355,
+      "name": "indeedee-female",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 194,
+      "id": 550,
+      "name": "basculin-red-striped",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 194,
+      "id": 10066,
+      "name": "basculin-blue-striped",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 194,
+      "id": 10416,
+      "name": "basculin-white-striped",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 195,
+      "id": 902,
+      "name": "basculegion-male",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 195,
+      "id": 10417,
+      "name": "basculegion-female",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 196,
+      "id": 901,
+      "name": "ursaluna",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 196,
+      "id": 10441,
+      "name": "ursaluna-bloodmoon",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 197,
+      "id": 1014,
+      "name": "okidogi",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 198,
+      "id": 1015,
+      "name": "munkidori",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 199,
+      "id": 1016,
+      "name": "fezandipiti",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 200,
+      "id": 1017,
+      "name": "ogerpon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 200,
+      "id": 10442,
+      "name": "ogerpon-wellspring-mask",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 200,
+      "id": 10443,
+      "name": "ogerpon-hearthflame-mask",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 200,
+      "id": 10444,
+      "name": "ogerpon-cornerstone-mask",
+      "final": true,
+      "alt": true
+    }
+  ],
+  "33": [
+    {
+      "dex_id": 1,
+      "id": 84,
+      "name": "doduo",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 2,
+      "id": 85,
+      "name": "dodrio",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 3,
+      "id": 102,
+      "name": "exeggcute",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 4,
+      "id": 103,
+      "name": "exeggutor",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 4,
+      "id": 10216,
+      "name": "exeggutor-alola",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 5,
+      "id": 111,
+      "name": "rhyhorn",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 6,
+      "id": 112,
+      "name": "rhydon",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 7,
+      "id": 464,
+      "name": "rhyperior",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 8,
+      "id": 48,
+      "name": "venonat",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 9,
+      "id": 49,
+      "name": "venomoth",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 10,
+      "id": 239,
+      "name": "elekid",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 11,
+      "id": 125,
+      "name": "electabuzz",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 12,
+      "id": 466,
+      "name": "electivire",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 13,
+      "id": 240,
+      "name": "magby",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 14,
+      "id": 126,
+      "name": "magmar",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 15,
+      "id": 467,
+      "name": "magmortar",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 16,
+      "id": 440,
+      "name": "happiny",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 17,
+      "id": 113,
+      "name": "chansey",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 18,
+      "id": 242,
+      "name": "blissey",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 19,
+      "id": 123,
+      "name": "scyther",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 20,
+      "id": 212,
+      "name": "scizor",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 21,
+      "id": 900,
+      "name": "kleavor",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 22,
+      "id": 128,
+      "name": "tauros",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 22,
+      "id": 10419,
+      "name": "tauros-paldea-combat-breed",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 22,
+      "id": 10420,
+      "name": "tauros-paldea-blaze-breed",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 22,
+      "id": 10421,
+      "name": "tauros-paldea-aqua-breed",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 23,
+      "id": 522,
+      "name": "blitzle",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 24,
+      "id": 523,
+      "name": "zebstrika",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 25,
+      "id": 203,
+      "name": "girafarig",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 26,
+      "id": 981,
+      "name": "farigiraf",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 27,
+      "id": 551,
+      "name": "sandile",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 28,
+      "id": 552,
+      "name": "krokorok",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 29,
+      "id": 553,
+      "name": "krookodile",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 30,
+      "id": 953,
+      "name": "rellor",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 31,
+      "id": 954,
+      "name": "rabsca",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 32,
+      "id": 627,
+      "name": "rufflet",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 33,
+      "id": 628,
+      "name": "braviary",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 33,
+      "id": 10409,
+      "name": "braviary-hisui",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 34,
+      "id": 629,
+      "name": "vullaby",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 35,
+      "id": 630,
+      "name": "mandibuzz",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 36,
+      "id": 667,
+      "name": "litleo",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 37,
+      "id": 668,
+      "name": "pyroar",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 38,
+      "id": 585,
+      "name": "deerling-spring",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 38,
+      "id": 10068,
+      "name": "deerling-summer",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 38,
+      "id": 10069,
+      "name": "deerling-autumn",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 38,
+      "id": 10070,
+      "name": "deerling-winter",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 39,
+      "id": 586,
+      "name": "sawsbuck-spring",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 39,
+      "id": 10071,
+      "name": "sawsbuck-summer",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 39,
+      "id": 10072,
+      "name": "sawsbuck-autumn",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 39,
+      "id": 10073,
+      "name": "sawsbuck-winter",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 40,
+      "id": 235,
+      "name": "smeargle",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 41,
+      "id": 479,
+      "name": "rotom",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 41,
+      "id": 10058,
+      "name": "rotom-heat",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 41,
+      "id": 10059,
+      "name": "rotom-wash",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 41,
+      "id": 10060,
+      "name": "rotom-frost",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 41,
+      "id": 10061,
+      "name": "rotom-fan",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 41,
+      "id": 10062,
+      "name": "rotom-mow",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 42,
+      "id": 868,
+      "name": "milcery",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 43,
+      "id": 869,
+      "name": "alcremie-vanilla-cream",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 43,
+      "id": 10346,
+      "name": "alcremie-ruby-cream",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 43,
+      "id": 10347,
+      "name": "alcremie-matcha-cream",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 43,
+      "id": 10348,
+      "name": "alcremie-mint-cream",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 43,
+      "id": 10349,
+      "name": "alcremie-lemon-cream",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 43,
+      "id": 10350,
+      "name": "alcremie-salted-cream",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 43,
+      "id": 10351,
+      "name": "alcremie-ruby-swirl",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 43,
+      "id": 10352,
+      "name": "alcremie-caramel-swirl",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 43,
+      "id": 10353,
+      "name": "alcremie-rainbow-swirl",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 44,
+      "id": 328,
+      "name": "trapinch",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 45,
+      "id": 329,
+      "name": "vibrava",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 46,
+      "id": 330,
+      "name": "flygon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 47,
+      "id": 731,
+      "name": "pikipek",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 48,
+      "id": 732,
+      "name": "trumbeak",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 49,
+      "id": 733,
+      "name": "toucannon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 50,
+      "id": 72,
+      "name": "tentacool",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 51,
+      "id": 73,
+      "name": "tentacruel",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 52,
+      "id": 116,
+      "name": "horsea",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 53,
+      "id": 117,
+      "name": "seadra",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 54,
+      "id": 230,
+      "name": "kingdra",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 55,
+      "id": 779,
+      "name": "bruxish",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 56,
+      "id": 546,
+      "name": "cottonee",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 57,
+      "id": 547,
+      "name": "whimsicott",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 58,
+      "id": 764,
+      "name": "comfey",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 59,
+      "id": 287,
+      "name": "slakoth",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 60,
+      "id": 288,
+      "name": "vigoroth",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 61,
+      "id": 289,
+      "name": "slaking",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 62,
+      "id": 43,
+      "name": "oddish",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 63,
+      "id": 44,
+      "name": "gloom",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 64,
+      "id": 45,
+      "name": "vileplume",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 65,
+      "id": 182,
+      "name": "bellossom",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 66,
+      "id": 50,
+      "name": "diglett",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 66,
+      "id": 10207,
+      "name": "diglett-alola",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 67,
+      "id": 51,
+      "name": "dugtrio",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 67,
+      "id": 10208,
+      "name": "dugtrio-alola",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 68,
+      "id": 88,
+      "name": "grimer",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 68,
+      "id": 10214,
+      "name": "grimer-alola",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 69,
+      "id": 89,
+      "name": "muk",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 69,
+      "id": 10215,
+      "name": "muk-alola",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 70,
+      "id": 335,
+      "name": "zangoose",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 71,
+      "id": 336,
+      "name": "seviper",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 72,
+      "id": 739,
+      "name": "crabrawler",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 73,
+      "id": 740,
+      "name": "crabominable",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 74,
+      "id": 741,
+      "name": "oricorio-baile",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 74,
+      "id": 10225,
+      "name": "oricorio-pom-pom",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 74,
+      "id": 10226,
+      "name": "oricorio-pau",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 74,
+      "id": 10227,
+      "name": "oricorio-sensu",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 75,
+      "id": 79,
+      "name": "slowpoke",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 75,
+      "id": 10323,
+      "name": "slowpoke-galar",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 76,
+      "id": 80,
+      "name": "slowbro",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 76,
+      "id": 10324,
+      "name": "slowbro-galar",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 77,
+      "id": 199,
+      "name": "slowking",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 77,
+      "id": 10331,
+      "name": "slowking-galar",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 78,
+      "id": 170,
+      "name": "chinchou",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 79,
+      "id": 171,
+      "name": "lanturn",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 80,
+      "id": 686,
+      "name": "inkay",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 81,
+      "id": 687,
+      "name": "malamar",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 82,
+      "id": 370,
+      "name": "luvdisc",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 83,
+      "id": 456,
+      "name": "finneon",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 84,
+      "id": 457,
+      "name": "lumineon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 85,
+      "id": 594,
+      "name": "alomomola",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 86,
+      "id": 324,
+      "name": "torkoal",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 87,
+      "id": 661,
+      "name": "fletchling",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 88,
+      "id": 662,
+      "name": "fletchinder",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 89,
+      "id": 663,
+      "name": "talonflame",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 90,
+      "id": 751,
+      "name": "dewpider",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 91,
+      "id": 752,
+      "name": "araquanid",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 92,
+      "id": 236,
+      "name": "tyrogue",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 93,
+      "id": 106,
+      "name": "hitmonlee",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 94,
+      "id": 107,
+      "name": "hitmonchan",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 95,
+      "id": 237,
+      "name": "hitmontop",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 96,
+      "id": 74,
+      "name": "geodude",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 96,
+      "id": 10211,
+      "name": "geodude-alola",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 97,
+      "id": 75,
+      "name": "graveler",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 97,
+      "id": 10212,
+      "name": "graveler-alola",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 98,
+      "id": 76,
+      "name": "golem",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 98,
+      "id": 10213,
+      "name": "golem-alola",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 99,
+      "id": 529,
+      "name": "drilbur",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 100,
+      "id": 530,
+      "name": "excadrill",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 101,
+      "id": 574,
+      "name": "gothita",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 102,
+      "id": 575,
+      "name": "gothorita",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 103,
+      "id": 576,
+      "name": "gothitelle",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 104,
+      "id": 677,
+      "name": "espurr",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 105,
+      "id": 678,
+      "name": "meowstic-male",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 105,
+      "id": 10124,
+      "name": "meowstic-female",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 106,
+      "id": 774,
+      "name": "minior-red-meteor",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 106,
+      "id": 10255,
+      "name": "minior-red",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 106,
+      "id": 10256,
+      "name": "minior-orange",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 106,
+      "id": 10257,
+      "name": "minior-yellow",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 106,
+      "id": 10258,
+      "name": "minior-green",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 106,
+      "id": 10259,
+      "name": "minior-blue",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 106,
+      "id": 10260,
+      "name": "minior-indigo",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 106,
+      "id": 10261,
+      "name": "minior-violet",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 107,
+      "id": 408,
+      "name": "cranidos",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 108,
+      "id": 409,
+      "name": "rampardos",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 109,
+      "id": 410,
+      "name": "shieldon",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 110,
+      "id": 411,
+      "name": "bastiodon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 111,
+      "id": 572,
+      "name": "minccino",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 112,
+      "id": 573,
+      "name": "cinccino",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 113,
+      "id": 227,
+      "name": "skarmory",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 114,
+      "id": 333,
+      "name": "swablu",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 115,
+      "id": 334,
+      "name": "altaria",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 116,
+      "id": 81,
+      "name": "magnemite",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 117,
+      "id": 82,
+      "name": "magneton",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 118,
+      "id": 462,
+      "name": "magnezone",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 119,
+      "id": 311,
+      "name": "plusle",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 120,
+      "id": 312,
+      "name": "minun",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 121,
+      "id": 559,
+      "name": "scraggy",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 122,
+      "id": 560,
+      "name": "scrafty",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 123,
+      "id": 622,
+      "name": "golett",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 124,
+      "id": 623,
+      "name": "golurk",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 125,
+      "id": 322,
+      "name": "numel",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 126,
+      "id": 323,
+      "name": "camerupt",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 127,
+      "id": 854,
+      "name": "sinistea-phony",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 127,
+      "id": 10344,
+      "name": "sinistea-antique",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 128,
+      "id": 855,
+      "name": "polteageist-phony",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 128,
+      "id": 10345,
+      "name": "polteageist-antique",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 129,
+      "id": 137,
+      "name": "porygon",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 130,
+      "id": 233,
+      "name": "porygon2",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 131,
+      "id": 474,
+      "name": "porygon-z",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 132,
+      "id": 595,
+      "name": "joltik",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 133,
+      "id": 596,
+      "name": "galvantula",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 134,
+      "id": 602,
+      "name": "tynamo",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 135,
+      "id": 603,
+      "name": "eelektrik",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 136,
+      "id": 604,
+      "name": "eelektross",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 137,
+      "id": 374,
+      "name": "beldum",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 138,
+      "id": 375,
+      "name": "metang",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 139,
+      "id": 376,
+      "name": "metagross",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 140,
+      "id": 610,
+      "name": "axew",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 141,
+      "id": 611,
+      "name": "fraxure",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 142,
+      "id": 612,
+      "name": "haxorus",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 143,
+      "id": 86,
+      "name": "seel",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 144,
+      "id": 87,
+      "name": "dewgong",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 145,
+      "id": 131,
+      "name": "lapras",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 146,
+      "id": 211,
+      "name": "qwilfish",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 146,
+      "id": 10403,
+      "name": "qwilfish-hisui",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 147,
+      "id": 904,
+      "name": "overqwil",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 148,
+      "id": 577,
+      "name": "solosis",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 149,
+      "id": 578,
+      "name": "duosion",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 150,
+      "id": 579,
+      "name": "reuniclus",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 151,
+      "id": 209,
+      "name": "snubbull",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 152,
+      "id": 210,
+      "name": "granbull",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 153,
+      "id": 613,
+      "name": "cubchoo",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 154,
+      "id": 614,
+      "name": "beartic",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 155,
+      "id": 27,
+      "name": "sandshrew",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 155,
+      "id": 10203,
+      "name": "sandshrew-alola",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 156,
+      "id": 28,
+      "name": "sandslash",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 156,
+      "id": 10204,
+      "name": "sandslash-alola",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 157,
+      "id": 37,
+      "name": "vulpix",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 157,
+      "id": 10205,
+      "name": "vulpix-alola",
+      "final": false,
+      "alt": true
+    },
+    {
+      "dex_id": 158,
+      "id": 38,
+      "name": "ninetales",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 158,
+      "id": 10206,
+      "name": "ninetales-alola",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 159,
+      "id": 459,
+      "name": "snover",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 160,
+      "id": 460,
+      "name": "abomasnow",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 161,
+      "id": 884,
+      "name": "duraludon",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 162,
+      "id": 1018,
+      "name": "archaludon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 163,
+      "id": 1019,
+      "name": "hydrapple",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 164,
+      "id": 1,
+      "name": "bulbasaur",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 165,
+      "id": 2,
+      "name": "ivysaur",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 166,
+      "id": 3,
+      "name": "venusaur",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 167,
+      "id": 4,
+      "name": "charmander",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 168,
+      "id": 5,
+      "name": "charmeleon",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 169,
+      "id": 6,
+      "name": "charizard",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 170,
+      "id": 7,
+      "name": "squirtle",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 171,
+      "id": 8,
+      "name": "wartortle",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 172,
+      "id": 9,
+      "name": "blastoise",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 173,
+      "id": 152,
+      "name": "chikorita",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 174,
+      "id": 153,
+      "name": "bayleef",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 175,
+      "id": 154,
+      "name": "meganium",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 176,
+      "id": 155,
+      "name": "cyndaquil",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 177,
+      "id": 156,
+      "name": "quilava",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 178,
+      "id": 157,
+      "name": "typhlosion",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 178,
+      "id": 10402,
+      "name": "typhlosion-hisui",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 179,
+      "id": 158,
+      "name": "totodile",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 180,
+      "id": 159,
+      "name": "croconaw",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 181,
+      "id": 160,
+      "name": "feraligatr",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 182,
+      "id": 252,
+      "name": "treecko",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 183,
+      "id": 253,
+      "name": "grovyle",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 184,
+      "id": 254,
+      "name": "sceptile",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 185,
+      "id": 255,
+      "name": "torchic",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 186,
+      "id": 256,
+      "name": "combusken",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 187,
+      "id": 257,
+      "name": "blaziken",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 188,
+      "id": 258,
+      "name": "mudkip",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 189,
+      "id": 259,
+      "name": "marshtomp",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 190,
+      "id": 260,
+      "name": "swampert",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 191,
+      "id": 387,
+      "name": "turtwig",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 192,
+      "id": 388,
+      "name": "grotle",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 193,
+      "id": 389,
+      "name": "torterra",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 194,
+      "id": 390,
+      "name": "chimchar",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 195,
+      "id": 391,
+      "name": "monferno",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 196,
+      "id": 392,
+      "name": "infernape",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 197,
+      "id": 393,
+      "name": "piplup",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 198,
+      "id": 394,
+      "name": "prinplup",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 199,
+      "id": 395,
+      "name": "empoleon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 200,
+      "id": 495,
+      "name": "snivy",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 201,
+      "id": 496,
+      "name": "servine",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 202,
+      "id": 497,
+      "name": "serperior",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 203,
+      "id": 498,
+      "name": "tepig",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 204,
+      "id": 499,
+      "name": "pignite",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 205,
+      "id": 500,
+      "name": "emboar",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 206,
+      "id": 501,
+      "name": "oshawott",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 207,
+      "id": 502,
+      "name": "dewott",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 208,
+      "id": 503,
+      "name": "samurott",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 208,
+      "id": 10405,
+      "name": "samurott-hisui",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 209,
+      "id": 650,
+      "name": "chespin",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 210,
+      "id": 651,
+      "name": "quilladin",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 211,
+      "id": 652,
+      "name": "chesnaught",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 212,
+      "id": 653,
+      "name": "fennekin",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 213,
+      "id": 654,
+      "name": "braixen",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 214,
+      "id": 655,
+      "name": "delphox",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 215,
+      "id": 656,
+      "name": "froakie",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 216,
+      "id": 657,
+      "name": "frogadier",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 217,
+      "id": 658,
+      "name": "greninja",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 217,
+      "id": 10218,
+      "name": "greninja-battle-bond",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 218,
+      "id": 722,
+      "name": "rowlet",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 219,
+      "id": 723,
+      "name": "dartrix",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 220,
+      "id": 724,
+      "name": "decidueye",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 220,
+      "id": 10413,
+      "name": "decidueye-hisui",
+      "final": true,
+      "alt": true
+    },
+    {
+      "dex_id": 221,
+      "id": 725,
+      "name": "litten",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 222,
+      "id": 726,
+      "name": "torracat",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 223,
+      "id": 727,
+      "name": "incineroar",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 224,
+      "id": 728,
+      "name": "popplio",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 225,
+      "id": 729,
+      "name": "brionne",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 226,
+      "id": 730,
+      "name": "primarina",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 227,
+      "id": 810,
+      "name": "grookey",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 228,
+      "id": 811,
+      "name": "thwackey",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 229,
+      "id": 812,
+      "name": "rillaboom",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 230,
+      "id": 813,
+      "name": "scorbunny",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 231,
+      "id": 814,
+      "name": "raboot",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 232,
+      "id": 815,
+      "name": "cinderace",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 233,
+      "id": 816,
+      "name": "sobble",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 234,
+      "id": 817,
+      "name": "drizzile",
+      "final": false,
+      "alt": false
+    },
+    {
+      "dex_id": 235,
+      "id": 818,
+      "name": "inteleon",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 236,
+      "id": 1020,
+      "name": "gouging-fire",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 237,
+      "id": 1021,
+      "name": "raging-bolt",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 238,
+      "id": 1023,
+      "name": "iron-crown",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 239,
+      "id": 1022,
+      "name": "iron-boulder",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 240,
+      "id": 1024,
+      "name": "terapagos",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 241,
+      "id": 1009,
+      "name": "walking-wake",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 242,
+      "id": 1010,
+      "name": "iron-leaves",
+      "final": true,
+      "alt": false
+    },
+    {
+      "dex_id": 243,
+      "id": 1025,
+      "name": "pecharunt",
+      "final": true,
+      "alt": false
+    }
+  ]
+}

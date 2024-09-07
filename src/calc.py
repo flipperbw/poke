@@ -106,10 +106,18 @@ def main() -> None:
     # tink, chesnaught
 
 
+abilityMap = {
+    """
+    
+    """
+}
+
+
 def best_per_type():
     # pokes = pd.read_json('src/data/pokes.json').transpose()
     # pokes = pd.read_json('src/data/pokes-all.json').transpose()
-    pokes = pd.read_json('src/data/pokes-comb.json').transpose()
+    # pokes = pd.read_json('src/data/pokes-comb.json').transpose()
+    pokes = pd.read_json('src/data/pokes-all-2.json').transpose()
 
     d = pokes.copy()
     d.rename(columns={'type': 'otype'}, inplace=True)
@@ -122,14 +130,29 @@ def best_per_type():
     # comb['tot_b'] = comb['tot'] - comb['speed']
     # comb['atk_type'] = np.where(comb['attack'] < comb['special-attack'], 'SpA', 'Atk')
     # comb['def_type'] = np.where(comb['defense'] < comb['special-defense'], 'SpD', 'Def')
-    comb['leg'] = comb['is_legendary'].astype(int)
-    comb['tot_b'] = comb['tot_b'].astype(int)
+    comb['tot_c'] = np.where(comb['attack'] < comb['special-attack'], comb['tot_b'] - comb['attack'], comb['tot_b'] - comb['special-attack'])
 
-    cols = ['type', 'name', 'dex', 'leg', 'tot_b', 'max_atk', 'max_def', 'atk_type', 'def_type']
+    comb['ability_1'] = comb['abilities'].apply(lambda x: (x[0]['desc'] or f'<{x[0]["name"]}>') if x[0]['hidden'] is not True else '-')
+    comb['ability_2'] = comb['abilities'].apply(lambda x: (x[1]['desc'] or f'<{x[1]["name"]}>') if len(x) > 1 and x[1]['hidden'] is not True else '-')
+    comb['ability_h'] = comb['abilities'].apply(
+        lambda x: next((y for y in x if y['hidden'] is True), {'desc': '-'})[
+                      'desc'] or f'<{next((y for y in x if y["hidden"] is True), {"name": "-"})["name"]}>'
+    )
+
+    comb['leg'] = (comb['is_legendary'] | comb['is_mythical']).astype(int)
+    comb['tot_b'] = comb['tot_b'].astype(int)
+    comb['max_atk'] = comb['max_atk'].astype(int)
+    comb['max_def'] = comb['max_def'].astype(int)
+
+    comb = comb.sort_values('tot_c', ascending=False)
+
+    cols = ['type', 'name', 'dex', 'leg', 'tot_c', 'max_atk', 'max_def', 'atk_type', 'def_type', 'ability_1', 'ability_2', 'ability_h']
     grouped = comb.groupby('type', as_index=False)
 
-    lim = 12
-    tot = grouped.apply(lambda x: x.nlargest(lim, 'tot_b')).reset_index(drop=True)[cols]
+    lim = 15
+
+    by_col = 'max_atk'  # 'tot_b'
+    tot = grouped.apply(lambda x: x.nlargest(lim, by_col)).reset_index(drop=True)[cols]
 
     # atk = grouped.apply(lambda x: x.nlargest(3, 'attack')).reset_index(drop=True)[cols]
     # spe = grouped.apply(lambda x: x.nlargest(3, 'special-attack')).reset_index(drop=True)[cols]

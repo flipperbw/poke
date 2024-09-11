@@ -4,6 +4,7 @@ import typing as tp
 from more_itertools import first_true
 
 import pokebase as pb
+from pokebase.cache import SHELVE_CACHE
 from src.typs import get_combo_name
 from src.utils import Chain, Species, dump_to, unavailable_sv
 
@@ -115,7 +116,14 @@ def main() -> None:
                     abilities = [{
                         'hidden': a.is_hidden,
                         'name': a.ability.name,
-                        'desc': next((ax.short_effect for ax in a.ability.effect_entries if ax.language.name == 'en'), None)
+                        'desc': next((ax.short_effect for ax in a.ability.effect_entries if ax.language.name == 'en'), None),
+                        'flavor': next(
+                            (ft.flavor_text for ft in a.ability.flavor_text_entries if ft.language.name == 'en' and ft.version_group.name == 'x-y'),
+                            None
+                        ) or next(
+                            (ft.flavor_text for ft in a.ability.flavor_text_entries if ft.language.name == 'en'),
+                            None
+                        )
                     } for a in pok.abilities]
 
                     stats = {s.stat.name: s.base_stat for s in pstats}
@@ -162,6 +170,8 @@ def main() -> None:
     filename = 'pokes-all-2'
     dump_to(filename, data)
     # print(json.dumps(data, indent=2))
+
+    SHELVE_CACHE.close()
 
 
 if __name__ == '__main__':

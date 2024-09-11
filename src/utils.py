@@ -7,7 +7,9 @@ pd.set_option('display.width', 200)
 pd.set_option('display.min_rows', 20)
 pd.set_option('display.max_colwidth', 50)
 pd.set_option('display.max_columns', 18)
-pd.set_option('display.max_columns', None)
+
+
+# pd.set_option('display.max_columns', None)
 
 
 # logging.basicConfig()
@@ -72,9 +74,20 @@ class AbilityEffectEntry:
     language: Language
 
 
+class VersionGroup:
+    name: str
+
+
+class FlavorTextEntry:
+    flavor_text: str
+    language: Language
+    version_group: VersionGroup
+
+
 class Ability:
     name: str
     effect_entries: tp.List[AbilityEffectEntry]
+    flavor_text_entries: tp.List[FlavorTextEntry]
 
 
 class PokemonAbility:

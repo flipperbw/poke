@@ -77,5 +77,16 @@ def main():
     return good
 
 
+def good_raise():
+    q = pd.read_json('src/data/moves.json', ).transpose()
+    q = q[q['learned_by'] > 0]
+
+    q['inc_atk'] = q['stat_changes'].apply(lambda x: next((y for y in x if y['type'] == 'attack'), {}).get('amt'))
+    q['inc_spa'] = q['stat_changes'].apply(lambda x: next((y for y in x if y['type'] == 'special-attack'), {}).get('amt'))
+
+    q[~q['inc_atk'].isna() & q['target'].str.contains('user')].sort_values('inc_atk', ascending=False)
+    q[~q['inc_spa'].isna() & q['target'].str.contains('user')].sort_values('inc_spa', ascending=False)
+
+
 if __name__ == '__main__':
     x = main()

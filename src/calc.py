@@ -132,12 +132,22 @@ def best_per_type():
     # comb['def_type'] = np.where(comb['defense'] < comb['special-defense'], 'SpD', 'Def')
     comb['tot_c'] = np.where(comb['attack'] < comb['special-attack'], comb['tot_b'] - comb['attack'], comb['tot_b'] - comb['special-attack'])
 
-    comb['ability_1'] = comb['abilities'].apply(lambda x: (x[0]['desc'] or f'<{x[0]["name"]}>') if x[0]['hidden'] is not True else '-')
-    comb['ability_2'] = comb['abilities'].apply(lambda x: (x[1]['desc'] or f'<{x[1]["name"]}>') if len(x) > 1 and x[1]['hidden'] is not True else '-')
-    comb['ability_h'] = comb['abilities'].apply(
-        lambda x: next((y for y in x if y['hidden'] is True), {'desc': '-'})[
-                      'desc'] or f'<{next((y for y in x if y["hidden"] is True), {"name": "-"})["name"]}>'
+    comb['ability_1'] = comb['abilities'].apply(
+        lambda x: (f'<{x[0]["name"]}> ' + (x[0]['desc'] or x[0]["flavor"] or '<unk>')).replace('\n', ' ') if x[0]['hidden'] is not True else '-'
     )
+    comb['ability_2'] = comb['abilities'].apply(
+        lambda x: (f'<{x[1]["name"]}> ' + (x[1]['desc'] or x[1]["flavor"] or '<unk>')).replace('\n', ' ') if len(x) > 1 and x[1][
+            'hidden'] is not True else '-'
+    )
+    comb['ability_h'] = comb['abilities'].apply(
+        lambda x: (
+            h := next((y for y in x if y['hidden'] is True), None),
+            (f'<{h["name"]}> ' + (h['desc'] or
+                                  h["flavor"] or
+                                  '<unk>')) if h else '-'
+        )[-1].replace('\n', ' ')
+    )
+    comb['ability_h'] = np.where(comb['ability_h'] == comb['ability_1'], '-', comb['ability_h'])
 
     comb['leg'] = (comb['is_legendary'] | comb['is_mythical']).astype(int)
     comb['tot_b'] = comb['tot_b'].astype(int)
@@ -149,7 +159,7 @@ def best_per_type():
     cols = ['type', 'name', 'dex', 'leg', 'tot_c', 'max_atk', 'max_def', 'atk_type', 'def_type', 'ability_1', 'ability_2', 'ability_h']
     grouped = comb.groupby('type', as_index=False)
 
-    lim = 15
+    lim = 25
 
     by_col = 'max_atk'  # 'tot_b'
     tot = grouped.apply(lambda x: x.nlargest(lim, by_col)).reset_index(drop=True)[cols]

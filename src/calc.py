@@ -125,6 +125,11 @@ def best_per_type():
     dx = d.explode('type')
 
     comb = dx.copy()
+
+    comb['has_nasty'] = comb['moves'].apply(lambda x: True if any(i['name'] == 'nasty-plot' for i in x) else False)
+    comb['has_swords'] = comb['moves'].apply(lambda x: True if any(i['name'] == 'swords-dance' for i in x) else False)
+    comb['has_raise'] = ((comb['has_swords'] == True) & (comb['atk_type'] != 'SpA')) | ((comb['has_nasty'] == True) & (comb['atk_type'] != 'Atk'))
+
     # comb = pd.concat([dx.drop(['stats'], axis=1), dx['stats'].apply(pd.Series)], axis=1)
 
     # comb['tot_b'] = comb['tot'] - comb['speed']
@@ -153,6 +158,9 @@ def best_per_type():
     comb['tot_b'] = comb['tot_b'].astype(int)
     comb['max_atk'] = comb['max_atk'].astype(int)
     comb['max_def'] = comb['max_def'].astype(int)
+
+    # TAKE OUT
+    comb = comb[comb['has_raise'] == True]
 
     comb = comb.sort_values('tot_c', ascending=False)
 

@@ -95,12 +95,31 @@ class PokemonAbility:
     ability: Ability
 
 
+class Move:
+    name: str
+
+
+class MoveLearnMethod:
+    name: str
+
+
+class MoveVersionGroupDetails:
+    level_learned_at: int
+    move_learn_method: MoveLearnMethod
+
+
+class PokemonMove:
+    move: Move
+    version_group_details: tp.List[MoveVersionGroupDetails]
+
+
 class Pokemon:
     name: str
     id: int
     types: tp.List[PokemonType]
     stats: tp.List[PokemonStat]
     abilities: tp.List[PokemonAbility]
+    moves: tp.List[PokemonMove]
 
 
 class Species:

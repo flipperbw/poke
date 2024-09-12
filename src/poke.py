@@ -156,11 +156,14 @@ def main() -> None:
                         'def_type': def_type,
                     }
 
+                    moves = [{'name': m.move.name, 'how': m.version_group_details[-1].move_learn_method.name} for m in pok.moves]
+
                     base_v['is_default'] = variety.is_default
                     base_v['id'] = pok.id
                     base_v['type'] = typ
                     base_v['name'] = pok.name
                     base_v['abilities'] = abilities
+                    base_v['moves'] = moves
                     base_v.update(more_stats)
 
                     data[pok.name] = base_v

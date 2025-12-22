@@ -1,5 +1,7 @@
 import argparse
 import typing as tp
+import json
+import re
 
 import numpy as np
 import pandas as pd
@@ -31,11 +33,50 @@ def _load_moves(path: str) -> pd.DataFrame:
     )
     df['mv_score'] = mv_score.where(~is_status, 0.0)
 
+    # Flag self-KO (e.g., "User faints") moves to exclude them later
+    df['effect_long'] = df.get('effect_long', '')
+    df['suicide'] = (
+        df['effect_short'].str.contains('user faints', case=False, na=False)
+        | df['effect_long'].astype(str).str.contains('user faints', case=False, na=False)
+    )
+
     # Keep essential columns used later
     keep_cols = [
-        'class', 'type', 'pp', 'target', 'mv_score', 'stat_changes', 'effect_short'
+        'class', 'type', 'pp', 'target', 'mv_score', 'stat_changes',
+        'effect_short', 'effect_long', 'suicide', 'category'
     ]
     return df[keep_cols]
+
+
+# --- Type effectiveness helpers (for coverage logic) ---
+_TYPE_OFFENSE: dict[str, set[str]] | None = None
+
+
+def _load_type_offense(typs_path: str = 'src/data/typs.json') -> dict[str, set[str]]:
+    """Load offensive strong targets for each regular type.
+
+    Returns a mapping: move_type -> set of defender types this type hits super effectively.
+    Only regular single types are included as keys, and defender entries are also single types.
+    """
+    global _TYPE_OFFENSE
+    if _TYPE_OFFENSE is not None:
+        return _TYPE_OFFENSE
+    try:
+        data: dict = json.load(open(typs_path, 'r'))
+    except Exception:
+        _TYPE_OFFENSE = {}
+        return _TYPE_OFFENSE
+    ret: dict[str, set[str]] = {}
+    for tname, tv in data.items():
+        if '_' in tname:
+            continue  # skip dual-type keys
+        try:
+            strong_list = tv['to_a']['data']['strong']['typs']
+        except Exception:
+            strong_list = []
+        ret[tname] = {x for x in strong_list if isinstance(x, str) and '_' not in x}
+    _TYPE_OFFENSE = ret
+    return ret
 
 
 def _tier(row: pd.Series) -> str:
@@ -71,17 +112,25 @@ def score_pokemon(
     prefer_stab: bool = True,
     coverage_slots: int = 1,
     allow_boost: bool = True,
+    allow_legends: bool = True,
+    allow_megas: bool = True,
 ) -> pd.DataFrame:
     # Load data
     pokes = pd.read_json(pokes_path, orient='index')
     moves = _load_moves(moves_path)
+
+    # Optionally filter out Mega forms entirely
+    if not allow_megas and 'name' in pokes.columns:
+        name_series = pokes['name'].astype(str).str.lower()
+        mega_mask = name_series.str.endswith(('-mega', '-mega-x', '-mega-y'))
+        pokes = pokes[~mega_mask]
 
     # Precompute mapping move_name -> row for quick join
     mv = moves.copy()
     mv.index.name = 'move_name'
 
     # Explode Pokémon moves to rows and attach move metadata
-    pk = pokes[['name', 'dex', 'type', 'atk_type', 'tot', 'tot_b', 'is_legendary', 'is_mythical', 'moves']].copy()
+    pk = pokes[['name', 'dex', 'type', 'atk_type', 'tot', 'tot_b', 'is_legendary', 'is_mythical', 'moves', 'attack', 'special-attack']].copy()
     # Ensure moves list
     pk['moves'] = pk['moves'].apply(lambda xs: xs if isinstance(xs, list) else [])
     # Filter out tutor moves (not available in ZA)
@@ -102,6 +151,9 @@ def score_pokemon(
 
     # Drop rows without a move name (keep status + attacks; mv_score may be 0 for status)
     exploded = exploded.dropna(subset=['move_name'])
+    # Exclude self-KO moves (e.g., "User faints")
+    if 'suicide' in exploded.columns:
+        exploded = exploded[~exploded['suicide'].fillna(False)]
 
     # Compute STAB-adjusted score
     if no_stab_bonus:
@@ -124,16 +176,26 @@ def score_pokemon(
         exploded['type_move'] = np.nan
 
     # Apply bias filter per Pokémon
-    def choose_bias(row_atk_type: str) -> str:
+    # Compute strict offensive bias per Pokémon: match higher of Attack vs Sp. Atk
+    # Attach per-row bias to each exploded move row
+    def choose_bias_row(row: pd.Series) -> str:
+        # Explicit overrides
         if bias_mode == 'atk':
             return 'physical'
         if bias_mode == 'spa':
             return 'special'
         if bias_mode == 'any':
             return 'any'
-        return _attack_bias(row_atk_type)
+        # Auto/strict: pick based on higher base stat
+        try:
+            atk = float(row.get('attack'))
+            spa = float(row.get('special-attack'))
+            return 'physical' if atk >= spa else 'special'
+        except Exception:
+            # Fallback to previous heuristic based on atk_type if stats missing
+            return _attack_bias(str(row.get('atk_type')))
 
-    exploded['bias'] = exploded['atk_type'].apply(choose_bias)
+    exploded['bias'] = exploded.apply(choose_bias_row, axis=1)
 
     def bias_match(row: pd.Series) -> bool:
         if row['bias'] == 'any':
@@ -159,28 +221,74 @@ def score_pokemon(
             return False
         if r.get('is_status') is not True:
             return False
-        tgt = str(r.get('target', ''))
-        if 'user' not in tgt:
-            return False
+        # Treat move meta category as authoritative when available
+        cat = str(r.get('category') or '').lower()
+        if cat == 'net-good-stats':
+            return True
         sc = r.get('stat_changes')
         try:
             # stat_changes is list of dicts: {'amt': int, 'type': 'attack'|'special-attack'|...}
-            return any((d.get('amt', 0) or 0) > 0 and d.get('type') in ('attack', 'special-attack') for d in sc or [])
+            if any((d.get('amt', 0) or 0) > 0 and d.get('type') in ('attack', 'special-attack') for d in sc or []):
+                return True
         except Exception:
-            return False
+            pass
+
+        # Fallback to effect text heuristics
+        es = str(r.get('effect_short', ''))
+        el = str(r.get('effect_long', ''))
+        text = f"{es}\n{el}".lower()
+        # Common phrasing patterns indicating offensive stat boosts
+        boost_patterns = [
+            r"raises the user's attack",
+            r"raises the user's special attack",
+            r"raises the user's sp\. atk",
+            r"sharply raises the user's attack",
+            r"sharply raises the user's special attack",
+            r"drastically raises the user's attack",
+            r"drastically raises the user's special attack",
+            r"boosts the user's attack",
+            r"boosts the user's special attack",
+        ]
+        if any(re.search(p, text) for p in boost_patterns):
+            return True
+
+        # Whitelist of well-known boosting moves that enhance offense
+        name = str(r.get('move_name', ''))
+        boost_names = {
+            'swords-dance', 'nasty-plot', 'calm-mind', 'bulk-up', 'quiver-dance',
+            'work-up', 'dragon-dance', 'tail-glow', 'hone-claws', 'howl'
+        }
+        if name in boost_names:
+            return True
+
+        # As a last check, honor explicit self-targets if present (won't block identification otherwise)
+        tgt = str(r.get('target', '')).lower()
+        return any(k in tgt for k in ('user', 'ally', 'allies'))
 
     exploded['is_boost'] = exploded.apply(is_boost_row, axis=1)
+    # Ensure known boosting move names are always flagged, even if metadata is sparse
+    boost_name_whitelist = {
+        'swords-dance', 'nasty-plot', 'calm-mind', 'bulk-up', 'quiver-dance',
+        'work-up', 'dragon-dance', 'tail-glow', 'hone-claws', 'howl', 'growth',
+        'meditate', 'sharpen'
+    }
+    exploded.loc[exploded['move_name'].isin(boost_name_whitelist), 'is_boost'] = True
 
     # For each Pokémon, select up to `moves_per` moves: prefer STAB attacks, add coverage of other types, optionally one boost.
     def select_moves(group: pd.DataFrame) -> pd.Series:
         g = group.copy()
         # Separate
         atk = g[g['is_status'] == False].copy()
-        # Prefer bias-aligned first
+        # Enforce bias-aligned attacking class first; fallback to any if none
+        bias_val = g['bias'].iloc[0] if not g.empty else 'any'
+        atk_bias = atk[atk['bias_ok']] if bias_val != 'any' else atk
+        if atk_bias.empty:
+            atk_bias = atk
+        # Prefer STAB, then eff_score within the bias-filtered set
         if prefer_stab:
-            atk.sort_values(['is_stab', 'bias_ok', 'eff_score'], ascending=[False, False, False], inplace=True)
+            atk_bias = atk_bias.sort_values(['is_stab', 'eff_score'], ascending=[False, False])
         else:
-            atk.sort_values(['bias_ok', 'eff_score'], ascending=[False, False], inplace=True)
+            atk_bias = atk_bias.sort_values(['eff_score'], ascending=[False])
 
         chosen: list[pd.Series] = []
 
@@ -199,8 +307,8 @@ def score_pokemon(
             elif not boosts.empty:
                 boost_pick = boosts.iloc[0]
 
-        # 2) Pick STAB attacks
-        stab_attacks = atk[atk['is_stab']]
+        # 2) Pick STAB attacks from bias-matching set
+        stab_attacks = atk_bias[atk_bias['is_stab']]
         # Ensure unique move types first; grab up to 2
         stab_selected: list[pd.Series] = []
         seen_types: set[str] = set()
@@ -215,16 +323,51 @@ def score_pokemon(
 
         # 3) Coverage attacks (non-STAB), up to coverage_slots, distinct types
         coverage_selected: list[pd.Series] = []
-        coverage_attacks = atk[~atk['is_stab']]
-        cov_seen: set[str] = set()
-        for _, row in coverage_attacks.iterrows():
-            t = str(row.get('type_move'))
-            if t in cov_seen:
-                continue
-            coverage_selected.append(row)
-            cov_seen.add(t)
-            if len(coverage_selected) >= max(0, coverage_slots):
-                break
+        coverage_attacks = atk_bias[~atk_bias['is_stab']].copy()
+
+        # Build coverage map from type chart
+        type_off = _load_type_offense()
+        # Determine already covered defender types from chosen STAB types
+        stab_types = {str(r.get('type_move')) for r in stab_selected if pd.notna(r.get('type_move'))}
+        covered_targets: set[str] = set()
+        for st in stab_types:
+            covered_targets |= type_off.get(st, set())
+
+        # Compute coverage gain for each candidate type
+        def cov_gain_for(row: pd.Series) -> int:
+            mt = str(row.get('type_move'))
+            strong_set = type_off.get(mt, set())
+            return len(strong_set - covered_targets)
+
+        # Score candidates by coverage gain, bias, and eff_score
+        if not coverage_attacks.empty:
+            coverage_attacks['cov_gain'] = coverage_attacks.apply(cov_gain_for, axis=1)
+            # Dynamic threshold for allowing zero-gain Normal as coverage (very strong only)
+            try:
+                strong_threshold = max(60.0, float(np.nanpercentile(coverage_attacks['eff_score'], 95)))
+            except Exception:
+                strong_threshold = 100.0
+
+            # Sort candidates
+            coverage_attacks.sort_values(['cov_gain', 'bias_ok', 'eff_score'], ascending=[False, False, False], inplace=True)
+
+            cov_seen: set[str] = set()
+            for _, row in coverage_attacks.iterrows():
+                t = str(row.get('type_move'))
+                if t in cov_seen:
+                    continue
+                gain = int(row.get('cov_gain', 0))
+                if gain <= 0:
+                    # Avoid Normal as coverage unless exceptionally strong
+                    if t == 'normal' and float(row.get('eff_score', 0.0)) < strong_threshold:
+                        continue
+                    # For other types with no new coverage, accept only if we still need slots and it's quite strong
+                    if float(row.get('eff_score', 0.0)) < strong_threshold:
+                        continue
+                coverage_selected.append(row)
+                cov_seen.add(t)
+                if len(coverage_selected) >= max(0, coverage_slots):
+                    break
 
         # Combine picks and fill remaining with next best attacks
         for r in stab_selected:
@@ -234,20 +377,24 @@ def score_pokemon(
         if boost_pick is not None:
             chosen.append(boost_pick)
 
-        # Fill with best remaining attacks (excluding already chosen moves)
+        # Fill with best remaining attacks (excluding already chosen moves), still respecting bias when possible
         needed = max(0, moves_per - len(chosen))
         if needed > 0:
             chosen_names = {c['move_name'] for c in chosen}
-            rest = atk[~atk['move_name'].isin(chosen_names)]
-            rest = rest.sort_values(['bias_ok', 'eff_score'], ascending=[False, False])
+            # Try remaining bias-matching first
+            rest_bias = atk_bias[~atk_bias['move_name'].isin(chosen_names)]
+            rest = rest_bias if not rest_bias.empty else atk[~atk['move_name'].isin(chosen_names)]
+            rest = rest.sort_values(['eff_score'], ascending=[False])
             for _, row in rest.head(needed).iterrows():
                 chosen.append(row)
 
         # Truncate to moves_per
         chosen = chosen[:moves_per]
 
-        # Compute attack sum score from selected attacking moves
-        atk_sum = float(sum(c['eff_score'] for c in chosen if c.get('is_status') is not True))
+        # Compute attack score as the AVERAGE of selected attacking moves to avoid penalizing
+        # Pokémon that include status/boost moves in the 4-slot set
+        atk_scores = [float(c['eff_score']) for c in chosen if c.get('is_status') is not True]
+        atk_sum = float(np.mean(atk_scores)) if len(atk_scores) > 0 else 0.0
 
         # Best single move for backward compatibility columns
         best_att = atk.sort_values('eff_score', ascending=False).iloc[0] if not atk.empty else None
@@ -277,16 +424,19 @@ def score_pokemon(
 
     # Tier and final score
     out['tier'] = out.apply(_tier, axis=1)
+
+    # Optionally exclude Legendary/Mythical before computing final ranks
+    if not allow_legends:
+        out = out[~out['tier'].isin(['Legendary', 'Mythical'])]
     # Composite: include Speed (tot) + sum of selected attacking move scores
     out['score'] = out['tot'] + out['attack_sum'].fillna(0)
 
     # Sort overall
-    out = out.sort_values(['score', 'tot_b', 'best_move_score'], ascending=False)
+    out = out.sort_values(['score', 'tot_b'], ascending=False)
 
     # Output selection
     cols = [
         'name', 'dex', 'type', 'tier', 'atk_type', 'tot', 'tot_b',
-        'best_move', 'best_move_type', 'best_move_class', 'best_move_score',
         'moves4', 'stab_moves', 'coverage_moves', 'boost_moves', 'attack_sum', 'score',
     ]
     out = out[cols]
@@ -315,6 +465,8 @@ def _parse_args() -> argparse.Namespace:
     p.add_argument('--no-stab-bonus', action='store_true', help='Disable STAB bonus in move scoring')
     p.add_argument('--bias', choices=['auto', 'atk', 'spa', 'any'], default='auto', help='Move class bias mode')
     p.add_argument('--format', choices=['table', 'csv'], default='table', help='Console output format (default: table)')
+    p.add_argument('--no-legends', action='store_true', help='Exclude Legendary and Mythical Pokémon from results')
+    p.add_argument('--no-mega', action='store_true', help='Exclude Mega forms (e.g., -mega, -mega-x, -mega-y) from results')
     p.add_argument('--csv', help='Write results to CSV at this path')
     return p.parse_args()
 
@@ -328,6 +480,8 @@ if __name__ == '__main__':
         bias_mode=tp.cast(tp.Literal['auto', 'atk', 'spa', 'any'], args.bias),
         no_stab_bonus=args.no_stab_bonus,
         per_type=args.per_type,
+        allow_legends=not args.no_legends,
+        allow_megas=not args.no_mega,
     )
     if args.csv:
         df.to_csv(args.csv, index=False)

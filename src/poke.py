@@ -188,8 +188,10 @@ def main() -> None:
                 if not any(
                     # n in pok.name for n in ('-gmax', '-galar', '-mega', '-totem')
                     pok.name.endswith(n) for n in (
-                        '-gmax', '-mega', '-mega-x', 'mega-y', '-totem', '-build', '-mode', '-eternamax', '-ash', '-busted',
-                        '-totem-disguised')
+                        # '-mega', '-mega-x', 'mega-y',
+                        '-gmax', '-totem', '-build', '-mode', '-eternamax', '-ash', '-busted',
+                        '-totem-disguised'
+                    )
                 ):
                     if pok.name != pname:
                         print(f'    {pok.name}')
@@ -253,11 +255,26 @@ def main() -> None:
                         details = list(pm.version_group_details)
                         if not details:
                             continue
-                        # Optionally restrict to allowed version-groups
-                        if allowed_vg_names is not None:
-                            details = [d for d in details if d.version_group.name in allowed_vg_names]
-                            if not details:
-                                continue  # no ZA-allowed entry for this move
+                        # # Optionally restrict to allowed version-groups
+                        # if allowed_vg_names is not None:
+                        #     original_details = details
+                        #     if mv_name.lower() == 'earthquake':
+                        #         for d in details:
+                        #             print(d)
+                        #             print(d.version_group)
+                        #     details = [
+                        #         d for d in details
+                        #         if (d.version_group.name in allowed_vg_names)
+                        #         or (allowed_vg_ids is not None and d.version_group.id in allowed_vg_ids)
+                        #     ]
+                        #     if not details:
+                        #         # No match for provided version-groups: fallback to any available
+                        #         # logging.debug(
+                        #         #     "No version-group match for move %s on %s; falling back to latest available entry.",
+                        #         #     mv_name,
+                        #         #     pok.name,
+                        #         # )
+                        #         details = original_details
                         # Optionally exclude tutor learn method
                         if args.no_tutor:
                             details_no_tutor = [d for d in details if d.move_learn_method.name != 'tutor']

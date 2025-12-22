@@ -117,7 +117,7 @@ def best_per_type():
     # pokes = pd.read_json('src/data/pokes.json').transpose()
     # pokes = pd.read_json('src/data/pokes-all.json').transpose()
     # pokes = pd.read_json('src/data/pokes-comb.json').transpose()
-    pokes = pd.read_json('src/data/pokes-all-2.json').transpose()
+    pokes = pd.read_json('src/data/pokes-all-za.json').transpose()
 
     d = pokes.copy()
     d.rename(columns={'type': 'otype'}, inplace=True)

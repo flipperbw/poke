@@ -1,20 +1,34 @@
+import argparse
 import json
+import logging
 
 import pandas as pd
 
 import pokebase as pb
+from pokebase.cache import set_cache
+from tqdm import tqdm
+
+logging.basicConfig()
+logging.getLogger().setLevel(logging.DEBUG)
+requests_log = logging.getLogger('requests.packages.urllib3')
+requests_log.setLevel(logging.DEBUG)
+requests_log.propagate = True
 
 
-def make_data() -> dict:
-    d = {}
-    maxi = -1
-    q = pb.APIResourceList('move')
+def make_data(max_items: int = -1, tm_vg_names: list[str] | None = None) -> dict:
+    d: dict = {}
+    maxi = max_items
+    # Force fresh lookup to avoid stale, truncated lists in cache
+    q = pb.APIResourceList('move', force_lookup=True)
+    # Resolve version-group names to IDs if provided
+    tm_vg_ids: set[int] | None = None
+    if tm_vg_names:
+        tm_vg_ids = set(pb.version_group(int(name)).id for name in tm_vg_names)
     i = 0
-    for m in q:
+    for m in tqdm(q, total=q.count, desc='Moves', unit='move'):
         if maxi != -1 and i >= maxi:
             break
         i += 1
-        print(f'{i}/{q.count}', end='\r', flush=True)
         td = {}
         d[m['name']] = td
         move = pb.move(m['name'])
@@ -26,7 +40,11 @@ def make_data() -> dict:
         td['effect_long'] = move.effect_entries[0].effect if move.effect_entries else ''
 
         td['learned_by'] = len(move.learned_by_pokemon)
-        td['has_tm'] = len([x for x in move.machines if x.version_group.id in (25, 26, 27)]) > 0
+        if tm_vg_ids is not None:
+            td['has_tm'] = any(x.version_group.id in tm_vg_ids for x in move.machines)
+        else:
+            # fallback: consider any machine in any version-group as TM availability
+            td['has_tm'] = len(move.machines) > 0
 
         # if not move.meta:
         #     print(f'\nmissing meta {i}')
@@ -50,19 +68,22 @@ def make_data() -> dict:
         td['target'] = move.target.name
         td['type'] = move.type.name
 
-    with open('src/data/moves.json', 'w') as f:
+    with open('src/data/moves-za.json', 'w') as f:
         json.dump(d, f, indent=2)
 
     return d
 
 
-def main():
-    df = pd.read_json('src/data/moves.json', orient='index')
+def analyze(no_tm_filter: bool = False):
+    df = pd.read_json('src/data/moves-za.json', orient='index')
 
     df['is_atk'] = df['class'] != 'status'
 
     atks = df[df['is_atk'] == True]
-    atks = atks[(atks['learned_by'] > 0) | (atks['has_tm'] == True)]
+    if no_tm_filter:
+        atks = atks[(atks['learned_by'] > 0)]
+    else:
+        atks = atks[(atks['learned_by'] > 0) | (atks['has_tm'] == True)]
 
     atks['dead_turn'] = atks['effect_short'].str.contains(r'turn to charge before attacking|next turn to recharge')
     atks['avg_hits'] = ((atks['min_hits'] + atks['max_hits']) / 2).fillna(1)
@@ -78,7 +99,7 @@ def main():
 
 
 def good_raise():
-    q = pd.read_json('src/data/moves.json', ).transpose()
+    q = pd.read_json('src/data/moves-za.json', ).transpose()
     q = q[q['learned_by'] > 0]
 
     q['inc_atk'] = q['stat_changes'].apply(lambda x: next((y for y in x if y['type'] == 'attack'), {}).get('amt'))
@@ -88,5 +109,21 @@ def good_raise():
     q[~q['inc_spa'].isna() & q['target'].str.contains('user')].sort_values('inc_spa', ascending=False)
 
 
+def _parse_args() -> argparse.Namespace:
+    p = argparse.ArgumentParser()
+    p.add_argument('--cache-dir', help='Directory for pokebase cache')
+    p.add_argument('--generate', action='store_true', help='Fetch moves from API and write src/data/moves-za.json')
+    p.add_argument('--max', type=int, default=-1, help='Max number of moves to fetch when generating (-1 = all)')
+    p.add_argument('--tm-vg', action='append', help='Version-group name to consider for TM availability (repeatable). If omitted, any machine counts.')
+    p.add_argument('--no-tm-filter', action='store_true', help='When analyzing, ignore TM availability and rely on learned_by only')
+    return p.parse_args()
+
+
 if __name__ == '__main__':
-    x = main()
+    args = _parse_args()
+    if args.cache_dir:
+        set_cache(args.cache_dir)
+    if args.generate:
+        make_data(max_items=args.max, tm_vg_names=args.tm_vg)
+    x = analyze(no_tm_filter=args.no_tm_filter)
+    print(x)

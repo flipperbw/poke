@@ -52,7 +52,7 @@
     "type": "fighting"
   },
   "double-slap": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Hits 2-5 times in one turn.",
@@ -78,7 +78,7 @@
     "type": "normal"
   },
   "comet-punch": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Hits 2-5 times in one turn.",
@@ -104,7 +104,7 @@
     "type": "normal"
   },
   "mega-punch": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -286,7 +286,7 @@
     "type": "normal"
   },
   "guillotine": {
-    "accuracy": 30,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Causes a one-hit KO.",
@@ -338,7 +338,7 @@
     "type": "normal"
   },
   "swords-dance": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Attack by two stages.",
@@ -369,7 +369,7 @@
     "type": "normal"
   },
   "cut": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -447,7 +447,7 @@
     "type": "flying"
   },
   "whirlwind": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Immediately ends wild battles.  Forces trainers to switch Pok\u00e9mon.",
@@ -473,7 +473,7 @@
     "type": "normal"
   },
   "fly": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "User flies high into the air, dodging all attacks, and hits next turn.",
@@ -499,7 +499,7 @@
     "type": "flying"
   },
   "bind": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 100,
     "effect_short": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
@@ -525,7 +525,7 @@
     "type": "normal"
   },
   "slam": {
-    "accuracy": 75,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -629,7 +629,7 @@
     "type": "fighting"
   },
   "mega-kick": {
-    "accuracy": 75,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -655,7 +655,7 @@
     "type": "normal"
   },
   "jump-kick": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "If the user misses, it takes half the damage it would have inflicted in recoil.",
@@ -681,7 +681,7 @@
     "type": "fighting"
   },
   "rolling-kick": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 30,
     "effect_short": "Has a 30% chance to make the target flinch.",
@@ -790,7 +790,7 @@
     "type": "normal"
   },
   "fury-attack": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Hits 2-5 times in one turn.",
@@ -816,7 +816,7 @@
     "type": "normal"
   },
   "horn-drill": {
-    "accuracy": 30,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Causes a one-hit KO.",
@@ -894,7 +894,7 @@
     "type": "normal"
   },
   "wrap": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 100,
     "effect_short": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
@@ -920,7 +920,7 @@
     "type": "normal"
   },
   "take-down": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "User receives 1/4 the damage it inflicts in recoil.",
@@ -1081,7 +1081,7 @@
     "type": "bug"
   },
   "pin-missile": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Hits 2-5 times in one turn.",
@@ -1195,7 +1195,7 @@
     "type": "normal"
   },
   "roar": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Immediately ends wild battles.  Forces trainers to switch Pok\u00e9mon.",
@@ -1221,7 +1221,7 @@
     "type": "normal"
   },
   "sing": {
-    "accuracy": 55,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Puts the target to sleep.",
@@ -1247,7 +1247,7 @@
     "type": "normal"
   },
   "supersonic": {
-    "accuracy": 55,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Confuses the target.",
@@ -1273,7 +1273,7 @@
     "type": "normal"
   },
   "sonic-boom": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts 20 points of damage.",
@@ -1408,7 +1408,7 @@
     "type": "fire"
   },
   "mist": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Protects the user\u2019s stats from being changed by enemy moves.",
@@ -1460,7 +1460,7 @@
     "type": "water"
   },
   "hydro-pump": {
-    "accuracy": 80,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -1538,7 +1538,7 @@
     "type": "ice"
   },
   "blizzard": {
-    "accuracy": 70,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 10,
     "effect_short": "Has a 10% chance to freeze the target.",
@@ -1652,7 +1652,7 @@
     "type": "ice"
   },
   "hyper-beam": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "User foregoes its next turn to recharge.",
@@ -1730,7 +1730,7 @@
     "type": "flying"
   },
   "submission": {
-    "accuracy": 80,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "User receives 1/4 the damage it inflicts in recoil.",
@@ -1912,7 +1912,7 @@
     "type": "grass"
   },
   "leech-seed": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Seeds the target, stealing HP from it every turn.",
@@ -1938,7 +1938,7 @@
     "type": "grass"
   },
   "growth": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Attack and Special Attack by one stage.",
@@ -1973,7 +1973,7 @@
     "type": "normal"
   },
   "razor-leaf": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Has an increased chance for a critical hit.",
@@ -2025,7 +2025,7 @@
     "type": "grass"
   },
   "poison-powder": {
-    "accuracy": 75,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Poisons the target.",
@@ -2051,7 +2051,7 @@
     "type": "poison"
   },
   "stun-spore": {
-    "accuracy": 75,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Paralyzes the target.",
@@ -2077,7 +2077,7 @@
     "type": "grass"
   },
   "sleep-powder": {
-    "accuracy": 75,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Puts the target to sleep.",
@@ -2129,7 +2129,7 @@
     "type": "grass"
   },
   "string-shot": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Lowers the target\u2019s Speed by two stages.",
@@ -2186,7 +2186,7 @@
     "type": "dragon"
   },
   "fire-spin": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
@@ -2264,7 +2264,7 @@
     "type": "electric"
   },
   "thunder-wave": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Paralyzes the target.",
@@ -2290,7 +2290,7 @@
     "type": "electric"
   },
   "thunder": {
-    "accuracy": 70,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 30,
     "effect_short": "Has a 30% chance to paralyze the target.",
@@ -2316,7 +2316,7 @@
     "type": "electric"
   },
   "rock-throw": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -2368,7 +2368,7 @@
     "type": "ground"
   },
   "fissure": {
-    "accuracy": 30,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Causes a one-hit KO.",
@@ -2420,7 +2420,7 @@
     "type": "ground"
   },
   "toxic": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Badly poisons the target, inflicting more damage every turn.",
@@ -2503,7 +2503,7 @@
     "type": "psychic"
   },
   "hypnosis": {
-    "accuracy": 60,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Puts the target to sleep.",
@@ -2529,7 +2529,7 @@
     "type": "psychic"
   },
   "meditate": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Attack by one stage.",
@@ -2560,7 +2560,7 @@
     "type": "psychic"
   },
   "agility": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Speed by two stages.",
@@ -2643,7 +2643,7 @@
     "type": "normal"
   },
   "teleport": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Immediately ends wild battles.  No effect otherwise.",
@@ -2695,7 +2695,7 @@
     "type": "ghost"
   },
   "mimic": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Copies the target\u2019s last used move.",
@@ -2721,7 +2721,7 @@
     "type": "normal"
   },
   "screech": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Lowers the target\u2019s Defense by two stages.",
@@ -2752,7 +2752,7 @@
     "type": "normal"
   },
   "double-team": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s evasion by one stage.",
@@ -2783,7 +2783,7 @@
     "type": "normal"
   },
   "recover": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Heals the user by half its max HP.",
@@ -2809,7 +2809,7 @@
     "type": "normal"
   },
   "harden": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Defense by one stage.",
@@ -2840,7 +2840,7 @@
     "type": "normal"
   },
   "minimize": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s evasion by two stages.",
@@ -2928,7 +2928,7 @@
     "type": "ghost"
   },
   "withdraw": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Defense by one stage.",
@@ -2959,7 +2959,7 @@
     "type": "water"
   },
   "defense-curl": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises user\u2019s Defense by one stage.",
@@ -2990,7 +2990,7 @@
     "type": "normal"
   },
   "barrier": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Defense by two stages.",
@@ -3021,7 +3021,7 @@
     "type": "psychic"
   },
   "light-screen": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Reduces damage from special attacks by 50% for five turns.",
@@ -3047,7 +3047,7 @@
     "type": "psychic"
   },
   "haze": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Resets all Pok\u00e9mon\u2019s stats, accuracy, and evasion.",
@@ -3073,7 +3073,7 @@
     "type": "ice"
   },
   "reflect": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Reduces damage from physical attacks by half.",
@@ -3099,7 +3099,7 @@
     "type": "psychic"
   },
   "focus-energy": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Increases the user\u2019s chance to score a critical hit.",
@@ -3125,7 +3125,7 @@
     "type": "normal"
   },
   "bide": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "User waits for two turns, then hits back for twice the damage it took.",
@@ -3151,7 +3151,7 @@
     "type": "normal"
   },
   "metronome": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Randomly selects and uses any move in the game.",
@@ -3177,7 +3177,7 @@
     "type": "normal"
   },
   "mirror-move": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Uses the target\u2019s last used move.",
@@ -3229,7 +3229,7 @@
     "type": "normal"
   },
   "egg-bomb": {
-    "accuracy": 75,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -3281,7 +3281,7 @@
     "type": "ghost"
   },
   "smog": {
-    "accuracy": 70,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 40,
     "effect_short": "Has a 40% chance to poison the target.",
@@ -3333,7 +3333,7 @@
     "type": "poison"
   },
   "bone-club": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 10,
     "effect_short": "Has a 10% chance to make the target flinch.",
@@ -3359,7 +3359,7 @@
     "type": "ground"
   },
   "fire-blast": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 10,
     "effect_short": "Has a 10% chance to burn the target.",
@@ -3411,7 +3411,7 @@
     "type": "water"
   },
   "clamp": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 100,
     "effect_short": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
@@ -3437,7 +3437,7 @@
     "type": "water"
   },
   "swift": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Never misses.",
@@ -3546,7 +3546,7 @@
     "type": "normal"
   },
   "amnesia": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Special Defense by two stages.",
@@ -3577,7 +3577,7 @@
     "type": "psychic"
   },
   "kinesis": {
-    "accuracy": 80,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Lowers the target\u2019s accuracy by one stage.",
@@ -3608,7 +3608,7 @@
     "type": "psychic"
   },
   "soft-boiled": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Heals the user by half its max HP.",
@@ -3634,7 +3634,7 @@
     "type": "normal"
   },
   "high-jump-kick": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "If the user misses, it takes half the damage it would have inflicted in recoil.",
@@ -3712,7 +3712,7 @@
     "type": "psychic"
   },
   "poison-gas": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Poisons the target.",
@@ -3738,7 +3738,7 @@
     "type": "poison"
   },
   "barrage": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Hits 2-5 times in one turn.",
@@ -3790,7 +3790,7 @@
     "type": "bug"
   },
   "lovely-kiss": {
-    "accuracy": 75,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Puts the target to sleep.",
@@ -3816,7 +3816,7 @@
     "type": "normal"
   },
   "sky-attack": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 30,
     "effect_short": "User charges for one turn before attacking.  Has a 30% chance to make the target flinch.",
@@ -3842,7 +3842,7 @@
     "type": "flying"
   },
   "transform": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "User becomes a copy of the target until it leaves battle.",
@@ -4008,7 +4008,7 @@
     "type": "psychic"
   },
   "splash": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Does nothing.",
@@ -4034,7 +4034,7 @@
     "type": "normal"
   },
   "acid-armor": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Defense by two stages.",
@@ -4065,7 +4065,7 @@
     "type": "poison"
   },
   "crabhammer": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Has an increased chance for a critical hit.",
@@ -4117,7 +4117,7 @@
     "type": "normal"
   },
   "fury-swipes": {
-    "accuracy": 80,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Hits 2-5 times in one turn.",
@@ -4143,7 +4143,7 @@
     "type": "normal"
   },
   "bonemerang": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Hits twice in one turn.",
@@ -4169,7 +4169,7 @@
     "type": "ground"
   },
   "rest": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "User sleeps for two turns, completely healing itself.",
@@ -4195,7 +4195,7 @@
     "type": "psychic"
   },
   "rock-slide": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 30,
     "effect_short": "Has a 30% chance to make the target flinch.",
@@ -4221,7 +4221,7 @@
     "type": "rock"
   },
   "hyper-fang": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 10,
     "effect_short": "Has a 10% chance to make the target flinch.",
@@ -4247,7 +4247,7 @@
     "type": "normal"
   },
   "sharpen": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Attack by one stage.",
@@ -4278,7 +4278,7 @@
     "type": "normal"
   },
   "conversion": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "User\u2019s type changes to the type of one of its moves at random.",
@@ -4330,7 +4330,7 @@
     "type": "normal"
   },
   "super-fang": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts damage equal to half the target\u2019s HP.",
@@ -4382,7 +4382,7 @@
     "type": "normal"
   },
   "substitute": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Transfers 1/4 of the user\u2019s max HP into a doll, protecting the user from further damage or status changes until it breaks.",
@@ -4408,7 +4408,7 @@
     "type": "normal"
   },
   "struggle": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "User takes 1/4 its max HP in recoil.",
@@ -4434,7 +4434,7 @@
     "type": "normal"
   },
   "sketch": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Permanently becomes the target\u2019s last used move.",
@@ -4460,7 +4460,7 @@
     "type": "normal"
   },
   "triple-kick": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Hits three times, increasing power by 100% with each successful hit.",
@@ -4512,7 +4512,7 @@
     "type": "dark"
   },
   "spider-web": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Prevents the target from leaving battle.",
@@ -4538,7 +4538,7 @@
     "type": "bug"
   },
   "mind-reader": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Ensures that the user\u2019s next move will hit the target.",
@@ -4642,7 +4642,7 @@
     "type": "normal"
   },
   "curse": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Ghosts pay half their max HP to hurt the target every turn.  Others decrease Speed but raise Attack and Defense.",
@@ -4694,7 +4694,7 @@
     "type": "normal"
   },
   "conversion-2": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Changes the user\u2019s type to a random type either resistant or immune to the last move used against it.",
@@ -4720,7 +4720,7 @@
     "type": "normal"
   },
   "aeroblast": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Has an increased chance for a critical hit.",
@@ -4855,7 +4855,7 @@
     "type": "ice"
   },
   "protect": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Prevents any moves from hitting the user this turn.",
@@ -4938,7 +4938,7 @@
     "type": "normal"
   },
   "feint-attack": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Never misses.",
@@ -4964,7 +4964,7 @@
     "type": "dark"
   },
   "sweet-kiss": {
-    "accuracy": 75,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Confuses the target.",
@@ -4990,7 +4990,7 @@
     "type": "fairy"
   },
   "belly-drum": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "User pays half its max HP to max out its Attack.",
@@ -5073,7 +5073,7 @@
     "type": "ground"
   },
   "octazooka": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 50,
     "effect_short": "Has a 50% chance to lower the target\u2019s accuracy by one stage.",
@@ -5104,7 +5104,7 @@
     "type": "water"
   },
   "spikes": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Scatters Spikes, hurting opposing Pok\u00e9mon that switch in.",
@@ -5130,7 +5130,7 @@
     "type": "ground"
   },
   "zap-cannon": {
-    "accuracy": 50,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Has a 100% chance to paralyze the target.",
@@ -5156,7 +5156,7 @@
     "type": "electric"
   },
   "foresight": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it\u2019s a Ghost.",
@@ -5182,7 +5182,7 @@
     "type": "normal"
   },
   "destiny-bond": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "If the user faints this turn, the target automatically will, too.",
@@ -5208,7 +5208,7 @@
     "type": "ghost"
   },
   "perish-song": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "User and target both faint after three turns.",
@@ -5234,7 +5234,7 @@
     "type": "normal"
   },
   "icy-wind": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Has a 100% chance to lower the target\u2019s Speed by one stage.",
@@ -5265,7 +5265,7 @@
     "type": "ice"
   },
   "detect": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Prevents any moves from hitting the user this turn.",
@@ -5291,7 +5291,7 @@
     "type": "fighting"
   },
   "bone-rush": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Hits 2-5 times in one turn.",
@@ -5317,7 +5317,7 @@
     "type": "ground"
   },
   "lock-on": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Ensures that the user\u2019s next move will hit the target.",
@@ -5369,7 +5369,7 @@
     "type": "dragon"
   },
   "sandstorm": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Changes the weather to a sandstorm for five turns.",
@@ -5421,7 +5421,7 @@
     "type": "grass"
   },
   "endure": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Prevents the user\u2019s HP from lowering below 1 this turn.",
@@ -5478,7 +5478,7 @@
     "type": "fairy"
   },
   "rollout": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Power doubles every turn this move is used in succession after the first, resetting after five turns.",
@@ -5530,7 +5530,7 @@
     "type": "normal"
   },
   "swagger": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the target\u2019s Attack by two stages and confuses the target.",
@@ -5561,7 +5561,7 @@
     "type": "normal"
   },
   "milk-drink": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Heals the user by half its max HP.",
@@ -5613,7 +5613,7 @@
     "type": "electric"
   },
   "fury-cutter": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Power doubles every turn this move is used in succession after the first, maxing out after five turns.",
@@ -5639,7 +5639,7 @@
     "type": "bug"
   },
   "steel-wing": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 10,
     "effect_short": "Has a 10% chance to raise the user\u2019s Defense by one stage.",
@@ -5670,7 +5670,7 @@
     "type": "steel"
   },
   "mean-look": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Prevents the target from leaving battle.",
@@ -5722,7 +5722,7 @@
     "type": "normal"
   },
   "sleep-talk": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Randomly uses one of the user\u2019s other three moves.  Only works if the user is sleeping.",
@@ -5748,7 +5748,7 @@
     "type": "normal"
   },
   "heal-bell": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Cures the entire party of major status effects.",
@@ -5800,7 +5800,7 @@
     "type": "normal"
   },
   "present": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Randomly inflicts damage with power from 40 to 120 or heals the target for 1/4 its max HP.",
@@ -5852,7 +5852,7 @@
     "type": "normal"
   },
   "safeguard": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Protects the user\u2019s field from major status ailments and confusion for five turns.",
@@ -5878,7 +5878,7 @@
     "type": "normal"
   },
   "pain-split": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Sets the user\u2019s and targets\u2019s HP to the average of their current HP.",
@@ -5904,7 +5904,7 @@
     "type": "normal"
   },
   "sacred-fire": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 50,
     "effect_short": "Has a 50% chance to burn the target.  Lets frozen Pok\u00e9mon thaw themselves.",
@@ -5956,7 +5956,7 @@
     "type": "ground"
   },
   "dynamic-punch": {
-    "accuracy": 50,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 100,
     "effect_short": "Has a 100% chance to confuse the target.",
@@ -5982,7 +5982,7 @@
     "type": "fighting"
   },
   "megahorn": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -6034,7 +6034,7 @@
     "type": "dragon"
   },
   "baton-pass": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Allows the trainer to switch out the user and pass effects along to its replacement.",
@@ -6174,7 +6174,7 @@
     "type": "normal"
   },
   "iron-tail": {
-    "accuracy": 75,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 30,
     "effect_short": "Has a 30% chance to lower the target\u2019s Defense by one stage.",
@@ -6205,7 +6205,7 @@
     "type": "steel"
   },
   "metal-claw": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 10,
     "effect_short": "Has a 10% chance to raise the user\u2019s Attack by one stage.",
@@ -6236,7 +6236,7 @@
     "type": "steel"
   },
   "vital-throw": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Never misses.",
@@ -6262,7 +6262,7 @@
     "type": "fighting"
   },
   "morning-sun": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Heals the user by half its max HP.  Affected by weather.",
@@ -6288,7 +6288,7 @@
     "type": "normal"
   },
   "synthesis": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Heals the user by half its max HP.  Affected by weather.",
@@ -6314,7 +6314,7 @@
     "type": "grass"
   },
   "moonlight": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Heals the user by half its max HP.  Affected by weather.",
@@ -6366,7 +6366,7 @@
     "type": "normal"
   },
   "cross-chop": {
-    "accuracy": 80,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Has an increased chance for a critical hit.",
@@ -6418,7 +6418,7 @@
     "type": "dragon"
   },
   "rain-dance": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Changes the weather to rain for five turns.",
@@ -6444,7 +6444,7 @@
     "type": "water"
   },
   "sunny-day": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Changes the weather to sunny for five turns.",
@@ -6527,7 +6527,7 @@
     "type": "psychic"
   },
   "psych-up": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Discards the user\u2019s stat changes and copies the target\u2019s.",
@@ -6714,7 +6714,7 @@
     "type": "fighting"
   },
   "whirlpool": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Prevents the target from leaving battle and inflicts 1/16 its max HP in damage for 2-5 turns.",
@@ -6818,7 +6818,7 @@
     "type": "normal"
   },
   "stockpile": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Stores energy up to three times for use with Spit Up and Swallow.",
@@ -6879,7 +6879,7 @@
     "type": "normal"
   },
   "swallow": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Recovers 1/4 HP after one Stockpile, 1/2 HP after two Stockpiles, or full HP after three Stockpiles.",
@@ -6905,7 +6905,7 @@
     "type": "normal"
   },
   "heat-wave": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 10,
     "effect_short": "Has a 10% chance to burn the target.",
@@ -6931,7 +6931,7 @@
     "type": "fire"
   },
   "hail": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Changes the weather to a hailstorm for five turns.",
@@ -7014,7 +7014,7 @@
     "type": "dark"
   },
   "will-o-wisp": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Burns the target.",
@@ -7153,7 +7153,7 @@
     "type": "normal"
   },
   "follow-me": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Redirects the target\u2019s single-target effects to the user for this turn.",
@@ -7179,7 +7179,7 @@
     "type": "normal"
   },
   "nature-power": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Uses a move which depends upon the terrain.",
@@ -7205,7 +7205,7 @@
     "type": "normal"
   },
   "charge": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Special Defense by one stage.  User\u2019s Electric moves have doubled power next turn.",
@@ -7262,7 +7262,7 @@
     "type": "dark"
   },
   "helping-hand": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Ally\u2019s next move inflicts half more damage.",
@@ -7314,7 +7314,7 @@
     "type": "psychic"
   },
   "role-play": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Copies the target\u2019s ability.",
@@ -7340,7 +7340,7 @@
     "type": "psychic"
   },
   "wish": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "User will recover half its max HP at the end of the next turn.",
@@ -7366,7 +7366,7 @@
     "type": "normal"
   },
   "assist": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Randomly selects and uses one of the trainer\u2019s other Pok\u00e9mon\u2019s moves.",
@@ -7392,7 +7392,7 @@
     "type": "normal"
   },
   "ingrain": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Prevents the user from leaving battle.  User regains 1/16 of its max HP every turn.",
@@ -7453,7 +7453,7 @@
     "type": "fighting"
   },
   "magic-coat": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Reflects back the first effect move used on the user this turn.",
@@ -7479,7 +7479,7 @@
     "type": "psychic"
   },
   "recycle": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "User recovers the item it last used up.",
@@ -7557,7 +7557,7 @@
     "type": "fighting"
   },
   "yawn": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Target sleeps at the end of the next turn.",
@@ -7661,7 +7661,7 @@
     "type": "fire"
   },
   "skill-swap": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "User and target swap abilities.",
@@ -7687,7 +7687,7 @@
     "type": "psychic"
   },
   "imprison": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Prevents the target from using any moves that the user also knows.",
@@ -7713,7 +7713,7 @@
     "type": "psychic"
   },
   "refresh": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Cleanses the user of a burn, paralysis, or poison.",
@@ -7739,7 +7739,7 @@
     "type": "normal"
   },
   "grudge": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "If the user faints this turn, the PP of the move that fainted it drops to 0.",
@@ -7765,7 +7765,7 @@
     "type": "ghost"
   },
   "snatch": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Steals the target\u2019s move, if it\u2019s self-targeted.",
@@ -7869,7 +7869,7 @@
     "type": "fighting"
   },
   "camouflage": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "User\u2019s type changes to match the terrain.",
@@ -7895,7 +7895,7 @@
     "type": "normal"
   },
   "tail-glow": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Special Attack by three stages.",
@@ -8045,7 +8045,7 @@
     "type": "normal"
   },
   "blaze-kick": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 10,
     "effect_short": "Has an increased chance for a critical hit and a 10% chance to burn the target.",
@@ -8071,7 +8071,7 @@
     "type": "fire"
   },
   "mud-sport": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Halves all Electric-type damage.",
@@ -8097,7 +8097,7 @@
     "type": "ground"
   },
   "ice-ball": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Power doubles every turn this move is used in succession after the first, resetting after five turns.",
@@ -8149,7 +8149,7 @@
     "type": "grass"
   },
   "slack-off": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Heals the user by half its max HP.",
@@ -8227,7 +8227,7 @@
     "type": "poison"
   },
   "crush-claw": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 50,
     "effect_short": "Has a 50% chance to lower the target\u2019s Defense by one stage.",
@@ -8258,7 +8258,7 @@
     "type": "normal"
   },
   "blast-burn": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "User foregoes its next turn to recharge.",
@@ -8284,7 +8284,7 @@
     "type": "fire"
   },
   "hydro-cannon": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "User foregoes its next turn to recharge.",
@@ -8310,7 +8310,7 @@
     "type": "water"
   },
   "meteor-mash": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 20,
     "effect_short": "Has a 20% chance to raise the user\u2019s Attack by one stage.",
@@ -8393,7 +8393,7 @@
     "type": "normal"
   },
   "aromatherapy": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Cures the entire party of major status effects.",
@@ -8450,7 +8450,7 @@
     "type": "dark"
   },
   "air-cutter": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Has an increased chance for a critical hit.",
@@ -8476,7 +8476,7 @@
     "type": "flying"
   },
   "overheat": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Lowers the user\u2019s Special Attack by two stages after inflicting damage.",
@@ -8507,7 +8507,7 @@
     "type": "fire"
   },
   "odor-sleuth": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it\u2019s a Ghost.",
@@ -8533,7 +8533,7 @@
     "type": "normal"
   },
   "rock-tomb": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 100,
     "effect_short": "Has a 100% chance to lower the target\u2019s Speed by one stage.",
@@ -8611,7 +8611,7 @@
     "type": "bug"
   },
   "metal-sound": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Lowers the target\u2019s Special Defense by two stages.",
@@ -8642,7 +8642,7 @@
     "type": "steel"
   },
   "grass-whistle": {
-    "accuracy": 55,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Puts the target to sleep.",
@@ -8703,7 +8703,7 @@
     "type": "normal"
   },
   "cosmic-power": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Defense and Special Defense by one stage.",
@@ -8790,7 +8790,7 @@
     "type": "bug"
   },
   "shadow-punch": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Never misses.",
@@ -8842,7 +8842,7 @@
     "type": "psychic"
   },
   "sky-uppercut": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage and can hit Bounce and Fly users.",
@@ -8868,7 +8868,7 @@
     "type": "fighting"
   },
   "sand-tomb": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 100,
     "effect_short": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
@@ -8894,7 +8894,7 @@
     "type": "ground"
   },
   "sheer-cold": {
-    "accuracy": 30,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Causes a one-hit KO.",
@@ -8920,7 +8920,7 @@
     "type": "ice"
   },
   "muddy-water": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 30,
     "effect_short": "Has a 30% chance to lower the target\u2019s accuracy by one stage.",
@@ -8977,7 +8977,7 @@
     "type": "grass"
   },
   "aerial-ace": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Never misses.",
@@ -9029,7 +9029,7 @@
     "type": "ice"
   },
   "iron-defense": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Defense by two stages.",
@@ -9060,7 +9060,7 @@
     "type": "steel"
   },
   "block": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Prevents the target from leaving battle.",
@@ -9086,7 +9086,7 @@
     "type": "normal"
   },
   "howl": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Attack by one stage.",
@@ -9143,7 +9143,7 @@
     "type": "dragon"
   },
   "frenzy-plant": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "User foregoes its next turn to recharge.",
@@ -9169,7 +9169,7 @@
     "type": "grass"
   },
   "bulk-up": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Attack and Defense by one stage.",
@@ -9204,7 +9204,7 @@
     "type": "fighting"
   },
   "bounce": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 30,
     "effect_short": "User bounces high into the air, dodging all attacks, and hits next turn.",
@@ -9230,7 +9230,7 @@
     "type": "flying"
   },
   "mud-shot": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Has a 100% chance to lower the target\u2019s Speed by one stage.",
@@ -9339,7 +9339,7 @@
     "type": "electric"
   },
   "magical-leaf": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Never misses.",
@@ -9365,7 +9365,7 @@
     "type": "grass"
   },
   "water-sport": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Halves all Fire-type damage.",
@@ -9391,7 +9391,7 @@
     "type": "water"
   },
   "calm-mind": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Special Attack and Special Defense by one stage.",
@@ -9452,7 +9452,7 @@
     "type": "grass"
   },
   "dragon-dance": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Attack and Speed by one stage.",
@@ -9487,7 +9487,7 @@
     "type": "dragon"
   },
   "rock-blast": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Hits 2-5 times in one turn.",
@@ -9513,7 +9513,7 @@
     "type": "rock"
   },
   "shock-wave": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Never misses.",
@@ -9591,7 +9591,7 @@
     "type": "steel"
   },
   "psycho-boost": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Lowers the user\u2019s Special Attack by two stages after inflicting damage.",
@@ -9622,7 +9622,7 @@
     "type": "psychic"
   },
   "roost": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Heals the user by half its max HP.",
@@ -9648,7 +9648,7 @@
     "type": "flying"
   },
   "gravity": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Disables moves and immunities that involve flying or levitating for five turns.",
@@ -9674,7 +9674,7 @@
     "type": "psychic"
   },
   "miracle-eye": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Forces the target to have no evasion, and allows it to be hit by Psychic moves even if it\u2019s Dark.",
@@ -9726,7 +9726,7 @@
     "type": "fighting"
   },
   "hammer-arm": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 100,
     "effect_short": "Lowers user\u2019s Speed by one stage.",
@@ -9783,7 +9783,7 @@
     "type": "steel"
   },
   "healing-wish": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "User faints.  Its replacement has its HP fully restored and any major status effect removed.",
@@ -9913,7 +9913,7 @@
     "type": "flying"
   },
   "tailwind": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "For three turns, friendly Pok\u00e9mon have doubled Speed.",
@@ -9939,7 +9939,7 @@
     "type": "flying"
   },
   "acupressure": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises one of a friendly Pok\u00e9mon\u2019s stats at random by two stages.",
@@ -10182,7 +10182,7 @@
     "type": "psychic"
   },
   "trump-card": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Power increases when this move has less PP, up to a maximum of 200.",
@@ -10260,7 +10260,7 @@
     "type": "normal"
   },
   "power-trick": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "User swaps Attack and Defense.",
@@ -10312,7 +10312,7 @@
     "type": "poison"
   },
   "lucky-chant": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Prevents the target from scoring critical hits for five turns.",
@@ -10338,7 +10338,7 @@
     "type": "normal"
   },
   "me-first": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Uses the target\u2019s move against it before it attacks, with power increased by half.",
@@ -10364,7 +10364,7 @@
     "type": "normal"
   },
   "copycat": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Uses the target\u2019s last used move.",
@@ -10390,7 +10390,7 @@
     "type": "normal"
   },
   "power-swap": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "User swaps Attack and Special Attack changes with the target.",
@@ -10416,7 +10416,7 @@
     "type": "psychic"
   },
   "guard-swap": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "User swaps Defense and Special Defense changes with the target.",
@@ -10546,7 +10546,7 @@
     "type": "dark"
   },
   "toxic-spikes": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Scatters poisoned spikes, poisoning opposing Pok\u00e9mon that switch in.",
@@ -10572,7 +10572,7 @@
     "type": "poison"
   },
   "heart-swap": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "User and target swap stat changes.",
@@ -10598,7 +10598,7 @@
     "type": "psychic"
   },
   "aqua-ring": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Restores 1/16 of the user\u2019s max HP each turn.",
@@ -10624,7 +10624,7 @@
     "type": "water"
   },
   "magnet-rise": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "User is immune to Ground moves and effects for five turns.",
@@ -10702,7 +10702,7 @@
     "type": "fighting"
   },
   "aura-sphere": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Never misses.",
@@ -10728,7 +10728,7 @@
     "type": "fighting"
   },
   "rock-polish": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Speed by two stages.",
@@ -10837,7 +10837,7 @@
     "type": "dark"
   },
   "aqua-tail": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -10889,7 +10889,7 @@
     "type": "grass"
   },
   "air-slash": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 30,
     "effect_short": "Has a 30% chance to make the target flinch.",
@@ -10998,7 +10998,7 @@
     "type": "dragon"
   },
   "dragon-rush": {
-    "accuracy": 75,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 20,
     "effect_short": "Has a 20% chance to make the target flinch.",
@@ -11102,7 +11102,7 @@
     "type": "fighting"
   },
   "focus-blast": {
-    "accuracy": 70,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 10,
     "effect_short": "Has a 10% chance to lower the target\u2019s Special Defense by one stage.",
@@ -11247,7 +11247,7 @@
     "type": "dark"
   },
   "giga-impact": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "User foregoes its next turn to recharge.",
@@ -11273,7 +11273,7 @@
     "type": "normal"
   },
   "nasty-plot": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Special Attack by two stages.",
@@ -11408,7 +11408,7 @@
     "type": "ghost"
   },
   "thunder-fang": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 10,
     "effect_short": "Has a 10% chance to paralyze the target and a 10% chance to make the target flinch.",
@@ -11434,7 +11434,7 @@
     "type": "electric"
   },
   "ice-fang": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 10,
     "effect_short": "Has a 10% chance to freeze the target and a 10% chance to make the target flinch.",
@@ -11460,7 +11460,7 @@
     "type": "ice"
   },
   "fire-fang": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 10,
     "effect_short": "Has a 10% chance to burn the target and a 10% chance to make the target flinch.",
@@ -11512,7 +11512,7 @@
     "type": "ghost"
   },
   "mud-bomb": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 30,
     "effect_short": "Has a 30% chance to lower the target\u2019s accuracy by one stage.",
@@ -11569,7 +11569,7 @@
     "type": "psychic"
   },
   "zen-headbutt": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 20,
     "effect_short": "Has a 20% chance to make the target flinch.",
@@ -11595,7 +11595,7 @@
     "type": "psychic"
   },
   "mirror-shot": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 30,
     "effect_short": "Has a 30% chance to lower the target\u2019s accuracy by one stage.",
@@ -11657,7 +11657,7 @@
     "type": "steel"
   },
   "rock-climb": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 20,
     "effect_short": "Has a 20% chance to confuse the target.",
@@ -11683,7 +11683,7 @@
     "type": "normal"
   },
   "defog": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Lowers the target\u2019s evasion by one stage.  Removes field effects from the enemy field.",
@@ -11714,7 +11714,7 @@
     "type": "flying"
   },
   "trick-room": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "For five turns, slower Pok\u00e9mon will act before faster Pok\u00e9mon.",
@@ -11740,7 +11740,7 @@
     "type": "psychic"
   },
   "draco-meteor": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Lowers the user\u2019s Special Attack by two stages after inflicting damage.",
@@ -11823,7 +11823,7 @@
     "type": "fire"
   },
   "leaf-storm": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Lowers the user\u2019s Special Attack by two stages after inflicting damage.",
@@ -11854,7 +11854,7 @@
     "type": "grass"
   },
   "power-whip": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -11880,7 +11880,7 @@
     "type": "grass"
   },
   "rock-wrecker": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "User foregoes its next turn to recharge.",
@@ -11932,7 +11932,7 @@
     "type": "poison"
   },
   "gunk-shot": {
-    "accuracy": 80,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 30,
     "effect_short": "Has a 30% chance to poison the target.",
@@ -11984,7 +11984,7 @@
     "type": "steel"
   },
   "magnet-bomb": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Never misses.",
@@ -12010,7 +12010,7 @@
     "type": "steel"
   },
   "stone-edge": {
-    "accuracy": 80,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Has an increased chance for a critical hit.",
@@ -12067,7 +12067,7 @@
     "type": "normal"
   },
   "stealth-rock": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Causes damage when opposing Pok\u00e9mon switch in.",
@@ -12197,7 +12197,7 @@
     "type": "bug"
   },
   "charge-beam": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 70,
     "effect_short": "Has a 70% chance to raise the user\u2019s Special Attack by one stage.",
@@ -12306,7 +12306,7 @@
     "type": "bug"
   },
   "defend-order": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Defense and Special Defense by one stage.",
@@ -12341,7 +12341,7 @@
     "type": "bug"
   },
   "heal-order": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Heals the user by half its max HP.",
@@ -12367,7 +12367,7 @@
     "type": "bug"
   },
   "head-smash": {
-    "accuracy": 80,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "User receives 1/2 the damage inflicted in recoil.",
@@ -12393,7 +12393,7 @@
     "type": "rock"
   },
   "double-hit": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Hits twice in one turn.",
@@ -12419,7 +12419,7 @@
     "type": "normal"
   },
   "roar-of-time": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "User foregoes its next turn to recharge.",
@@ -12445,7 +12445,7 @@
     "type": "dragon"
   },
   "spacial-rend": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Has an increased chance for a critical hit.",
@@ -12471,7 +12471,7 @@
     "type": "dragon"
   },
   "lunar-dance": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "User faints, and its replacement is fully healed.",
@@ -12523,7 +12523,7 @@
     "type": "normal"
   },
   "magma-storm": {
-    "accuracy": 75,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
@@ -12549,7 +12549,7 @@
     "type": "fire"
   },
   "dark-void": {
-    "accuracy": 50,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Puts the target to sleep.",
@@ -12575,7 +12575,7 @@
     "type": "dark"
   },
   "seed-flare": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 40,
     "effect_short": "Has a 40% chance to lower the target\u2019s Special Defense by two stages.",
@@ -12679,7 +12679,7 @@
     "type": "ghost"
   },
   "hone-claws": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Attack and accuracy by one stage.",
@@ -12714,7 +12714,7 @@
     "type": "dark"
   },
   "wide-guard": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Prevents any multi-target moves from hitting friendly Pok\u00e9mon this turn.",
@@ -12740,7 +12740,7 @@
     "type": "rock"
   },
   "guard-split": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Averages Defense and Special Defense with the target.",
@@ -12766,7 +12766,7 @@
     "type": "psychic"
   },
   "power-split": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Averages Attack and Special Attack with the target.",
@@ -12792,7 +12792,7 @@
     "type": "psychic"
   },
   "wonder-room": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "All Pok\u00e9mon\u2019s Defense and Special Defense are swapped for 5 turns.",
@@ -12870,7 +12870,7 @@
     "type": "poison"
   },
   "autotomize": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Speed by two stages and halves the user\u2019s weight.",
@@ -12901,7 +12901,7 @@
     "type": "steel"
   },
   "rage-powder": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Redirects the target\u2019s single-target effects to the user for this turn.",
@@ -12927,7 +12927,7 @@
     "type": "bug"
   },
   "telekinesis": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Moves have 100% accuracy against the target for three turns.",
@@ -12953,7 +12953,7 @@
     "type": "psychic"
   },
   "magic-room": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Negates held items for five turns.",
@@ -13083,7 +13083,7 @@
     "type": "poison"
   },
   "quiver-dance": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Special Attack, Special Defense, and Speed by one stage each.",
@@ -13257,7 +13257,7 @@
     "type": "fire"
   },
   "coil": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Attack, Defense, and accuracy by one stage each.",
@@ -13436,7 +13436,7 @@
     "type": "normal"
   },
   "after-you": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Makes the target act next this turn.",
@@ -13540,7 +13540,7 @@
     "type": "normal"
   },
   "clear-smog": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Removes all of the target\u2019s stat modifiers.",
@@ -13592,7 +13592,7 @@
     "type": "psychic"
   },
   "quick-guard": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Prevents any priority moves from hitting friendly Pok\u00e9mon this turn.",
@@ -13618,7 +13618,7 @@
     "type": "fighting"
   },
   "ally-switch": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "User switches places with the friendly Pok\u00e9mon opposite it.",
@@ -13670,7 +13670,7 @@
     "type": "water"
   },
   "shell-smash": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises user\u2019s Attack, Special Attack, and Speed by two stages.  Lower user\u2019s Defense and Special Defense by one stage.",
@@ -13717,7 +13717,7 @@
     "type": "normal"
   },
   "heal-pulse": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Heals the target for half its max HP.",
@@ -13795,7 +13795,7 @@
     "type": "flying"
   },
   "shift-gear": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Attack by one stage and its Speed by two stages.",
@@ -13830,7 +13830,7 @@
     "type": "steel"
   },
   "circle-throw": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Ends wild battles.  Forces trainers to switch Pok\u00e9mon.",
@@ -13934,7 +13934,7 @@
     "type": "flying"
   },
   "reflect-type": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "User becomes the target\u2019s type.",
@@ -14012,7 +14012,7 @@
     "type": "fighting"
   },
   "bestow": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Gives the user\u2019s held item to the target.",
@@ -14038,7 +14038,7 @@
     "type": "normal"
   },
   "inferno": {
-    "accuracy": 50,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Has a 100% chance to burn the target.",
@@ -14230,7 +14230,7 @@
     "type": "ground"
   },
   "frost-breath": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Always scores a critical hit.",
@@ -14256,7 +14256,7 @@
     "type": "ice"
   },
   "dragon-tail": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Ends wild battles.  Forces trainers to switch Pok\u00e9mon.",
@@ -14282,7 +14282,7 @@
     "type": "dragon"
   },
   "work-up": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Attack and Special Attack by one stage each.",
@@ -14317,7 +14317,7 @@
     "type": "normal"
   },
   "electroweb": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Lowers the target\u2019s Speed by one stage.",
@@ -14374,7 +14374,7 @@
     "type": "electric"
   },
   "drill-run": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Has an increased chance for a critical hit.",
@@ -14400,7 +14400,7 @@
     "type": "ground"
   },
   "dual-chop": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Hits twice in one turn.",
@@ -14504,7 +14504,7 @@
     "type": "fighting"
   },
   "razor-shell": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 50,
     "effect_short": "Has a 50% chance to lower the target\u2019s Defense by one stage.",
@@ -14561,7 +14561,7 @@
     "type": "fire"
   },
   "leaf-tornado": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 50,
     "effect_short": "Has a 50% chance to lower the target\u2019s accuracy by one stage.",
@@ -14618,7 +14618,7 @@
     "type": "bug"
   },
   "cotton-guard": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the user\u2019s Defense by three stages.",
@@ -14649,7 +14649,7 @@
     "type": "grass"
   },
   "night-daze": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 40,
     "effect_short": "Has a 40% chance to lower the target\u2019s accuracy by one stage.",
@@ -14706,7 +14706,7 @@
     "type": "psychic"
   },
   "tail-slap": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Hits 2-5 times in one turn.",
@@ -14732,7 +14732,7 @@
     "type": "normal"
   },
   "hurricane": {
-    "accuracy": 70,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 30,
     "effect_short": "Has a 30% chance to confuse the target.",
@@ -14784,7 +14784,7 @@
     "type": "normal"
   },
   "gear-grind": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Hits twice in one turn.",
@@ -14914,7 +14914,7 @@
     "type": "fighting"
   },
   "glaciate": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Lowers the target\u2019s Speed by one stage.",
@@ -14945,7 +14945,7 @@
     "type": "ice"
   },
   "bolt-strike": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 20,
     "effect_short": "Has a 20% chance to paralyze the target.",
@@ -14971,7 +14971,7 @@
     "type": "electric"
   },
   "blue-flare": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 20,
     "effect_short": "Has a 20% chance to burn the target.",
@@ -15028,7 +15028,7 @@
     "type": "fire"
   },
   "freeze-shock": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 30,
     "effect_short": "Requires a turn to charge before attacking.  Has a 30% chance to paralyze the target.",
@@ -15054,7 +15054,7 @@
     "type": "ice"
   },
   "ice-burn": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 30,
     "effect_short": "Requires a turn to charge before attacking.  Has a 30% chance to burn the target.",
@@ -15080,7 +15080,7 @@
     "type": "ice"
   },
   "snarl": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Has a 100% chance to lower the target\u2019s Special Attack by one stage.",
@@ -15111,7 +15111,7 @@
     "type": "dark"
   },
   "icicle-crash": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 30,
     "effect_short": "Has a 30% chance to make the target flinch.",
@@ -15137,7 +15137,7 @@
     "type": "ice"
   },
   "v-create": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 100,
     "effect_short": "Lowers the user\u2019s Defense, Special Defense, and Speed by one stage each.",
@@ -15228,7 +15228,7 @@
     "type": "electric"
   },
   "flying-press": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Deals both fighting and flying-type damage.",
@@ -15254,7 +15254,7 @@
     "type": "fighting"
   },
   "mat-block": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Protects all friendly Pok\u00e9mon from damaging moves.  Only works on the first turn after the user is sent out.",
@@ -15280,7 +15280,7 @@
     "type": "fighting"
   },
   "belch": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Can only be used after the user has eaten a berry.",
@@ -15306,7 +15306,7 @@
     "type": "poison"
   },
   "rototiller": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": 100,
     "effect_short": "Raises the Attack and Special Attack of all grass Pok\u00e9mon in battle.",
@@ -15341,7 +15341,7 @@
     "type": "ground"
   },
   "sticky-web": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Covers the opposing field, lowering opponents\u2019 Speed by one stage upon switching in.",
@@ -15480,7 +15480,7 @@
     "type": "normal"
   },
   "ion-deluge": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Changes all normal moves to electric moves for the rest of the turn.",
@@ -15610,7 +15610,7 @@
     "type": "ice"
   },
   "disarming-voice": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Never misses.",
@@ -15671,7 +15671,7 @@
     "type": "dark"
   },
   "topsy-turvy": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Inverts the target\u2019s stat modifiers.",
@@ -15723,7 +15723,7 @@
     "type": "fairy"
   },
   "crafty-shield": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Protects all friendly Pok\u00e9mon from non-damaging moves.",
@@ -15749,7 +15749,7 @@
     "type": "fairy"
   },
   "flower-shield": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": 100,
     "effect_short": "Raises the Defense of all grass Pok\u00e9mon in battle.",
@@ -15780,7 +15780,7 @@
     "type": "fairy"
   },
   "grassy-terrain": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "For five turns, heals all Pok\u00e9mon on the ground for 1/16 max HP each turn and strengthens their grass moves to 1.5\u00d7 their power.",
@@ -15806,7 +15806,7 @@
     "type": "grass"
   },
   "misty-terrain": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "For five turns, protects all Pok\u00e9mon on the ground from major status ailments and confusion, and halves the power of incoming dragon moves.",
@@ -15832,7 +15832,7 @@
     "type": "fairy"
   },
   "electrify": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Changes the target\u2019s move\u2019s type to electric if it hasn\u2019t moved yet this turn.",
@@ -15858,7 +15858,7 @@
     "type": "electric"
   },
   "play-rough": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 10,
     "effect_short": "Has a 10% chance to lower the target\u2019s Attack by one stage.",
@@ -15972,7 +15972,7 @@
     "type": "normal"
   },
   "fairy-lock": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Prevents all Pok\u00e9mon from fleeing or switching out during the next turn.",
@@ -15998,7 +15998,7 @@
     "type": "fairy"
   },
   "kings-shield": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Blocks damaging attacks and lowers attacking Pok\u00e9mon\u2019s Attack by two stages on contact.  Switches Aegislash to Shield Forme.",
@@ -16024,7 +16024,7 @@
     "type": "steel"
   },
   "play-nice": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": 100,
     "effect_short": "Lowers the target\u2019s Attack by one stage.",
@@ -16055,7 +16055,7 @@
     "type": "normal"
   },
   "confide": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": 100,
     "effect_short": "Lowers the target\u2019s Special Attack by one stage.",
@@ -16086,7 +16086,7 @@
     "type": "normal"
   },
   "diamond-storm": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 50,
     "effect_short": "Has a 50% chance to raise the user\u2019s Defense by two stages for each target hit.",
@@ -16117,7 +16117,7 @@
     "type": "rock"
   },
   "steam-eruption": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 30,
     "effect_short": "Has a 30% chance to burn the target.",
@@ -16143,7 +16143,7 @@
     "type": "water"
   },
   "hyperspace-hole": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Ignores and destroys protection effects.",
@@ -16226,7 +16226,7 @@
     "type": "fire"
   },
   "spiky-shield": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Blocks damaging attacks and damages attacking Pok\u00e9mon for 1/8 their max HP.",
@@ -16252,7 +16252,7 @@
     "type": "grass"
   },
   "aromatic-mist": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises a selected ally\u2019s Special Defense by one stage.",
@@ -16379,7 +16379,7 @@
     "type": "bug"
   },
   "geomancy": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Takes one turn to charge, then raises the user\u2019s Special Attack, Special Defense, and Speed by two stages.",
@@ -16418,7 +16418,7 @@
     "type": "fairy"
   },
   "magnetic-flux": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the Defense and Special Defense of all friendly Pok\u00e9mon with plus or minus by one stage.",
@@ -16453,7 +16453,7 @@
     "type": "electric"
   },
   "happy-hour": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Doubles prize money.",
@@ -16479,7 +16479,7 @@
     "type": "normal"
   },
   "electric-terrain": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "For five turns, prevents all Pok\u00e9mon on the ground from sleeping and strengthens their electric moves to 1.5\u00d7 their power.",
@@ -16531,7 +16531,7 @@
     "type": "fairy"
   },
   "celebrate": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Does nothing.",
@@ -16557,7 +16557,7 @@
     "type": "normal"
   },
   "hold-hands": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Does nothing.",
@@ -16827,7 +16827,7 @@
     "type": "ground"
   },
   "light-of-ruin": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "User receives 1/2 the damage inflicted in recoil.",
@@ -16853,7 +16853,7 @@
     "type": "fairy"
   },
   "origin-pulse": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -16879,7 +16879,7 @@
     "type": "water"
   },
   "precipice-blades": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -16940,7 +16940,7 @@
     "type": "flying"
   },
   "hyperspace-fury": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 100,
     "effect_short": "Ignores and destroys protection effects.",
@@ -16971,7 +16971,7 @@
     "type": "dark"
   },
   "breakneck-blitz--physical": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -16997,7 +16997,7 @@
     "type": "normal"
   },
   "breakneck-blitz--special": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17023,7 +17023,7 @@
     "type": "normal"
   },
   "all-out-pummeling--physical": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17049,7 +17049,7 @@
     "type": "fighting"
   },
   "all-out-pummeling--special": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17075,7 +17075,7 @@
     "type": "fighting"
   },
   "supersonic-skystrike--physical": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17101,7 +17101,7 @@
     "type": "flying"
   },
   "supersonic-skystrike--special": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17127,7 +17127,7 @@
     "type": "flying"
   },
   "acid-downpour--physical": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17153,7 +17153,7 @@
     "type": "poison"
   },
   "acid-downpour--special": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17179,7 +17179,7 @@
     "type": "poison"
   },
   "tectonic-rage--physical": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17205,7 +17205,7 @@
     "type": "ground"
   },
   "tectonic-rage--special": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17231,7 +17231,7 @@
     "type": "ground"
   },
   "continental-crush--physical": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17257,7 +17257,7 @@
     "type": "rock"
   },
   "continental-crush--special": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17283,7 +17283,7 @@
     "type": "rock"
   },
   "savage-spin-out--physical": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17309,7 +17309,7 @@
     "type": "bug"
   },
   "savage-spin-out--special": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17335,7 +17335,7 @@
     "type": "bug"
   },
   "never-ending-nightmare--physical": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17361,7 +17361,7 @@
     "type": "ghost"
   },
   "never-ending-nightmare--special": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17387,7 +17387,7 @@
     "type": "ghost"
   },
   "corkscrew-crash--physical": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17413,7 +17413,7 @@
     "type": "steel"
   },
   "corkscrew-crash--special": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17439,7 +17439,7 @@
     "type": "steel"
   },
   "inferno-overdrive--physical": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17465,7 +17465,7 @@
     "type": "fire"
   },
   "inferno-overdrive--special": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17491,7 +17491,7 @@
     "type": "fire"
   },
   "hydro-vortex--physical": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17517,7 +17517,7 @@
     "type": "water"
   },
   "hydro-vortex--special": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17543,7 +17543,7 @@
     "type": "water"
   },
   "bloom-doom--physical": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17569,7 +17569,7 @@
     "type": "grass"
   },
   "bloom-doom--special": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17595,7 +17595,7 @@
     "type": "grass"
   },
   "gigavolt-havoc--physical": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17621,7 +17621,7 @@
     "type": "electric"
   },
   "gigavolt-havoc--special": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17647,7 +17647,7 @@
     "type": "electric"
   },
   "shattered-psyche--physical": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17673,7 +17673,7 @@
     "type": "psychic"
   },
   "shattered-psyche--special": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17699,7 +17699,7 @@
     "type": "psychic"
   },
   "subzero-slammer--physical": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17725,7 +17725,7 @@
     "type": "ice"
   },
   "subzero-slammer--special": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17751,7 +17751,7 @@
     "type": "ice"
   },
   "devastating-drake--physical": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17777,7 +17777,7 @@
     "type": "dragon"
   },
   "devastating-drake--special": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17803,7 +17803,7 @@
     "type": "dragon"
   },
   "black-hole-eclipse--physical": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17829,7 +17829,7 @@
     "type": "dark"
   },
   "black-hole-eclipse--special": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17855,7 +17855,7 @@
     "type": "dark"
   },
   "twinkle-tackle--physical": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17881,7 +17881,7 @@
     "type": "fairy"
   },
   "twinkle-tackle--special": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17907,7 +17907,7 @@
     "type": "fairy"
   },
   "catastropika": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -17933,7 +17933,7 @@
     "type": "electric"
   },
   "shore-up": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Heals the user for \u00bd its max HP, or \u2154 during a sandstorm.",
@@ -17985,7 +17985,7 @@
     "type": "bug"
   },
   "baneful-bunker": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Grants the user protection for the rest of the turn and poisons any Pok\u00e9mon that tries to use a contact move on it.",
@@ -18089,7 +18089,7 @@
     "type": "water"
   },
   "ice-hammer": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 100,
     "effect_short": "Lowers user\u2019s Speed by one stage.",
@@ -18120,7 +18120,7 @@
     "type": "ice"
   },
   "floral-healing": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Heals the target for \u00bd its max HP, or \u2154 on Grassy Terrain.",
@@ -18146,7 +18146,7 @@
     "type": "fairy"
   },
   "high-horsepower": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -18255,7 +18255,7 @@
     "type": "grass"
   },
   "spotlight": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Forces the target\u2019s opponents to aim at the target for the rest of the turn.",
@@ -18312,7 +18312,7 @@
     "type": "poison"
   },
   "laser-focus": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Guarantees a critical hit with the user\u2019s next move.",
@@ -18338,7 +18338,7 @@
     "type": "normal"
   },
   "gear-up": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Raises the Attack and Special Attack of all friendly Pok\u00e9mon with plus or minus by one stage.",
@@ -18451,7 +18451,7 @@
     "type": "steel"
   },
   "psychic-terrain": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Protects Pok\u00e9mon on the ground from priority moves and increases the power of their  Psychic moves by 50%.",
@@ -18591,7 +18591,7 @@
     "type": "fire"
   },
   "speed-swap": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Exchanges the user\u2019s Speed with the target\u2019s.",
@@ -18617,7 +18617,7 @@
     "type": "psychic"
   },
   "smart-strike": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Never misses.",
@@ -18643,7 +18643,7 @@
     "type": "steel"
   },
   "purify": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Cures the target of a major status ailment and heals the user for 50% of its max HP.",
@@ -18752,7 +18752,7 @@
     "type": "grass"
   },
   "instruct": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Forces the target to repeat its last used move.",
@@ -18887,7 +18887,7 @@
     "type": "dark"
   },
   "aurora-veil": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Reduces damage five turns, but must be used during hail.",
@@ -18913,7 +18913,7 @@
     "type": "ice"
   },
   "sinister-arrow-raid": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -18939,7 +18939,7 @@
     "type": "ghost"
   },
   "malicious-moonsault": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -18965,7 +18965,7 @@
     "type": "dark"
   },
   "oceanic-operetta": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -18991,7 +18991,7 @@
     "type": "water"
   },
   "guardian-of-alola": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Damages the target for 75% of its remaining HP.",
@@ -19017,7 +19017,7 @@
     "type": "fairy"
   },
   "soul-stealing-7-star-strike": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -19043,7 +19043,7 @@
     "type": "ghost"
   },
   "stoked-sparksurfer": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Has a 100% chance to paralyze the target.",
@@ -19069,7 +19069,7 @@
     "type": "electric"
   },
   "pulverizing-pancake": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -19095,7 +19095,7 @@
     "type": "normal"
   },
   "extreme-evoboost": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": 100,
     "effect_short": "Raises all of the user\u2019s stats by two stages.",
@@ -19142,7 +19142,7 @@
     "type": "normal"
   },
   "genesis-supernova": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Changes the terrain to Psychic Terrain after inflicting damage.",
@@ -19194,7 +19194,7 @@
     "type": "fire"
   },
   "fleur-cannon": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Lowers the user\u2019s Special Attack by two stages after inflicting damage.",
@@ -19469,7 +19469,7 @@
     "type": "ghost"
   },
   "tearful-look": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": 100,
     "effect_short": "Lowers the target\u2019s Attack and Special Attack by one stage.",
@@ -19530,7 +19530,7 @@
     "type": "electric"
   },
   "natures-madness": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts damage equal to half the target\u2019s HP.",
@@ -19582,7 +19582,7 @@
     "type": "normal"
   },
   "10-000-000-volt-thunderbolt": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -19686,7 +19686,7 @@
     "type": "psychic"
   },
   "light-that-burns-the-sky": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts damage using either Attack or Special Attack stat, whichever is higher.",
@@ -19712,7 +19712,7 @@
     "type": "psychic"
   },
   "searing-sunraze-smash": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Cannot be disrupted by abilities.",
@@ -19738,7 +19738,7 @@
     "type": "steel"
   },
   "menacing-moonraze-maelstrom": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Cannot be disrupted by abilities.",
@@ -19764,7 +19764,7 @@
     "type": "ghost"
   },
   "lets-snuggle-forever": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -19790,7 +19790,7 @@
     "type": "fairy"
   },
   "splintered-stormshards": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts damage and removes any terrain present on the battlefield.",
@@ -19816,7 +19816,7 @@
     "type": "rock"
   },
   "clangorous-soulblaze": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Inflicts damage to all opposing Pok\u00e9mon and increases the user\u2019s Attack, Defense, Special Attack, Special Defense, and Speed by one stage each.",
@@ -19920,7 +19920,7 @@
     "type": "water"
   },
   "floaty-fall": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 30,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -19946,7 +19946,7 @@
     "type": "flying"
   },
   "pika-papow": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20050,7 +20050,7 @@
     "type": "fire"
   },
   "glitzy-glow": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20076,7 +20076,7 @@
     "type": "psychic"
   },
   "baddy-bad": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20102,7 +20102,7 @@
     "type": "dark"
   },
   "sappy-seed": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 100,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20128,7 +20128,7 @@
     "type": "grass"
   },
   "freezy-frost": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20154,7 +20154,7 @@
     "type": "ice"
   },
   "sparkly-swirl": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20180,7 +20180,7 @@
     "type": "fairy"
   },
   "veevee-volley": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20232,7 +20232,7 @@
     "type": "steel"
   },
   "max-guard": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Prevents any moves from hitting the user this turn.",
@@ -20336,7 +20336,7 @@
     "type": "dark"
   },
   "stuff-cheeks": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": 100,
     "effect_short": "Cures the entire party of major status effects after inflicting damage.",
@@ -20367,7 +20367,7 @@
     "type": "normal"
   },
   "no-retreat": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": 100,
     "effect_short": "Hits twice in one turn, with a 100% chance to make the target flinch.",
@@ -20497,7 +20497,7 @@
     "type": "dragon"
   },
   "teatime": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "",
@@ -20627,7 +20627,7 @@
     "type": "normal"
   },
   "max-flare": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20653,7 +20653,7 @@
     "type": "fire"
   },
   "max-flutterby": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20679,7 +20679,7 @@
     "type": "bug"
   },
   "max-lightning": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20705,7 +20705,7 @@
     "type": "electric"
   },
   "max-strike": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20731,7 +20731,7 @@
     "type": "normal"
   },
   "max-knuckle": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20757,7 +20757,7 @@
     "type": "fighting"
   },
   "max-phantasm": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20783,7 +20783,7 @@
     "type": "ghost"
   },
   "max-hailstorm": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20809,7 +20809,7 @@
     "type": "ice"
   },
   "max-ooze": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20835,7 +20835,7 @@
     "type": "poison"
   },
   "max-geyser": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20861,7 +20861,7 @@
     "type": "water"
   },
   "max-airstream": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20887,7 +20887,7 @@
     "type": "flying"
   },
   "max-starfall": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20913,7 +20913,7 @@
     "type": "fairy"
   },
   "max-wyrmwind": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20939,7 +20939,7 @@
     "type": "dragon"
   },
   "max-mindstorm": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20965,7 +20965,7 @@
     "type": "psychic"
   },
   "max-rockfall": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -20991,7 +20991,7 @@
     "type": "rock"
   },
   "max-quake": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -21017,7 +21017,7 @@
     "type": "ground"
   },
   "max-darkness": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -21043,7 +21043,7 @@
     "type": "dark"
   },
   "max-overgrowth": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -21069,7 +21069,7 @@
     "type": "grass"
   },
   "max-steelspike": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -21168,7 +21168,7 @@
     "type": "fighting"
   },
   "decorate": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": 100,
     "effect_short": "",
@@ -21260,7 +21260,7 @@
     "type": "grass"
   },
   "pyro-ball": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 10,
     "effect_short": "Has a 10% chance to burn the target.",
@@ -21545,7 +21545,7 @@
     "type": "fairy"
   },
   "strange-steam": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 20,
     "effect_short": "Has a 20% chance to confuse the target.",
@@ -21571,7 +21571,7 @@
     "type": "fairy"
   },
   "life-dew": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "",
@@ -21623,7 +21623,7 @@
     "type": "dark"
   },
   "false-surrender": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Never misses.",
@@ -21675,7 +21675,7 @@
     "type": "fighting"
   },
   "eternabeam": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "User foregoes its next turn to recharge.",
@@ -21701,7 +21701,7 @@
     "type": "dragon"
   },
   "steel-beam": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "Inflicts damage, and the user takes damage equal to half of its max HP, rounded up.",
@@ -21779,7 +21779,7 @@
     "type": "steel"
   },
   "scale-shot": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Boosts the user\u2019s Speed and lowers their Defense by one stage after inflicting damage two to five times in a row.",
@@ -21805,7 +21805,7 @@
     "type": "dragon"
   },
   "meteor-beam": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -21961,7 +21961,7 @@
     "type": "normal"
   },
   "skitter-smack": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": 100,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -22044,7 +22044,7 @@
     "type": "dark"
   },
   "poltergeist": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -22096,7 +22096,7 @@
     "type": "poison"
   },
   "coaching": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": 100,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -22157,7 +22157,7 @@
     "type": "water"
   },
   "triple-axel": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -22183,7 +22183,7 @@
     "type": "ice"
   },
   "dual-wingbeat": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -22235,7 +22235,7 @@
     "type": "ground"
   },
   "jungle-healing": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -22313,7 +22313,7 @@
     "type": "water"
   },
   "thunder-cage": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": 100,
     "effect_short": "Inflicts regular damage with no additional effect.",
@@ -22552,7 +22552,7 @@
     "type": "poison"
   },
   "psyshield-bash": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "",
@@ -22578,7 +22578,7 @@
     "type": "psychic"
   },
   "power-shift": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "",
@@ -22604,7 +22604,7 @@
     "type": "normal"
   },
   "stone-axe": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "",
@@ -22630,7 +22630,7 @@
     "type": "rock"
   },
   "springtide-storm": {
-    "accuracy": 80,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "",
@@ -22656,7 +22656,7 @@
     "type": "fairy"
   },
   "mystical-power": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "",
@@ -22734,7 +22734,7 @@
     "type": "water"
   },
   "chloroblast": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "",
@@ -22760,7 +22760,7 @@
     "type": "grass"
   },
   "mountain-gale": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "",
@@ -22786,7 +22786,7 @@
     "type": "ice"
   },
   "victory-dance": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "",
@@ -22916,7 +22916,7 @@
     "type": "ghost"
   },
   "shelter": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "",
@@ -22994,7 +22994,7 @@
     "type": "ghost"
   },
   "ceaseless-edge": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "",
@@ -23020,7 +23020,7 @@
     "type": "dark"
   },
   "bleakwind-storm": {
-    "accuracy": 80,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "",
@@ -23046,7 +23046,7 @@
     "type": "flying"
   },
   "wildbolt-storm": {
-    "accuracy": 80,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "",
@@ -23072,7 +23072,7 @@
     "type": "electric"
   },
   "sandsear-storm": {
-    "accuracy": 80,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "",
@@ -23098,7 +23098,7 @@
     "type": "ground"
   },
   "lunar-blessing": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "",
@@ -23124,7 +23124,7 @@
     "type": "psychic"
   },
   "take-heart": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "",
@@ -23176,7 +23176,7 @@
     "type": "normal"
   },
   "silk-trap": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "",
@@ -23202,7 +23202,7 @@
     "type": "bug"
   },
   "axe-kick": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "",
@@ -23332,7 +23332,7 @@
     "type": "water"
   },
   "spicy-extract": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "",
@@ -23384,7 +23384,7 @@
     "type": "steel"
   },
   "population-bomb": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "",
@@ -23462,7 +23462,7 @@
     "type": "dragon"
   },
   "revival-blessing": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "",
@@ -23514,7 +23514,7 @@
     "type": "rock"
   },
   "triple-dive": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "",
@@ -23592,7 +23592,7 @@
     "type": "normal"
   },
   "fillet-away": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "",
@@ -23618,7 +23618,7 @@
     "type": "normal"
   },
   "kowtow-cleave": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "",
@@ -23644,7 +23644,7 @@
     "type": "dark"
   },
   "flower-trick": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "",
@@ -23826,7 +23826,7 @@
     "type": "water"
   },
   "ruination": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "",
@@ -23904,7 +23904,7 @@
     "type": "electric"
   },
   "shed-tail": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "",
@@ -23930,7 +23930,7 @@
     "type": "normal"
   },
   "chilly-reception": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "",
@@ -23956,7 +23956,7 @@
     "type": "ice"
   },
   "tidy-up": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "",
@@ -23982,7 +23982,7 @@
     "type": "normal"
   },
   "snowscape": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "",
@@ -24476,7 +24476,7 @@
     "type": "normal"
   },
   "matcha-gotcha": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "",
@@ -24502,7 +24502,7 @@
     "type": "grass"
   },
   "syrup-bomb": {
-    "accuracy": 85,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "",
@@ -24632,7 +24632,7 @@
     "type": "dragon"
   },
   "burning-bulwark": {
-    "accuracy": 0,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "",
@@ -24710,7 +24710,7 @@
     "type": "rock"
   },
   "tachyon-cutter": {
-    "accuracy": 0,
+    "accuracy": 100,
     "class": "special",
     "effect_chance": null,
     "effect_short": "",
@@ -24762,7 +24762,7 @@
     "type": "steel"
   },
   "dragon-cheer": {
-    "accuracy": 0,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "",
@@ -24840,7 +24840,7 @@
     "type": "fire"
   },
   "supercell-slam": {
-    "accuracy": 95,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "",
@@ -25100,7 +25100,7 @@
     "type": "shadow"
   },
   "shadow-end": {
-    "accuracy": 60,
+    "accuracy": 100,
     "class": "physical",
     "effect_chance": null,
     "effect_short": "User receives 1/2 its HP in recoil.",
@@ -25282,7 +25282,7 @@
     "type": "shadow"
   },
   "shadow-hold": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Prevents the target from leaving battle.",
@@ -25334,7 +25334,7 @@
     "type": "shadow"
   },
   "shadow-panic": {
-    "accuracy": 90,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Confuses the target.",
@@ -25360,7 +25360,7 @@
     "type": "shadow"
   },
   "shadow-shed": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Removes Light Screen, Reflect, and Safeguard.",
@@ -25386,7 +25386,7 @@
     "type": "shadow"
   },
   "shadow-sky": {
-    "accuracy": null,
+    "accuracy": 100,
     "class": "status",
     "effect_chance": null,
     "effect_short": "Changes the weather to Shadow Sky for five turns.",

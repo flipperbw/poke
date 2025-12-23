@@ -1,11 +1,31 @@
 import argparse
-import typing as tp
 import json
 import re
+import typing as tp
 
 import numpy as np
 import pandas as pd
 from tabulate import tabulate
+
+# In-code default move blocklist (edit here as desired)
+BLOCKED_MOVES: set[str] = {
+    'swagger', 'future-sight', 'misty-explosion',
+    'outrage', 'icicle-spear', 'draco-meteor', 'dream-eater', 'first-impression'
+}
+
+# Comprehensive list of common offensive boosting moves (name-based)
+# Used to robustly identify boost moves even when move metadata is sparse.
+BOOST_NAME_SET: set[str] = {
+    # Pure status offensive boosters
+    'swords-dance', 'nasty-plot', 'calm-mind', 'bulk-up', 'quiver-dance',
+    'work-up', 'dragon-dance', 'tail-glow', 'hone-claws', 'howl', 'growth',
+    'meditate', 'sharpen', 'victory-dance', 'no-retreat', 'coil', 'shift-gear',
+    'clangorous-soul',
+    # Mixed/stat-raising with offensive component
+    'curse', 'shell-smash', 'agility',  # agility helps kills via speed, optional
+    # Attacking moves that raise SpA/Atk
+    'torch-song', 'fiery-dance', 'charge-beam', 'power-up-punch',
+}
 
 
 def _load_moves(path: str) -> pd.DataFrame:
@@ -114,15 +134,19 @@ def score_pokemon(
     allow_boost: bool = True,
     allow_legends: bool = True,
     allow_megas: bool = True,
+    blocked_moves: tp.Optional[set[str]] = None,
 ) -> pd.DataFrame:
     # Load data
     pokes = pd.read_json(pokes_path, orient='index')
     moves = _load_moves(moves_path)
 
+    if blocked_moves is None:
+        blocked_moves = BLOCKED_MOVES
+
     # Optionally filter out Mega forms entirely
     if not allow_megas and 'name' in pokes.columns:
         name_series = pokes['name'].astype(str).str.lower()
-        mega_mask = name_series.str.endswith(('-mega', '-mega-x', '-mega-y'))
+        mega_mask = name_series.str.endswith(('-mega', '-mega-x', '-mega-y', '-mega-z'))
         pokes = pokes[~mega_mask]
 
     # Precompute mapping move_name -> row for quick join
@@ -135,10 +159,69 @@ def score_pokemon(
     pk['moves'] = pk['moves'].apply(lambda xs: xs if isinstance(xs, list) else [])
     # Filter out tutor moves (not available in ZA)
     pk['moves'] = pk['moves'].apply(lambda xs: [m for m in xs if isinstance(m, dict) and m.get('how') != 'tutor'])
+
+    # --- Mega fallback: if a Mega form has an empty moveset, use its base form's moves ---
+    def _base_name(n: str) -> str:
+        s = str(n).lower()
+        for suf in ('-mega-x', '-mega-y', '-mega-z', '-mega'):
+            if s.endswith(suf):
+                return s[: -len(suf)]
+        return s
+
+    # Build mapping base_name -> representative non-mega moves list (prefer non-empty; prefer exact base name)
+    names_lower = pokes['name'].astype(str).str.lower()
+    is_mega_mask = names_lower.str.endswith(('-mega', '-mega-x', '-mega-y', '-mega-z'))
+    base_names = names_lower.map(_base_name)
+    # Create a DataFrame to pick best base record per base name
+    pick_df = pokes.copy()
+    pick_df = pick_df.assign(
+        name_lower=names_lower,
+        base_name=base_names,
+        is_mega=is_mega_mask,
+        moves_list=pokes['moves'].apply(lambda xs: xs if isinstance(xs, list) else []),
+        moves_len=pokes['moves'].apply(lambda xs: len(xs) if isinstance(xs, list) else 0),
+    )
+    # Prefer non-mega rows; among them prefer the exact base-name match, then longest moves list
+    non_megas = pick_df[~pick_df['is_mega']].copy()
+
+    def _pref_score(row):
+        exact = 1 if row['name_lower'] == row['base_name'] else 0
+        return (exact, row['moves_len'])
+
+    if not non_megas.empty:
+        non_megas['_pref'] = non_megas.apply(_pref_score, axis=1)
+        # For each base_name, get row with max _pref (tuple compares lexicographically)
+        idxs = non_megas.groupby('base_name')['_pref'].idxmax()
+        base_moves_map: dict[str, list] = {}
+        for idx in idxs:
+            r = non_megas.loc[idx]
+            base_moves_map[str(r['base_name'])] = r['moves_list'] if isinstance(r['moves_list'], list) else []
+    else:
+        base_moves_map = {}
+
+    # Apply fallback to pk moves: for any Mega row with empty moves, substitute base moves
+    def _fallback_moves(row: pd.Series) -> list:
+        nm = str(row['name']).lower()
+        mv = row['moves'] if isinstance(row['moves'], list) else []
+        if mv:
+            return mv
+        # empty moves -> if mega form, try base
+        if nm.endswith(('-mega', '-mega-x', '-mega-y', '-mega-z')):
+            b = _base_name(nm)
+            bm = base_moves_map.get(b, [])
+            # ensure dict structure and filter tutor again defensively
+            bm = [m for m in bm if isinstance(m, dict) and m.get('how') != 'tutor']
+            return bm
+        return mv
+
+    pk['moves'] = pk.apply(_fallback_moves, axis=1)
     exploded = pk.explode('moves')
     # Extract move name from dicts
     exploded['move_name'] = exploded['moves'].apply(lambda m: m.get('name') if isinstance(m, dict) else None)
     exploded = exploded.drop(columns=['moves'])
+    # Apply move blocklist (by exact move name)
+    if blocked_moves:
+        exploded = exploded[~exploded['move_name'].isin(blocked_moves)]
 
     # Join move details (ensure we keep both Pokémon typing and move typing)
     exploded = exploded.merge(
@@ -153,7 +236,13 @@ def score_pokemon(
     exploded = exploded.dropna(subset=['move_name'])
     # Exclude self-KO moves (e.g., "User faints")
     if 'suicide' in exploded.columns:
-        exploded = exploded[~exploded['suicide'].fillna(False)]
+        # Avoid FutureWarning about silent downcasting on fillna by inferring objects explicitly
+        s = exploded['suicide'].infer_objects(copy=False).fillna(False)
+        # try:
+        #     s = s.infer_objects(copy=False)  # pandas >= 2.1
+        # except Exception:
+        #     pass
+        exploded = exploded[~s.astype(bool)]
 
     # Compute STAB-adjusted score
     if no_stab_bonus:
@@ -215,20 +304,30 @@ def score_pokemon(
         lambda r: _stab_multiplier(str(r.get('type_move')), r.get('type_poke', r.get('type'))) > 1.0,
         axis=1,
     )
-    # Boosting move: status, targets user, and has positive stat_changes for atk or spa
+
+    # Boosting move detection: robust name-driven first, then meta/text heuristics
     def is_boost_row(r: pd.Series) -> bool:
         if not allow_boost:
             return False
+        # 0) Name whitelist always counts as boosting
+        name = str(r.get('move_name', '')).lower()
+        if name in BOOST_NAME_SET:
+            return True
+        # 1) Meta/text-based (requires status)
         if r.get('is_status') is not True:
-            return False
-        # Treat move meta category as authoritative when available
+            # allow certain attacking self-boosters even if not status
+            return name in {'torch-song', 'fiery-dance', 'charge-beam', 'power-up-punch'}
+        # For status moves, ensure the move targets the user (or allies) before considering it a boost
+        tgt = str(r.get('target', '')).lower()
+        is_self_target = any(k in tgt for k in ('user', 'ally', 'allies'))
+        # Treat move meta category as authoritative when available, but only if self-targeting
         cat = str(r.get('category') or '').lower()
-        if cat == 'net-good-stats':
+        if cat == 'net-good-stats' and is_self_target:
             return True
         sc = r.get('stat_changes')
         try:
             # stat_changes is list of dicts: {'amt': int, 'type': 'attack'|'special-attack'|...}
-            if any((d.get('amt', 0) or 0) > 0 and d.get('type') in ('attack', 'special-attack') for d in sc or []):
+            if is_self_target and any((d.get('amt', 0) or 0) > 0 and d.get('type') in ('attack', 'special-attack') for d in sc or []):
                 return True
         except Exception:
             pass
@@ -248,31 +347,18 @@ def score_pokemon(
             r"drastically raises the user's special attack",
             r"boosts the user's attack",
             r"boosts the user's special attack",
+            r"sharply boosts the user's attack",
+            r"sharply boosts the user's special attack",
         ]
         if any(re.search(p, text) for p in boost_patterns):
             return True
 
-        # Whitelist of well-known boosting moves that enhance offense
-        name = str(r.get('move_name', ''))
-        boost_names = {
-            'swords-dance', 'nasty-plot', 'calm-mind', 'bulk-up', 'quiver-dance',
-            'work-up', 'dragon-dance', 'tail-glow', 'hone-claws', 'howl'
-        }
-        if name in boost_names:
-            return True
-
-        # As a last check, honor explicit self-targets if present (won't block identification otherwise)
-        tgt = str(r.get('target', '')).lower()
-        return any(k in tgt for k in ('user', 'ally', 'allies'))
+        # Do NOT treat generic self-target status as boost unless one of the above conditions matched
+        return False
 
     exploded['is_boost'] = exploded.apply(is_boost_row, axis=1)
     # Ensure known boosting move names are always flagged, even if metadata is sparse
-    boost_name_whitelist = {
-        'swords-dance', 'nasty-plot', 'calm-mind', 'bulk-up', 'quiver-dance',
-        'work-up', 'dragon-dance', 'tail-glow', 'hone-claws', 'howl', 'growth',
-        'meditate', 'sharpen'
-    }
-    exploded.loc[exploded['move_name'].isin(boost_name_whitelist), 'is_boost'] = True
+    exploded.loc[exploded['move_name'].isin(BOOST_NAME_SET), 'is_boost'] = True
 
     # For each Pokémon, select up to `moves_per` moves: prefer STAB attacks, add coverage of other types, optionally one boost.
     def select_moves(group: pd.DataFrame) -> pd.Series:
@@ -303,9 +389,25 @@ def score_pokemon(
             elif g['bias'].iloc[0] == 'special':
                 pref = boosts[boosts['effect_short'].str.contains('special', case=False, na=False)]
             if pref is not None and not pref.empty:
-                boost_pick = pref.iloc[0]
+                boost_pick = pref.iloc[0].copy()
+                boost_pick['is_boost'] = True
             elif not boosts.empty:
-                boost_pick = boosts.iloc[0]
+                boost_pick = boosts.iloc[0].copy()
+                boost_pick['is_boost'] = True
+            else:
+                # Fallback: name-based boost detection even if metadata failed to flag is_boost
+                try:
+                    names_lower = g['move_name'].astype(str).str.lower()
+                    present_boosts = [n for n in names_lower.tolist() if n in BOOST_NAME_SET]
+                    if present_boosts:
+                        # pick the first present boost by name
+                        cand_name = present_boosts[0]
+                        gb = g[names_lower == cand_name]
+                        if not gb.empty:
+                            boost_pick = gb.iloc[0].copy()
+                            boost_pick['is_boost'] = True
+                except Exception:
+                    pass
 
         # 2) Pick STAB attacks from bias-matching set
         stab_attacks = atk_bias[atk_bias['is_stab']]
@@ -410,14 +512,46 @@ def score_pokemon(
                 'best_move_class': best_move_class,
                 'best_move_score': best_move_score,
                 'moves4': ', '.join(str(c['move_name']) for c in chosen),
-                'stab_moves': ', '.join(str(c['move_name']) for c in chosen if c.get('is_status') is not True and c.get('is_stab') is True),
-                'coverage_moves': ', '.join(str(c['move_name']) for c in chosen if c.get('is_status') is not True and c.get('is_stab') is False),
-                'boost_moves': ', '.join(str(c['move_name']) for c in chosen if c.get('is_boost') is True),
+                # Use boolean truthiness instead of identity checks to avoid NumPy bool issues
+                'stab_moves': ', '.join(
+                    str(c['move_name'])
+                        for c in chosen
+                        if (not bool(c.get('is_status', False))) and bool(c.get('is_stab', False))
+                ),
+                'coverage_moves': ', '.join(
+                    str(c['move_name'])
+                        for c in chosen
+                        if (not bool(c.get('is_status', False))) and (not bool(c.get('is_stab', False)))
+                ),
+                'boost_moves': ', '.join(
+                    str(c['move_name'])
+                        for c in chosen
+                        if (bool(c.get('is_boost', False)) or str(c.get('move_name', '')).lower() in BOOST_NAME_SET)
+                ),
                 'attack_sum': atk_sum,
             }
         )
 
     best = exploded.groupby(level=0).apply(select_moves)
+
+    # Ensure every Pokémon appears in result; fill defaults for those with no eligible moves
+    default_vals = {
+        # Use empty strings for text fields to avoid pandas fillna(None) error
+        'best_move': '',
+        'best_move_type': '',
+        'best_move_class': '',
+        'best_move_score': 0.0,
+        'moves4': '',
+        'stab_moves': '',
+        'coverage_moves': '',
+        'boost_moves': '',
+        'attack_sum': 0.0,
+    }
+    best = best.reindex(pk.index)
+    for col, val in default_vals.items():
+        if col not in best.columns:
+            best[col] = val
+    best = best.fillna(value=default_vals)
 
     # Merge back to Pokémon base
     out = pk.drop(columns=['moves']).join(best)
@@ -467,12 +601,17 @@ def _parse_args() -> argparse.Namespace:
     p.add_argument('--format', choices=['table', 'csv'], default='table', help='Console output format (default: table)')
     p.add_argument('--no-legends', action='store_true', help='Exclude Legendary and Mythical Pokémon from results')
     p.add_argument('--no-mega', action='store_true', help='Exclude Mega forms (e.g., -mega, -mega-x, -mega-y) from results')
+    p.add_argument('--block-move', action='append', help='Move name to exclude (repeatable). Also see BLOCKED_MOVES in code.')
     p.add_argument('--csv', help='Write results to CSV at this path')
     return p.parse_args()
 
 
 if __name__ == '__main__':
     args = _parse_args()
+
+    # Merge CLI-provided block moves
+    cli_blocked = set(m.strip() for m in (args.block_move or []) if isinstance(m, str))
+    blocked_moves = BLOCKED_MOVES | cli_blocked
     df = score_pokemon(
         pokes_path=args.pokes,
         moves_path=args.moves,
@@ -482,6 +621,7 @@ if __name__ == '__main__':
         per_type=args.per_type,
         allow_legends=not args.no_legends,
         allow_megas=not args.no_mega,
+        blocked_moves=blocked_moves,
     )
     if args.csv:
         df.to_csv(args.csv, index=False)
@@ -509,4 +649,8 @@ if __name__ == '__main__':
                 if c in show.columns:
                     show[c] = show[c].map(lambda x: f"{x:.1f}")
 
-            print(tabulate(show, headers='keys', tablefmt='github', showindex=False))
+            # Hide raw moves4 column in tabular output per request
+            if 'moves4' in show.columns:
+                show = show.drop(columns=['moves4'])
+
+            print(tabulate(show, headers='keys', tablefmt='grid', showindex=False))  # simple_grid

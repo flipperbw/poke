@@ -15,7 +15,7 @@ requests_log.setLevel(logging.DEBUG)
 requests_log.propagate = True
 
 
-def make_data(max_items: int = -1, tm_vg_names: list[str] | None = None) -> dict:
+def make_data(max_items: int = -1, tm_vg_names: list[str] | None = None, ignore_acc: bool = True) -> dict:
     d: dict = {}
     maxi = max_items
     # Force fresh lookup to avoid stale, truncated lists in cache
@@ -33,7 +33,7 @@ def make_data(max_items: int = -1, tm_vg_names: list[str] | None = None) -> dict
         d[m['name']] = td
         move = pb.move(m['name'])
 
-        td['accuracy'] = move.accuracy
+        td['accuracy'] = 100 if ignore_acc else move.accuracy
         td['class'] = move.damage_class.name
         td['effect_chance'] = move.effect_chance
         td['effect_short'] = move.effect_entries[0].short_effect if move.effect_entries else ''
@@ -116,6 +116,7 @@ def _parse_args() -> argparse.Namespace:
     p.add_argument('--max', type=int, default=-1, help='Max number of moves to fetch when generating (-1 = all)')
     p.add_argument('--tm-vg', action='append', help='Version-group name to consider for TM availability (repeatable). If omitted, any machine counts.')
     p.add_argument('--no-tm-filter', action='store_true', help='When analyzing, ignore TM availability and rely on learned_by only')
+    p.add_argument('--no-ignore-acc', action='store_true', help='Do not ignore accuracy when computing move power')
     return p.parse_args()
 
 
@@ -124,6 +125,6 @@ if __name__ == '__main__':
     if args.cache_dir:
         set_cache(args.cache_dir)
     if args.generate:
-        make_data(max_items=args.max, tm_vg_names=args.tm_vg)
+        make_data(max_items=args.max, tm_vg_names=args.tm_vg, ignore_acc=not args.no_ignore_acc)
     x = analyze(no_tm_filter=args.no_tm_filter)
     print(x)

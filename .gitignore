@@ -163,3 +163,5 @@ cython_debug/
 #.idea/
 
 .pokebase-cache-za
+cache/
+profile_output*

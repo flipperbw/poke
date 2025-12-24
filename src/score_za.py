@@ -2,15 +2,71 @@ import argparse
 import json
 import re
 import typing as tp
+import os
+import hashlib
 
 import numpy as np
 import pandas as pd
+from line_profiler import profile
 from tabulate import tabulate
+
+# Bump this when cache format/columns change
+CACHE_VERSION = 1
+
+
+def _file_sig(path: str) -> dict:
+    try:
+        st = os.stat(path)
+        return {'path': os.path.normpath(path), 'mtime': int(st.st_mtime), 'size': int(st.st_size)}
+    except Exception:
+        return {'path': os.path.normpath(path), 'mtime': 0, 'size': 0}
+
+
+def _cache_key_for_score(
+    *,
+    pokes_path: str,
+    moves_path: str,
+    top_n: int,
+    bias_mode: str,
+    no_stab_bonus: bool,
+    per_type: bool,
+    moves_per: int,
+    prefer_stab: bool,
+    coverage_slots: int,
+    allow_boost: bool,
+    allow_legends: bool,
+    allow_megas: bool,
+    blocked_moves: tp.Optional[set[str]],
+) -> str:
+    # Stable dict to hash
+    payload = {
+        'v': CACHE_VERSION,
+        'pokes': _file_sig(pokes_path),
+        'moves': _file_sig(moves_path),
+        'top_n': int(top_n),
+        'bias_mode': str(bias_mode),
+        'no_stab_bonus': bool(no_stab_bonus),
+        'per_type': bool(per_type),
+        'moves_per': int(moves_per),
+        'prefer_stab': bool(prefer_stab),
+        'coverage_slots': int(coverage_slots),
+        'allow_boost': bool(allow_boost),
+        'allow_legends': bool(allow_legends),
+        'allow_megas': bool(allow_megas),
+        'blocked_moves': sorted([str(x) for x in (blocked_moves or [])]),
+    }
+    raw = json.dumps(payload, sort_keys=True).encode('utf-8')
+    return hashlib.sha256(raw).hexdigest()[:24]
+
+
+def _cache_paths(cache_dir: str, key: str) -> str:
+    os.makedirs(cache_dir, exist_ok=True)
+    return os.path.join(cache_dir, f'score_cache_{key}.csv.gz')
 
 # In-code default move blocklist (edit here as desired)
 BLOCKED_MOVES: set[str] = {
     'swagger', 'future-sight', 'misty-explosion',
-    'outrage', 'icicle-spear', 'draco-meteor', 'dream-eater', 'first-impression'
+    'outrage', 'icicle-spear', 'draco-meteor', 'dream-eater', 'first-impression', 'steel-beam', 'acid-armor'
 }
 
 # Comprehensive list of common offensive boosting moves (name-based)
@@ -120,7 +176,6 @@ def _attack_bias(atk_type: str) -> tp.Literal['physical', 'special', 'any']:
         return 'special'
     return 'any'
 
-
 def score_pokemon(
     pokes_path: str,
     moves_path: str,
@@ -135,13 +190,43 @@ def score_pokemon(
     allow_legends: bool = True,
     allow_megas: bool = True,
     blocked_moves: tp.Optional[set[str]] = None,
+    use_cache: bool = True,
+    cache_dir: str | None = 'cache',
 ) -> pd.DataFrame:
+    # Resolve blocklist defaults first (used in cache key)
+    if blocked_moves is None:
+        blocked_moves = BLOCKED_MOVES
+
+    # Try cache
+    if use_cache and cache_dir:
+        try:
+            key = _cache_key_for_score(
+                pokes_path=pokes_path,
+                moves_path=moves_path,
+                top_n=top_n,
+                bias_mode=bias_mode,
+                no_stab_bonus=no_stab_bonus,
+                per_type=per_type,
+                moves_per=moves_per,
+                prefer_stab=prefer_stab,
+                coverage_slots=coverage_slots,
+                allow_boost=allow_boost,
+                allow_legends=allow_legends,
+                allow_megas=allow_megas,
+                blocked_moves=blocked_moves,
+            )
+            cache_path = _cache_paths(cache_dir, key)
+            if os.path.exists(cache_path):
+                # Use pandas to read
+                cached = pd.read_csv(cache_path)
+                return cached
+        except Exception:
+            # Ignore cache errors
+            pass
+
     # Load data
     pokes = pd.read_json(pokes_path, orient='index')
     moves = _load_moves(moves_path)
-
-    if blocked_moves is None:
-        blocked_moves = BLOCKED_MOVES
 
     # Optionally filter out Mega forms entirely
     if not allow_megas and 'name' in pokes.columns:
@@ -587,6 +672,32 @@ def score_pokemon(
     else:
         out = out.head(top_n)
 
+    # Save cache
+    if use_cache and cache_dir:
+        try:
+            if 'primary_type' in out.columns:
+                # Keep for symmetry; we store as-is
+                pass
+            key = _cache_key_for_score(
+                pokes_path=pokes_path,
+                moves_path=moves_path,
+                top_n=top_n,
+                bias_mode=bias_mode,
+                no_stab_bonus=no_stab_bonus,
+                per_type=per_type,
+                moves_per=moves_per,
+                prefer_stab=prefer_stab,
+                coverage_slots=coverage_slots,
+                allow_boost=allow_boost,
+                allow_legends=allow_legends,
+                allow_megas=allow_megas,
+                blocked_moves=blocked_moves,
+            )
+            cache_path = _cache_paths(cache_dir, key)
+            out.to_csv(cache_path, index=False, compression='infer')
+        except Exception:
+            pass
+
     return out
 
 
@@ -602,6 +713,9 @@ def _parse_args() -> argparse.Namespace:
     p.add_argument('--no-legends', action='store_true', help='Exclude Legendary and Mythical Pokémon from results')
     p.add_argument('--no-mega', action='store_true', help='Exclude Mega forms (e.g., -mega, -mega-x, -mega-y) from results')
     p.add_argument('--block-move', action='append', help='Move name to exclude (repeatable). Also see BLOCKED_MOVES in code.')
+    # Caching
+    p.add_argument('--no-cache', action='store_true', help='Disable caching of score_pokemon results')
+    p.add_argument('--cache-dir', default='cache', help='Directory to store cache files (default: cache)')
     p.add_argument('--csv', help='Write results to CSV at this path')
     return p.parse_args()
 
@@ -622,6 +736,8 @@ if __name__ == '__main__':
         allow_legends=not args.no_legends,
         allow_megas=not args.no_mega,
         blocked_moves=blocked_moves,
+        use_cache=not args.no_cache,
+        cache_dir=args.cache_dir,
     )
     if args.csv:
         df.to_csv(args.csv, index=False)

@@ -6,6 +6,7 @@ import typing as tp
 import numpy as np
 import pandas as pd
 from tabulate import tabulate
+from line_profiler import profile
 
 # We reuse the scoring and move selection from score_za
 from score_za import _load_type_offense, score_pokemon
@@ -143,12 +144,14 @@ def _normalize(series: pd.Series) -> pd.Series:
     return (s - lo) / (hi - lo)
 
 
+@profile
 def build_squads(
     pokes_path: str,
     moves_path: str,
     typs_path: str,
     k_candidates: int = 60,
     top_teams: int = 5,
+    team_size: int = 3,
     allow_legends: bool = True,
     allow_megas: bool = True,
     prefer_non_overlap: bool = True,
@@ -283,9 +286,21 @@ def build_squads(
     else:
         def_threshold = spd_threshold = 0.0
 
-    # Evaluate all 3-combinations
+    # Evaluate all team-size combinations
     records: list[dict] = []
     idx_list = list(candidates.index)
+    # Pre-convert to plain Python records to avoid expensive per-element pandas iloc in the hot loop
+    # Accessing dicts is substantially faster than constructing Series repeatedly
+    recs: list[dict] = candidates.to_dict('records')
+    # Basic guard
+    try:
+        team_size_int = int(team_size)
+    except Exception:
+        team_size_int = 3
+    if team_size_int < 1:
+        team_size_int = 1
+    if team_size_int > len(idx_list):
+        team_size_int = len(idx_list)
     # Normalize must-include set to base names (lowercase)
     must_bases: set[str] = set()
     if must_include:
@@ -297,34 +312,31 @@ def build_squads(
                     break
             must_bases.add(nn)
 
-    for i, j, k in itertools.combinations(range(len(idx_list)), 3):
-        a = candidates.iloc[i]
-        b = candidates.iloc[j]
-        c = candidates.iloc[k]
+    for comb in itertools.combinations(range(len(idx_list)), team_size_int):
+        # Use pre-materialized records instead of pandas iloc to cut overhead
+        members = [recs[x] for x in comb]
 
         # Ensure unique Pokémon within the team (by name)
-        names_set = {str(a['name']), str(b['name']), str(c['name'])}
-        if len(names_set) < 3:
+        names_set = {str(m['name']) for m in members}
+        if len(names_set) < team_size_int:
             continue
 
         # Enforce typing diversity: require all three to have distinct primary types
-        prim_a = str(a['type']).split('_')[0]
-        prim_b = str(b['type']).split('_')[0]
-        prim_c = str(c['type']).split('_')[0]
-        if len({prim_a, prim_b, prim_c}) < 3:
+        primaries = {str(m['type']).split('_')[0] for m in members}
+        if len(primaries) < team_size_int:
             continue
 
         # Enforce only one Mega per team and treat Mega forms as the same as base
-        team_names = (str(a['name']).lower(), str(b['name']).lower(), str(c['name']).lower())
+        team_names = tuple(str(m['name']).lower() for m in members)
         mega_count = sum(_is_mega(n) for n in team_names)
         if max_megas_per_team >= 0 and mega_count > max_megas_per_team:
             continue
         base_equiv = {_base_name(n) for n in team_names}
-        if len(base_equiv) < 3:
+        if len(base_equiv) < team_size_int:
             # Contains base and its mega (or two megas of same base) -> skip
             continue
 
-        # Enforce must-include constraint: all required base names must be in this trio
+        # Enforce must-include constraint: all required base names must be in this team
         if must_bases and not must_bases.issubset(base_equiv):
             continue
 
@@ -345,11 +357,12 @@ def build_squads(
                 row_base = pokes_map.get(base_nm)
                 return (_has_moves(row_exact) or _has_moves(row_base))
 
-            if not (knows_both_screens(a['name']) or knows_both_screens(b['name']) or knows_both_screens(c['name'])):
+            if not any(knows_both_screens(m['name']) for m in members):
                 continue
 
         # Enforce counter constraints: for each target, at least one member must counter it
-        def member_counters_target(member_row: pd.Series, target: dict) -> bool:
+        # Accept any mapping-like row (either pandas Series or plain dict from pre-materialized records)
+        def member_counters_target(member_row: tp.Mapping[str, tp.Any], target: dict) -> bool:
             # Offensive: member's coverage hits a target weakness
             if not (member_row.get('cover_types', set()) & target['weak']):
                 return False
@@ -375,28 +388,25 @@ def build_squads(
         if counter_targets:
             ok_for_all = True
             for targ in counter_targets:
-                ok = (
-                    member_counters_target(a, targ) or
-                    member_counters_target(b, targ) or
-                    member_counters_target(c, targ)
-                )
-                if not ok:
+                if not any(member_counters_target(m, targ) for m in members):
                     ok_for_all = False
                     break
             if not ok_for_all:
                 continue
 
         # Combined offensive coverage set
-        cov = set().union(a['cover_types'], b['cover_types'], c['cover_types'])
+        cov = set().union(*(m['cover_types'] for m in members)) if members else set()
         cov_count = len(cov)
 
         # Combined weaknesses
-        weak = set().union(a['weak_types'], b['weak_types'], c['weak_types'])
+        weak = set().union(*(m['weak_types'] for m in members)) if members else set()
         weak_count = len(weak)
 
         # Penalize overlapping weaknesses (e.g., two or more team members sharing the same weakness)
         # Build counts per weakness type
-        all_weak_list = list(a['weak_types']) + list(b['weak_types']) + list(c['weak_types'])
+        all_weak_list = []
+        for m in members:
+            all_weak_list += list(m['weak_types'])
         if all_weak_list:
             vals, counts = np.unique(all_weak_list, return_counts=True)
             # sum of (cnt-1)^2 for cnt >= 2 to emphasize triple overlap
@@ -407,16 +417,16 @@ def build_squads(
         # Optional penalty for redundant attack types across members
         redundancy_pen = 0.0
         if prefer_non_overlap:
-            atk_types_union = set().union(a['atk_types'], b['atk_types'], c['atk_types'])
-            total_atk_types = len(a['atk_types']) + len(b['atk_types']) + len(c['atk_types'])
+            atk_types_union = set().union(*(m['atk_types'] for m in members)) if members else set()
+            total_atk_types = sum(len(m['atk_types']) for m in members)
             # fraction overlapped
             if total_atk_types > 0:
                 redundancy = 1.0 - (len(atk_types_union) / total_atk_types)
                 redundancy_pen = 0.3 * redundancy  # small penalty
 
         # Team power/bulk (sum of normalized)
-        team_power = float(a['power_norm'] + b['power_norm'] + c['power_norm'])
-        team_bulk = float(a['bulk_norm'] + b['bulk_norm'] + c['bulk_norm'])
+        team_power = float(sum(m['power_norm'] for m in members))
+        team_bulk = float(sum(m['bulk_norm'] for m in members))
 
         # Objective: maximize coverage + weighted power + bulk, penalize weaknesses and redundancy
         score = (
@@ -428,22 +438,22 @@ def build_squads(
             - weakness_overlap_weight * overlap_penalty
         )
 
-        moves_tuple = (a['moves4'], b['moves4'], c['moves4'])
-        moves_detailed = tuple(_format_moveset(m, moves_map) for m in moves_tuple)
+        moves_tuple = tuple(m['moves4'] for m in members)
+        moves_detailed = tuple(_format_moveset(mv, moves_map) for mv in moves_tuple)
 
         records.append(
             dict(
-                team=(a['name'], b['name'], c['name']),
-                types=(a['type'], b['type'], c['type']),
-                tiers=(a['tier'], b['tier'], c['tier']),
+                team=tuple(m['name'] for m in members),
+                types=tuple(m['type'] for m in members),
+                tiers=tuple(m['tier'] for m in members),
                 moves=moves_tuple,
                 moves_detailed=moves_detailed,
                 cov_count=cov_count,
                 weak_count=weak_count,
                 cov_sorted=' '.join(sorted(t.capitalize() for t in cov)),
                 weak_sorted=' '.join(sorted(t.capitalize() for t in weak)),
-                power_sum=float(a['attack_sum'] + b['attack_sum'] + c['attack_sum']),
-                bulk_sum=int(a['tot_b']) + int(b['tot_b']) + int(c['tot_b']),
+                power_sum=float(sum(m['attack_sum'] for m in members)),
+                bulk_sum=int(sum(int(m['tot_b']) for m in members)),
                 team_score=float(score),
             )
         )
@@ -481,12 +491,13 @@ def build_squads(
 
 
 def _parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description='Suggest a 3-Pokémon squad for Legends: Z-A battle royale.')
+    p = argparse.ArgumentParser(description='Suggest a Pokémon squad for Legends: Z-A battle royale.')
     p.add_argument('--pokes', default='src/data/pokes-all-za.json', help='Path to pokes-all-za.json')
     p.add_argument('--moves', default='src/data/moves-za.json', help='Path to moves-za.json')
     p.add_argument('--typs', default='src/data/typs.json', help='Path to typs.json')
     p.add_argument('--k', type=int, default=60, help='Candidate pool size (top K individuals)')
     p.add_argument('--teams', type=int, default=5, help='How many top team suggestions to show')
+    p.add_argument('--team-size', type=int, default=3, help='Number of Pokémon per team (default: 3)')
     p.add_argument('--no-legends', action='store_true', help='Exclude Legendary/Mythical Pokémon')
     p.add_argument('--no-mega', action='store_true', help='Exclude Mega forms (e.g., -mega, -mega-x, -mega-y)')
     p.add_argument(
@@ -528,6 +539,7 @@ if __name__ == '__main__':
         typs_path=args.typs,
         k_candidates=args.k,
         top_teams=args.teams,
+        team_size=args.team_size,
         allow_legends=not args.no_legends,
         allow_megas=not args.no_mega,
         max_megas_per_team=args.max_megas,

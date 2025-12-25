@@ -1,5 +1,5 @@
-import csv
 import re
+import csv
 from collections import defaultdict
 from dataclasses import dataclass
 from urllib.parse import urljoin
@@ -7,229 +7,285 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-BASE = "https://www.serebii.net"
-START = "https://www.serebii.net/legendsz-a/hyperspacelumiose.shtml"
+BASE = "https://www.serebii.net/legendsz-a/hyperspacewildzone/"
 
-TYPE_LINK_RE = re.compile(r"/legendsz-a/hyperspacewildzone/[^/]+\.shtml$", re.I)
-POKE_IMG_RE = re.compile(r"/legendsz-a/pokemon/(icons/)?\d+.*\.png$", re.I)
+# All pages from your Hyperspace Lumiose list
+TYPE_PAGES = {
+    "Normal":   urljoin(BASE, "normal.shtml"),
+    "Fighting": urljoin(BASE, "fighting.shtml"),
+    "Flying":   urljoin(BASE, "flying.shtml"),
+    "Poison":   urljoin(BASE, "poison.shtml"),
+    "Ground":   urljoin(BASE, "ground.shtml"),
+    "Rock":     urljoin(BASE, "rock.shtml"),
+    "Bug":      urljoin(BASE, "bug.shtml"),
+    "Ghost":    urljoin(BASE, "ghost.shtml"),
+    "Steel":    urljoin(BASE, "steel.shtml"),
+    "Fire":     urljoin(BASE, "fire.shtml"),
+    "Water":    urljoin(BASE, "water.shtml"),
+    "Grass":    urljoin(BASE, "grass.shtml"),
+    "Electric": urljoin(BASE, "electric.shtml"),
+    "Psychic":  urljoin(BASE, "psychic.shtml"),
+    "Ice":      urljoin(BASE, "ice.shtml"),
+    "Dragon":   urljoin(BASE, "dragon.shtml"),
+    "Dark":     urljoin(BASE, "dark.shtml"),
+    "Fairy":    urljoin(BASE, "fairy.shtml"),
+    # "Legendary Pokémon Wild Zones" on Serebii is "special.shtml"
+    "Legendary": urljoin(BASE, "special.shtml"),
+}
 
-session = requests.Session()
-session.headers.update(
-    {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
-    }
-)
+HEADERS = {
+    "User-Agent": "Mozilla/5.0",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 
-def fetch_soup(url: str) -> BeautifulSoup:
-    r = session.get(url, timeout=60)
-    r.raise_for_status()
+STAR_RE = re.compile(r"(?:^|\s)([1-5])\s*Star|★\s*([1-5])|([1-5])\s*★", re.I)
+WILD_ZONE_RE = re.compile(r"\bWild Zone\b", re.I)
 
-    # Serebii sometimes trips decoders; force a sane single-byte decode.
-    # (This also fixes some “unicode decoding” headaches.)
-    r.encoding = r.encoding or "ISO-8859-1"
-    return BeautifulSoup(r.text, "html.parser")
 
-def abs_url(u: str) -> str:
-    return urljoin(BASE, u)
-
-def clean_ws(s: str) -> str:
-    return re.sub(r"\s+", " ", (s or "").strip())
-
-def pokemon_name_from_img(img) -> str:
-    # Best sources first
-    for attr in ("alt", "title"):
-        if img.has_attr(attr):
-            v = clean_ws(img.get(attr))
-            if v:
-                return v
-
-    # Sometimes the image is wrapped in <a> with text
-    a = img.find_parent("a")
-    if a:
-        t = clean_ws(a.get_text(" ", strip=True))
-        if t:
-            return t
-
-    # Fallback: parse dex-ish part from filename
-    m = re.search(r"/(\d+)[^/]*\.png$", img.get("src", ""))
-    if m:
-        return f"#{m.group(1)}"
-    return ""
-
-def find_zone_name(wild_table) -> str:
-    """
-    Zone name usually appears just before the wild pokemon table.
-    We look backwards for a nearby text node containing 'Wild Zone'.
-    """
-    txt = wild_table.find_previous(string=re.compile(r"Wild Zone", re.I))
-    if txt:
-        # Try to use a compact parent chunk, not the entire page
-        parent = txt.parent
-        candidate = clean_ws(parent.get_text(" ", strip=True))
-        # If that parent is too noisy, just use the matched text itself
-        if 5 <= len(candidate) <= 120:
-            return candidate
-        return clean_ws(str(txt))
-    return "Unknown Zone"
-
-def iter_zone_wild_tables(type_page_soup: BeautifulSoup):
-    """
-    Find each zone’s 'Wild Pokémon' table.
-    Serebii pages generally use multiple repeated blocks; we locate tables that
-    contain a header cell with 'Wild Pokémon'.
-    """
-    for table in type_page_soup.find_all("table"):
-        # a header cell containing 'Wild Pokémon'
-        header = table.find(string=re.compile(r"^\s*Wild Pokémon\s*$", re.I))
-        if header:
-            yield table
-
-def extract_zone_pokemon(wild_table):
-    """
-    Return:
-      - list of pokemon image URLs (absolute) found in the Wild Pokémon table
-      - dict img_url -> name
-      - other pokemon names in this zone (unique, in appearance order)
-    """
-    seen = set()
-    ordered_imgs = []
-    img_to_name = {}
-
-    # Only consider pokemon images in this table, ignore UI icons etc
-    for img in wild_table.find_all("img"):
-        src = img.get("src", "")
-        if not src:
-            continue
-        if not POKE_IMG_RE.search(src):
-            continue
-        full = abs_url(src)
-        if full in seen:
-            continue
-        seen.add(full)
-        ordered_imgs.append(full)
-        nm = pokemon_name_from_img(img)
-        img_to_name[full] = nm
-
-    other_names = []
-    for u in ordered_imgs:
-        nm = img_to_name.get(u, "")
-        if nm and nm not in other_names:
-            other_names.append(nm)
-
-    return ordered_imgs, img_to_name, other_names
-
-def get_type_links():
-    soup = fetch_soup(START)
-
-    # Grab the type list block by matching the href pattern
-    links = []
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-        if TYPE_LINK_RE.search(href):
-            links.append(abs_url(href))
-
-    # Deduplicate preserving order
-    out = []
-    seen = set()
-    for u in links:
-        if u not in seen:
-            seen.add(u)
-            out.append(u)
-    return out
-
-def type_name_from_url(url: str) -> str:
-    # .../hyperspacewildzone/normal.shtml -> Normal
-    m = re.search(r"/hyperspacewildzone/([^/]+)\.shtml$", url, re.I)
-    if not m:
-        return "Unknown"
-    slug = m.group(1).lower()
-    if slug == "special":
-        return "Legendary"
-    return slug.capitalize()
-
-@dataclass
+@dataclass(frozen=True)
 class Appearance:
     type_name: str
-    zone_url: str
+    star: int
     zone_name: str
-    other_pokemon_names: list
+    zone_url: str
+    # full wild list for the zone (names + image urls)
+    zone_wild: tuple  # tuple[tuple[name, image_url], ...]
 
-def main(out_csv_path="rare_pokemon_zones.csv", max_zones=3):
-    type_links = get_type_links()
 
-    # pokemon_img_url -> {"name": str, "apps": [Appearance, ...]}
-    pokemon = defaultdict(lambda: {"name": "", "apps": []})
+def absolutize_img(src: str, page_url: str) -> str:
+    if not src:
+        return ""
+    return urljoin(page_url, src)
 
-    # First pass: collect per-zone membership and store “other pokemon” list for each zone
-    for type_url in type_links:
-        tname = type_name_from_url(type_url)
-        soup = fetch_soup(type_url)
 
-        for wild_table in iter_zone_wild_tables(soup):
-            zone_name = find_zone_name(wild_table)
+def infer_name(a_tag, img_tag) -> str:
+    """
+    Robust name extraction:
+    1) img alt
+    2) img title
+    3) anchor text
+    4) dex number from filename as fallback (e.g. '681')
+    """
+    for cand in [
+        (img_tag.get("alt") if img_tag else None),
+        (img_tag.get("title") if img_tag else None),
+        (a_tag.get_text(" ", strip=True) if a_tag else None),
+    ]:
+        if cand:
+            cand = cand.strip()
+            if cand:
+                return cand
 
-            imgs, img_to_name, other_names = extract_zone_pokemon(wild_table)
+    # fallback: pull digits from img src
+    src = (img_tag.get("src") if img_tag else "") or ""
+    m = re.search(r"/(\d+(?:-[a-z0-9]+)?)\.(?:png|gif|jpg|webp)$", src, re.I)
+    if m:
+        return m.group(1)
 
-            # zone_url: we usually only have the type page url; keep it stable
-            zone_url = type_url
+    return "Unknown"
 
-            for img_url in imgs:
-                nm = img_to_name.get(img_url, "")
-                if nm and not pokemon[img_url]["name"]:
-                    pokemon[img_url]["name"] = nm
 
-                pokemon[img_url]["apps"].append(
-                    Appearance(
-                        type_name=tname,
-                        zone_url=zone_url,
-                        zone_name=zone_name,
-                        other_pokemon_names=other_names,  # names only, full wild list
-                    )
-                )
+def find_star_for_element(el) -> int:
+    """
+    Walk backwards in the document to find the nearest heading/label containing a star rating.
+    This is resilient against Serebii layout changes.
+    """
+    cur = el
+    while cur:
+        # Check this node's text
+        text = cur.get_text(" ", strip=True) if hasattr(cur, "get_text") else ""
+        if text:
+            m = STAR_RE.search(text)
+            if m:
+                for g in m.groups():
+                    if g:
+                        return int(g)
 
-    # Second pass: filter and write rows
-    rows = []
-    for img_url, info in pokemon.items():
-        total = len(info["apps"])
-        if total <= max_zones:
-            name = info["name"] or ""
-            for app in info["apps"]:
-                # other_pokemon_in_zone: names only, include everyone in the zone (including this pokemon)
-                other_str = "; ".join(app.other_pokemon_names)
+        # Move to previous sibling, else climb to parent
+        prev = getattr(cur, "previous_sibling", None)
+        if prev is None:
+            cur = getattr(cur, "parent", None)
+        else:
+            cur = prev
 
-                rows.append(
-                    {
-                        "pokemon_image_url": img_url,
-                        "pokemon_name": name,
-                        "total_zones": total,
-                        "type": app.type_name,
-                        "other_pokemon_in_zone": other_str,
-                        "zone_url": app.zone_url,
-                        "zone_name": app.zone_name,  # at the end
-                    }
-                )
+    return 0  # unknown
 
-    # Deterministic output
-    rows.sort(key=lambda r: (r["total_zones"], r["pokemon_name"], r["type"], r["zone_name"]))
 
-    with open(out_csv_path, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(
-            f,
-            fieldnames=[
-                "pokemon_image_url",
-                "pokemon_name",
-                "total_zones",
-                "type",
-                "other_pokemon_in_zone",
-                "zone_url",
-                "zone_name",
-            ],
+def extract_zone_name(table) -> str:
+    """
+    Tries to find 'Wild Zone X' label inside the table.
+    """
+    text = table.get_text("\n", strip=True)
+    # Try a concise first line approach
+    for line in text.split("\n"):
+        if "Wild Zone" in line:
+            return line.strip()
+    # fallback
+    return "Unknown Zone"
+
+
+def extract_wild_pokemon_from_table(table, page_url: str):
+    """
+    The key fix you requested:
+    - Only read from the "Wild Pokémon" section within the zone block.
+    - Collect all Pokémon icons/links in that section.
+    """
+    # Find a tag whose text is exactly/contains "Wild Pokémon"
+    wild_label = None
+    for cand in table.find_all(string=re.compile(r"\bWild Pokémon\b", re.I)):
+        wild_label = cand
+        break
+
+    if not wild_label:
+        return []
+
+    # Heuristic: the "Wild Pokémon" label is usually in a TD/TH,
+    # and the actual list is in nearby following nodes within the same table.
+    # We'll search forward within the table for <a><img> pairs until we hit another major label.
+    container = wild_label.parent
+    # Walk forward in document order, bounded to this table
+    results = []
+    for node in container.next_elements:
+        if node == table:
+            continue
+        if hasattr(node, "find_all") and node.name in ("td", "th", "tr", "div"):
+            # Stop if we encounter another section header (Rarity/Base Level/Alpha Chance etc.)
+            t = node.get_text(" ", strip=True)
+            if re.search(r"\b(Rarity|Base Level|Alpha Chance|Focus)\b", t, re.I):
+                break
+
+        if getattr(node, "name", None) == "a":
+            img = node.find("img")
+            if not img:
+                continue
+            src = absolutize_img(img.get("src", ""), page_url)
+            if not src:
+                continue
+            name = infer_name(node, img)
+            results.append((name, src))
+
+    # Deduplicate by image url (important when the same mon is repeated in the table)
+    seen = set()
+    dedup = []
+    for name, src in results:
+        if src in seen:
+            continue
+        seen.add(src)
+        dedup.append((name, src))
+    return dedup
+
+
+def extract_appearances(type_name: str, page_url: str):
+    html = requests.get(page_url, headers=HEADERS, timeout=30).text
+    soup = BeautifulSoup(html, "html.parser")
+
+    # Serebii uses lots of tables; we only want tables that contain "Wild Zone"
+    tables = soup.find_all("table")
+    appearances = []
+
+    for tbl in tables:
+        if not tbl.get_text(" ", strip=True):
+            continue
+        if not WILD_ZONE_RE.search(tbl.get_text(" ", strip=True)):
+            continue
+
+        # Must contain a "Wild Pokémon" section or it's not a real zone block
+        if not re.search(r"\bWild Pokémon\b", tbl.get_text(" ", strip=True), re.I):
+            continue
+
+        star = find_star_for_element(tbl)
+        zone_name = extract_zone_name(tbl)
+
+        zone_wild = extract_wild_pokemon_from_table(tbl, page_url)
+        if not zone_wild:
+            continue
+
+        appearances.append(
+            Appearance(
+                type_name=type_name,
+                star=star,
+                zone_name=zone_name,
+                zone_url=page_url,
+                zone_wild=tuple(zone_wild),
+            )
         )
-        w.writeheader()
-        w.writerows(rows)
 
-    print(f"Wrote {len(rows)} rows to {out_csv_path}")
+    return appearances
+
+
+def main(out_csv="hyperspace_rare_pokemon.csv", max_zones=3):
+    all_appearances = []
+    for tname, url in TYPE_PAGES.items():
+        print(f"Fetching {tname}: {url}")
+        aps = extract_appearances(tname, url)
+        print(f"  zones found: {len(aps)}")
+        all_appearances.extend(aps)
+
+    # Count how many zones each unique pokemon-image appears in
+    zones_by_pokemon_img = defaultdict(set)  # img -> set of (type, star, zone_name)
+    name_by_img = {}  # stable-ish name per img (first seen)
+    for ap in all_appearances:
+        zone_key = (ap.type_name, ap.star, ap.zone_name)
+        for name, img in ap.zone_wild:
+            zones_by_pokemon_img[img].add(zone_key)
+            name_by_img.setdefault(img, name)
+
+    # Filter to those appearing in <= max_zones
+    rare_imgs = {img for img, zones in zones_by_pokemon_img.items() if len(zones) <= max_zones}
+    print(f"Total unique pokemon-images: {len(zones_by_pokemon_img)}")
+    print(f"Rare (<= {max_zones} zones): {len(rare_imgs)}")
+
+    rows = []
+    for ap in all_appearances:
+        wild_imgs = [img for _, img in ap.zone_wild]
+        wild_names = [nm for nm, _ in ap.zone_wild]
+        for idx, (name, img) in enumerate(ap.zone_wild):
+            if img not in rare_imgs:
+                continue
+
+            total = len(zones_by_pokemon_img[img])
+
+            # Other Pokémon in this zone (names only, excludes the current img)
+            others = []
+            for (oname, oimg) in ap.zone_wild:
+                if oimg == img:
+                    continue
+                others.append(oname)
+
+            rows.append({
+                "image_url": img,
+                "pokemon_name": name_by_img.get(img, name) or name,
+                "total_zone_count": total,
+                "type": ap.type_name,
+                "star": ap.star,
+                "zone_url": ap.zone_url,
+                "other_pokemon_in_zone": "; ".join(others),
+                "zone_name": ap.zone_name,  # last column per your request
+            })
+
+    # Sort: rarest first, then type/star/zone/name
+    rows.sort(key=lambda r: (r["total_zone_count"], r["type"], r["star"], r["zone_name"], r["pokemon_name"]))
+
+    # Write CSV
+    fieldnames = [
+        "image_url",
+        "pokemon_name",
+        "total_zone_count",
+        "type",
+        "star",
+        "zone_url",
+        "other_pokemon_in_zone",
+        "zone_name",
+    ]
+
+    with open(out_csv, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames)
+        w.writeheader()
+        for r in rows:
+            w.writerow(r)
+
+    print(f"Wrote {len(rows)} rows to {out_csv}")
+
 
 if __name__ == "__main__":
-    main()
+    main(out_csv="hyperspace_rare_pokemon.csv", max_zones=3)

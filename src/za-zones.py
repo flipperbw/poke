@@ -48,7 +48,9 @@ class Appearance:
     star: int
     zone_name: str
     zone_url: str
-    # full wild list for the zone (names + image urls)
+    # A short list (usually 3) displayed at the top of the zone block
+    featured: tuple  # tuple[name, ...]
+    # Full wild list for the zone (names + image urls)
     zone_wild: tuple  # tuple[tuple[name, image_url], ...]
 
 
@@ -175,6 +177,41 @@ def extract_wild_pokemon_from_table(table, page_url: str):
     return dedup
 
 
+def extract_featured_three_from_table(table) -> list:
+    """
+    Attempt to capture the short list (typically 3 Pokémon) shown above the
+    'Wild Pokémon' section inside the same zone table. We scan descendants until
+    we reach the 'Wild Pokémon' label and collect unique names from <img>/<a> pairs.
+    """
+    # Find the marker for "Wild Pokémon" to know where to stop
+    wild_label = None
+    for cand in table.find_all(string=re.compile(r"\bWild Pokémon\b", re.I)):
+        wild_label = cand
+        break
+    limit_node = wild_label.parent if wild_label else None
+
+    featured = []
+    seen_srcs = set()
+    for node in table.descendants:
+        # Stop once we arrive at the container that holds the Wild Pokémon list
+        if limit_node is not None and node is limit_node:
+            break
+        if getattr(node, "name", None) == "a":
+            img = node.find("img")
+            if not img:
+                continue
+            src = img.get("src", "") or ""
+            if not src or src in seen_srcs:
+                continue
+            seen_srcs.add(src)
+            name = infer_name(node, img)
+            if name and name.strip():
+                featured.append(name.strip())
+            if len(featured) >= 3:
+                break
+    return featured
+
+
 def extract_appearances(type_name: str, page_url: str):
     html = requests.get(page_url, headers=HEADERS, timeout=30).text
     soup = BeautifulSoup(html, "html.parser")
@@ -196,6 +233,8 @@ def extract_appearances(type_name: str, page_url: str):
         star = find_star_for_element(tbl)
         zone_name = extract_zone_name(tbl)
 
+        # Pull featured (typically 3) and the full wild list
+        featured = extract_featured_three_from_table(tbl)
         zone_wild = extract_wild_pokemon_from_table(tbl, page_url)
         if not zone_wild:
             continue
@@ -206,6 +245,7 @@ def extract_appearances(type_name: str, page_url: str):
                 star=star,
                 zone_name=zone_name,
                 zone_url=page_url,
+                featured=tuple(featured),
                 zone_wild=tuple(zone_wild),
             )
         )
@@ -245,12 +285,32 @@ def main(out_csv="hyperspace_rare_pokemon.csv", max_zones=3):
 
             total = len(zones_by_pokemon_img[img])
 
-            # Other Pokémon in this zone (names only, excludes the current img)
-            others = []
+            # Other Pokémon in this zone:
+            # Merge the short featured list (typically 3) with the full list below,
+            # exclude the current Pokémon and remove any 'Unknown' entries.
+            merged_names = []
+            # featured
+            for nm in getattr(ap, "featured", ()):
+                if nm and isinstance(nm, str):
+                    merged_names.append(nm)
+            # all wild (names only)
             for (oname, oimg) in ap.zone_wild:
                 if oimg == img:
                     continue
-                others.append(oname)
+                merged_names.append(oname)
+            # De-duplicate while preserving order
+            seen_names = set()
+            others = []
+            for nm in merged_names:
+                key = (nm or "").strip()
+                if not key:
+                    continue
+                if key.lower() == "unknown":
+                    continue
+                if key in seen_names:
+                    continue
+                seen_names.add(key)
+                others.append(key)
 
             rows.append({
                 "image_url": img,

@@ -1,0 +1,301 @@
+image_url,pokemon_name,total_zone_count,type,star,zone_url,other_pokemon_in_zone,zone_name
+https://www.serebii.net/legendsz-a/pokemon/248.png,Tyranitar,1,Dark,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/dark.shtml,Tyranitar; Malamar; Krookodile; Pupitar; Inkay; Krokorok,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/706-h.png,Goodra,1,Dragon,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/dragon.shtml,Goodra; Arctibax; Baxcalibur; Sliggoo; Frigibax,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/705-h.png,Sliggoo,1,Dragon,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/dragon.shtml,Goodra; Arctibax; Baxcalibur; Frigibax,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/479.png,Rotom,1,Electric,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/electric.shtml,Rotom,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/479-h.png,Rotom,1,Electric,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/electric.shtml,Rotom,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/479-w.png,Rotom,1,Electric,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/electric.shtml,Rotom,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/479-s.png,Rotom,1,Electric,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/electric.shtml,Rotom,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/479-f.png,Rotom,1,Electric,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/electric.shtml,Rotom,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/479-m.png,Rotom,1,Electric,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/electric.shtml,Rotom,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/670-w.png,Floette,1,Fairy,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Mawile; Aromatisse; Floette; Spritzee; Flabébé,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/083-g.png,Farfetch'd,1,Fighting,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fighting.shtml,Farfetch'd; Machoke; Medicham; Machop; Meditite,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/853.png,Grapploct,1,Fighting,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fighting.shtml,Grapploct; Machamp; Pangoro; Clobbopus; Machoke; Pancham,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/778.png,Mimikyu,1,Ghost,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/ghost.shtml,Mimikyu; Banette; Lampent; Shuppet; Litwick,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/999.png,Gimmighoul,1,Ghost,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/ghost.shtml,Gimmighoul,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/154.png,Meganium,1,Grass,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Victreebel; Simisage; Meganium; Weepinbell; Pansage; Bayleef,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/623.png,Golurk,1,Ground,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ground.shtml,Golurk; Stunfisk; Golett,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/618-g.png,Stunfisk,1,Ground,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ground.shtml,Golurk; Stunfisk; Golett,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/713-h.png,Avalugg,1,Ice,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/ice.shtml,Avalugg; Arctibax; Baxcalibur; Bergmite; Frigibax,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/380.png,Latias,1,Legendary,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/special.shtml,Latias; Gardevoir; Kirlia; Altaria,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/381.png,Latios,1,Legendary,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/special.shtml,Latios; Gardevoir; Kirlia; Altaria,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/638.png,Cobalion,1,Legendary,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/special.shtml,Cobalion; Machamp; Machoke; Steelix,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/639.png,Terrakion,1,Legendary,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/special.shtml,Terrakion; Machamp; Machoke; Pupitar,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/640.png,Virizion,1,Legendary,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/special.shtml,Virizion; Victreebel; Weepinbell; Roserade,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/647.png,Keldeo,1,Legendary,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/special.shtml,Keldeo; Machamp; Machoke; Gyarados,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/648.png,Meloetta,1,Legendary,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/special.shtml,Meloetta; Clefable; Clefairy; Gardevoir,Wild Zone 7
+https://www.serebii.net/legendsz-a/pokemon/931-w.png,Squawkabilly,1,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Squawkabilly,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/931-y.png,Squawkabilly,1,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Squawkabilly,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/474.png,Porygon-Z,1,Normal,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Porygon; Porygon2; Porygon-Z,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/233.png,Porygon2,1,Normal,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Porygon; Porygon2; Porygon-Z,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/904.png,Overqwil,1,Poison,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/poison.shtml,Slowbro; Slowking; Overqwil; Slowpoke; Qwilfish,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/080-g.png,Slowbro,1,Poison,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/poison.shtml,Slowbro; Slowking; Overqwil; Slowpoke; Qwilfish,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/199-g.png,Slowking,1,Poison,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/poison.shtml,Slowbro; Slowking; Overqwil; Slowpoke; Qwilfish,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/142.png,Aerodactyl,1,Rock,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/rock.shtml,Aerodactyl; Tyrantrum; Aurorus; Tyrunt; Amaura,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/699.png,Aurorus,1,Rock,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/rock.shtml,Aerodactyl; Tyrantrum; Aurorus; Tyrunt; Amaura,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/697.png,Tyrantrum,1,Rock,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/rock.shtml,Aerodactyl; Tyrantrum; Aurorus; Tyrunt; Amaura,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/681.png,Aegislash,1,Steel,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/steel.shtml,Aegislash; Aggron; Scizor; Doublade; Lairon; Scyther,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/349.png,Feebas,1,Water,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Feebas; Magikarp; Panpour,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/160.png,Feraligatr,1,Water,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Feraligatr; Barbaracle; Starmie; Croconaw,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/053-a.png,Persian,2,Dark,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/dark.shtml,Persian; Malamar; Scrafty; Meowth; Inkay; Scraggy,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/053-a.png,Persian,2,Dark,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/dark.shtml,Persian; Absol; Scrafty; Meowth; Scraggy,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/997.png,Arctibax,2,Dragon,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/dragon.shtml,Goodra; Arctibax; Baxcalibur; Sliggoo; Frigibax,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/998.png,Baxcalibur,2,Dragon,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/dragon.shtml,Goodra; Arctibax; Baxcalibur; Sliggoo; Frigibax,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/996.png,Frigibax,2,Dragon,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/dragon.shtml,Goodra; Arctibax; Baxcalibur; Sliggoo,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/026-a.png,Raichu,2,Electric,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/electric.shtml,Raichu; Jolteon; Pikachu; Eevee,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/026-a.png,Raichu,2,Electric,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/electric.shtml,Raichu; Ampharos; Eelektross; Flaaffy; Eelektrik,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/669.png,Flabébé,2,Fairy,2,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Klefki; Carbink; Flabébé,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/669-y.png,Flabébé,2,Fairy,2,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Klefki; Carbink; Flabébé,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/669.png,Flabébé,2,Fairy,2,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Swirlix; Carbink; Flabébé,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/669-o.png,Flabébé,2,Fairy,2,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Swirlix; Carbink; Flabébé,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/669-o.png,Flabébé,2,Fairy,2,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Spritzee; Clefairy; Flabébé; Cleffa,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/669-y.png,Flabébé,2,Fairy,2,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Fidough; Cleffa; Flabébé,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/669-w.png,Flabébé,2,Fairy,2,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Fidough; Cleffa; Flabébé,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/669-w.png,Flabébé,2,Fairy,2,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Mime Jr.; Clefairy; Flabébé; Cleffa,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/500.png,Emboar,2,Fighting,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fighting.shtml,Machamp; Scrafty; Emboar; Machoke; Scraggy; Pignite,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/654.png,Braixen,2,Fire,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Houndoom; Fletchinder; Braixen; Houndour; Fletchling; Fennekin,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/500.png,Emboar,2,Fire,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Emboar; Chandelure; Talonflame; Pignite; Lampent; Fletchinder,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/654.png,Braixen,2,Fire,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Delphox; Talonflame; Simisear; Fletchinder; Pansear,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/823.png,Corviknight,2,Flying,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/flying.shtml,Corviknight; Pidgeot; Skarmory; Corvisquire; Pidgeotto,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/823.png,Corviknight,2,Flying,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/flying.shtml,Corviknight; Noivern; Skarmory; Corvisquire; Noibat,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/562-g.png,Yamask,2,Ghost,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/ghost.shtml,Yamask; Banette; Lampent; Shuppet; Litwick,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/152.png,Chikorita,2,Grass,2,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Bellsprout; Pansage; Chikorita,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/153.png,Bayleef,2,Grass,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Weepinbell; Gogoat; Bayleef; Bellsprout; Skiddo; Chikorita,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/152.png,Chikorita,2,Grass,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Weepinbell; Gogoat; Bayleef; Bellsprout; Skiddo,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/253.png,Grovyle,2,Grass,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Grovyle; Roselia; Gogoat; Treecko; Budew; Skiddo,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/253.png,Grovyle,2,Grass,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Sceptile; Victreebel; Simisage; Weepinbell; Pansage,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/254.png,Sceptile,2,Grass,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Sceptile; Victreebel; Simisage; Grovyle; Weepinbell; Pansage,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/153.png,Bayleef,2,Grass,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Victreebel; Simisage; Meganium; Weepinbell; Pansage,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/254.png,Sceptile,2,Grass,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Sceptile; Venusaur; Chesnaught; Treecko; Bulbasaur; Chespin,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/562-g.png,Yamask,2,Ground,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/ground.shtml,Yamask; Krokorok; Diggersby; Sandile; Bunnelby,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/105.png,Marowak,2,Ground,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ground.shtml,Marowak; Camerupt; Hippowdon; Cubone; Numel; Hippopotas,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/105.png,Marowak,2,Ground,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ground.shtml,Marowak; Excadrill; Krookodile; Cubone; Drilbur; Krokorok,Wild Zone 7
+https://www.serebii.net/legendsz-a/pokemon/770.png,Palossand,2,Ground,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ground.shtml,Palossand; Hippowdon; Excadrill; Sandygast; Hippopotas; Drilbur,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/770.png,Palossand,2,Ground,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ground.shtml,Palossand; Camerupt; Krookodile; Sandygast; Numel; Krokorok,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/866.png,Mr. Rime,2,Ice,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ice.shtml,Mr. Rime; Glalie; Amaura; Mr. Mime; Snorunt,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/866.png,Mr. Rime,2,Ice,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ice.shtml,Mr. Rime; Froslass; Glaceon; Mr. Mime; Snorunt; Eevee,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/997.png,Arctibax,2,Ice,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/ice.shtml,Avalugg; Arctibax; Baxcalibur; Bergmite; Frigibax,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/998.png,Baxcalibur,2,Ice,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/ice.shtml,Avalugg; Arctibax; Baxcalibur; Bergmite; Frigibax,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/996.png,Frigibax,2,Ice,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/ice.shtml,Avalugg; Arctibax; Baxcalibur; Bergmite,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/130.png,Gyarados,2,Legendary,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/special.shtml,Keldeo; Machamp; Machoke,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/931.png,Squawkabilly,2,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Squawkabilly,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/931-b.png,Squawkabilly,2,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Squawkabilly,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/053.png,Persian,2,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Persian; Diggersby; Audino; Meowth; Bunnelby,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/053.png,Persian,2,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Persian; Pidgeotto; Lopunny; Meowth; Pidgey; Buneary,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/398.png,Staraptor,2,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Staraptor; Pidgeot; Drampa; Staravia; Pidgeotto,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/876.png,Indeedee,2,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Indeedee; Diggersby; Pidgeotto; Bunnelby; Pidgey,Wild Zone 7
+https://www.serebii.net/legendsz-a/pokemon/876-f.png,Indeedee,2,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Indeedee; Diggersby; Pidgeotto; Bunnelby; Pidgey,Wild Zone 7
+https://www.serebii.net/legendsz-a/pokemon/398.png,Staraptor,2,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Staraptor; Pidgeot; Kangaskhan; Staravia; Pidgeotto,Wild Zone 7
+https://www.serebii.net/legendsz-a/pokemon/876.png,Indeedee,2,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Indeedee; Lopunny; Audino; Buneary,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/876-f.png,Indeedee,2,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Indeedee; Lopunny; Audino; Buneary,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/931.png,Squawkabilly,2,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Squawkabilly,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/931-b.png,Squawkabilly,2,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Squawkabilly,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/352.png,Kecleon,2,Normal,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Kecleon; Pidgeot; Furfrou; Pidgeotto,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/352.png,Kecleon,2,Normal,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Kecleon; Pidgeot; Kangaskhan; Pidgeotto,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/134.png,Vaporeon,2,Normal,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Vaporeon; Jolteon; Espeon; Eevee; Umbreon,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/211-h.png,Qwilfish,2,Poison,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/poison.shtml,Qwilfish; Roselia; Skrelp; Budew,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/168.png,Ariados,2,Poison,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/poison.shtml,Arbok; Weepinbell; Ariados; Ekans; Bellsprout; Spinarak,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/168.png,Ariados,2,Poison,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/poison.shtml,Glimmet; Ariados; Roselia; Spinarak; Budew,Wild Zone 7
+https://www.serebii.net/legendsz-a/pokemon/169.png,Crobat,2,Poison,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/poison.shtml,Crobat; Garbodor; Dragalge; Golbat; Trubbish; Skrelp,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/169.png,Crobat,2,Poison,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/poison.shtml,Crobat; Dragalge; Scolipede; Golbat; Skrelp; Whirlipede,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/317.png,Swalot,2,Poison,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/poison.shtml,Swalot; Garbodor; Dragalge; Gulpin; Trubbish; Skrelp,Wild Zone 7
+https://www.serebii.net/legendsz-a/pokemon/317.png,Swalot,2,Poison,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/poison.shtml,Swalot; Garbodor; Scolipede; Gulpin; Trubbish; Whirlipede,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/211-h.png,Qwilfish,2,Poison,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/poison.shtml,Slowbro; Slowking; Overqwil; Slowpoke,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/122.png,Mr. Mime,2,Psychic,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/psychic.shtml,Mr. Mime; Kadabra; Beldum; Mime Jr.; Abra,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/122.png,Mr. Mime,2,Psychic,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/psychic.shtml,Mr. Mime; Kirlia; Beldum; Mime Jr.; Ralts,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/326.png,Grumpig,2,Psychic,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/psychic.shtml,Grumpig; Malamar; Alakazam; Spoink; Inkay; Kadabra,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/326.png,Grumpig,2,Psychic,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/psychic.shtml,Grumpig; Gardevoir; Meowstic; Spoink; Kirlia,Wild Zone 7
+https://www.serebii.net/legendsz-a/pokemon/863.png,Perrserker,2,Steel,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/steel.shtml,Perrserker; Metang; Steelix; Meowth; Beldum; Onix,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/863.png,Perrserker,2,Steel,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/steel.shtml,Perrserker; Aggron; Steelix; Meowth; Lairon; Onix,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/158.png,Totodile,2,Water,2,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Binacle; Carvanha; Totodile,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/129.png,Magikarp,2,Water,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Feebas; Magikarp; Panpour,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/008.png,Wartortle,2,Water,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Sharpedo; Clawitzer; Wartortle; Carvanha; Clauncher; Squirtle,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/159.png,Croconaw,2,Water,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Sharpedo; Clawitzer; Croconaw; Carvanha; Clauncher; Totodile,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/158.png,Totodile,2,Water,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Sharpedo; Clawitzer; Croconaw; Carvanha; Clauncher,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/009.png,Blastoise,2,Water,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Blastoise; Simipour; Barbaracle; Wartortle; Panpour,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/008.png,Wartortle,2,Water,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Blastoise; Simipour; Barbaracle; Panpour,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/159.png,Croconaw,2,Water,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Feraligatr; Barbaracle; Starmie,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/134.png,Vaporeon,2,Water,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Slowbro; Slowking; Vaporeon; Slowpoke; Eevee,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/130.png,Gyarados,2,Water,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Barbaracle; Gyarados; Simipour; Magikarp,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/129.png,Magikarp,2,Water,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Barbaracle; Gyarados; Simipour,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/009.png,Blastoise,2,Water,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Swampert; Blastoise; Greninja; Mudkip; Squirtle; Froakie,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/510.png,Liepard,3,Dark,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/dark.shtml,Liepard; Krokorok; Houndoom; Purrloin; Sandile; Houndour,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/510.png,Liepard,3,Dark,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/dark.shtml,Liepard; Krokorok; Sharpedo; Purrloin; Sandile; Carvanha,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/510.png,Liepard,3,Dark,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/dark.shtml,Liepard; Sharpedo; Houndoom; Purrloin; Carvanha; Houndour,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/828.png,Thievul,3,Dark,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/dark.shtml,Thievul; Krokorok; Houndoom; Nickit; Sandile; Houndour,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/828.png,Thievul,3,Dark,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/dark.shtml,Thievul; Krokorok; Sharpedo; Nickit; Sandile; Carvanha,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/828.png,Thievul,3,Dark,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/dark.shtml,Thievul; Sharpedo; Houndoom; Nickit; Carvanha; Houndour,Wild Zone 7
+https://www.serebii.net/legendsz-a/pokemon/197.png,Umbreon,3,Dark,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/dark.shtml,Umbreon; Scrafty; Pangoro; Eevee; Scraggy; Pancham,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/657.png,Frogadier,3,Dark,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/dark.shtml,Greninja; Scrafty; Pangoro; Scraggy; Pancham,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/658.png,Greninja,3,Dark,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/dark.shtml,Greninja; Scrafty; Pangoro; Frogadier; Scraggy; Pancham,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/943.png,Mabosstiff,3,Dark,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/dark.shtml,Mabosstiff; Umbreon; Absol; Maschiff; Eevee,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/197.png,Umbreon,3,Dark,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/dark.shtml,Mabosstiff; Umbreon; Absol; Maschiff; Eevee,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/943.png,Mabosstiff,3,Dark,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/dark.shtml,Mabosstiff; Pangoro; Krookodile; Maschiff; Pancham; Krokorok,Wild Zone 7
+https://www.serebii.net/legendsz-a/pokemon/943.png,Mabosstiff,3,Dark,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/dark.shtml,Mabosstiff; Absol; Pangoro; Maschiff; Pancham,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/135.png,Jolteon,3,Electric,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/electric.shtml,Raichu; Jolteon; Pikachu; Eevee,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/135.png,Jolteon,3,Electric,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/electric.shtml,Toxtricity; Heliolisk; Jolteon; Toxel; Helioptile; Eevee,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/669-b.png,Flabébé,3,Fairy,2,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Spritzee; Clefairy; Flabébé; Cleffa,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/669-b.png,Flabébé,3,Fairy,2,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Mime Jr.; Clefairy; Flabébé; Cleffa,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/669-b.png,Flabébé,3,Fairy,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Mawile; Aromatisse; Floette; Spritzee,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/670-b.png,Floette,3,Fairy,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Mawile; Aromatisse; Floette; Spritzee; Flabébé,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/927.png,Dachsbun,3,Fairy,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Dachsbun; Floette; Florges; Fidough,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/670.png,Floette,3,Fairy,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Dachsbun; Floette; Florges; Fidough,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/670-o.png,Floette,3,Fairy,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Dachsbun; Floette; Florges; Fidough,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/670-b.png,Floette,3,Fairy,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Dachsbun; Floette; Florges; Fidough,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/670.png,Floette,3,Fairy,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Dedenne; Aromatisse; Floette; Spritzee,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/670-o.png,Floette,3,Fairy,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Dedenne; Aromatisse; Floette; Spritzee,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/670-b.png,Floette,3,Fairy,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Dedenne; Aromatisse; Florges; Spritzee,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/671-o.png,Florges,3,Fairy,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Mawile; Aromatisse; Florges; Spritzee,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/670.png,Floette,3,Fairy,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Jigglypuff; Mawile; Florges; Igglybuff,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/927.png,Dachsbun,3,Fairy,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Dachsbun; Mawile; Bagon; Fidough; Florges; Floette,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/670-o.png,Floette,3,Fairy,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Dachsbun; Mawile; Bagon; Fidough; Florges,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/671-o.png,Florges,3,Fairy,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Dachsbun; Mawile; Bagon; Fidough; Florges; Floette,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/927.png,Dachsbun,3,Fairy,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Dachsbun; Dedenne; Bagon; Fidough; Florges; Floette,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/671-o.png,Florges,3,Fairy,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Dachsbun; Dedenne; Bagon; Fidough; Florges; Floette,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/700.png,Sylveon,3,Fairy,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Clefable; Slurpuff; Sylveon; Clefairy; Swirlix; Eevee,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/040.png,Wigglytuff,3,Fairy,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Wigglytuff; Clefable; Slurpuff; Jigglypuff; Clefairy; Swirlix,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/040.png,Wigglytuff,3,Fairy,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Wigglytuff; Clefable; Gardevoir; Jigglypuff; Clefairy; Kirlia,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/700.png,Sylveon,3,Fairy,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Wigglytuff; Gardevoir; Sylveon; Jigglypuff; Kirlia; Eevee,Wild Zone 7
+https://www.serebii.net/legendsz-a/pokemon/040.png,Wigglytuff,3,Fairy,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fairy.shtml,Wigglytuff; Gardevoir; Sylveon; Jigglypuff; Kirlia; Eevee,Wild Zone 7
+https://www.serebii.net/legendsz-a/pokemon/057.png,Primeape,3,Fighting,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fighting.shtml,Primeape; Machoke; Hawlucha; Mankey; Machop,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/057.png,Primeape,3,Fighting,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fighting.shtml,Primeape; Machoke; Falinks; Mankey; Machop,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/057.png,Primeape,3,Fighting,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fighting.shtml,Primeape; Medicham; Hawlucha; Mankey; Meditite,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/539.png,Sawk,3,Fighting,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fighting.shtml,Throh; Sawk; Hawlucha,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/538.png,Throh,3,Fighting,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fighting.shtml,Throh; Sawk; Hawlucha,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/538.png,Throh,3,Fighting,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fighting.shtml,Throh; Falinks; Medicham; Meditite,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/538.png,Throh,3,Fighting,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fighting.shtml,Throh; Falinks; Pignite; Tepig,Wild Zone 7
+https://www.serebii.net/legendsz-a/pokemon/539.png,Sawk,3,Fighting,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fighting.shtml,Sawk; Falinks; Medicham; Meditite,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/539.png,Sawk,3,Fighting,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fighting.shtml,Sawk; Medicham; Pignite; Meditite; Tepig,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/652.png,Chesnaught,3,Fighting,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fighting.shtml,Pangoro; Scrafty; Chesnaught; Pancham; Scraggy; Quilladin,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/651.png,Quilladin,3,Fighting,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fighting.shtml,Pangoro; Scrafty; Chesnaught; Pancham; Scraggy,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/257.png,Blaziken,3,Fighting,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fighting.shtml,Blaziken; Pangoro; Lucario; Combusken; Pancham; Riolu,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/256.png,Combusken,3,Fighting,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fighting.shtml,Blaziken; Pangoro; Lucario; Pancham; Riolu,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/004.png,Charmander,3,Fire,2,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Litleo; Numel; Charmander,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/653.png,Fennekin,3,Fire,2,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Houndour; Numel; Fennekin,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/255.png,Torchic,3,Fire,2,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Torchic; Numel; Houndour,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/004.png,Charmander,3,Fire,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Lampent; Houndoom; Charmeleon; Litwick; Houndour,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/005.png,Charmeleon,3,Fire,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Lampent; Houndoom; Charmeleon; Litwick; Houndour; Charmander,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/653.png,Fennekin,3,Fire,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Houndoom; Fletchinder; Braixen; Houndour; Fletchling,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/256.png,Combusken,3,Fire,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Combusken; Fletchinder; Lampent; Torchic; Fletchling; Litwick,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/255.png,Torchic,3,Fire,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Combusken; Fletchinder; Lampent; Fletchling; Litwick,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/006.png,Charizard,3,Fire,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Charizard; Simisear; Chandelure; Charmeleon; Pansear; Lampent,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/005.png,Charmeleon,3,Fire,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Charizard; Simisear; Chandelure; Pansear; Lampent,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/136.png,Flareon,3,Fire,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Marowak; Talonflame; Flareon; Cubone; Fletchinder; Eevee,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/655.png,Delphox,3,Fire,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Delphox; Talonflame; Simisear; Braixen; Fletchinder; Pansear,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/257.png,Blaziken,3,Fire,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Blaziken; Simisear; Camerupt; Combusken; Pansear; Numel,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/256.png,Combusken,3,Fire,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Blaziken; Simisear; Camerupt; Pansear; Numel,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/136.png,Flareon,3,Fire,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Marowak; Camerupt; Flareon; Cubone; Numel; Eevee,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/257.png,Blaziken,3,Fire,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Blaziken; Charizard; Delphox; Torchic; Charmander; Fennekin,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/006.png,Charizard,3,Fire,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Blaziken; Charizard; Delphox; Torchic; Charmander; Fennekin,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/004.png,Charmander,3,Fire,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Blaziken; Charizard; Delphox; Torchic; Fennekin,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/655.png,Delphox,3,Fire,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Blaziken; Charizard; Delphox; Torchic; Charmander; Fennekin,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/653.png,Fennekin,3,Fire,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Blaziken; Charizard; Delphox; Torchic; Charmander,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/255.png,Torchic,3,Fire,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/fire.shtml,Blaziken; Charizard; Delphox; Charmander; Fennekin,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/006.png,Charizard,3,Flying,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/flying.shtml,Talonflame; Skarmory; Charizard; Fletchinder; Charmeleon,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/005.png,Charmeleon,3,Flying,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/flying.shtml,Talonflame; Skarmory; Charizard; Fletchinder,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/973.png,Flamigo,3,Flying,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/flying.shtml,Flamigo; Pidgeot; Noivern; Pidgeotto; Noibat,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/973.png,Flamigo,3,Flying,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/flying.shtml,Flamigo; Talonflame; Noivern; Fletchinder; Noibat,Wild Zone 7
+https://www.serebii.net/legendsz-a/pokemon/973.png,Flamigo,3,Flying,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/flying.shtml,Flamigo; Talonflame; Skarmory; Fletchinder,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/354.png,Banette,3,Ghost,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/ghost.shtml,Banette; Lampent; Haunter; Shuppet; Litwick; Gastly,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/354.png,Banette,3,Ghost,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/ghost.shtml,Mimikyu; Banette; Lampent; Shuppet; Litwick,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/354.png,Banette,3,Ghost,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/ghost.shtml,Yamask; Banette; Lampent; Shuppet; Litwick,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/972.png,Houndstone,3,Ghost,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ghost.shtml,Houndstone; Gourgeist; Chandelure; Greavard; Pumpkaboo; Lampent,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/563.png,Cofagrigus,3,Ghost,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ghost.shtml,Cofagrigus; Gengar; Gourgeist; Yamask; Haunter; Pumpkaboo,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/563.png,Cofagrigus,3,Ghost,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ghost.shtml,Cofagrigus; Gengar; Chandelure; Yamask; Haunter; Lampent,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/563.png,Cofagrigus,3,Ghost,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ghost.shtml,Cofagrigus; Trevenant; Chandelure; Yamask; Phantump; Lampent,Wild Zone 7
+https://www.serebii.net/legendsz-a/pokemon/972.png,Houndstone,3,Ghost,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ghost.shtml,Houndstone; Gengar; Trevenant; Greavard; Haunter; Phantump,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/972.png,Houndstone,3,Ghost,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ghost.shtml,Houndstone; Trevenant; Gourgeist; Greavard; Phantump; Pumpkaboo,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/252.png,Treecko,3,Grass,2,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Treecko; Budew; Bellsprout,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/650.png,Chespin,3,Grass,2,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Budew; Skiddo; Chespin,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/650.png,Chespin,3,Grass,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Roselia; Gogoat; Quilladin; Budew; Skiddo,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/651.png,Quilladin,3,Grass,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Roselia; Gogoat; Quilladin; Budew; Skiddo; Chespin,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/252.png,Treecko,3,Grass,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Grovyle; Roselia; Gogoat; Budew; Skiddo,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/003.png,Venusaur,3,Grass,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Roserade; Simisage; Venusaur; Roselia; Pansage; Ivysaur,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/652.png,Chesnaught,3,Grass,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Simisage; Roserade; Chesnaught; Pansage; Roselia; Quilladin,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/651.png,Quilladin,3,Grass,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Simisage; Roserade; Chesnaught; Pansage; Roselia,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/470.png,Leafeon,3,Grass,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Trevenant; Gourgeist; Leafeon; Phantump; Pumpkaboo; Eevee,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/470.png,Leafeon,3,Grass,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Amoonguss; Roserade; Leafeon; Foongus; Roselia; Eevee,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/652.png,Chesnaught,3,Grass,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Sceptile; Venusaur; Chesnaught; Treecko; Bulbasaur; Chespin,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/650.png,Chespin,3,Grass,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Sceptile; Venusaur; Chesnaught; Treecko; Bulbasaur,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/252.png,Treecko,3,Grass,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Sceptile; Venusaur; Chesnaught; Bulbasaur; Chespin,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/003.png,Venusaur,3,Grass,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/grass.shtml,Sceptile; Venusaur; Chesnaught; Treecko; Bulbasaur; Chespin,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/259.png,Marshtomp,3,Ground,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ground.shtml,Swampert; Hippowdon; Krookodile; Hippopotas; Krokorok,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/260.png,Swampert,3,Ground,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ground.shtml,Swampert; Hippowdon; Krookodile; Marshtomp; Hippopotas; Krokorok,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/615.png,Cryogonal,3,Ice,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/ice.shtml,Cryogonal; Bergmite; Vanillish; Vanillite,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/615.png,Cryogonal,3,Ice,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/ice.shtml,Cryogonal; Delibird; Vanillite,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/615.png,Cryogonal,3,Ice,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/ice.shtml,Cryogonal; Snorunt; Bergmite,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/471.png,Glaceon,3,Ice,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ice.shtml,Glalie; Abomasnow; Glaceon; Snorunt; Snover; Eevee,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/362.png,Glalie,3,Ice,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ice.shtml,Glalie; Abomasnow; Glaceon; Snorunt; Snover; Eevee,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/478.png,Froslass,3,Ice,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ice.shtml,Froslass; Vanilluxe; Amaura; Snorunt; Vanillish,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/478.png,Froslass,3,Ice,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ice.shtml,Glalie; Froslass; Snorunt,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/362.png,Glalie,3,Ice,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ice.shtml,Glalie; Froslass; Snorunt,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/362.png,Glalie,3,Ice,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ice.shtml,Mr. Rime; Glalie; Amaura; Mr. Mime; Snorunt,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/478.png,Froslass,3,Ice,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ice.shtml,Mr. Rime; Froslass; Glaceon; Mr. Mime; Snorunt; Eevee,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/471.png,Glaceon,3,Ice,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/ice.shtml,Mr. Rime; Froslass; Glaceon; Mr. Mime; Snorunt; Eevee,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/083.png,Farfetch'd,3,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Farfetch'd; Eevee; Watchog; Patrat,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/137.png,Porygon,3,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Porygon; Pidgeotto; Audino; Pidgey,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/945.png,Grafaiai,3,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Grafaiai; Lopunny; Audino; Shroodle; Buneary,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/335.png,Zangoose,3,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Zangoose; Watchog; Buneary; Patrat,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/945.png,Grafaiai,3,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Grafaiai; Pidgeotto; Audino; Shroodle; Pidgey,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/335.png,Zangoose,3,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Zangoose; Eevee; Watchog; Patrat,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/335.png,Zangoose,3,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Zangoose; Buneary; Pidgey,Wild Zone 7
+https://www.serebii.net/legendsz-a/pokemon/083.png,Farfetch'd,3,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Farfetch'd; Buneary; Watchog; Patrat,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/083.png,Farfetch'd,3,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Farfetch'd; Buneary; Pidgey,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/137.png,Porygon,3,Normal,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Porygon; Diggersby; Lopunny; Bunnelby; Buneary,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/137.png,Porygon,3,Normal,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Porygon; Porygon2; Porygon-Z,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/196.png,Espeon,3,Normal,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Vaporeon; Jolteon; Espeon; Eevee; Umbreon,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/135.png,Jolteon,3,Normal,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Vaporeon; Jolteon; Espeon; Eevee; Umbreon,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/197.png,Umbreon,3,Normal,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Vaporeon; Jolteon; Espeon; Eevee,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/136.png,Flareon,3,Normal,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Flareon; Sylveon; Leafeon; Eevee; Glaceon,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/471.png,Glaceon,3,Normal,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Flareon; Sylveon; Leafeon; Eevee,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/470.png,Leafeon,3,Normal,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Flareon; Sylveon; Leafeon; Eevee; Glaceon,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/700.png,Sylveon,3,Normal,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/normal.shtml,Flareon; Sylveon; Leafeon; Eevee; Glaceon,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/336.png,Seviper,3,Poison,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/poison.shtml,Seviper; Skrelp; Weepinbell; Arbok; Bellsprout,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/336.png,Seviper,3,Poison,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/poison.shtml,Seviper; Skrelp; Roselia; Arbok; Budew,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/336.png,Seviper,3,Poison,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/poison.shtml,Seviper; Weepinbell; Roselia; Arbok; Bellsprout; Budew,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/003.png,Venusaur,3,Poison,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/poison.shtml,Garbodor; Dragalge; Venusaur; Trubbish; Skrelp; Ivysaur,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/945.png,Grafaiai,3,Poison,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/poison.shtml,Grafaiai; Garbodor; Victreebel; Shroodle; Trubbish; Weepinbell,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/065.png,Alakazam,3,Psychic,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/psychic.shtml,Alakazam; Malamar; Meowstic; Kadabra; Inkay,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/196.png,Espeon,3,Psychic,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/psychic.shtml,Musharna; Espeon; Starmie; Munna; Eevee; Staryu,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/518.png,Musharna,3,Psychic,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/psychic.shtml,Musharna; Espeon; Starmie; Munna; Eevee; Staryu,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/196.png,Espeon,3,Psychic,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/psychic.shtml,Gardevoir; Gallade; Espeon; Kirlia; Eevee,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/655.png,Delphox,3,Psychic,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/psychic.shtml,Malamar; Meowstic; Delphox; Inkay; Espurr,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/080.png,Slowbro,3,Psychic,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/psychic.shtml,Slowking; Slowbro; Starmie; Slowpoke; Staryu,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/199.png,Slowking,3,Psychic,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/psychic.shtml,Slowking; Slowbro; Starmie; Slowpoke; Staryu,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/065.png,Alakazam,3,Psychic,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/psychic.shtml,Grumpig; Malamar; Alakazam; Spoink; Inkay; Kadabra,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/065.png,Alakazam,3,Psychic,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/psychic.shtml,Musharna; Alakazam; Gallade; Munna; Kadabra; Kirlia,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/518.png,Musharna,3,Psychic,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/psychic.shtml,Musharna; Alakazam; Gallade; Munna; Kadabra; Kirlia,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/518.png,Musharna,3,Psychic,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/psychic.shtml,Musharna; Meowstic; Gardevoir; Munna; Espurr,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/696.png,Tyrunt,3,Rock,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/rock.shtml,Onix; Binacle; Tyrunt,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/696.png,Tyrunt,3,Rock,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/rock.shtml,Nacli; Onix; Tyrunt,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/934.png,Garganacl,3,Rock,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/rock.shtml,Garganacl; Aggron; Pupitar; Naclstack; Lairon; Larvitar,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/934.png,Garganacl,3,Rock,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/rock.shtml,Garganacl; Barbaracle; Pupitar; Naclstack; Binacle; Larvitar,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/934.png,Garganacl,3,Rock,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/rock.shtml,Garganacl; Aggron; Barbaracle; Naclstack; Lairon; Binacle,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/696.png,Tyrunt,3,Rock,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/rock.shtml,Aerodactyl; Tyrantrum; Aurorus; Amaura,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/007.png,Squirtle,3,Water,2,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Panpour; Staryu; Squirtle,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/007.png,Squirtle,3,Water,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Sharpedo; Clawitzer; Wartortle; Carvanha; Clauncher,Wild Zone 2
+https://www.serebii.net/legendsz-a/pokemon/656.png,Froakie,3,Water,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Staryu; Binacle; Froakie,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/656.png,Froakie,3,Water,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Sharpedo; Clawitzer; Frogadier; Carvanha; Clauncher,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/657.png,Frogadier,3,Water,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Sharpedo; Clawitzer; Frogadier; Carvanha; Clauncher; Froakie,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/258.png,Mudkip,3,Water,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Mudkip; Carvanha; Panpour,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/259.png,Marshtomp,3,Water,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Marshtomp; Sharpedo; Clawitzer; Mudkip; Carvanha; Clauncher,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/258.png,Mudkip,3,Water,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Marshtomp; Sharpedo; Clawitzer; Carvanha; Clauncher,Wild Zone 5
+https://www.serebii.net/legendsz-a/pokemon/768.png,Golisopod,3,Water,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Golisopod; Sharpedo; Clawitzer; Wimpod; Carvanha; Clauncher,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/768.png,Golisopod,3,Water,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Golisopod; Sharpedo; Slowpoke; Wimpod; Carvanha,Wild Zone 7
+https://www.serebii.net/legendsz-a/pokemon/768.png,Golisopod,3,Water,3,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Golisopod; Clawitzer; Slowpoke; Wimpod; Clauncher,Wild Zone 8
+https://www.serebii.net/legendsz-a/pokemon/516.png,Simipour,3,Water,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Blastoise; Simipour; Barbaracle; Wartortle; Panpour,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/080.png,Slowbro,3,Water,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Dondozo; Slowbro; Vaporeon; Tatsugiri; Slowpoke,Wild Zone 10
+https://www.serebii.net/legendsz-a/pokemon/657.png,Frogadier,3,Water,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Greninja; Starmie; Simipour; Staryu; Panpour,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/658.png,Greninja,3,Water,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Greninja; Starmie; Simipour; Frogadier; Staryu; Panpour,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/516.png,Simipour,3,Water,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Greninja; Starmie; Simipour; Frogadier; Staryu; Panpour,Wild Zone 3
+https://www.serebii.net/legendsz-a/pokemon/080.png,Slowbro,3,Water,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Slowbro; Slowking; Vaporeon; Slowpoke; Eevee,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/199.png,Slowking,3,Water,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Slowbro; Slowking; Vaporeon; Slowpoke; Eevee,Wild Zone 4
+https://www.serebii.net/legendsz-a/pokemon/259.png,Marshtomp,3,Water,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Swampert; Starmie; Barbaracle; Staryu,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/260.png,Swampert,3,Water,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Swampert; Starmie; Barbaracle; Marshtomp; Staryu,Wild Zone 6
+https://www.serebii.net/legendsz-a/pokemon/516.png,Simipour,3,Water,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Dondozo; Simipour; Starmie; Tatsugiri; Panpour,Wild Zone 7
+https://www.serebii.net/legendsz-a/pokemon/199.png,Slowking,3,Water,4,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Dondozo; Slowking; Gyarados; Tatsugiri; Slowpoke,Wild Zone 9
+https://www.serebii.net/legendsz-a/pokemon/656.png,Froakie,3,Water,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Swampert; Blastoise; Greninja; Mudkip; Squirtle,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/658.png,Greninja,3,Water,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Swampert; Blastoise; Greninja; Mudkip; Squirtle; Froakie,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/258.png,Mudkip,3,Water,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Swampert; Blastoise; Greninja; Squirtle; Froakie,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/007.png,Squirtle,3,Water,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Swampert; Blastoise; Greninja; Mudkip; Froakie,Wild Zone 1
+https://www.serebii.net/legendsz-a/pokemon/260.png,Swampert,3,Water,5,https://www.serebii.net/legendsz-a/hyperspacewildzone/water.shtml,Swampert; Blastoise; Greninja; Mudkip; Squirtle; Froakie,Wild Zone 1

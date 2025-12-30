@@ -66,7 +66,8 @@ def _cache_paths(cache_dir: str, key: str) -> str:
 # In-code default move blocklist (edit here as desired)
 BLOCKED_MOVES: set[str] = {
     'swagger', 'future-sight', 'misty-explosion',
-    'outrage', 'icicle-spear', 'draco-meteor', 'dream-eater', 'first-impression', 'steel-beam', 'acid-armor'
+    'outrage', 'icicle-spear', 'draco-meteor', 'dream-eater', 'first-impression', 'steel-beam', 'acid-armor',
+    'superpower', 'water-spout'
 }
 
 # Comprehensive list of common offensive boosting moves (name-based)

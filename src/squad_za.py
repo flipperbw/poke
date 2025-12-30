@@ -7,8 +7,6 @@ import numpy as np
 import pandas as pd
 from tabulate import tabulate
 from line_profiler import profile
-from collections import Counter
-from itertools import chain
 from functools import lru_cache
 
 # We reuse the scoring and move selection from score_za
@@ -679,6 +677,11 @@ def build_squads(
                         all_targets_mask = (cntL | cntR)
                         if all_targets_mask != ((1 << len(counter_targets)) - 1):
                             continue
+                    # Must-include bases (apply before scoring/push to heap)
+                    if must_bases:
+                        combined_bases = bsetL | bsetR
+                        if not must_bases.issubset(combined_bases):
+                            continue
                     cov_m = covL | covR
                     weak_m = weakL | weakR
                     atk_m = atkL | atkR
@@ -709,6 +712,11 @@ def build_squads(
                 if key in seen_idxs:
                     continue
                 seen_idxs.add(key)
+                # Safety: enforce must-bases again at drain time
+                if must_bases:
+                    base_equiv = {base_names[i] for i in key}
+                    if not must_bases.issubset(base_equiv):
+                        continue
                 records.append(rec)
         else:
             # Beam search fallback (approximate)
